@@ -1,0 +1,1835 @@
+[
+ {
+  "id": "en:breakfast",
+  "lang": "en",
+  "term": "breakfast",
+  "meaning": "kahvaltı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I usually have breakfast at seven.",
+  "exampleTr": "Genellikle saat yedide kahvaltı yaparım.",
+  "ipa": "/ˈbrekfəst/",
+  "usage": "“have breakfast” kalıbıyla kullanılır; “eat breakfast” da doğrudur.",
+  "synonyms": [
+   "brunch",
+   "meal"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:ticket",
+  "lang": "en",
+  "term": "ticket",
+  "meaning": "bilet",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I bought two tickets for the concert.",
+  "exampleTr": "Konser için iki bilet aldım.",
+  "ipa": "/ˈtɪkɪt/",
+  "usage": "“one-way ticket” tek yön, “return ticket” gidiş-dönüş bilet demektir.",
+  "synonyms": [
+   "pass",
+   "fare"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:journey",
+  "lang": "en",
+  "term": "journey",
+  "meaning": "yolculuk",
+  "pos": "isim",
+  "level": "A2",
+  "example": "The train journey from Istanbul to Ankara takes about four hours.",
+  "exampleTr": "İstanbul’dan Ankara’ya tren yolculuğu yaklaşık dört saat sürer.",
+  "ipa": "/ˈdʒɜːrni/",
+  "usage": "Genelde uzun yolculuklar için kullanılır; kısa geziler için “trip” daha doğaldır.",
+  "synonyms": [
+   "trip",
+   "voyage",
+   "travel"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:borrow",
+  "lang": "en",
+  "term": "borrow",
+  "meaning": "ödünç almak",
+  "pos": "fiil",
+  "level": "A2",
+  "example": "Can I borrow your pen for a minute?",
+  "exampleTr": "Kalemini bir dakikalığına ödünç alabilir miyim?",
+  "ipa": "/ˈbɑːroʊ/",
+  "usage": "Ödünç vermek “lend” olur: “Can you lend me your pen?”",
+  "synonyms": [
+   "lend",
+   "loan"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:curious",
+  "lang": "en",
+  "term": "curious",
+  "meaning": "meraklı",
+  "pos": "sıfat",
+  "level": "A2",
+  "example": "Cats are naturally curious animals.",
+  "exampleTr": "Kediler doğası gereği meraklı hayvanlardır.",
+  "ipa": "/ˈkjʊriəs/",
+  "usage": "“curious about” kalıbıyla kullanılır: “I’m curious about your trip.”",
+  "synonyms": [
+   "inquisitive",
+   "interested"
+  ],
+  "topics": [
+   "duygular",
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:luggage",
+  "lang": "en",
+  "term": "luggage",
+  "meaning": "bagaj, valizler",
+  "pos": "isim",
+  "level": "A2",
+  "example": "Please don’t leave your luggage unattended.",
+  "exampleTr": "Lütfen bagajınızı başında kimse olmadan bırakmayın.",
+  "ipa": "/ˈlʌɡɪdʒ/",
+  "usage": "Sayılamaz bir isimdir: “a piece of luggage” denir, “luggages” denmez.",
+  "synonyms": [
+   "baggage",
+   "suitcase"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:deadline",
+  "lang": "en",
+  "term": "deadline",
+  "meaning": "son teslim tarihi",
+  "pos": "isim",
+  "level": "B1",
+  "example": "The deadline for the report is Friday.",
+  "exampleTr": "Raporun son teslim tarihi cuma.",
+  "ipa": "/ˈdedlaɪn/",
+  "usage": "“meet a deadline” yetiştirmek, “miss a deadline” kaçırmak demektir.",
+  "synonyms": [
+   "due date",
+   "time limit"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:grateful",
+  "lang": "en",
+  "term": "grateful",
+  "meaning": "minnettar",
+  "pos": "sıfat",
+  "level": "B1",
+  "example": "I’m really grateful for your help.",
+  "exampleTr": "Yardımın için gerçekten minnettarım.",
+  "ipa": "/ˈɡreɪtfəl/",
+  "usage": "“grateful for” bir şey için, “grateful to” biri için kullanılır.",
+  "synonyms": [
+   "thankful",
+   "appreciative"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:delighted",
+  "lang": "en",
+  "term": "delighted",
+  "meaning": "çok memnun, çok sevinçli",
+  "pos": "sıfat",
+  "level": "B1",
+  "example": "I’m delighted to meet you.",
+  "exampleTr": "Tanıştığıma çok memnun oldum.",
+  "ipa": "/dɪˈlaɪtɪd/",
+  "usage": "“happy” kelimesinden daha güçlü ve biraz daha resmîdir.",
+  "synonyms": [
+   "pleased",
+   "thrilled",
+   "happy"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:cozy",
+  "lang": "en",
+  "term": "cozy",
+  "meaning": "rahat, sıcacık",
+  "pos": "sıfat",
+  "level": "B1",
+  "example": "We found a cozy café near the station.",
+  "exampleTr": "İstasyonun yakınında sıcacık bir kafe bulduk.",
+  "ipa": "/ˈkoʊzi/",
+  "usage": "İngiliz İngilizcesinde “cosy” diye yazılır.",
+  "synonyms": [
+   "comfortable",
+   "snug",
+   "warm"
+  ],
+  "topics": [
+   "gunluk",
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:commute",
+  "lang": "en",
+  "term": "commute",
+  "meaning": "işe gidip gelmek",
+  "pos": "fiil",
+  "level": "B1",
+  "example": "I commute to work by ferry every day.",
+  "exampleTr": "Her gün işe vapurla gidip geliyorum.",
+  "ipa": "/kəˈmjuːt/",
+  "usage": "İsim olarak da kullanılır: “My commute takes forty minutes.”",
+  "synonyms": [
+   "travel",
+   "journey"
+  ],
+  "topics": [
+   "gunluk",
+   "is"
+  ]
+ },
+ {
+  "id": "en:analyze",
+  "lang": "en",
+  "term": "analyze",
+  "meaning": "analiz etmek, incelemek",
+  "pos": "fiil",
+  "level": "B1",
+  "example": "We need to analyze the survey results before the meeting.",
+  "exampleTr": "Toplantıdan önce anket sonuçlarını analiz etmemiz gerekiyor.",
+  "ipa": "/ˈænəlaɪz/",
+  "usage": "İngiliz İngilizcesinde “analyse” yazılır; isim hâli “analysis”.",
+  "synonyms": [
+   "examine",
+   "evaluate",
+   "study"
+  ],
+  "topics": [
+   "is",
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL"
+  ]
+ },
+ {
+  "id": "en:resilient",
+  "lang": "en",
+  "term": "resilient",
+  "meaning": "dayanıklı; zorluklardan çabuk toparlanan",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "Children are often more resilient than adults expect.",
+  "exampleTr": "Çocuklar çoğu zaman yetişkinlerin sandığından daha dayanıklıdır.",
+  "ipa": "/rɪˈzɪliənt/",
+  "usage": "İnsanlar, şehirler ve sistemler için kullanılır; isim hâli “resilience”.",
+  "synonyms": [
+   "tough",
+   "adaptable",
+   "strong"
+  ],
+  "topics": [
+   "duygular"
+  ],
+  "exams": [
+   "IELTS"
+  ]
+ },
+ {
+  "id": "en:thrive",
+  "lang": "en",
+  "term": "thrive",
+  "meaning": "gelişmek, serpilmek, başarılı olmak",
+  "pos": "fiil",
+  "level": "B2",
+  "example": "These plants thrive in sunny spots.",
+  "exampleTr": "Bu bitkiler güneşli yerlerde iyi gelişir.",
+  "ipa": "/θraɪv/",
+  "usage": "“thrive on something”: bir şeyden güç almak, onunla beslenmek.",
+  "synonyms": [
+   "flourish",
+   "prosper",
+   "grow"
+  ],
+  "topics": [
+   "is"
+  ],
+  "exams": [
+   "SAT"
+  ]
+ },
+ {
+  "id": "en:ambiguous",
+  "lang": "en",
+  "term": "ambiguous",
+  "meaning": "belirsiz, iki anlamlı",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "The last line of the email was ambiguous.",
+  "exampleTr": "E-postanın son satırı belirsizdi.",
+  "ipa": "/æmˈbɪɡjuəs/",
+  "usage": "Zıt anlamlısı “clear” ya da “unambiguous” kelimesidir.",
+  "synonyms": [
+   "unclear",
+   "vague"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "GRE"
+  ]
+ },
+ {
+  "id": "en:negotiate",
+  "lang": "en",
+  "term": "negotiate",
+  "meaning": "pazarlık etmek, müzakere etmek",
+  "pos": "fiil",
+  "level": "B2",
+  "example": "We negotiated a better price with the supplier.",
+  "exampleTr": "Tedarikçiyle daha iyi bir fiyat için pazarlık yaptık.",
+  "ipa": "/nɪˈɡoʊʃieɪt/",
+  "usage": "“negotiate with someone” ve “negotiate a deal” kalıpları yaygındır.",
+  "synonyms": [
+   "bargain",
+   "discuss",
+   "deal"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:reluctant",
+  "lang": "en",
+  "term": "reluctant",
+  "meaning": "isteksiz, gönülsüz",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "He was reluctant to leave the party early.",
+  "exampleTr": "Partiden erken ayrılmaya gönülsüzdü.",
+  "ipa": "/rɪˈlʌktənt/",
+  "usage": "Genellikle “reluctant to do something” şeklinde kullanılır.",
+  "synonyms": [
+   "unwilling",
+   "hesitant"
+  ],
+  "topics": [
+   "duygular"
+  ],
+  "exams": [
+   "SAT"
+  ]
+ },
+ {
+  "id": "en:itinerary",
+  "lang": "en",
+  "term": "itinerary",
+  "meaning": "seyahat planı, güzergâh",
+  "pos": "isim",
+  "level": "B2",
+  "example": "Our itinerary includes three days in Rome.",
+  "exampleTr": "Seyahat planımızda Roma’da üç gün var.",
+  "ipa": "/aɪˈtɪnəreri/",
+  "usage": "Uçuş ve otel bilgilerini içeren plan belgesi için de kullanılır.",
+  "synonyms": [
+   "route",
+   "schedule",
+   "plan"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:tremendous",
+  "lang": "en",
+  "term": "tremendous",
+  "meaning": "muazzam, çok büyük",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "She has made tremendous progress this year.",
+  "exampleTr": "Bu yıl muazzam bir ilerleme kaydetti.",
+  "ipa": "/trəˈmendəs/",
+  "usage": "Hem büyüklük hem de olumlu yoğunluk anlatır.",
+  "synonyms": [
+   "huge",
+   "enormous",
+   "great"
+  ],
+  "topics": [
+   "gunluk"
+  ],
+  "exams": [
+   "SAT"
+  ]
+ },
+ {
+  "id": "en:versatile",
+  "lang": "en",
+  "term": "versatile",
+  "meaning": "çok yönlü",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "A versatile actor can play almost any role.",
+  "exampleTr": "Çok yönlü bir oyuncu neredeyse her rolü oynayabilir.",
+  "ipa": "/ˈvɜːrsətl/",
+  "usage": "Hem insanlar hem de araç gereçler için kullanılır.",
+  "synonyms": [
+   "adaptable",
+   "flexible"
+  ],
+  "topics": [
+   "is"
+  ],
+  "exams": [
+   "SAT"
+  ]
+ },
+ {
+  "id": "en:enhance",
+  "lang": "en",
+  "term": "enhance",
+  "meaning": "geliştirmek, iyileştirmek",
+  "pos": "fiil",
+  "level": "B2",
+  "example": "Good lighting can enhance the mood of a room.",
+  "exampleTr": "İyi aydınlatma bir odanın havasını güzelleştirebilir.",
+  "ipa": "/ɪnˈhæns/",
+  "usage": "Zaten iyi olan bir şeyi daha da iyi hâle getirmeyi anlatır.",
+  "synonyms": [
+   "improve",
+   "boost",
+   "increase"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS"
+  ]
+ },
+ {
+  "id": "en:meticulous",
+  "lang": "en",
+  "term": "meticulous",
+  "meaning": "titiz, çok dikkatli",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "She keeps meticulous notes for every project.",
+  "exampleTr": "Her proje için titizlikle notlar tutar.",
+  "ipa": "/məˈtɪkjələs/",
+  "usage": "Ayrıntılara çok dikkat eden kişi ya da iş için kullanılır.",
+  "synonyms": [
+   "careful",
+   "thorough",
+   "precise"
+  ],
+  "topics": [
+   "is"
+  ],
+  "exams": [
+   "GRE"
+  ]
+ },
+ {
+  "id": "en:pragmatic",
+  "lang": "en",
+  "term": "pragmatic",
+  "meaning": "pratik, gerçekçi",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "We need a pragmatic solution, not a perfect one.",
+  "exampleTr": "Mükemmel değil, gerçekçi bir çözüme ihtiyacımız var.",
+  "ipa": "/præɡˈmætɪk/",
+  "usage": "İdeal olan yerine uygulanabilir olanı seçen yaklaşımı anlatır.",
+  "synonyms": [
+   "practical",
+   "realistic",
+   "sensible"
+  ],
+  "topics": [
+   "is"
+  ],
+  "exams": [
+   "GRE"
+  ]
+ },
+ {
+  "id": "en:eloquent",
+  "lang": "en",
+  "term": "eloquent",
+  "meaning": "etkili ve akıcı konuşan",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "He gave an eloquent speech at the wedding.",
+  "exampleTr": "Düğünde etkileyici ve akıcı bir konuşma yaptı.",
+  "ipa": "/ˈeləkwənt/",
+  "usage": "Konuşma, yazı ya da kişi için kullanılır.",
+  "synonyms": [
+   "articulate",
+   "expressive",
+   "fluent"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "GRE",
+   "SAT"
+  ]
+ },
+ {
+  "id": "en:serendipity",
+  "lang": "en",
+  "term": "serendipity",
+  "meaning": "mutlu tesadüf",
+  "pos": "isim",
+  "level": "C1",
+  "example": "Meeting my co-founder at a bus stop was pure serendipity.",
+  "exampleTr": "Kurucu ortağımla otobüs durağında tanışmam tam bir mutlu tesadüftü.",
+  "ipa": "/ˌserənˈdɪpəti/",
+  "usage": "Aramadan güzel bir şey bulmak gibi olumlu rastlantılar için kullanılır.",
+  "synonyms": [
+   "luck",
+   "chance",
+   "coincidence"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:abundant",
+  "lang": "en",
+  "term": "abundant",
+  "meaning": "bol, bereketli",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "The region has abundant fresh water.",
+  "exampleTr": "Bölgede bol miktarda tatlı su var.",
+  "ipa": "/əˈbʌndənt/",
+  "usage": "İsim hâli “abundance”: “an abundance of food”.",
+  "synonyms": [
+   "plentiful",
+   "ample",
+   "rich"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "SAT"
+  ]
+ },
+ {
+  "id": "en:mitigate",
+  "lang": "en",
+  "term": "mitigate",
+  "meaning": "hafifletmek, etkisini azaltmak",
+  "pos": "fiil",
+  "level": "C1",
+  "example": "Trees help mitigate the effects of heat in cities.",
+  "exampleTr": "Ağaçlar şehirlerde sıcağın etkilerini hafifletmeye yardımcı olur.",
+  "ipa": "/ˈmɪtɪɡeɪt/",
+  "usage": "Risk, hasar ve etki gibi olumsuz kavramlarla kullanılır.",
+  "synonyms": [
+   "reduce",
+   "ease",
+   "lessen"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL"
+  ]
+ },
+ {
+  "id": "en:hypothesis",
+  "lang": "en",
+  "term": "hypothesis",
+  "meaning": "hipotez, varsayım",
+  "pos": "isim",
+  "level": "C1",
+  "example": "The experiment supported our hypothesis.",
+  "exampleTr": "Deney hipotezimizi destekledi.",
+  "ipa": "/haɪˈpɑːθəsɪs/",
+  "usage": "Çoğulu “hypotheses” şeklindedir.",
+  "synonyms": [
+   "theory",
+   "assumption"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL"
+  ]
+ },
+ {
+  "id": "en:procrastinate",
+  "lang": "en",
+  "term": "procrastinate",
+  "meaning": "işleri sürekli ertelemek",
+  "pos": "fiil",
+  "level": "C1",
+  "example": "I tend to procrastinate when a task feels too big.",
+  "exampleTr": "Bir iş gözüme çok büyük görünürse ertelemeye eğilimliyim.",
+  "ipa": "/prəˈkræstɪneɪt/",
+  "usage": "İsim hâli “procrastination”.",
+  "synonyms": [
+   "delay",
+   "postpone",
+   "put off"
+  ],
+  "topics": [
+   "gunluk",
+   "is"
+  ]
+ },
+ {
+  "id": "en:ubiquitous",
+  "lang": "en",
+  "term": "ubiquitous",
+  "meaning": "her yerde bulunan",
+  "pos": "sıfat",
+  "level": "C2",
+  "example": "Smartphones have become ubiquitous in daily life.",
+  "exampleTr": "Akıllı telefonlar günlük hayatın her yerinde karşımıza çıkıyor.",
+  "ipa": "/juːˈbɪkwɪtəs/",
+  "usage": "Resmî bir kelimedir; konuşmada “everywhere” daha yaygındır.",
+  "synonyms": [
+   "everywhere",
+   "widespread",
+   "common"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "GRE",
+   "TOEFL"
+  ]
+ },
+ {
+  "id": "en:ephemeral",
+  "lang": "en",
+  "term": "ephemeral",
+  "meaning": "kısa ömürlü, geçici",
+  "pos": "sıfat",
+  "level": "C2",
+  "example": "Fame on social media is often ephemeral.",
+  "exampleTr": "Sosyal medyadaki şöhret çoğu zaman kısa ömürlüdür.",
+  "ipa": "/ɪˈfemərəl/",
+  "usage": "Edebî ve akademik metinlerde sık geçer.",
+  "synonyms": [
+   "fleeting",
+   "temporary",
+   "brief"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "GRE"
+  ]
+ },
+ {
+  "id": "en:scrutinize",
+  "lang": "en",
+  "term": "scrutinize",
+  "meaning": "didik didik incelemek",
+  "pos": "fiil",
+  "level": "C2",
+  "example": "Investors will scrutinize the company’s accounts.",
+  "exampleTr": "Yatırımcılar şirketin hesaplarını didik didik inceleyecek.",
+  "ipa": "/ˈskruːtənaɪz/",
+  "usage": "İsim hâli “scrutiny”: “under scrutiny” mercek altında demektir.",
+  "synonyms": [
+   "examine",
+   "inspect",
+   "study"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "GRE",
+   "TOEFL"
+  ]
+ },
+ {
+  "id": "en:apple",
+  "lang": "en",
+  "term": "apple",
+  "meaning": "elma",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:book",
+  "lang": "en",
+  "term": "book",
+  "meaning": "kitap",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:water",
+  "lang": "en",
+  "term": "water",
+  "meaning": "su",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:house",
+  "lang": "en",
+  "term": "house",
+  "meaning": "ev",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:friend",
+  "lang": "en",
+  "term": "friend",
+  "meaning": "arkadaş",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:sun",
+  "lang": "en",
+  "term": "sun",
+  "meaning": "güneş",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:moon",
+  "lang": "en",
+  "term": "moon",
+  "meaning": "ay",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:star",
+  "lang": "en",
+  "term": "star",
+  "meaning": "yıldız",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:morning",
+  "lang": "en",
+  "term": "morning",
+  "meaning": "sabah",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:night",
+  "lang": "en",
+  "term": "night",
+  "meaning": "gece",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:school",
+  "lang": "en",
+  "term": "school",
+  "meaning": "okul",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:window",
+  "lang": "en",
+  "term": "window",
+  "meaning": "pencere",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:time",
+  "lang": "en",
+  "term": "time",
+  "meaning": "zaman",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:road",
+  "lang": "en",
+  "term": "road",
+  "meaning": "yol",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:cat",
+  "lang": "en",
+  "term": "cat",
+  "meaning": "kedi",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:dog",
+  "lang": "en",
+  "term": "dog",
+  "meaning": "köpek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:bread",
+  "lang": "en",
+  "term": "bread",
+  "meaning": "ekmek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:milk",
+  "lang": "en",
+  "term": "milk",
+  "meaning": "süt",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:tea",
+  "lang": "en",
+  "term": "tea",
+  "meaning": "çay",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:coffee",
+  "lang": "en",
+  "term": "coffee",
+  "meaning": "kahve",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:car",
+  "lang": "en",
+  "term": "car",
+  "meaning": "araba",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:city",
+  "lang": "en",
+  "term": "city",
+  "meaning": "şehir",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:tree",
+  "lang": "en",
+  "term": "tree",
+  "meaning": "ağaç",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:flower",
+  "lang": "en",
+  "term": "flower",
+  "meaning": "çiçek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:music",
+  "lang": "en",
+  "term": "music",
+  "meaning": "müzik",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:family",
+  "lang": "en",
+  "term": "family",
+  "meaning": "aile",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:door",
+  "lang": "en",
+  "term": "door",
+  "meaning": "kapı",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:table",
+  "lang": "en",
+  "term": "table",
+  "meaning": "masa",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:phone",
+  "lang": "en",
+  "term": "phone",
+  "meaning": "telefon",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "en:rain",
+  "lang": "en",
+  "term": "rain",
+  "meaning": "yağmur",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die reise",
+  "lang": "de",
+  "term": "die Reise",
+  "meaning": "yolculuk, seyahat",
+  "pos": "isim",
+  "level": "A2",
+  "example": "Die Reise nach Berlin dauert sechs Stunden.",
+  "exampleTr": "Berlin'e yolculuk altı saat sürer."
+ },
+ {
+  "id": "de:leihen",
+  "lang": "de",
+  "term": "leihen",
+  "meaning": "ödünç vermek, ödünç almak",
+  "pos": "fiil",
+  "level": "A2",
+  "example": "Kannst du mir deinen Stift leihen?",
+  "exampleTr": "Bana kalemini ödünç verebilir misin?"
+ },
+ {
+  "id": "de:neugierig",
+  "lang": "de",
+  "term": "neugierig",
+  "meaning": "meraklı",
+  "pos": "sıfat",
+  "level": "A2",
+  "example": "Katzen sind von Natur aus neugierig.",
+  "exampleTr": "Kediler doğası gereği meraklıdır."
+ },
+ {
+  "id": "de:das gepäck",
+  "lang": "de",
+  "term": "das Gepäck",
+  "meaning": "bagaj",
+  "pos": "isim",
+  "level": "A2",
+  "example": "Bitte lassen Sie Ihr Gepäck nicht unbeaufsichtigt.",
+  "exampleTr": "Lütfen bagajınızı başıboş bırakmayın."
+ },
+ {
+  "id": "de:die frist",
+  "lang": "de",
+  "term": "die Frist",
+  "meaning": "süre, son teslim tarihi",
+  "pos": "isim",
+  "level": "B1",
+  "example": "Die Frist für den Bericht endet am Freitag.",
+  "exampleTr": "Raporun teslim süresi cuma günü doluyor."
+ },
+ {
+  "id": "de:dankbar",
+  "lang": "de",
+  "term": "dankbar",
+  "meaning": "minnettar",
+  "pos": "sıfat",
+  "level": "B1",
+  "example": "Ich bin dir sehr dankbar für deine Hilfe.",
+  "exampleTr": "Yardımın için sana çok minnettarım."
+ },
+ {
+  "id": "de:gemütlich",
+  "lang": "de",
+  "term": "gemütlich",
+  "meaning": "rahat, sıcacık",
+  "pos": "sıfat",
+  "level": "B1",
+  "example": "Wir haben ein gemütliches Café gefunden.",
+  "exampleTr": "Sıcacık bir kafe bulduk."
+ },
+ {
+  "id": "de:pendeln",
+  "lang": "de",
+  "term": "pendeln",
+  "meaning": "işe gidip gelmek",
+  "pos": "fiil",
+  "level": "B1",
+  "example": "Ich pendle jeden Tag mit dem Zug zur Arbeit.",
+  "exampleTr": "Her gün trenle işe gidip geliyorum."
+ },
+ {
+  "id": "de:die erfahrung",
+  "lang": "de",
+  "term": "die Erfahrung",
+  "meaning": "deneyim",
+  "pos": "isim",
+  "level": "B1",
+  "example": "Sie hat viel Erfahrung im Verkauf.",
+  "exampleTr": "Satışta çok deneyimi var."
+ },
+ {
+  "id": "de:sich erinnern",
+  "lang": "de",
+  "term": "sich erinnern",
+  "meaning": "hatırlamak",
+  "pos": "fiil",
+  "level": "B1",
+  "example": "Ich erinnere mich gut an diesen Tag.",
+  "exampleTr": "O günü iyi hatırlıyorum."
+ },
+ {
+  "id": "de:widerstandsfähig",
+  "lang": "de",
+  "term": "widerstandsfähig",
+  "meaning": "dayanıklı",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "Kinder sind oft widerstandsfähiger, als man denkt.",
+  "exampleTr": "Çocuklar çoğu zaman sanıldığından daha dayanıklıdır."
+ },
+ {
+  "id": "de:verhandeln",
+  "lang": "de",
+  "term": "verhandeln",
+  "meaning": "pazarlık etmek, müzakere etmek",
+  "pos": "fiil",
+  "level": "B2",
+  "example": "Wir haben mit dem Lieferanten über den Preis verhandelt.",
+  "exampleTr": "Tedarikçiyle fiyat üzerine pazarlık ettik."
+ },
+ {
+  "id": "de:zögern",
+  "lang": "de",
+  "term": "zögern",
+  "meaning": "tereddüt etmek",
+  "pos": "fiil",
+  "level": "B2",
+  "example": "Er zögerte kurz, bevor er antwortete.",
+  "exampleTr": "Cevap vermeden önce bir an tereddüt etti."
+ },
+ {
+  "id": "de:nachhaltig",
+  "lang": "de",
+  "term": "nachhaltig",
+  "meaning": "sürdürülebilir",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "Wir suchen nach nachhaltigen Lösungen.",
+  "exampleTr": "Sürdürülebilir çözümler arıyoruz."
+ },
+ {
+  "id": "de:die voraussetzung",
+  "lang": "de",
+  "term": "die Voraussetzung",
+  "meaning": "ön koşul",
+  "pos": "isim",
+  "level": "B2",
+  "example": "Gute Deutschkenntnisse sind eine Voraussetzung für die Stelle.",
+  "exampleTr": "İyi Almanca bilgisi bu pozisyon için ön koşuldur."
+ },
+ {
+  "id": "de:gewissenhaft",
+  "lang": "de",
+  "term": "gewissenhaft",
+  "meaning": "titiz, özenli",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "Sie arbeitet sehr gewissenhaft.",
+  "exampleTr": "Çok titiz çalışır."
+ },
+ {
+  "id": "de:die gelassenheit",
+  "lang": "de",
+  "term": "die Gelassenheit",
+  "meaning": "soğukkanlılık, dinginlik",
+  "pos": "isim",
+  "level": "C1",
+  "example": "Er reagierte mit großer Gelassenheit.",
+  "exampleTr": "Büyük bir soğukkanlılıkla tepki verdi."
+ },
+ {
+  "id": "de:beeinträchtigen",
+  "lang": "de",
+  "term": "beeinträchtigen",
+  "meaning": "olumsuz etkilemek",
+  "pos": "fiil",
+  "level": "C1",
+  "example": "Der Lärm beeinträchtigt meine Konzentration.",
+  "exampleTr": "Gürültü konsantrasyonumu olumsuz etkiliyor."
+ },
+ {
+  "id": "de:vergänglich",
+  "lang": "de",
+  "term": "vergänglich",
+  "meaning": "geçici, kalıcı olmayan",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "Ruhm ist oft vergänglich.",
+  "exampleTr": "Şöhret çoğu zaman geçicidir."
+ },
+ {
+  "id": "de:allgegenwärtig",
+  "lang": "de",
+  "term": "allgegenwärtig",
+  "meaning": "her yerde bulunan",
+  "pos": "sıfat",
+  "level": "C2",
+  "example": "Smartphones sind heute allgegenwärtig.",
+  "exampleTr": "Akıllı telefonlar bugün her yerde."
+ },
+ {
+  "id": "de:die schadenfreude",
+  "lang": "de",
+  "term": "die Schadenfreude",
+  "meaning": "başkasının zararına sevinme",
+  "pos": "isim",
+  "level": "C2",
+  "example": "In seinem Lächeln lag ein wenig Schadenfreude.",
+  "exampleTr": "Gülümsemesinde biraz başkasının zararına sevinme vardı."
+ },
+ {
+  "id": "de:der apfel",
+  "lang": "de",
+  "term": "der Apfel",
+  "meaning": "elma",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:das buch",
+  "lang": "de",
+  "term": "das Buch",
+  "meaning": "kitap",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:das wasser",
+  "lang": "de",
+  "term": "das Wasser",
+  "meaning": "su",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:das haus",
+  "lang": "de",
+  "term": "das Haus",
+  "meaning": "ev",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der freund",
+  "lang": "de",
+  "term": "der Freund",
+  "meaning": "arkadaş",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die sonne",
+  "lang": "de",
+  "term": "die Sonne",
+  "meaning": "güneş",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der mond",
+  "lang": "de",
+  "term": "der Mond",
+  "meaning": "ay",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der stern",
+  "lang": "de",
+  "term": "der Stern",
+  "meaning": "yıldız",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der morgen",
+  "lang": "de",
+  "term": "der Morgen",
+  "meaning": "sabah",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die nacht",
+  "lang": "de",
+  "term": "die Nacht",
+  "meaning": "gece",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die schule",
+  "lang": "de",
+  "term": "die Schule",
+  "meaning": "okul",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:das fenster",
+  "lang": "de",
+  "term": "das Fenster",
+  "meaning": "pencere",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die zeit",
+  "lang": "de",
+  "term": "die Zeit",
+  "meaning": "zaman",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die straße",
+  "lang": "de",
+  "term": "die Straße",
+  "meaning": "sokak, cadde",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die katze",
+  "lang": "de",
+  "term": "die Katze",
+  "meaning": "kedi",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der hund",
+  "lang": "de",
+  "term": "der Hund",
+  "meaning": "köpek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:das brot",
+  "lang": "de",
+  "term": "das Brot",
+  "meaning": "ekmek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die milch",
+  "lang": "de",
+  "term": "die Milch",
+  "meaning": "süt",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der tee",
+  "lang": "de",
+  "term": "der Tee",
+  "meaning": "çay",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der kaffee",
+  "lang": "de",
+  "term": "der Kaffee",
+  "meaning": "kahve",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:das auto",
+  "lang": "de",
+  "term": "das Auto",
+  "meaning": "araba",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die stadt",
+  "lang": "de",
+  "term": "die Stadt",
+  "meaning": "şehir",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der baum",
+  "lang": "de",
+  "term": "der Baum",
+  "meaning": "ağaç",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die blume",
+  "lang": "de",
+  "term": "die Blume",
+  "meaning": "çiçek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die musik",
+  "lang": "de",
+  "term": "die Musik",
+  "meaning": "müzik",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die familie",
+  "lang": "de",
+  "term": "die Familie",
+  "meaning": "aile",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:die tür",
+  "lang": "de",
+  "term": "die Tür",
+  "meaning": "kapı",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der tisch",
+  "lang": "de",
+  "term": "der Tisch",
+  "meaning": "masa",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:das telefon",
+  "lang": "de",
+  "term": "das Telefon",
+  "meaning": "telefon",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "de:der regen",
+  "lang": "de",
+  "term": "der Regen",
+  "meaning": "yağmur",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el viaje",
+  "lang": "es",
+  "term": "el viaje",
+  "meaning": "yolculuk, seyahat",
+  "pos": "isim",
+  "level": "A2",
+  "example": "El viaje a Madrid dura cuatro horas.",
+  "exampleTr": "Madrid'e yolculuk dört saat sürer."
+ },
+ {
+  "id": "es:prestar",
+  "lang": "es",
+  "term": "prestar",
+  "meaning": "ödünç vermek",
+  "pos": "fiil",
+  "level": "A2",
+  "example": "¿Me prestas tu bolígrafo?",
+  "exampleTr": "Bana kalemini ödünç verir misin?"
+ },
+ {
+  "id": "es:curioso",
+  "lang": "es",
+  "term": "curioso",
+  "meaning": "meraklı",
+  "pos": "sıfat",
+  "level": "A2",
+  "example": "Los gatos son animales curiosos.",
+  "exampleTr": "Kediler meraklı hayvanlardır."
+ },
+ {
+  "id": "es:el equipaje",
+  "lang": "es",
+  "term": "el equipaje",
+  "meaning": "bagaj",
+  "pos": "isim",
+  "level": "A2",
+  "example": "No dejes tu equipaje sin vigilancia.",
+  "exampleTr": "Bagajını başıboş bırakma."
+ },
+ {
+  "id": "es:el plazo",
+  "lang": "es",
+  "term": "el plazo",
+  "meaning": "süre, son teslim tarihi",
+  "pos": "isim",
+  "level": "B1",
+  "example": "El plazo termina el viernes.",
+  "exampleTr": "Süre cuma günü doluyor."
+ },
+ {
+  "id": "es:agradecido",
+  "lang": "es",
+  "term": "agradecido",
+  "meaning": "minnettar",
+  "pos": "sıfat",
+  "level": "B1",
+  "example": "Estoy muy agradecido por tu ayuda.",
+  "exampleTr": "Yardımın için çok minnettarım."
+ },
+ {
+  "id": "es:acogedor",
+  "lang": "es",
+  "term": "acogedor",
+  "meaning": "sıcacık, rahat",
+  "pos": "sıfat",
+  "level": "B1",
+  "example": "Encontramos un café acogedor cerca de la estación.",
+  "exampleTr": "İstasyonun yakınında sıcacık bir kafe bulduk."
+ },
+ {
+  "id": "es:la experiencia",
+  "lang": "es",
+  "term": "la experiencia",
+  "meaning": "deneyim",
+  "pos": "isim",
+  "level": "B1",
+  "example": "Tiene mucha experiencia en ventas.",
+  "exampleTr": "Satışta çok deneyimi var."
+ },
+ {
+  "id": "es:recordar",
+  "lang": "es",
+  "term": "recordar",
+  "meaning": "hatırlamak",
+  "pos": "fiil",
+  "level": "B1",
+  "example": "Recuerdo bien ese día.",
+  "exampleTr": "O günü iyi hatırlıyorum."
+ },
+ {
+  "id": "es:aprovechar",
+  "lang": "es",
+  "term": "aprovechar",
+  "meaning": "değerlendirmek, faydalanmak",
+  "pos": "fiil",
+  "level": "B1",
+  "example": "Hay que aprovechar el buen tiempo.",
+  "exampleTr": "Güzel havayı değerlendirmek lazım."
+ },
+ {
+  "id": "es:resiliente",
+  "lang": "es",
+  "term": "resiliente",
+  "meaning": "dayanıklı",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "Los niños son más resilientes de lo que pensamos.",
+  "exampleTr": "Çocuklar düşündüğümüzden daha dayanıklıdır."
+ },
+ {
+  "id": "es:negociar",
+  "lang": "es",
+  "term": "negociar",
+  "meaning": "pazarlık etmek, müzakere etmek",
+  "pos": "fiil",
+  "level": "B2",
+  "example": "Negociamos un mejor precio con el proveedor.",
+  "exampleTr": "Tedarikçiyle daha iyi bir fiyat için pazarlık ettik."
+ },
+ {
+  "id": "es:el desarrollo",
+  "lang": "es",
+  "term": "el desarrollo",
+  "meaning": "gelişim, kalkınma",
+  "pos": "isim",
+  "level": "B2",
+  "example": "El desarrollo del proyecto va bien.",
+  "exampleTr": "Projenin gelişimi iyi gidiyor."
+ },
+ {
+  "id": "es:sostenible",
+  "lang": "es",
+  "term": "sostenible",
+  "meaning": "sürdürülebilir",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "Buscamos soluciones sostenibles.",
+  "exampleTr": "Sürdürülebilir çözümler arıyoruz."
+ },
+ {
+  "id": "es:reacio",
+  "lang": "es",
+  "term": "reacio",
+  "meaning": "isteksiz, gönülsüz",
+  "pos": "sıfat",
+  "level": "B2",
+  "example": "Estaba reacio a irse temprano.",
+  "exampleTr": "Erken ayrılmaya gönülsüzdü."
+ },
+ {
+  "id": "es:meticuloso",
+  "lang": "es",
+  "term": "meticuloso",
+  "meaning": "titiz",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "Es muy meticulosa con su trabajo.",
+  "exampleTr": "İşinde çok titizdir."
+ },
+ {
+  "id": "es:mitigar",
+  "lang": "es",
+  "term": "mitigar",
+  "meaning": "hafifletmek",
+  "pos": "fiil",
+  "level": "C1",
+  "example": "Los árboles ayudan a mitigar el calor.",
+  "exampleTr": "Ağaçlar sıcağı hafifletmeye yardımcı olur."
+ },
+ {
+  "id": "es:efímero",
+  "lang": "es",
+  "term": "efímero",
+  "meaning": "kısa ömürlü, geçici",
+  "pos": "sıfat",
+  "level": "C1",
+  "example": "La fama en las redes es efímera.",
+  "exampleTr": "Sosyal medyadaki şöhret kısa ömürlüdür."
+ },
+ {
+  "id": "es:la sobremesa",
+  "lang": "es",
+  "term": "la sobremesa",
+  "meaning": "yemekten sonra sofrada sohbet",
+  "pos": "isim",
+  "level": "C1",
+  "example": "La sobremesa duró dos horas.",
+  "exampleTr": "Yemekten sonraki sohbet iki saat sürdü."
+ },
+ {
+  "id": "es:ubicuo",
+  "lang": "es",
+  "term": "ubicuo",
+  "meaning": "her yerde bulunan",
+  "pos": "sıfat",
+  "level": "C2",
+  "example": "Los teléfonos móviles son ubicuos.",
+  "exampleTr": "Cep telefonları her yerde."
+ },
+ {
+  "id": "es:inefable",
+  "lang": "es",
+  "term": "inefable",
+  "meaning": "tarifsiz, sözle anlatılamaz",
+  "pos": "sıfat",
+  "level": "C2",
+  "example": "Sentí una alegría inefable.",
+  "exampleTr": "Tarifsiz bir sevinç hissettim."
+ },
+ {
+  "id": "es:la manzana",
+  "lang": "es",
+  "term": "la manzana",
+  "meaning": "elma",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el libro",
+  "lang": "es",
+  "term": "el libro",
+  "meaning": "kitap",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el agua",
+  "lang": "es",
+  "term": "el agua",
+  "meaning": "su",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la casa",
+  "lang": "es",
+  "term": "la casa",
+  "meaning": "ev",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el amigo",
+  "lang": "es",
+  "term": "el amigo",
+  "meaning": "arkadaş",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el sol",
+  "lang": "es",
+  "term": "el sol",
+  "meaning": "güneş",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la luna",
+  "lang": "es",
+  "term": "la luna",
+  "meaning": "ay",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la estrella",
+  "lang": "es",
+  "term": "la estrella",
+  "meaning": "yıldız",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la mañana",
+  "lang": "es",
+  "term": "la mañana",
+  "meaning": "sabah",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la noche",
+  "lang": "es",
+  "term": "la noche",
+  "meaning": "gece",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la escuela",
+  "lang": "es",
+  "term": "la escuela",
+  "meaning": "okul",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la ventana",
+  "lang": "es",
+  "term": "la ventana",
+  "meaning": "pencere",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el tiempo",
+  "lang": "es",
+  "term": "el tiempo",
+  "meaning": "zaman",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el camino",
+  "lang": "es",
+  "term": "el camino",
+  "meaning": "yol",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el gato",
+  "lang": "es",
+  "term": "el gato",
+  "meaning": "kedi",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el perro",
+  "lang": "es",
+  "term": "el perro",
+  "meaning": "köpek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el pan",
+  "lang": "es",
+  "term": "el pan",
+  "meaning": "ekmek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la leche",
+  "lang": "es",
+  "term": "la leche",
+  "meaning": "süt",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el té",
+  "lang": "es",
+  "term": "el té",
+  "meaning": "çay",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el café",
+  "lang": "es",
+  "term": "el café",
+  "meaning": "kahve",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el coche",
+  "lang": "es",
+  "term": "el coche",
+  "meaning": "araba",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la ciudad",
+  "lang": "es",
+  "term": "la ciudad",
+  "meaning": "şehir",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el árbol",
+  "lang": "es",
+  "term": "el árbol",
+  "meaning": "ağaç",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la flor",
+  "lang": "es",
+  "term": "la flor",
+  "meaning": "çiçek",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la música",
+  "lang": "es",
+  "term": "la música",
+  "meaning": "müzik",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la familia",
+  "lang": "es",
+  "term": "la familia",
+  "meaning": "aile",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la puerta",
+  "lang": "es",
+  "term": "la puerta",
+  "meaning": "kapı",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la mesa",
+  "lang": "es",
+  "term": "la mesa",
+  "meaning": "masa",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:el teléfono",
+  "lang": "es",
+  "term": "el teléfono",
+  "meaning": "telefon",
+  "pos": "isim",
+  "level": "A1"
+ },
+ {
+  "id": "es:la lluvia",
+  "lang": "es",
+  "term": "la lluvia",
+  "meaning": "yağmur",
+  "pos": "isim",
+  "level": "A1"
+ }
+]

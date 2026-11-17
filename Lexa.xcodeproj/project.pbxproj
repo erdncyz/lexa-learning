@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FA57F98B733183254C97F1 /* LexaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 53A11CD83F68AEEAE48541F2 /* LexaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0660BC883191DDA2E5472220 /* QuizSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F572784CA6C8E4A6B735E /* QuizSessionView.swift */; };
+		0988C60111FEF2CCE966A277 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163C478B3A3D168A55DE02DC /* OnboardingView.swift */; };
+		0E5F37D0B52BF4A0A03C4F24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C3EC60BC62189B591370B5 /* GoogleService-Info.plist */; };
+		10B9BCED1267576D0DF3AB72 /* LexaPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E6FA9EF202F66F721A26E /* LexaPalette.swift */; };
+		13B90D5C1CFAC9126F7757F3 /* OFL-Newsreader.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B3858654AF81F2519E2ED7B /* OFL-Newsreader.txt */; };
+		1CD088830AE4B8E213E002D8 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 45CD4FCAED381CFA160AA964 /* words.json */; };
+		27044D59639FC8F3DB7B4FBD /* DeviceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38638E451E0661D9D9DC34B7 /* DeviceServices.swift */; };
+		328D73040B59A39D1F80DD2A /* LexaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333B8B5C759C8E15C98B9AB4 /* LexaWidget.swift */; };
+		40F6589B464846F7615C2B38 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C23CD84B2749CEB4ADBAF83 /* ExploreViewModel.swift */; };
+		428CA1B4308C2DE46734227F /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCCAF06FF89DD6B9EC25A7 /* PracticeView.swift */; };
+		4417C171872ED73EC77003FF /* SettingsScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C75258891D89C83A0E8F8D /* SettingsScreens.swift */; };
+		48DCE78D5BCAE7B49BC0522B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A50F4860D6AE41BA95D429 /* Assets.xcassets */; };
+		49BA20D80B143B33740343BF /* Newsreader-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8394F80D7734374A7E2A416C /* Newsreader-Italic.ttf */; };
+		51926A0E5ADC4BFB9A205F1F /* LexaPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E6FA9EF202F66F721A26E /* LexaPalette.swift */; };
+		52EF9E039D33DD119F7A1D16 /* Newsreader-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8394F80D7734374A7E2A416C /* Newsreader-Italic.ttf */; };
+		590D5EDAB5064790E6C5BCB7 /* OFL-IBMPlexSans.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8CABE52E965551A367B9506 /* OFL-IBMPlexSans.txt */; };
+		5C70C2FB43D0A05C4C576637 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6320319866378CD15EAA /* Headers.swift */; };
+		5C71907150625A67714B0BF6 /* DebugLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E440554B3398C8CAB947F50 /* DebugLaunch.swift */; };
+		6120B2AAFA567A7BA51260C9 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CAEE484C326FA0D26E5F5 /* WidgetSnapshot.swift */; };
+		640820284824AD3EBEF6C9C9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF7FD885D6339321ED31A7 /* AppState.swift */; };
+		6462101A1230D15521A469A9 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70665190C17141070C2DD7 /* TodayView.swift */; };
+		7BEDE1A1E1B4B61E3E4C7153 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC208A9515B3E059B70054F9 /* AuthViewModel.swift */; };
+		88A266E8CE4E91DC4890C267 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 151AA99F7A00759D51621199 /* FirebaseAuth */; };
+		899A4FC91825432D49A17EE3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38BA78473249B6CFA365A0 /* ProfileView.swift */; };
+		8B63A9AA46CB5633CA0015B9 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0179602FF6883BDF2E0FF500 /* ExploreView.swift */; };
+		8BC4B8D79BC081B5410C0AD8 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62018F072FB4E367CACEC4B /* PracticeViewModel.swift */; };
+		8F01F218C8B000B3EB8DBD13 /* LexaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD035C0A393B2FF0FD58F49 /* LexaApp.swift */; };
+		91E9A66CA96EA995E396F09A /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1FEC668AF4589ED604EA3 /* Word.swift */; };
+		940525131ACDB530C59ADDF1 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317D453BC693612CA9D2845 /* QuizQuestion.swift */; };
+		94F6CFDD78B400BE92B49521 /* WordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E8AE4AA607B89A4BA68C2D /* WordRepository.swift */; };
+		96A87B4E9708BA9C49A4F182 /* OFL-Newsreader.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B3858654AF81F2519E2ED7B /* OFL-Newsreader.txt */; };
+		973CD920B68DCEFB83F8D1AD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5C75EBAF03CAE57ADFA94DEB /* FirebaseFirestore */; };
+		9A4BE24FC4881757A150682C /* Newsreader.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D781A9664F8C1DA393D0CD /* Newsreader.ttf */; };
+		A0C582DD2F98B3DC8B64E5B3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989BF5271B32C72064ABFBEF /* AuthService.swift */; };
+		A721775B936E927F2865940A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DAF444962DE3894BCC31C /* RootView.swift */; };
+		B8522A6301411CDC28497397 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CAEE484C326FA0D26E5F5 /* WidgetSnapshot.swift */; };
+		B9F4B01D4765084F6A43480B /* IBMPlexSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC6AA72B7BE24C4C000BADB3 /* IBMPlexSans.ttf */; };
+		BC460A5DEEA33A34979FC757 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8393EB3411020BCD2FCE76B /* UserRepository.swift */; };
+		BEC5E33F25D33D2C2773D85C /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382CDD70EBF3F40963BC8A0B /* LandingView.swift */; };
+		C27C3C77F33A639CC40B6E95 /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A518FF56E311E042F6454C /* PreferencesViewModel.swift */; };
+		C429FD37401BC21135A96C77 /* IBMPlexSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC6AA72B7BE24C4C000BADB3 /* IBMPlexSans.ttf */; };
+		CB7B6306A751A63D7213E751 /* DeckViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4773473FBE48EFD7DAEFEEB /* DeckViews.swift */; };
+		CC375CB400DEB1C7B5446823 /* PreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DBB17ABC529E9AC82C5B5D /* PreviewSupport.swift */; };
+		CD2729EACB092F4CFDBB9DDE /* WidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4E3D257D011343B052338 /* WidgetsView.swift */; };
+		D1F8004D3F5C555D411196DB /* DictionaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BB01D3997C75DAF8536DB9 /* DictionaryService.swift */; };
+		D277A01F0DF6A2B4BB58EEA5 /* LexaButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBDCD5141E11CBF550CB47B /* LexaButtonStyle.swift */; };
+		D7413AAFEF436C4A0D5BBC15 /* AuthFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2CDC132405B4C896D7EC0 /* AuthFlowView.swift */; };
+		E4194E6FCB89D1C5198CCF54 /* PreferenceSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551BAFDAD7A490062023E593 /* PreferenceSheets.swift */; };
+		E7A003FA1BDB3F4395C1E62C /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D87497F356E7B66EAE40D /* TodayViewModel.swift */; };
+		E8EB881D3921281A296A47DC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67336F466D9BDEB29E7E9ABA /* Theme.swift */; };
+		EA72E26CB675AF37D552582C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB36519D0525035C97B8C5C /* UserData.swift */; };
+		EB23C071BFB8BDBBB7B6FA33 /* QuizSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E220F8068B05ED8332FC124 /* QuizSessionViewModel.swift */; };
+		EDE4505DD9F1FDE3E1280CA1 /* ReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4854C8B433DA68DD1FD97 /* ReadyView.swift */; };
+		EE46EF4C3482AC4C98E858BF /* LearningOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F74D076AB065DCD75F90F /* LearningOptions.swift */; };
+		EF04FEB00D0EBF073102F517 /* Newsreader.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D781A9664F8C1DA393D0CD /* Newsreader.ttf */; };
+		F2995B88EA75DFDF63C8AE04 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5483328B13AFB2051F3B5 /* Controls.swift */; };
+		FA9381FC83E0A20934D95C89 /* OFL-IBMPlexSans.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8CABE52E965551A367B9506 /* OFL-IBMPlexSans.txt */; };
+		FDC0BAE7848B52E6E16384A5 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0D862186B276A43B54883B /* OnboardingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05D68B476D97515B52560B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C72B3805FE85DD9A688A78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE36094D05A95AC8FDA36813;
+			remoteInfo = LexaWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1572C94DAD020DB03B8FDD27 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03FA57F98B733183254C97F1 /* LexaWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0179602FF6883BDF2E0FF500 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		05A50F4860D6AE41BA95D429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E440554B3398C8CAB947F50 /* DebugLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLaunch.swift; sourceTree = "<group>"; };
+		163C478B3A3D168A55DE02DC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1AD4E3D257D011343B052338 /* WidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsView.swift; sourceTree = "<group>"; };
+		1B3858654AF81F2519E2ED7B /* OFL-Newsreader.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-Newsreader.txt"; sourceTree = "<group>"; };
+		1DB36519D0525035C97B8C5C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		257D6320319866378CD15EAA /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		2DDD77B4BACC2043B43AC128 /* Lexa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lexa.entitlements; sourceTree = "<group>"; };
+		2E220F8068B05ED8332FC124 /* QuizSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionViewModel.swift; sourceTree = "<group>"; };
+		2F0D862186B276A43B54883B /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		333B8B5C759C8E15C98B9AB4 /* LexaWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexaWidget.swift; sourceTree = "<group>"; };
+		33AF7FD885D6339321ED31A7 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		34DCCAF06FF89DD6B9EC25A7 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		35C3EC60BC62189B591370B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35C4854C8B433DA68DD1FD97 /* ReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyView.swift; sourceTree = "<group>"; };
+		382CDD70EBF3F40963BC8A0B /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		38638E451E0661D9D9DC34B7 /* DeviceServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceServices.swift; sourceTree = "<group>"; };
+		39A518FF56E311E042F6454C /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
+		3F38BA78473249B6CFA365A0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		45CD4FCAED381CFA160AA964 /* words.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		53A11CD83F68AEEAE48541F2 /* LexaWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LexaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		551BAFDAD7A490062023E593 /* PreferenceSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceSheets.swift; sourceTree = "<group>"; };
+		5B70665190C17141070C2DD7 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		66BB01D3997C75DAF8536DB9 /* DictionaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryService.swift; sourceTree = "<group>"; };
+		67336F466D9BDEB29E7E9ABA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6CBDCD5141E11CBF550CB47B /* LexaButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexaButtonStyle.swift; sourceTree = "<group>"; };
+		6ED6CCB129F3855426C29963 /* LexaWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LexaWidget.entitlements; sourceTree = "<group>"; };
+		814E6FA9EF202F66F721A26E /* LexaPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexaPalette.swift; sourceTree = "<group>"; };
+		8394F80D7734374A7E2A416C /* Newsreader-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Newsreader-Italic.ttf"; sourceTree = "<group>"; };
+		8C23CD84B2749CEB4ADBAF83 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		90630639691A68A50FE629F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		918F74D076AB065DCD75F90F /* LearningOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningOptions.swift; sourceTree = "<group>"; };
+		9317D453BC693612CA9D2845 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		942CAEE484C326FA0D26E5F5 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+		983DAF444962DE3894BCC31C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		989BF5271B32C72064ABFBEF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9C0FB104E5B9602A62217344 /* Lexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8F572784CA6C8E4A6B735E /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
+		A1C75258891D89C83A0E8F8D /* SettingsScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreens.swift; sourceTree = "<group>"; };
+		A8393EB3411020BCD2FCE76B /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		A8DBB17ABC529E9AC82C5B5D /* PreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSupport.swift; sourceTree = "<group>"; };
+		AC208A9515B3E059B70054F9 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		B2B2CDC132405B4C896D7EC0 /* AuthFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowView.swift; sourceTree = "<group>"; };
+		BE5D87497F356E7B66EAE40D /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		C0B5483328B13AFB2051F3B5 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		D98379D174CE30D1F2ED2F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D9E8AE4AA607B89A4BA68C2D /* WordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRepository.swift; sourceTree = "<group>"; };
+		DAD035C0A393B2FF0FD58F49 /* LexaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexaApp.swift; sourceTree = "<group>"; };
+		DC6AA72B7BE24C4C000BADB3 /* IBMPlexSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IBMPlexSans.ttf; sourceTree = "<group>"; };
+		E0D781A9664F8C1DA393D0CD /* Newsreader.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Newsreader.ttf; sourceTree = "<group>"; };
+		E62018F072FB4E367CACEC4B /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		F4773473FBE48EFD7DAEFEEB /* DeckViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViews.swift; sourceTree = "<group>"; };
+		F8CABE52E965551A367B9506 /* OFL-IBMPlexSans.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-IBMPlexSans.txt"; sourceTree = "<group>"; };
+		F9E1FEC668AF4589ED604EA3 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98DA45BCBD54AB38F4FA0650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A266E8CE4E91DC4890C267 /* FirebaseAuth in Frameworks */,
+				973CD920B68DCEFB83F8D1AD /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0018053D057767D25B6C4A7C /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				F4773473FBE48EFD7DAEFEEB /* DeckViews.swift */,
+				0179602FF6883BDF2E0FF500 /* ExploreView.swift */,
+				8C23CD84B2749CEB4ADBAF83 /* ExploreViewModel.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		22135DA6642993ACC68DA9FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05A50F4860D6AE41BA95D429 /* Assets.xcassets */,
+				35C3EC60BC62189B591370B5 /* GoogleService-Info.plist */,
+				45CD4FCAED381CFA160AA964 /* words.json */,
+				8EACB25D0E99067F8BF17FE2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3DFFD3888DBC7E3FC06EA1EA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5451F0521EE456D75F67F207 /* Auth */,
+				0018053D057767D25B6C4A7C /* Explore */,
+				4DCE0122250B616CD14BEF9B /* Landing */,
+				564C377E9CB2D924743FC393 /* Onboarding */,
+				404FD2C4FF57D023D200F92E /* Practice */,
+				DE516FBB5ACC05E5D6655398 /* Profile */,
+				43436E4E32DAAAA6879829CD /* Today */,
+				77817318D2633DA7EDBCC365 /* Widgets */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		404FD2C4FF57D023D200F92E /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				34DCCAF06FF89DD6B9EC25A7 /* PracticeView.swift */,
+				E62018F072FB4E367CACEC4B /* PracticeViewModel.swift */,
+				9C8F572784CA6C8E4A6B735E /* QuizSessionView.swift */,
+				2E220F8068B05ED8332FC124 /* QuizSessionViewModel.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		43436E4E32DAAAA6879829CD /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				5B70665190C17141070C2DD7 /* TodayView.swift */,
+				BE5D87497F356E7B66EAE40D /* TodayViewModel.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		4DCE0122250B616CD14BEF9B /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				382CDD70EBF3F40963BC8A0B /* LandingView.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		5451F0521EE456D75F67F207 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B2B2CDC132405B4C896D7EC0 /* AuthFlowView.swift */,
+				AC208A9515B3E059B70054F9 /* AuthViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		54DEA639D7733E517C4C8D7B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0B5483328B13AFB2051F3B5 /* Controls.swift */,
+				257D6320319866378CD15EAA /* Headers.swift */,
+				6CBDCD5141E11CBF550CB47B /* LexaButtonStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		55AF528F50ED75C36779513D = {
+			isa = PBXGroup;
+			children = (
+				E05866C7729956CC6B59EF3D /* Lexa */,
+				C18FBB3DAD7D4533615E6CA5 /* LexaWidget */,
+				5989E648C48E7D7937AEE48D /* Shared */,
+				7C40A23FD1EC189384830354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564C377E9CB2D924743FC393 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				163C478B3A3D168A55DE02DC /* OnboardingView.swift */,
+				2F0D862186B276A43B54883B /* OnboardingViewModel.swift */,
+				35C4854C8B433DA68DD1FD97 /* ReadyView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5989E648C48E7D7937AEE48D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				814E6FA9EF202F66F721A26E /* LexaPalette.swift */,
+				942CAEE484C326FA0D26E5F5 /* WidgetSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		77817318D2633DA7EDBCC365 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4E3D257D011343B052338 /* WidgetsView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		7C40A23FD1EC189384830354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C0FB104E5B9602A62217344 /* Lexa.app */,
+				53A11CD83F68AEEAE48541F2 /* LexaWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839B055D1D89106A56DF9C72 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				989BF5271B32C72064ABFBEF /* AuthService.swift */,
+				38638E451E0661D9D9DC34B7 /* DeviceServices.swift */,
+				66BB01D3997C75DAF8536DB9 /* DictionaryService.swift */,
+				A8393EB3411020BCD2FCE76B /* UserRepository.swift */,
+				D9E8AE4AA607B89A4BA68C2D /* WordRepository.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		87D1C71635F99A8A03F4A646 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				67336F466D9BDEB29E7E9ABA /* Theme.swift */,
+				54DEA639D7733E517C4C8D7B /* Components */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		8EACB25D0E99067F8BF17FE2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DC6AA72B7BE24C4C000BADB3 /* IBMPlexSans.ttf */,
+				8394F80D7734374A7E2A416C /* Newsreader-Italic.ttf */,
+				E0D781A9664F8C1DA393D0CD /* Newsreader.ttf */,
+				F8CABE52E965551A367B9506 /* OFL-IBMPlexSans.txt */,
+				1B3858654AF81F2519E2ED7B /* OFL-Newsreader.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A3F517486DDB797B75614561 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				33AF7FD885D6339321ED31A7 /* AppState.swift */,
+				0E440554B3398C8CAB947F50 /* DebugLaunch.swift */,
+				DAD035C0A393B2FF0FD58F49 /* LexaApp.swift */,
+				A8DBB17ABC529E9AC82C5B5D /* PreviewSupport.swift */,
+				983DAF444962DE3894BCC31C /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A65F23B0B2CA8878523A58EC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				87D1C71635F99A8A03F4A646 /* DesignSystem */,
+				CE568E086EFBC41A08F6F598 /* Models */,
+				839B055D1D89106A56DF9C72 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C18FBB3DAD7D4533615E6CA5 /* LexaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				90630639691A68A50FE629F2 /* Info.plist */,
+				6ED6CCB129F3855426C29963 /* LexaWidget.entitlements */,
+				333B8B5C759C8E15C98B9AB4 /* LexaWidget.swift */,
+			);
+			path = LexaWidget;
+			sourceTree = "<group>";
+		};
+		CE568E086EFBC41A08F6F598 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				918F74D076AB065DCD75F90F /* LearningOptions.swift */,
+				9317D453BC693612CA9D2845 /* QuizQuestion.swift */,
+				1DB36519D0525035C97B8C5C /* UserData.swift */,
+				F9E1FEC668AF4589ED604EA3 /* Word.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE516FBB5ACC05E5D6655398 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				551BAFDAD7A490062023E593 /* PreferenceSheets.swift */,
+				39A518FF56E311E042F6454C /* PreferencesViewModel.swift */,
+				3F38BA78473249B6CFA365A0 /* ProfileView.swift */,
+				A1C75258891D89C83A0E8F8D /* SettingsScreens.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E05866C7729956CC6B59EF3D /* Lexa */ = {
+			isa = PBXGroup;
+			children = (
+				D98379D174CE30D1F2ED2F4A /* Info.plist */,
+				2DDD77B4BACC2043B43AC128 /* Lexa.entitlements */,
+				A3F517486DDB797B75614561 /* App */,
+				A65F23B0B2CA8878523A58EC /* Core */,
+				3DFFD3888DBC7E3FC06EA1EA /* Features */,
+				22135DA6642993ACC68DA9FA /* Resources */,
+			);
+			path = Lexa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56295D77BC87351311147D98 /* Lexa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A0F0FB887A5AEF206218BB /* Build configuration list for PBXNativeTarget "Lexa" */;
+			buildPhases = (
+				2A22675734998C4F4CADFB76 /* Sources */,
+				9D5CDD477D1BC36F48C9CAD9 /* Resources */,
+				98DA45BCBD54AB38F4FA0650 /* Frameworks */,
+				1572C94DAD020DB03B8FDD27 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E0FBA88F0A7501703F8839A /* PBXTargetDependency */,
+			);
+			name = Lexa;
+			packageProductDependencies = (
+				151AA99F7A00759D51621199 /* FirebaseAuth */,
+				5C75EBAF03CAE57ADFA94DEB /* FirebaseFirestore */,
+			);
+			productName = Lexa;
+			productReference = 9C0FB104E5B9602A62217344 /* Lexa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE36094D05A95AC8FDA36813 /* LexaWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EBEDE5BD72D16A721E025B5 /* Build configuration list for PBXNativeTarget "LexaWidget" */;
+			buildPhases = (
+				7CFB6A62F0CA232B685FA90B /* Sources */,
+				510828343CE2D3B6A2FE7C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LexaWidget;
+			packageProductDependencies = (
+			);
+			productName = LexaWidget;
+			productReference = 53A11CD83F68AEEAE48541F2 /* LexaWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C72B3805FE85DD9A688A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					56295D77BC87351311147D98 = {
+						ProvisioningStyle = Automatic;
+					};
+					AE36094D05A95AC8FDA36813 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6D9C765EA737C5F4B25E977D /* Build configuration list for PBXProject "Lexa" */;
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				tr,
+			);
+			mainGroup = 55AF528F50ED75C36779513D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1390270B5E8A9831F80024CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7C40A23FD1EC189384830354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56295D77BC87351311147D98 /* Lexa */,
+				AE36094D05A95AC8FDA36813 /* LexaWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510828343CE2D3B6A2FE7C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C429FD37401BC21135A96C77 /* IBMPlexSans.ttf in Resources */,
+				52EF9E039D33DD119F7A1D16 /* Newsreader-Italic.ttf in Resources */,
+				EF04FEB00D0EBF073102F517 /* Newsreader.ttf in Resources */,
+				FA9381FC83E0A20934D95C89 /* OFL-IBMPlexSans.txt in Resources */,
+				96A87B4E9708BA9C49A4F182 /* OFL-Newsreader.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5CDD477D1BC36F48C9CAD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCE78D5BCAE7B49BC0522B /* Assets.xcassets in Resources */,
+				0E5F37D0B52BF4A0A03C4F24 /* GoogleService-Info.plist in Resources */,
+				B9F4B01D4765084F6A43480B /* IBMPlexSans.ttf in Resources */,
+				49BA20D80B143B33740343BF /* Newsreader-Italic.ttf in Resources */,
+				9A4BE24FC4881757A150682C /* Newsreader.ttf in Resources */,
+				590D5EDAB5064790E6C5BCB7 /* OFL-IBMPlexSans.txt in Resources */,
+				13B90D5C1CFAC9126F7757F3 /* OFL-Newsreader.txt in Resources */,
+				1CD088830AE4B8E213E002D8 /* words.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A22675734998C4F4CADFB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640820284824AD3EBEF6C9C9 /* AppState.swift in Sources */,
+				D7413AAFEF436C4A0D5BBC15 /* AuthFlowView.swift in Sources */,
+				A0C582DD2F98B3DC8B64E5B3 /* AuthService.swift in Sources */,
+				7BEDE1A1E1B4B61E3E4C7153 /* AuthViewModel.swift in Sources */,
+				F2995B88EA75DFDF63C8AE04 /* Controls.swift in Sources */,
+				5C71907150625A67714B0BF6 /* DebugLaunch.swift in Sources */,
+				CB7B6306A751A63D7213E751 /* DeckViews.swift in Sources */,
+				27044D59639FC8F3DB7B4FBD /* DeviceServices.swift in Sources */,
+				D1F8004D3F5C555D411196DB /* DictionaryService.swift in Sources */,
+				8B63A9AA46CB5633CA0015B9 /* ExploreView.swift in Sources */,
+				40F6589B464846F7615C2B38 /* ExploreViewModel.swift in Sources */,
+				5C70C2FB43D0A05C4C576637 /* Headers.swift in Sources */,
+				BEC5E33F25D33D2C2773D85C /* LandingView.swift in Sources */,
+				EE46EF4C3482AC4C98E858BF /* LearningOptions.swift in Sources */,
+				8F01F218C8B000B3EB8DBD13 /* LexaApp.swift in Sources */,
+				D277A01F0DF6A2B4BB58EEA5 /* LexaButtonStyle.swift in Sources */,
+				10B9BCED1267576D0DF3AB72 /* LexaPalette.swift in Sources */,
+				0988C60111FEF2CCE966A277 /* OnboardingView.swift in Sources */,
+				FDC0BAE7848B52E6E16384A5 /* OnboardingViewModel.swift in Sources */,
+				428CA1B4308C2DE46734227F /* PracticeView.swift in Sources */,
+				8BC4B8D79BC081B5410C0AD8 /* PracticeViewModel.swift in Sources */,
+				E4194E6FCB89D1C5198CCF54 /* PreferenceSheets.swift in Sources */,
+				C27C3C77F33A639CC40B6E95 /* PreferencesViewModel.swift in Sources */,
+				CC375CB400DEB1C7B5446823 /* PreviewSupport.swift in Sources */,
+				899A4FC91825432D49A17EE3 /* ProfileView.swift in Sources */,
+				940525131ACDB530C59ADDF1 /* QuizQuestion.swift in Sources */,
+				0660BC883191DDA2E5472220 /* QuizSessionView.swift in Sources */,
+				EB23C071BFB8BDBBB7B6FA33 /* QuizSessionViewModel.swift in Sources */,
+				EDE4505DD9F1FDE3E1280CA1 /* ReadyView.swift in Sources */,
+				A721775B936E927F2865940A /* RootView.swift in Sources */,
+				4417C171872ED73EC77003FF /* SettingsScreens.swift in Sources */,
+				E8EB881D3921281A296A47DC /* Theme.swift in Sources */,
+				6462101A1230D15521A469A9 /* TodayView.swift in Sources */,
+				E7A003FA1BDB3F4395C1E62C /* TodayViewModel.swift in Sources */,
+				EA72E26CB675AF37D552582C /* UserData.swift in Sources */,
+				BC460A5DEEA33A34979FC757 /* UserRepository.swift in Sources */,
+				6120B2AAFA567A7BA51260C9 /* WidgetSnapshot.swift in Sources */,
+				CD2729EACB092F4CFDBB9DDE /* WidgetsView.swift in Sources */,
+				91E9A66CA96EA995E396F09A /* Word.swift in Sources */,
+				94F6CFDD78B400BE92B49521 /* WordRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFB6A62F0CA232B685FA90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51926A0E5ADC4BFB9A205F1F /* LexaPalette.swift in Sources */,
+				328D73040B59A39D1F80DD2A /* LexaWidget.swift in Sources */,
+				B8522A6301411CDC28497397 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E0FBA88F0A7501703F8839A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE36094D05A95AC8FDA36813 /* LexaWidget */;
+			targetProxy = A05D68B476D97515B52560B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14368AEFCC5336601A192DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8Q64FT72X7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexa;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		64E39A25751AD1238FF82557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A466452305675CA1DDE669C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8Q64FT72X7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexa;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A589249F00F9D90AF97FF709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LexaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexa.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AC969668F0B64A7F7789A681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LexaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexa.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA4FD3F2BC8354BC7CFF345F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EBEDE5BD72D16A721E025B5 /* Build configuration list for PBXNativeTarget "LexaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC969668F0B64A7F7789A681 /* Debug */,
+				A589249F00F9D90AF97FF709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D9C765EA737C5F4B25E977D /* Build configuration list for PBXProject "Lexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4FD3F2BC8354BC7CFF345F /* Debug */,
+				64E39A25751AD1238FF82557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95A0F0FB887A5AEF206218BB /* Build configuration list for PBXNativeTarget "Lexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14368AEFCC5336601A192DFA /* Debug */,
+				A466452305675CA1DDE669C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1390270B5E8A9831F80024CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		151AA99F7A00759D51621199 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1390270B5E8A9831F80024CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5C75EBAF03CAE57ADFA94DEB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1390270B5E8A9831F80024CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 32C72B3805FE85DD9A688A78 /* Project object */;
+}

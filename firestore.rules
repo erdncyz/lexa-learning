@@ -1,0 +1,27 @@
+rules_version = '2';
+
+// LEXA — her kullanıcı yalnızca kendi dokümanını okuyup yazabilir.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly([
+          'displayName', 'onboarded', 'learnLang', 'level', 'goal', 'exam', 'refresh',
+          'notifyOn', 'notifyHour', 'notifyMinute',
+          'known', 'learning', 'saved', 'customWords', 'decks',
+          'todayWordId', 'todayWordShownAt',
+          'dailyPractice', 'journeyDone', 'widgetMode', 'updatedAt'
+        ])
+        && request.resource.data.known.size() <= 5000
+        && request.resource.data.saved.size() <= 5000
+        && request.resource.data.customWords.size() <= 2000;
+    }
+
+    // Diğer her şey kapalı.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
