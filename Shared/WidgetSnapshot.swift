@@ -22,7 +22,7 @@ struct WidgetSnapshot: Codable, Equatable {
 }
 
 enum SharedStore {
-    static let appGroup = "group.com.lexa"
+    static let appGroup = "group.com.lexa-learning.app"
     private static let fileName = "widget-snapshot.json"
 
     private static var fileURL: URL? {
