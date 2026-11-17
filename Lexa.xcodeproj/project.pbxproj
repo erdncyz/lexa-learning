@@ -130,7 +130,7 @@
 		942CAEE484C326FA0D26E5F5 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
 		983DAF444962DE3894BCC31C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		989BF5271B32C72064ABFBEF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		9C0FB104E5B9602A62217344 /* Lexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0FB104E5B9602A62217344 /* Lexa.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8F572784CA6C8E4A6B735E /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
 		A1C75258891D89C83A0E8F8D /* SettingsScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreens.swift; sourceTree = "<group>"; };
 		A8393EB3411020BCD2FCE76B /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
@@ -446,10 +446,11 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					56295D77BC87351311147D98 = {
+						DevelopmentTeam = H75Z7U427Y;
 						ProvisioningStyle = Automatic;
 					};
 					AE36094D05A95AC8FDA36813 = {
-						DevelopmentTeam = "";
+						DevelopmentTeam = H75Z7U427Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -581,8 +582,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H75Z7U427Y;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Lexa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -632,7 +632,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H75Z7U427Y;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -661,8 +661,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H75Z7U427Y;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Lexa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -679,8 +678,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H75Z7U427Y;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LexaWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -699,8 +696,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H75Z7U427Y;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LexaWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -752,7 +747,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H75Z7U427Y;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;

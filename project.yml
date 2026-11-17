@@ -1,6 +1,6 @@
 name: Lexa
 options:
-  bundleIdPrefix: com.lexa
+  bundleIdPrefix: com.lexa-learning.app
   deploymentTarget:
     iOS: "17.0"
   createIntermediateGroups: true
@@ -11,7 +11,7 @@ settings:
     SWIFT_VERSION: "5.0"
     MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
-    DEVELOPMENT_TEAM: ""
+    DEVELOPMENT_TEAM: H75Z7U427Y
     CODE_SIGN_STYLE: Automatic
     ENABLE_USER_SCRIPT_SANDBOXING: YES
 
@@ -38,7 +38,7 @@ targets:
       path: Lexa/Lexa.entitlements
       properties:
         com.apple.security.application-groups:
-          - group.com.lexa
+          - group.com.lexa-learning.app
     info:
       path: Lexa/Info.plist
       properties:
@@ -55,7 +55,7 @@ targets:
         ITSAppUsesNonExemptEncryption: false
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.lexa
+        PRODUCT_BUNDLE_IDENTIFIER: com.lexa-learning.app
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: NO
@@ -72,7 +72,7 @@ targets:
       path: LexaWidget/LexaWidget.entitlements
       properties:
         com.apple.security.application-groups:
-          - group.com.lexa
+          - group.com.lexa-learning.app
     info:
       path: LexaWidget/Info.plist
       properties:
@@ -84,7 +84,7 @@ targets:
           - IBMPlexSans.ttf
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.lexa.widget
+        PRODUCT_BUNDLE_IDENTIFIER: com.lexa-learning.app.widget
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: NO
         SKIP_INSTALL: YES

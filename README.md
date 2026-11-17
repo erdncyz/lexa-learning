@@ -38,7 +38,7 @@ open Lexa.xcodeproj        # "Lexa" şemasını seç, ⌘R
 
 > `Lexa.xcodeproj` dosyası `project.yml`'den üretilir. Yeni dosya eklediğinde `xcodegen generate` komutunu tekrar çalıştır.
 
-**Gerçek cihazda çalıştırmak için:** Xcode → *Signing & Capabilities* → her iki hedefte (Lexa, LexaWidget) kendi **Team**'ini seç. Widget'ın uygulamayla veri paylaşması `group.com.lexa` App Group'una bağlıdır.
+**Gerçek cihazda çalıştırmak için:** Xcode → *Signing & Capabilities* → her iki hedefte (Lexa, LexaWidget) kendi **Team**'ini seç. Widget'ın uygulamayla veri paylaşması `group.com.lexa-learning.app` App Group'una bağlıdır.
 
 ---
 
@@ -124,8 +124,8 @@ firebase deploy --only firestore,auth --project lexa-learning
 Uygulamayı örnek verilerle doğrudan istenen ekranda açar:
 
 ```bash
-xcrun simctl launch booted com.lexa -lexaDemo today      # today | explore | practice | drills | done | widgets | profile
-xcrun simctl launch booted com.lexa -lexaOnboarding 0    # kurulum akışı
+xcrun simctl launch booted com.lexa-learning.app -lexaDemo today      # today | explore | practice | drills | done | widgets | profile
+xcrun simctl launch booted com.lexa-learning.app -lexaOnboarding 0    # kurulum akışı
 ```
 
 `done` → bugünkü pratiği tamamlanmış hâliyle açar.
