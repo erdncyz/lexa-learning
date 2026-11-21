@@ -449,11 +449,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					56295D77BC87351311147D98 = {
-						DevelopmentTeam = H75Z7U427Y;
 						ProvisioningStyle = Automatic;
 					};
 					AE36094D05A95AC8FDA36813 = {
-						DevelopmentTeam = H75Z7U427Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -587,7 +585,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = H75Z7U427Y;
+				DEVELOPMENT_TEAM = 8Q64FT72X7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Lexa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -667,7 +665,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = H75Z7U427Y;
+				DEVELOPMENT_TEAM = 8Q64FT72X7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Lexa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -685,7 +683,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H75Z7U427Y;
+				DEVELOPMENT_TEAM = 8Q64FT72X7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LexaWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -705,7 +703,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H75Z7U427Y;
+				DEVELOPMENT_TEAM = 8Q64FT72X7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LexaWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
