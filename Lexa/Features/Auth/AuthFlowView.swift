@@ -1,4 +1,5 @@
 import SwiftUI
+import AuthenticationServices
 
 /// Giriş / kayıt / şifre sıfırlama akışı.
 struct AuthFlowView: View {
@@ -78,6 +79,13 @@ private struct AuthFormView: View {
                 .buttonStyle(.lexaPrimary)
                 .disabled(!viewModel.canSubmit(screen))
 
+                if screen != .reset {
+                    orDivider
+                    AppleSignInButton(label: screen == .login ? .signIn : .continue, isDisabled: viewModel.isLoading) { result, nonce in
+                        Task { await viewModel.signInWithApple(result, nonce: nonce) }
+                    }
+                }
+
                 switchLine
             }
             .padding(.horizontal, LexaSpacing.gutter)
@@ -137,6 +145,15 @@ private struct AuthFormView: View {
                     .frame(maxWidth: .infinity, alignment: .trailing)
             }
         }
+    }
+
+    private var orDivider: some View {
+        HStack(spacing: LexaSpacing.s) {
+            Rectangle().fill(LexaColor.line.opacity(0.6)).frame(height: 1)
+            Text("veya").font(LexaFont.ui(14)).foregroundStyle(LexaColor.ink2)
+            Rectangle().fill(LexaColor.line.opacity(0.6)).frame(height: 1)
+        }
+        .accessibilityHidden(true)
     }
 
     @ViewBuilder
@@ -224,5 +241,30 @@ struct AuthTextField: View {
                 Text(error).font(LexaFont.ui(13)).foregroundStyle(LexaColor.dangerInk)
             }
         }
+    }
+}
+
+/// Apple'ın resmi "Apple ile Giriş" butonu; her istekte yeni nonce üretir.
+struct AppleSignInButton: View {
+    var label: SignInWithAppleButton.Label = .continue
+    var isDisabled = false
+    let onCompletion: (Result<ASAuthorization, Error>, AppleNonce) -> Void
+
+    @State private var nonce = AppleNonce()
+    @Environment(\.colorScheme) private var colorScheme
+
+    var body: some View {
+        SignInWithAppleButton(label) { request in
+            nonce = AppleNonce()
+            request.requestedScopes = [.fullName, .email]
+            request.nonce = nonce.sha256
+        } onCompletion: { result in
+            onCompletion(result, nonce)
+        }
+        .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+        .frame(height: 52)
+        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .disabled(isDisabled)
+        .opacity(isDisabled ? 0.6 : 1)
     }
 }

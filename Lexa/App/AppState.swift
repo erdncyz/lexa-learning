@@ -138,6 +138,32 @@ final class AppState {
     func signOut() {
         try? auth.signOut()
         remoteSaveTask?.cancel()
+        resetSession()
+    }
+
+    /// Hesabı kalıcı olarak siler: önce şifre ya da Apple ile yeniden doğrular, sonra
+    /// Firestore verisini, Firebase Auth hesabını ve cihazdaki kopyayı temizler.
+    func deleteAccount(reauth method: ReauthMethod) async throws {
+        guard let uid = user?.uid else { return }
+        try await auth.reauthenticate(method)
+        // Bekleyen kayıt, silinen dokümanı yeniden oluşturmasın.
+        remoteSaveTask?.cancel()
+        remoteSaveTask = nil
+        do {
+            try await repository.delete(uid: uid)
+        } catch {
+            throw AuthFailure.message("Verilerin silinemedi. İnternetini kontrol edip tekrar dene.")
+        }
+        var appleCode: String?
+        if case .apple(let credential) = method { appleCode = credential.authorizationCode }
+        try await auth.deleteCurrentUser(appleAuthorizationCode: appleCode)
+        LocalStore.remove(key: uid)
+        notifications.cancel()
+        resetSession()
+        showToast(ToastMessage(title: "Hesabın silindi", detail: "Tüm verilerin kaldırıldı.", symbol: "trash"))
+    }
+
+    private func resetSession() {
         user = nil
         isGuest = false
         data = UserData()

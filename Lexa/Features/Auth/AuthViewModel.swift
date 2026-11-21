@@ -1,5 +1,6 @@
 import Foundation
 import Observation
+import AuthenticationServices
 
 enum AuthScreen: Hashable {
     case login
@@ -61,6 +62,36 @@ final class AuthViewModel {
                 && password.count >= 6 && password == password2
         case .reset:
             return Self.isValidEmail(trimmedEmail)
+        }
+    }
+
+    // MARK: Apple ile giriş
+
+    func signInWithApple(_ result: Result<ASAuthorization, Error>, nonce: AppleNonce) async {
+        errorMessage = nil
+        infoMessage = nil
+        switch result {
+        case .failure(let error):
+            // Kullanıcı Apple penceresini kapattıysa hata gösterme.
+            if (error as? ASAuthorizationError)?.code == .canceled { return }
+            errorMessage = "Apple ile giriş yapılamadı. Lütfen tekrar dene."
+        case .success(let authorization):
+            guard let credential = AppleCredential(authorization: authorization, rawNonce: nonce.raw) else {
+                errorMessage = "Apple ile giriş yapılamadı. Lütfen tekrar dene."
+                return
+            }
+            isLoading = true
+            defer { isLoading = false }
+            do {
+                let (user, isNew) = try await app.auth.signInWithApple(credential)
+                if isNew, let name = user.displayName, !name.isEmpty {
+                    app.update { $0.displayName = name }
+                }
+                await app.didAuthenticate(user, isNewAccount: isNew)
+                onSuccess()
+            } catch {
+                errorMessage = error.localizedDescription
+            }
         }
     }
 

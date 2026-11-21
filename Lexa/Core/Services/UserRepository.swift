@@ -4,6 +4,7 @@ import FirebaseFirestore
 protocol UserRepositing: Sendable {
     func load(uid: String) async throws -> UserData?
     func save(_ data: UserData, uid: String) async throws
+    func delete(uid: String) async throws
 }
 
 /// Firestore: `users/{uid}` — kullanıcı başına tek doküman.
@@ -20,6 +21,10 @@ final class FirestoreUserRepository: UserRepositing {
 
     func save(_ data: UserData, uid: String) async throws {
         try db.collection("users").document(uid).setData(from: data)
+    }
+
+    func delete(uid: String) async throws {
+        try await db.collection("users").document(uid).delete()
     }
 }
 

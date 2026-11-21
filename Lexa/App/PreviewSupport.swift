@@ -7,11 +7,17 @@ final class PreviewAuthService: AuthServicing {
     func signUp(name: String, email: String, password: String) async throws -> AuthUser { AuthUser(uid: "preview", email: email, displayName: name) }
     func sendPasswordReset(email: String) async throws {}
     func signOut() throws {}
+    func signInWithApple(_ credential: AppleCredential) async throws -> (user: AuthUser, isNew: Bool) {
+        (AuthUser(uid: "preview", email: nil, displayName: "Ada", isAppleUser: true), false)
+    }
+    func reauthenticate(_ method: ReauthMethod) async throws {}
+    func deleteCurrentUser(appleAuthorizationCode: String?) async throws {}
 }
 
 struct PreviewUserRepository: UserRepositing {
     func load(uid: String) async throws -> UserData? { nil }
     func save(_ data: UserData, uid: String) async throws {}
+    func delete(uid: String) async throws {}
 }
 
 struct PreviewDictionary: DictionaryServicing {
