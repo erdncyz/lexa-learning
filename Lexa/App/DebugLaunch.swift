@@ -3,8 +3,8 @@ import Foundation
 
 /// QA / ekran görüntüsü için başlatma parametreleri (yalnızca Debug derleme).
 ///
-///     xcrun simctl launch <cihaz> com.yelizakdag.lexa -lexaDemo practice
-///     xcrun simctl launch <cihaz> com.yelizakdag.lexa -lexaOnboarding
+///     xcrun simctl launch <cihaz> com.lexa-learning.app -lexaDemo practice
+///     xcrun simctl launch <cihaz> com.lexa-learning.app -lexaOnboarding
 ///
 /// `-lexaDemo <sekme>`: misafir + örnek verilerle doğrudan sekmeyi açar
 /// (today, explore, practice, drills, widgets, profile).
