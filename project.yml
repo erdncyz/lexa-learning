@@ -37,8 +37,6 @@ targets:
         product: FirebaseFirestore
       - package: GoogleSignIn
         product: GoogleSignIn
-      - package: GoogleSignIn
-        product: GoogleSignInSwift
       - target: LexaWidget
         embed: true
     entitlements:

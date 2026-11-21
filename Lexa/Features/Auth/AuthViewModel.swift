@@ -34,12 +34,20 @@ final class AuthViewModel {
     // MARK: Doğrulama
 
     private var trimmedEmail: String { email.trimmingCharacters(in: .whitespaces) }
+    /// Fazla boşluklar tek boşluğa indirilir: "  Yeliz   Akdağ " → "Yeliz Akdağ"
+    private var cleanName: String { name.split(whereSeparator: \.isWhitespace).joined(separator: " ") }
+
+    /// En az iki kelime (ad + soyad).
+    static func hasFullName(_ value: String) -> Bool {
+        value.split(whereSeparator: \.isWhitespace).count >= 2
+    }
 
     func error(for field: Field, screen: AuthScreen) -> String? {
         guard touched.contains(field) else { return nil }
         switch field {
         case .name:
-            return name.trimmingCharacters(in: .whitespaces).isEmpty ? "Adını yaz." : nil
+            if cleanName.isEmpty { return "Adını ve soyadını yaz." }
+            return Self.hasFullName(cleanName) ? nil : "Soyadını da yaz."
         case .email:
             if trimmedEmail.isEmpty { return "E-posta adresini yaz." }
             return Self.isValidEmail(trimmedEmail) ? nil : "Geçerli bir e-posta adresi yaz."
@@ -58,7 +66,7 @@ final class AuthViewModel {
         case .login:
             return Self.isValidEmail(trimmedEmail) && !password.isEmpty
         case .signup:
-            return !name.trimmingCharacters(in: .whitespaces).isEmpty && Self.isValidEmail(trimmedEmail)
+            return Self.hasFullName(cleanName) && Self.isValidEmail(trimmedEmail)
                 && password.count >= 6 && password == password2
         case .reset:
             return Self.isValidEmail(trimmedEmail)
@@ -142,7 +150,6 @@ final class AuthViewModel {
                 await app.didAuthenticate(user, isNewAccount: false)
                 onSuccess()
             case .signup:
-                let cleanName = name.trimmingCharacters(in: .whitespaces)
                 let user = try await app.auth.signUp(name: cleanName, email: trimmedEmail, password: password)
                 app.update { $0.displayName = cleanName }
                 await app.didAuthenticate(user, isNewAccount: true)

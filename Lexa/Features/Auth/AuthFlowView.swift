@@ -1,6 +1,5 @@
 import SwiftUI
 import AuthenticationServices
-import GoogleSignInSwift
 
 /// Giriş / kayıt / şifre sıfırlama akışı.
 struct AuthFlowView: View {
@@ -82,7 +81,7 @@ private struct AuthFormView: View {
 
                 if screen != .reset {
                     orDivider
-                    AppleSignInButton(label: screen == .login ? .signIn : .continue, isDisabled: viewModel.isLoading) { result, nonce in
+                    AppleSignInButton(isDisabled: viewModel.isLoading) { result, nonce in
                         Task { await viewModel.signInWithApple(result, nonce: nonce) }
                     }
                     GoogleButton(isDisabled: viewModel.isLoading) {
@@ -129,7 +128,7 @@ private struct AuthFormView: View {
     private var fields: some View {
         VStack(alignment: .leading, spacing: LexaSpacing.m) {
             if case .signup = screen {
-                AuthTextField(label: "Ad", text: $viewModel.name, error: viewModel.error(for: .name, screen: screen),
+                AuthTextField(label: "Ad Soyad", text: $viewModel.name, error: viewModel.error(for: .name, screen: screen),
                               content: .name, focus: $focus, field: .name) { viewModel.touched.insert(.name) }
             }
             AuthTextField(label: "E-posta adresi", text: $viewModel.email, error: viewModel.error(for: .email, screen: screen),
@@ -235,8 +234,8 @@ struct AuthTextField: View {
             }
             .padding(.horizontal, 14)
             .frame(minHeight: 52)
-            .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(Color.white.opacity(0.55)))
-            .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(error == nil ? Color.white.opacity(0.9) : LexaColor.danger, lineWidth: error == nil ? 1 : 1.5))
+            .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(LexaColor.glass.opacity(0.55)))
+            .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(error == nil ? LexaColor.glass.opacity(0.9) : LexaColor.danger, lineWidth: error == nil ? 1 : 1.5))
             .onChange(of: focus.wrappedValue) { old, new in
                 if old == field && new != field { onCommit() }
             }
@@ -248,44 +247,113 @@ struct AuthTextField: View {
     }
 }
 
-/// Apple'ın resmi "Apple ile Giriş" butonu; her istekte yeni nonce üretir.
-struct AppleSignInButton: View {
-    var label: SignInWithAppleButton.Label = .continue
-    var isDisabled = false
-    let onCompletion: (Result<ASAuthorization, Error>, AppleNonce) -> Void
+/// Apple / Google butonları için ortak stil: uygulamanın ikincil butonuyla aynı cam kapsül.
+struct SocialButtonStyle: ButtonStyle {
+    @Environment(\.isEnabled) private var isEnabled
 
-    @State private var nonce = AppleNonce()
-    @Environment(\.colorScheme) private var colorScheme
-
-    var body: some View {
-        SignInWithAppleButton(label) { request in
-            nonce = AppleNonce()
-            request.requestedScopes = [.fullName, .email]
-            request.nonce = nonce.sha256
-        } onCompletion: { result in
-            onCompletion(result, nonce)
-        }
-        .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
-        .frame(height: 52)
-        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
-        .disabled(isDisabled)
-        .opacity(isDisabled ? 0.6 : 1)
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .font(LexaFont.ui(16, weight: .semibold))
+            .foregroundStyle(LexaColor.ink)
+            .frame(maxWidth: .infinity, minHeight: 52)
+            .background(Capsule().fill(LexaColor.glass.opacity(configuration.isPressed ? 0.8 : 0.55)))
+            .overlay(Capsule().strokeBorder(LexaColor.glass.opacity(0.9)))
+            .contentShape(Capsule())
+            .opacity(isEnabled ? 1 : 0.55)
+            .scaleEffect(configuration.isPressed ? 0.98 : 1)
+            .animation(LexaMotion.fast, value: configuration.isPressed)
     }
 }
 
-/// Google'ın resmi "Google ile giriş" butonu (marka kurallarına uygun).
-struct GoogleButton: View {
+/// "Apple ile devam et" — uygulama tasarımında; her istekte yeni nonce üretir.
+struct AppleSignInButton: View {
+    var title = "Apple ile devam et"
     var isDisabled = false
-    let action: () -> Void
-    @Environment(\.colorScheme) private var colorScheme
+    let onCompletion: (Result<ASAuthorization, Error>, AppleNonce) -> Void
 
     var body: some View {
-        GoogleSignInButton(
-            scheme: colorScheme == .dark ? .dark : .light,
-            style: .wide,
-            state: isDisabled ? .disabled : .normal,
-            action: action
-        )
-        .accessibilityLabel("Google ile Devam Et")
+        Button {
+            Task {
+                let nonce = AppleNonce()
+                do {
+                    let authorization = try await AppleSignInFlow.run(nonce: nonce)
+                    onCompletion(.success(authorization), nonce)
+                } catch {
+                    onCompletion(.failure(error), nonce)
+                }
+            }
+        } label: {
+            HStack(spacing: 10) {
+                Image(systemName: "apple.logo").font(.system(size: 19, weight: .medium))
+                Text(title)
+            }
+        }
+        .buttonStyle(SocialButtonStyle())
+        .disabled(isDisabled)
+    }
+}
+
+/// "Google ile devam et" — uygulama tasarımında, resmi renkli G logosuyla.
+struct GoogleButton: View {
+    var title = "Google ile devam et"
+    var isDisabled = false
+    let action: () -> Void
+
+    var body: some View {
+        Button(action: action) {
+            HStack(spacing: 10) {
+                Image("GoogleG").resizable().scaledToFit().frame(width: 19, height: 19)
+                Text(title)
+            }
+        }
+        .buttonStyle(SocialButtonStyle())
+        .disabled(isDisabled)
+    }
+}
+
+/// Apple giriş penceresini kodla açar (özel tasarımlı buton için).
+@MainActor
+private final class AppleSignInFlow: NSObject, ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding {
+    private var continuation: CheckedContinuation<ASAuthorization, Error>?
+    /// İstek sürerken nesneyi canlı tutar (controller delegate'i zayıf tutar).
+    private static var current: AppleSignInFlow?
+
+    static func run(nonce: AppleNonce) async throws -> ASAuthorization {
+        let request = ASAuthorizationAppleIDProvider().createRequest()
+        request.requestedScopes = [.fullName, .email]
+        request.nonce = nonce.sha256
+        let flow = AppleSignInFlow()
+        current = flow
+        defer { current = nil }
+        return try await withCheckedThrowingContinuation { continuation in
+            flow.continuation = continuation
+            let controller = ASAuthorizationController(authorizationRequests: [request])
+            controller.delegate = flow
+            controller.presentationContextProvider = flow
+            controller.performRequests()
+        }
+    }
+
+    nonisolated func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
+        MainActor.assumeIsolated {
+            continuation?.resume(returning: authorization)
+            continuation = nil
+        }
+    }
+
+    nonisolated func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
+        MainActor.assumeIsolated {
+            continuation?.resume(throwing: error)
+            continuation = nil
+        }
+    }
+
+    nonisolated func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
+        MainActor.assumeIsolated {
+            UIApplication.shared.connectedScenes
+                .compactMap { $0 as? UIWindowScene }
+                .flatMap(\.windows)
+                .first(where: \.isKeyWindow) ?? ASPresentationAnchor()
+        }
     }
 }

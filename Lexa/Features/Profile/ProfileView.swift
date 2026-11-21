@@ -8,6 +8,7 @@ struct ProfileView: View {
     @State private var showAuth = false
     @State private var confirmSignOut = false
     @State private var showDeleteAccount = false
+    @AppStorage(AppAppearance.storageKey) private var appearance: AppAppearance = .system
 
     init(app: AppState) {
         _preferences = State(initialValue: PreferencesViewModel(app: app))
@@ -33,6 +34,16 @@ struct ProfileView: View {
 
                     VStack(alignment: .leading, spacing: 4) {
                         SectionTitle("Uygulama Ayarları").padding(.bottom, 4)
+                        Menu {
+                            Picker("Görünüm", selection: $appearance) {
+                                ForEach(AppAppearance.allCases) { mode in
+                                    Label(mode.title, systemImage: mode.symbol).tag(mode)
+                                }
+                            }
+                        } label: {
+                            rowLabel(symbol: "circle.lefthalf.filled", label: "Görünüm", value: appearance.title)
+                        }
+                        Divider().overlay(LexaColor.line.opacity(0.5))
                         NavigationLink(value: ProfileRoute.notifications) {
                             rowLabel(symbol: "bell", label: "Bildirimler", value: app.data.notifyOn ? "Açık" : "Kapalı")
                         }
@@ -132,7 +143,7 @@ struct ProfileView: View {
                 .font(.system(size: 14, weight: .medium))
                 .foregroundStyle(LexaColor.accent)
                 .frame(width: 28, height: 28)
-                .background(Circle().fill(Color.white.opacity(0.7)))
+                .background(Circle().fill(LexaColor.glass.opacity(0.7)))
             Text(label).font(LexaFont.ui(16, weight: .semibold)).foregroundStyle(LexaColor.ink)
             Spacer()
             if let value { Text(value).font(LexaFont.ui(15)).foregroundStyle(LexaColor.ink2) }
@@ -195,11 +206,11 @@ private struct DeleteAccountSheet: View {
                 if isDeleting {
                     ProgressView().frame(maxWidth: .infinity, minHeight: 52)
                 } else if provider == .apple {
-                    AppleSignInButton(label: .continue) { result, nonce in
+                    AppleSignInButton(title: "Apple ile doğrula") { result, nonce in
                         handleApple(result, nonce: nonce)
                     }
                 } else if provider == .google {
-                    GoogleButton { Task { await handleGoogle() } }
+                    GoogleButton(title: "Google ile doğrula") { Task { await handleGoogle() } }
                 } else {
                     Button("Hesabımı Kalıcı Olarak Sil") {
                         focus = nil
