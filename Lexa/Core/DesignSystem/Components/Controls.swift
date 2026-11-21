@@ -6,7 +6,7 @@ struct ChoiceCard: View {
     var subtitle: String?
     var symbol: String?
     var emoji: String?
-    var iconTint: Color = .white
+    var iconTint: Color = LexaColor.glass
     var cardTint: Color?
     let isSelected: Bool
     let action: () -> Void
@@ -55,7 +55,7 @@ struct RadioMark: View {
         ZStack {
             Circle()
                 .strokeBorder(isOn ? LexaColor.accent : LexaColor.line, lineWidth: 1.5)
-                .background(Circle().fill(isOn ? LexaColor.accent : Color.white.opacity(0.5)))
+                .background(Circle().fill(isOn ? LexaColor.accent : LexaColor.glass.opacity(0.5)))
             if isOn {
                 Image(systemName: "checkmark")
                     .font(.system(size: 11, weight: .bold))
@@ -107,8 +107,8 @@ struct SegmentedTabs<Value: Hashable>: View {
             }
         }
         .padding(4)
-        .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Color.white.opacity(0.5)))
-        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(Color.white.opacity(0.8)))
+        .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(LexaColor.glass.opacity(0.5)))
+        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(LexaColor.glass.opacity(0.8)))
     }
 }
 
@@ -127,7 +127,7 @@ struct SettingRow: View {
                         .font(.system(size: 14, weight: .medium))
                         .foregroundStyle(LexaColor.accent)
                         .frame(width: 28, height: 28)
-                        .background(Circle().fill(Color.white.opacity(0.7)))
+                        .background(Circle().fill(LexaColor.glass.opacity(0.7)))
                 }
                 Text(label)
                     .font(LexaFont.ui(16, weight: .semibold))

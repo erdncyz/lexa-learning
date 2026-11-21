@@ -150,7 +150,7 @@ private struct NotificationPreview: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack(spacing: 8) {
-                Text("L").font(LexaFont.ui(13, weight: .bold)).foregroundStyle(.white)
+                Text("L").font(LexaFont.ui(13, weight: .bold)).foregroundStyle(LexaColor.onAccent)
                     .frame(width: 26, height: 26)
                     .background(RoundedRectangle(cornerRadius: 7).fill(LexaColor.accent))
                 Text("Lexa").font(LexaFont.ui(15, weight: .semibold))

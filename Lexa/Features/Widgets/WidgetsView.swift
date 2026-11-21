@@ -81,7 +81,7 @@ struct WidgetPreviewStage: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 16)
-                .background(RoundedRectangle(cornerRadius: 20).fill(Color.white.opacity(0.75)))
+                .background(RoundedRectangle(cornerRadius: 20).fill(LexaColor.glass.opacity(0.75)))
             } else {
                 HStack(alignment: .top, spacing: LexaSpacing.m) {
                     VStack(alignment: .leading, spacing: 4) {
@@ -93,11 +93,11 @@ struct WidgetPreviewStage: View {
                     }
                     .padding(14)
                     .frame(width: 150, height: 150, alignment: .topLeading)
-                    .background(RoundedRectangle(cornerRadius: 24).fill(Color.white.opacity(0.85)))
+                    .background(RoundedRectangle(cornerRadius: 24).fill(LexaColor.glass.opacity(0.85)))
                     LazyVGrid(columns: Array(repeating: GridItem(.fixed(58), spacing: 14), count: 2), spacing: 14) {
                         ForEach(["safari", "photo", "message", "note.text"], id: \.self) { symbol in
                             Image(systemName: symbol)
-                                .foregroundStyle(.white)
+                                .foregroundStyle(LexaColor.onAccent)
                                 .frame(width: 58, height: 58)
                                 .background(RoundedRectangle(cornerRadius: 14).fill(LexaColor.accent.opacity(0.75)))
                         }

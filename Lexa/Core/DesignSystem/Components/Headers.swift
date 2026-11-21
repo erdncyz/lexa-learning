@@ -86,7 +86,7 @@ struct LevelTag: View {
         }
         .padding(.horizontal, 8)
         .padding(.vertical, 4)
-        .background(Capsule().fill(Color.white.opacity(0.6)))
+        .background(Capsule().fill(LexaColor.glass.opacity(0.6)))
     }
 }
 
@@ -100,6 +100,6 @@ struct StreakBadge: View {
             .foregroundStyle(LexaColor.ink)
             .padding(.horizontal, 12)
             .padding(.vertical, 6)
-            .background(Capsule().fill(Color.white.opacity(0.7)))
+            .background(Capsule().fill(LexaColor.glass.opacity(0.7)))
     }
 }

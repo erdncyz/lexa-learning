@@ -22,13 +22,18 @@ enum LexaColor {
     static let dangerInk = dynamic(light: 0x6E2420, dark: 0xF0C8C3)
     static let wall = Color(hex: 0x16181C)
 
-    // Pastel tonlar (kartlar, seviye kutuları, yolculuk noktaları)
-    static let mint = Color(red: 186 / 255, green: 228 / 255, blue: 214 / 255)
-    static let blue = Color(red: 186 / 255, green: 214 / 255, blue: 242 / 255)
-    static let lavender = Color(red: 214 / 255, green: 204 / 255, blue: 238 / 255)
-    static let pink = Color(red: 244 / 255, green: 198 / 255, blue: 216 / 255)
-    static let peach = Color(red: 246 / 255, green: 214 / 255, blue: 188 / 255)
-    static let cream = Color(red: 246 / 255, green: 236 / 255, blue: 208 / 255)
+    /// Cam yüzeyler, alanlar ve ikon daireleri için zemin: açıkta beyaz, koyuda koyu gri.
+    /// Kullanım: `LexaColor.glass.opacity(0.55)`
+    static let glass = dynamic(light: 0xFFFFFF, dark: 0x2B3038)
+
+    // Pastel tonlar (kartlar, seviye kutuları, yolculuk noktaları).
+    // Koyu modda, açık renkli yazının okunabilmesi için derin tonlara döner.
+    static let mint = dynamic(light: 0xBAE4D6, dark: 0x1F3D35)
+    static let blue = dynamic(light: 0xBAD6F2, dark: 0x1F3349)
+    static let lavender = dynamic(light: 0xD6CCEE, dark: 0x2F2947)
+    static let pink = dynamic(light: 0xF4C6D8, dark: 0x46273A)
+    static let peach = dynamic(light: 0xF6D6BC, dark: 0x47311F)
+    static let cream = dynamic(light: 0xF6ECD0, dark: 0x3E3722)
 
     static func level(_ code: String) -> Color {
         switch code {

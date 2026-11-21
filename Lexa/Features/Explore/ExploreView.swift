@@ -74,8 +74,8 @@ struct SearchField: View {
         }
         .padding(.horizontal, 16)
         .frame(minHeight: 52)
-        .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Color.white.opacity(0.55)))
-        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(Color.white.opacity(0.85)))
+        .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(LexaColor.glass.opacity(0.55)))
+        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(LexaColor.glass.opacity(0.85)))
     }
 }
 
@@ -201,7 +201,7 @@ private struct CollectionTile: View {
                     .font(.system(size: 15))
                     .foregroundStyle(LexaColor.accent)
                     .frame(width: 34, height: 34)
-                    .background(RoundedRectangle(cornerRadius: 10).fill(Color.white.opacity(0.8)))
+                    .background(RoundedRectangle(cornerRadius: 10).fill(LexaColor.glass.opacity(0.8)))
                 Text(kind.title).font(LexaFont.ui(17, weight: .semibold)).foregroundStyle(LexaColor.ink)
                 Text(kind.subtitle).font(LexaFont.ui(13)).foregroundStyle(LexaColor.ink2).fixedSize(horizontal: false, vertical: true)
                 Spacer(minLength: 8)
@@ -247,7 +247,7 @@ private struct DecksSection: View {
                                 Image(systemName: "square.stack.3d.up")
                                     .foregroundStyle(LexaColor.accent)
                                     .frame(width: 38, height: 38)
-                                    .background(RoundedRectangle(cornerRadius: 10).fill(Color.white.opacity(0.8)))
+                                    .background(RoundedRectangle(cornerRadius: 10).fill(LexaColor.glass.opacity(0.8)))
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text(deck.name).font(LexaFont.ui(16, weight: .semibold)).foregroundStyle(LexaColor.ink)
                                     Text("\(deck.wordIds.count) kelime").font(LexaFont.ui(13)).foregroundStyle(LexaColor.ink2)

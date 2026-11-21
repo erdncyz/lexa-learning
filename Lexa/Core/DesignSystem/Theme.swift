@@ -1,4 +1,51 @@
 import SwiftUI
+import UIKit
+
+/// Uygulama görünümü. Cihaza kaydedilir (giriş yapmadan da geçerli); varsayılan: telefonun ayarı.
+enum AppAppearance: String, CaseIterable, Identifiable {
+    case system, light, dark
+
+    static let storageKey = "lexa.appearance"
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .system: "Sistem"
+        case .light: "Açık"
+        case .dark: "Koyu"
+        }
+    }
+
+    var symbol: String {
+        switch self {
+        case .system: "iphone"
+        case .light: "sun.max"
+        case .dark: "moon"
+        }
+    }
+
+    private var style: UIUserInterfaceStyle {
+        switch self {
+        case .system: .unspecified
+        case .light: .light
+        case .dark: .dark
+        }
+    }
+
+    /// Tüm pencerelere uygular. `preferredColorScheme(nil)` "Sistem"e geri dönüşte
+    /// güvenilir çalışmadığı için pencere düzeyinde ayarlanır; sayfalar ve tam ekran
+    /// açılan ekranlar da bunu miras alır.
+    @MainActor
+    func apply() {
+        for scene in UIApplication.shared.connectedScenes {
+            guard let windowScene = scene as? UIWindowScene else { continue }
+            for window in windowScene.windows {
+                window.overrideUserInterfaceStyle = style
+            }
+        }
+    }
+}
 
 enum LexaSpacing {
     static let xs: CGFloat = 4
@@ -23,16 +70,13 @@ enum LexaMotion {
 }
 
 /// Prototipteki pastel degrade zemin (pembe → krem → lila → nane).
+/// Koyu modda tanıtım ekranındaki ışıklı zemini (`GlowBackground`) kullanır.
 struct PastelBackground: View {
     @Environment(\.colorScheme) private var scheme
 
     var body: some View {
         if scheme == .dark {
-            LinearGradient(
-                colors: [Color(hex: 0x1C1A22), Color(hex: 0x16191D), Color(hex: 0x141C1C)],
-                startPoint: .topLeading, endPoint: .bottomTrailing
-            )
-            .ignoresSafeArea()
+            GlowBackground(intensity: .soft)
         } else {
             ZStack {
                 LinearGradient(
@@ -44,6 +88,39 @@ struct PastelBackground: View {
             }
             .ignoresSafeArea()
         }
+    }
+}
+
+/// Koyu zemin üzerinde bulanık pembe, altın ve yeşil ışıklar.
+/// Tanıtım ekranı `.vivid`, içerik ekranları (kartlar okunaklı kalsın diye) `.soft` kullanır.
+struct GlowBackground: View {
+    enum Intensity {
+        case vivid, soft
+
+        var scale: Double { self == .vivid ? 1 : 0.7 }
+    }
+
+    var intensity: Intensity = .vivid
+
+    var body: some View {
+        GeometryReader { proxy in
+            let w = proxy.size.width
+            let h = proxy.size.height
+            ZStack {
+                LexaColor.wall
+                Circle().fill(Color(hex: 0xC86A8E).opacity(0.35 * intensity.scale))
+                    .frame(width: 340).blur(radius: 90)
+                    .position(x: w * 0.12, y: h * 0.18)
+                Circle().fill(Color(hex: 0xE5C46B).opacity(0.22 * intensity.scale))
+                    .frame(width: 300).blur(radius: 90)
+                    .position(x: w * 0.92, y: h * 0.42)
+                Circle().fill(Color(hex: 0x2F8A86).opacity(0.35 * intensity.scale))
+                    .frame(width: 360).blur(radius: 100)
+                    .position(x: w * 0.4, y: h * 0.86)
+            }
+        }
+        .ignoresSafeArea()
+        .accessibilityHidden(true)
     }
 }
 
@@ -61,11 +138,11 @@ struct GlassCardModifier: ViewModifier {
                     .fill(.ultraThinMaterial)
                     .overlay {
                         RoundedRectangle(cornerRadius: radius, style: .continuous)
-                            .fill((tint ?? Color.white).opacity(tint == nil ? 0.45 : 0.55))
+                            .fill((tint ?? LexaColor.glass).opacity(tint == nil ? 0.45 : 0.55))
                     }
                     .overlay {
                         RoundedRectangle(cornerRadius: radius, style: .continuous)
-                            .strokeBorder(Color.white.opacity(0.7), lineWidth: 1)
+                            .strokeBorder(LexaColor.glass.opacity(0.7), lineWidth: 1)
                     }
                     .shadow(color: Color(hex: 0x14171C).opacity(0.06), radius: 14, y: 6)
             }

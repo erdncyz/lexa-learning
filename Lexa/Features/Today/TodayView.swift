@@ -51,7 +51,7 @@ struct TodayView: View {
                 }
                 .foregroundStyle(LexaColor.ink)
                 .padding(.horizontal, 12).padding(.vertical, 6)
-                .background(Capsule().fill(Color.white.opacity(0.65)))
+                .background(Capsule().fill(LexaColor.glass.opacity(0.65)))
             }
             ScreenTitle(title: "Bugün")
         }
@@ -166,8 +166,8 @@ struct DecisionButtons: View {
                 .font(LexaFont.ui(16, weight: .semibold))
                 .foregroundStyle(on ? LexaColor.accentInk : LexaColor.ink)
                 .frame(maxWidth: .infinity, minHeight: 50)
-                .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(on ? tint : Color.white.opacity(0.5)))
-                .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(on ? LexaColor.accent.opacity(0.4) : Color.white.opacity(0.8)))
+                .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(on ? tint : LexaColor.glass.opacity(0.5)))
+                .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(on ? LexaColor.accent.opacity(0.4) : LexaColor.glass.opacity(0.8)))
                 .scaleEffect(on ? 1.02 : 1)
                 .animation(LexaMotion.spring, value: on)
         }
@@ -187,7 +187,7 @@ struct WidgetSetupLink: View {
                     .font(.system(size: 17))
                     .foregroundStyle(LexaColor.ink)
                     .frame(width: 40, height: 40)
-                    .background(RoundedRectangle(cornerRadius: 12).fill(Color.white.opacity(0.7)))
+                    .background(RoundedRectangle(cornerRadius: 12).fill(LexaColor.glass.opacity(0.7)))
                 VStack(alignment: .leading, spacing: 2) {
                     Text("Widget'ını kur").font(LexaFont.ui(16, weight: .semibold)).foregroundStyle(LexaColor.ink)
                     Text("Kelimeleri kilit ekranında ve ana ekranda gör.").font(LexaFont.ui(14)).foregroundStyle(LexaColor.ink2)

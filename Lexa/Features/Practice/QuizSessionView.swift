@@ -241,7 +241,7 @@ struct QuizOptionButton: View {
         switch state {
         case .correct: LexaColor.accentSoft.opacity(0.9)
         case .wrong: LexaColor.dangerSoft.opacity(0.9)
-        default: Color.white.opacity(0.55)
+        default: LexaColor.glass.opacity(0.55)
         }
     }
 
@@ -249,7 +249,7 @@ struct QuizOptionButton: View {
         switch state {
         case .correct: LexaColor.accent
         case .wrong: LexaColor.danger
-        default: Color.white.opacity(0.8)
+        default: LexaColor.glass.opacity(0.8)
         }
     }
 
@@ -357,14 +357,14 @@ struct MatchChip: View {
     private var fill: Color {
         if isMiss { return LexaColor.dangerSoft.opacity(0.9) }
         if isDone { return LexaColor.accentSoft.opacity(0.85) }
-        if isPicked { return Color.white.opacity(0.85) }
-        return Color.white.opacity(0.5)
+        if isPicked { return LexaColor.glass.opacity(0.85) }
+        return LexaColor.glass.opacity(0.5)
     }
 
     private var stroke: Color {
         if isMiss { return LexaColor.danger }
         if isPicked { return LexaColor.accent }
-        return Color.white.opacity(0.8)
+        return LexaColor.glass.opacity(0.8)
     }
 }
 
@@ -378,7 +378,7 @@ private struct QuizResultView: View {
                 .font(.system(size: 30, weight: .semibold))
                 .foregroundStyle(LexaColor.accent)
                 .frame(width: 88, height: 88)
-                .background(Circle().fill(Color.white.opacity(0.7)))
+                .background(Circle().fill(LexaColor.glass.opacity(0.7)))
                 .padding(.top, 24)
 
             Text(title)

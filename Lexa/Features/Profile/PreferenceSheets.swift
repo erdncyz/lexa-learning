@@ -85,7 +85,7 @@ struct LevelGrid: View {
                     .frame(maxWidth: .infinity, minHeight: 92, alignment: .leading)
                     .padding(.horizontal, 16)
                     .background(RoundedRectangle(cornerRadius: LexaRadius.tile, style: .continuous).fill(level.tint.opacity(0.75)))
-                    .overlay(RoundedRectangle(cornerRadius: LexaRadius.tile, style: .continuous).strokeBorder(on ? LexaColor.accent : Color.white.opacity(0.7), lineWidth: on ? 2.5 : 1))
+                    .overlay(RoundedRectangle(cornerRadius: LexaRadius.tile, style: .continuous).strokeBorder(on ? LexaColor.accent : LexaColor.glass.opacity(0.7), lineWidth: on ? 2.5 : 1))
                     .overlay(alignment: .topTrailing) {
                         if on { RadioMark(isOn: true).padding(10) }
                     }
@@ -136,8 +136,8 @@ struct GoalPicker: View {
                         }
                         .foregroundStyle(LexaColor.ink)
                         .padding(14)
-                        .background(RoundedRectangle(cornerRadius: 14).fill(Color.white.opacity(on ? 0.85 : 0.5)))
-                        .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(on ? LexaColor.accent : Color.white.opacity(0.8), lineWidth: on ? 2 : 1))
+                        .background(RoundedRectangle(cornerRadius: 14).fill(LexaColor.glass.opacity(on ? 0.85 : 0.5)))
+                        .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(on ? LexaColor.accent : LexaColor.glass.opacity(0.8), lineWidth: on ? 2 : 1))
                     }
                     .buttonStyle(PressableStyle())
                     .accessibilityAddTraits(on ? [.isSelected] : [])

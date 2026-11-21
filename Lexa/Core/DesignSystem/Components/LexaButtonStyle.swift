@@ -35,11 +35,11 @@ struct LexaButtonStyle: ButtonStyle {
     private func background(pressed: Bool) -> some View {
         switch kind {
         case .primary:
-            Capsule().fill(isEnabled ? (pressed ? LexaColor.accentPress : LexaColor.accent) : Color.white.opacity(0.45))
-                .overlay { if !isEnabled { Capsule().strokeBorder(Color.white.opacity(0.6)) } }
+            Capsule().fill(isEnabled ? (pressed ? LexaColor.accentPress : LexaColor.accent) : LexaColor.glass.opacity(0.45))
+                .overlay { if !isEnabled { Capsule().strokeBorder(LexaColor.glass.opacity(0.6)) } }
         case .secondary:
-            Capsule().fill(Color.white.opacity(pressed ? 0.75 : 0.55))
-                .overlay { Capsule().strokeBorder(Color.white.opacity(0.8)) }
+            Capsule().fill(LexaColor.glass.opacity(pressed ? 0.75 : 0.55))
+                .overlay { Capsule().strokeBorder(LexaColor.glass.opacity(0.8)) }
         case .quiet:
             Capsule().fill(LexaColor.accentSoft.opacity(pressed ? 0.9 : 0.6))
         case .ghost:
@@ -68,8 +68,8 @@ struct CircleIconButton: View {
                 .font(.system(size: 16, weight: .medium))
                 .foregroundStyle(LexaColor.ink)
                 .frame(width: 40, height: 40)
-                .background(Circle().fill(Color.white.opacity(0.6)))
-                .overlay(Circle().strokeBorder(Color.white.opacity(0.8)))
+                .background(Circle().fill(LexaColor.glass.opacity(0.6)))
+                .overlay(Circle().strokeBorder(LexaColor.glass.opacity(0.8)))
         }
         .buttonStyle(.plain)
         .accessibilityLabel(label)

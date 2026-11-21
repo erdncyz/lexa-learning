@@ -201,8 +201,8 @@ struct FormField<Content: View>: View {
                 .padding(.horizontal, 14)
                 .padding(.vertical, 12)
                 .frame(minHeight: 50)
-                .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(Color.white.opacity(0.6)))
-                .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(Color.white.opacity(0.9)))
+                .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(LexaColor.glass.opacity(0.6)))
+                .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).strokeBorder(LexaColor.glass.opacity(0.9)))
         }
     }
 }

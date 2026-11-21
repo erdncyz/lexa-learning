@@ -13,6 +13,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
 struct LexaApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) private var delegate
     @State private var app: AppState?
+    @AppStorage(AppAppearance.storageKey) private var appearance: AppAppearance = .system
 
     var body: some Scene {
         WindowGroup {
@@ -25,6 +26,8 @@ struct LexaApp: App {
             }
             // Google giriş penceresi kapandıktan sonra sonucu uygulamaya geri verir.
             .onOpenURL { url in _ = GIDSignIn.sharedInstance.handle(url) }
+            .onAppear { appearance.apply() }
+            .onChange(of: appearance) { _, mode in mode.apply() }
             .task {
                 // Firebase, AppDelegate'te yapılandırıldıktan sonra servisler oluşturulur.
                 guard app == nil else { return }

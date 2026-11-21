@@ -17,7 +17,7 @@ struct ReadyView: View {
                 .font(.system(size: 36, weight: .semibold))
                 .foregroundStyle(LexaColor.accent)
                 .frame(width: 100, height: 100)
-                .background(Circle().fill(Color.white.opacity(0.7)))
+                .background(Circle().fill(LexaColor.glass.opacity(0.7)))
                 .scaleEffect(appeared ? 1 : 0.6)
                 .opacity(appeared ? 1 : 0)
             VStack(spacing: 8) {
