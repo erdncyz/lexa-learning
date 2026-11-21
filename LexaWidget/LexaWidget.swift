@@ -15,19 +15,24 @@ struct WordProvider: TimelineProvider {
 
     func getSnapshot(in context: Context, completion: @escaping (WordEntry) -> Void) {
         let snapshot = SharedStore.read() ?? .placeholder
-        completion(WordEntry(date: .now, word: snapshot.entries.first ?? WidgetSnapshot.placeholder.entries[0]))
+        let word = snapshot.current(at: .now)?.entry ?? WidgetSnapshot.placeholder.entries[0]
+        completion(WordEntry(date: .now, word: word))
     }
 
+    /// Uygulamanın yazdığı takvimi izler; uygulama da Bugün kartında aynı hesabı (`current(at:)`) kullanır.
     func getTimeline(in context: Context, completion: @escaping (Timeline<WordEntry>) -> Void) {
         let snapshot = SharedStore.read() ?? .placeholder
-        let entries = snapshot.entries.isEmpty ? WidgetSnapshot.placeholder.entries : snapshot.entries
-        let step = TimeInterval(max(snapshot.refreshMinutes, 15) * 60)
         let now = Date()
-        // Aynı yenileme aralığında her zaman aynı kelime gösterilsin diye zamanı aralığa göre hizala.
-        let slot = Int(now.timeIntervalSince1970 / step)
-        let timeline = (0..<12).map { i -> WordEntry in
-            let date = Date(timeIntervalSince1970: TimeInterval(slot + i) * step)
-            return WordEntry(date: max(date, i == 0 ? now : date), word: entries[(slot + i) % entries.count])
+        guard let current = snapshot.current(at: now) else {
+            completion(Timeline(entries: [placeholder(in: context)], policy: .atEnd))
+            return
+        }
+        var timeline = [WordEntry(date: now, word: current.entry)]
+        for step in 1..<12 {
+            let date = current.start.addingTimeInterval(TimeInterval(step) * snapshot.interval)
+            if let next = snapshot.current(at: date) {
+                timeline.append(WordEntry(date: date, word: next.entry))
+            }
         }
         completion(Timeline(entries: timeline, policy: .atEnd))
     }

@@ -61,6 +61,8 @@ struct TodayView: View {
 /// Kaydırılabilir kelime kartı: sağa = Biliyorum, sola = Öğreneceğim.
 struct WordCard: View {
     let word: Word
+    /// Kartın üst etiketi: Bugün'de widget kelimesi, Pratik'te günün kelimesi.
+    var label = "WIDGET KELİMEN"
     let isSaved: Bool
     let status: TodayViewModel.Decision?
     let onSave: () -> Void
@@ -72,7 +74,7 @@ struct WordCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             HStack {
-                Text("WIDGET KELİMEN")
+                Text(label)
                     .font(LexaFont.ui(12, weight: .bold))
                     .tracking(1.2)
                     .foregroundStyle(LexaColor.accent)

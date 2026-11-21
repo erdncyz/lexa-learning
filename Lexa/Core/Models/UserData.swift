@@ -45,6 +45,8 @@ struct UserData: Codable, Equatable, Sendable {
     var effectiveLang: LearningLanguage { learnLang ?? .en }
     var effectiveLevel: Level { level ?? .b1 }
     var effectiveRefresh: RefreshOption { refresh ?? .hourly }
+    /// Öğrenme amacı “sınav” ise seçilen sınav; değilse nil (kelime önceliği için).
+    var effectiveExam: Exam? { goal == .exam ? exam : nil }
 }
 
 struct Deck: Codable, Identifiable, Hashable, Sendable {

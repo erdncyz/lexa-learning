@@ -70,7 +70,6 @@ final class AppState {
             phase = .landing
         }
         publishWidget()
-        Task { await refreshWords() }
     }
 
     /// Firebase Hosting'deki kelime setinde değişiklik varsa indirip uygular.
@@ -200,24 +199,74 @@ final class AppState {
 
     // MARK: - Bugünün kelimesi
 
-    /// Yenileme süresi dolduysa ya da dil/seviye değiştiyse yeni kelime seçer.
+    /// Bugünün kelimesi. Widget ile aynı takvimden okunur (bkz. `todaySchedule`),
+    /// böylece widget'a basıp uygulamayı açınca aynı kelime görünür.
     @discardableResult
     func syncTodayWord(now: Date = Date()) -> Word? {
-        let pool = words.todayPool(lang: data.effectiveLang, level: data.effectiveLevel)
-        guard !pool.isEmpty else { return nil }
-        let current = data.todayWordId.flatMap { id in pool.first { $0.id == id } }
-        let interval = TimeInterval(data.effectiveRefresh.rawValue * 60)
-        let due = data.todayWordShownAt.map { now.timeIntervalSince($0) >= interval } ?? true
-        if let current, !due { return current }
-
-        let known = Set(data.known)
-        let candidates = pool.filter { !known.contains($0.id) && $0.id != current?.id }
-        let next = candidates.randomElement() ?? pool.randomElement()!
-        update {
-            $0.todayWordId = next.id
-            $0.todayWordShownAt = now
+        guard let schedule = todaySchedule(now: now),
+              let current = schedule.current(at: now),
+              let id = current.entry.id,
+              let word = word(id: id) else { return nil }
+        WidgetBridge.publish(schedule)
+        if data.todayWordId != id || data.todayWordShownAt != current.start {
+            update {
+                $0.todayWordId = id
+                $0.todayWordShownAt = current.start
+            }
         }
-        return next
+        return word
+    }
+
+    private var scheduleKey: String {
+        [data.effectiveLang.rawValue, data.effectiveLevel.rawValue,
+         data.effectiveExam?.rawValue ?? "-", String(data.effectiveRefresh.rawValue)].joined(separator: "|")
+    }
+
+    /// Kelime takvimi: şu anki kelime + sıradaki kelimeler, her biri başlangıç zamanıyla.
+    /// - Ayarlar aynıysa şu anki kelime App Group'taki takvimden alınır (widget'ın gösterdiği kelime).
+    /// - Sıradaki kelimeler ayarlara ve başlangıç anına göre deterministik karıştırılır; “Biliyorum”
+    ///   denen kelimeler çıkarılır. Aynı girdiler hep aynı takvimi üretir (widget gereksiz yenilenmez).
+    func todaySchedule(now: Date = Date()) -> WidgetSnapshot? {
+        let pool = words.todayPool(lang: data.effectiveLang, level: data.effectiveLevel, exam: data.effectiveExam)
+        guard !pool.isEmpty else { return nil }
+        let key = scheduleKey
+        let interval = TimeInterval(max(data.effectiveRefresh.rawValue, 15) * 60)
+        let known = Set(data.known)
+
+        var current: Word
+        var start: Date
+        if let shared = SharedStore.read(), shared.scheduleKey == key,
+           let scheduled = shared.current(at: now), let id = scheduled.entry.id,
+           let word = pool.first(where: { $0.id == id }) {
+            current = word
+            start = scheduled.start
+        } else if let id = data.todayWordId, let word = pool.first(where: { $0.id == id }),
+                  let shownAt = data.todayWordShownAt, now.timeIntervalSince(shownAt) < interval {
+            // Takvim yok ama uygulamanın gösterdiği kelime hâlâ geçerli (ör. güncellemeden sonra ilk açılış).
+            current = word
+            start = shownAt
+        } else {
+            let candidates = pool.filter { !known.contains($0.id) }
+            current = (candidates.isEmpty ? pool : candidates).randomElement()!
+            start = now
+        }
+
+        var upcoming = pool.filter { $0.id != current.id && !known.contains($0.id) }
+        if upcoming.isEmpty { upcoming = pool.filter { $0.id != current.id } }
+        var generator = SeededGenerator(seed: Self.stableHash("\(key)|\(Int(start.timeIntervalSince1970))"))
+        upcoming.shuffle(using: &generator)
+
+        let entries = [current.widgetEntry(start: start)]
+            + upcoming.prefix(23).enumerated().map { offset, word in
+                word.widgetEntry(start: start.addingTimeInterval(TimeInterval(offset + 1) * interval))
+            }
+        return WidgetSnapshot(entries: entries, refreshMinutes: data.effectiveRefresh.rawValue,
+                              languageName: data.effectiveLang.name, scheduleKey: key)
+    }
+
+    /// Uygulama açılışları arasında değişmeyen hash (Swift'in `Hasher`'ı her açılışta farklıdır).
+    private static func stableHash(_ text: String) -> UInt64 {
+        text.utf8.reduce(0xcbf29ce484222325) { ($0 ^ UInt64($1)) &* 0x100000001b3 }
     }
 
     func word(id: String) -> Word? {
@@ -228,23 +277,99 @@ final class AppState {
 
     func publishWidget() {
         guard data.onboarded || phase == .main else { return }
-        var list = words.todayPool(lang: data.effectiveLang, level: data.effectiveLevel)
-        if let id = data.todayWordId, let today = list.first(where: { $0.id == id }) {
-            list.removeAll { $0.id == id }
-            list.insert(today, at: 0)
-        }
-        WidgetBridge.publish(words: list, refresh: data.effectiveRefresh, lang: data.effectiveLang)
+        if let schedule = todaySchedule() { WidgetBridge.publish(schedule) }
+        // Günün kelimesi planı da güncel kalsın (değişmediyse servis hiçbir şey yapmaz).
+        rescheduleNotification()
     }
 
     // MARK: - Bildirim
 
-    func rescheduleNotification() {
+    /// Günün kelimesi bildirimi — widget kelimesinden bağımsız.
+    /// Önümüzdeki 14 gün için, her güne kendi kelimesiyle, seçilen saatte birer bildirim kurulur.
+    func rescheduleNotification(now: Date = Date()) {
         guard data.notifyOn else {
             notifications.cancel()
             return
         }
-        let word = data.todayWordId.flatMap(word(id:))
-        notifications.scheduleDaily(hour: data.notifyHour, minute: data.notifyMinute, word: word)
+        _ = dailyWord(on: now)   // bugünün kelimesini sabitle (bildirimle aynı kalsın)
+        let calendar = Calendar.current
+        var plan: [NotificationService.DailyItem] = []
+        for offset in 0..<14 {
+            guard let day = calendar.date(byAdding: .day, value: offset, to: now),
+                  let fireDate = calendar.date(bySettingHour: data.notifyHour, minute: data.notifyMinute, second: 0, of: day),
+                  fireDate > now else { continue }
+            let word = dailyWord(on: day)
+            let body = word.map { "Günün kelimesi: \($0.term) — \($0.meaning)" } ?? "Bugünün kelimesi seni bekliyor."
+            plan.append(.init(
+                date: calendar.dateComponents([.year, .month, .day, .hour, .minute], from: fireDate),
+                wordId: word?.id,
+                body: body
+            ))
+        }
+        notifications.scheduleDaily(plan)
+    }
+
+    /// Günün kelimesi: tarihe göre belirlenir, günde bir değişir; widget takviminden bağımsızdır.
+    /// Dil/seviye/sınav aynı kaldıkça aynı sırayla ilerler; “Biliyorum” denen kelimeler atlanır.
+    /// Bugünün kelimesi cihazda sabitlenir: gün içinde “Biliyorum” denince değişmez ve bildirimle aynı kalır.
+    func dailyWord(on date: Date) -> Word? {
+        let pool = words.todayPool(lang: data.effectiveLang, level: data.effectiveLevel, exam: data.effectiveExam)
+        let key = [data.effectiveLang.rawValue, data.effectiveLevel.rawValue, data.effectiveExam?.rawValue ?? "-"].joined(separator: "|")
+        let day = DateKey.string(date)
+        let isToday = Calendar.current.isDateInToday(date)
+        if isToday,
+           let pin = UserDefaults.standard.dictionary(forKey: Self.dailyPinKey) as? [String: String],
+           pin["day"] == day, pin["key"] == key,
+           let word = pool.first(where: { $0.id == pin["id"] }) {
+            return word
+        }
+
+        let known = Set(data.known)
+        var candidates = pool.filter { !known.contains($0.id) }
+        if candidates.isEmpty { candidates = pool }
+        guard !candidates.isEmpty else { return nil }
+        var generator = SeededGenerator(seed: Self.stableHash("daily|\(key)"))
+        candidates.shuffle(using: &generator)
+        let dayNumber = Calendar.current.ordinality(of: .day, in: .era, for: date) ?? 0
+        let word = candidates[dayNumber % candidates.count]
+        if isToday {
+            UserDefaults.standard.set(["day": day, "key": key, "id": word.id], forKey: Self.dailyPinKey)
+        }
+        return word
+    }
+
+    private static let dailyPinKey = "lexa.dailyWord"
+
+    // MARK: - Kelime kararları (Bugün ve Pratik ortak)
+
+    func setDecision(_ decision: TodayViewModel.Decision, for word: Word) {
+        let current: TodayViewModel.Decision? = data.known.contains(word.id) ? .known : data.learning.contains(word.id) ? .learn : nil
+        guard current != decision else { return }
+        update { data in
+            data.known.removeAll { $0 == word.id }
+            data.learning.removeAll { $0 == word.id }
+            switch decision {
+            case .known: data.known.append(word.id)
+            case .learn: data.learning.append(word.id)
+            }
+        }
+        showToast(ToastMessage(
+            title: decision == .known ? "Biliyorum olarak işaretlendi" : "Öğreneceklerim'e eklendi",
+            detail: word.term,
+            symbol: decision == .known ? "checkmark.circle" : "book",
+            tone: decision == .known ? .mint : .lilac
+        ))
+    }
+
+    func toggleSaved(_ word: Word) {
+        let wasSaved = data.saved.contains(word.id)
+        update { data in
+            if wasSaved { data.saved.removeAll { $0 == word.id } } else { data.saved.append(word.id) }
+        }
+        showToast(ToastMessage(
+            title: wasSaved ? "“\(word.term)” Kelimelerim destesinden çıkarıldı" : "“\(word.term)” Kelimelerim destesine eklendi",
+            symbol: "bookmark"
+        ))
     }
 
     // MARK: - Toast

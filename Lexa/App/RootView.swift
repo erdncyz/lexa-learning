@@ -30,6 +30,7 @@ struct RootView: View {
 
 struct MainTabView: View {
     @Bindable var app: AppState
+    private let router = AppRouter.shared
 
     var body: some View {
         TabView(selection: $app.selectedTab) {
@@ -48,6 +49,9 @@ struct MainTabView: View {
             ProfileView(app: app)
                 .tabItem { Label(MainTab.profile.title, systemImage: MainTab.profile.symbol) }
                 .tag(MainTab.profile)
+        }
+        .onChange(of: router.showDailyWord, initial: true) { _, show in
+            if show { app.selectedTab = .practice }
         }
     }
 }

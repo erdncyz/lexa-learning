@@ -1,11 +1,33 @@
 import FirebaseCore
 import GoogleSignIn
 import SwiftUI
+import UserNotifications
 
-final class AppDelegate: NSObject, UIApplicationDelegate {
+/// Uygulama içi yönlendirmeler (bildirime basılınca gidilecek yer).
+/// Soğuk açılışta AppState henüz yokken de çalışsın diye ayrı tutulur.
+@MainActor
+@Observable
+final class AppRouter {
+    static let shared = AppRouter()
+    /// Günün kelimesi bildirimine basıldı → Pratik › Günlük Pratik › günün kelimesi kartı.
+    var showDailyWord = false
+}
+
+final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         FirebaseApp.configure()
+        UNUserNotificationCenter.current().delegate = self
         return true
+    }
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
+        guard response.notification.request.identifier.hasPrefix("lexa-daily-word") else { return }
+        await MainActor.run { AppRouter.shared.showDailyWord = true }
+    }
+
+    /// Uygulama açıkken de bildirim gösterilsin.
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
+        [.banner, .sound]
     }
 }
 
@@ -37,6 +59,8 @@ struct LexaApp: App {
                     dictionary: DictionaryService()
                 )
                 app = state
+                // Kelime setini her açılışta (QA modunda da) arka planda güncelle.
+                Task { await state.refreshWords() }
                 #if DEBUG
                 if state.applyDebugLaunchArguments() { return }
                 #endif

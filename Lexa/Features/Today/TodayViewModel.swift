@@ -38,33 +38,13 @@ final class TodayViewModel {
     }
 
     func decide(_ decision: Decision) {
-        guard let word, status != decision else { return }
-        app.update { data in
-            data.known.removeAll { $0 == word.id }
-            data.learning.removeAll { $0 == word.id }
-            switch decision {
-            case .known: data.known.append(word.id)
-            case .learn: data.learning.append(word.id)
-            }
-        }
-        app.showToast(ToastMessage(
-            title: decision == .known ? "Biliyorum olarak işaretlendi" : "Öğreneceklerim'e eklendi",
-            detail: word.term,
-            symbol: decision == .known ? "checkmark.circle" : "book",
-            tone: decision == .known ? .mint : .lilac
-        ))
+        guard let word else { return }
+        app.setDecision(decision, for: word)
     }
 
     func toggleSave() {
         guard let word else { return }
-        let wasSaved = isSaved
-        app.update { data in
-            if wasSaved { data.saved.removeAll { $0 == word.id } } else { data.saved.append(word.id) }
-        }
-        app.showToast(ToastMessage(
-            title: wasSaved ? "“\(word.term)” Kelimelerim destesinden çıkarıldı" : "“\(word.term)” Kelimelerim destesine eklendi",
-            symbol: "bookmark"
-        ))
+        app.toggleSaved(word)
     }
 
     func speak() {

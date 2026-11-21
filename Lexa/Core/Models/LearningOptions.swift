@@ -117,9 +117,18 @@ enum LearningGoal: String, Codable, CaseIterable, Identifiable, Sendable {
 }
 
 enum Exam: String, Codable, CaseIterable, Identifiable, Sendable {
-    case ielts, toefl
+    case ielts, toefl, yds
     var id: String { rawValue }
-    var name: String { rawValue.uppercased() }
+    var name: String {
+        switch self {
+        case .ielts: "IELTS"
+        case .toefl: "TOEFL"
+        case .yds: "YDS / YÖKDİL"
+        }
+    }
+
+    /// Kelime setindeki etiket (`exams` alanı) — büyük harf: IELTS, TOEFL, YDS.
+    var tag: String { rawValue.uppercased() }
 }
 
 enum RefreshOption: Int, Codable, CaseIterable, Identifiable, Sendable {

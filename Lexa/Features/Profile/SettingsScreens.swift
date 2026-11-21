@@ -200,7 +200,7 @@ struct AboutView: View {
                     .font(LexaFont.ui(15)).foregroundStyle(LexaColor.ink2)
                     .lexaCard(padding: 18)
 
-                Text("Sözlük verileri: Free Dictionary API, MyMemory. Yazı tipleri: Newsreader, IBM Plex Sans (SIL OFL).")
+                Text("Kelime seviyeleri: CEFR-J Wordlist (Tono Laboratory, TUFS) ve Octanove Vocabulary Profile C1/C2 (CC BY-SA 4.0). Akademik kelimeler: New Academic Word List — Browne, Culligan ve Phillips (CC BY-SA 4.0). Sözlük verileri: Free Dictionary API, MyMemory. Yazı tipleri: Newsreader, IBM Plex Sans (SIL OFL).")
                     .font(LexaFont.ui(12)).foregroundStyle(LexaColor.ink2)
             }
             .padding(.horizontal, LexaSpacing.gutter)

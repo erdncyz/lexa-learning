@@ -2,27 +2,40 @@ import SwiftUI
 
 struct PracticeView: View {
     @State private var viewModel: PracticeViewModel
+    private let router = AppRouter.shared
 
     init(app: AppState) {
         _viewModel = State(initialValue: PracticeViewModel(app: app))
     }
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: LexaSpacing.l) {
-                ScreenTitle(title: "Pratik", lead: "Her gün biraz daha ilerle.")
-                SegmentedTabs(options: [(.daily, "Günlük Pratik"), (.drills, "Alıştırmalar")], selection: $viewModel.pane)
+        ScrollViewReader { proxy in
+            ScrollView {
+                VStack(alignment: .leading, spacing: LexaSpacing.l) {
+                    ScreenTitle(title: "Pratik", lead: "Her gün biraz daha ilerle.")
+                    SegmentedTabs(options: [(.daily, "Günlük Pratik"), (.drills, "Alıştırmalar")], selection: $viewModel.pane)
 
-                switch viewModel.pane {
-                case .daily: DailyPracticePane(viewModel: viewModel)
-                case .drills: JourneyPane(viewModel: viewModel)
+                    switch viewModel.pane {
+                    case .daily: DailyPracticePane(viewModel: viewModel)
+                    case .drills: JourneyPane(viewModel: viewModel)
+                    }
+                }
+                .padding(.horizontal, LexaSpacing.gutter)
+                .padding(.top, LexaSpacing.s)
+                .padding(.bottom, 32)
+            }
+            .scrollIndicators(.hidden)
+            // Günün kelimesi bildirimine basıldıysa: Günlük Pratik'i aç, kartına kaydır.
+            .onChange(of: router.showDailyWord, initial: true) { _, show in
+                guard show else { return }
+                viewModel.pane = .daily
+                Task { @MainActor in
+                    try? await Task.sleep(for: .milliseconds(350))
+                    withAnimation(LexaMotion.base) { proxy.scrollTo(DailyWordSection.anchor, anchor: .top) }
+                    router.showDailyWord = false
                 }
             }
-            .padding(.horizontal, LexaSpacing.gutter)
-            .padding(.top, LexaSpacing.s)
-            .padding(.bottom, 32)
         }
-        .scrollIndicators(.hidden)
         .lexaScreenBackground()
         .fullScreenCover(item: $viewModel.activeSession) { session in
             QuizSessionView(session: session, practice: viewModel)
@@ -93,6 +106,26 @@ private struct DailyPracticePane: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .lexaCard(padding: 18)
             }
+
+            DailyWordSection(viewModel: viewModel)
+        }
+    }
+}
+
+/// Günün kelimesi: bildirim saatinde gelen kelime (widget kelimesinden bağımsız).
+private struct DailyWordSection: View {
+    static let anchor = "daily-word"
+    let viewModel: PracticeViewModel
+
+    var body: some View {
+        if let word = viewModel.dailyWord {
+            VStack(spacing: LexaSpacing.m) {
+                WordCard(word: word, label: "GÜNÜN KELİMESİ", isSaved: viewModel.isDailySaved, status: viewModel.dailyStatus,
+                         onSave: viewModel.toggleDailySave, onSpeak: viewModel.speakDaily,
+                         onSwipe: { viewModel.decideDaily($0) })
+                DecisionButtons(status: viewModel.dailyStatus) { viewModel.decideDaily($0) }
+            }
+            .id(Self.anchor)
         }
     }
 }

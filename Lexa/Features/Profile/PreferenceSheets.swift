@@ -125,7 +125,8 @@ struct GoalPicker: View {
             if exam == nil {
                 Text("Devam etmek için bir sınav seç.").font(LexaFont.ui(13)).foregroundStyle(LexaColor.ink2)
             }
-            HStack(spacing: LexaSpacing.s) {
+            // Alt alta: “YDS / YÖKDİL” gibi uzun adlar dar sütunlara sığmaz.
+            VStack(spacing: LexaSpacing.s) {
                 ForEach(Exam.allCases) { item in
                     let on = exam == item
                     Button { exam = item } label: {

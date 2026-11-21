@@ -82,7 +82,7 @@ final class PracticeViewModel {
     func startDaily() {
         guard !isDoneToday else { return }
         // Alıştırmalarla aynı kural: seçilen seviye, az ise en yakın seviyeler.
-        let pool = app.words.levelPool(lang: app.data.effectiveLang, level: app.data.effectiveLevel)
+        let pool = app.words.levelPool(lang: app.data.effectiveLang, level: app.data.effectiveLevel, exam: app.data.effectiveExam)
         let questions = QuizBuilder.daily(pool: pool)
         guard !questions.isEmpty else { return }
         let key = todayKey
@@ -91,13 +91,39 @@ final class PracticeViewModel {
         }
     }
 
+    // MARK: Günün kelimesi (bildirimle gelen; widget kelimesinden ayrı)
+
+    var dailyWord: Word? { app.dailyWord(on: Date()) }
+    var isDailySaved: Bool { dailyWord.map { app.data.saved.contains($0.id) } ?? false }
+    var dailyStatus: TodayViewModel.Decision? {
+        guard let id = dailyWord?.id else { return nil }
+        if app.data.known.contains(id) { return .known }
+        if app.data.learning.contains(id) { return .learn }
+        return nil
+    }
+
+    func decideDaily(_ decision: TodayViewModel.Decision) {
+        guard let word = dailyWord else { return }
+        app.setDecision(decision, for: word)
+    }
+
+    func toggleDailySave() {
+        guard let word = dailyWord else { return }
+        app.toggleSaved(word)
+    }
+
+    func speakDaily() {
+        guard let word = dailyWord else { return }
+        app.speech.speak(word.term, lang: word.lang)
+    }
+
     // MARK: Alıştırmalar
 
     var journeyDone: Int { min(app.data.journeyDone, journeyCount) }
 
     /// Alıştırma kelimeleri (seçilen seviye; az ise en yakın seviyeler).
     private var drillPool: [Word] {
-        app.words.levelPool(lang: app.data.effectiveLang, level: app.data.effectiveLevel)
+        app.words.levelPool(lang: app.data.effectiveLang, level: app.data.effectiveLevel, exam: app.data.effectiveExam)
     }
 
     /// Adım sayısı kelime miktarına göre: her adımda 5 yeni kelime, en az 10 adım.

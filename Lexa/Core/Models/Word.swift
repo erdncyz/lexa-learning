@@ -79,8 +79,8 @@ struct Word: Codable, Identifiable, Hashable, Sendable {
 }
 
 extension Word {
-    var widgetEntry: WidgetSnapshot.Entry {
-        WidgetSnapshot.Entry(word: term, ipa: ipa, meaning: meaning, level: level?.rawValue)
+    func widgetEntry(start: Date? = nil) -> WidgetSnapshot.Entry {
+        WidgetSnapshot.Entry(word: term, ipa: ipa, meaning: meaning, level: level?.rawValue, id: id, start: start)
     }
 
     static let preview = Word(

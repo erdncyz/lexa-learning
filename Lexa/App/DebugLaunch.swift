@@ -9,6 +9,8 @@ import Foundation
 /// `-lexaDemo <sekme>`: misafir + örnek verilerle doğrudan sekmeyi açar
 /// (today, explore, practice, drills, widgets, profile).
 /// `-lexaOnboarding <adım>`: kurulum akışını açar (0–4).
+/// `-lexaExam ielts|toefl|yds` (+ `-lexaDemo`): öğrenme amacını o sınav yapar.
+/// `-lexaDailyWord YES` (+ `-lexaDemo`): günün kelimesi bildirimine basılmış gibi açar.
 /// `-lexaAuth login|signup` (+ `-lexa.session ""`): giriş / kayıt ekranını açar (LandingView).
 /// `-lexaSlide <0–4>` (+ `-lexa.session ""`): tanıtım slaytını açar (LandingView).
 extension AppState {
@@ -30,8 +32,13 @@ extension AppState {
                 }
                 $0.journeyDone = 2
                 $0.decks = [Deck(name: "Seyahat", wordIds: ["en:ticket", "en:luggage", "en:itinerary"])]
+                if let raw = defaults.string(forKey: "lexaExam"), let exam = Exam(rawValue: raw) {
+                    $0.goal = .exam
+                    $0.exam = exam
+                }
             }
             completeOnboarding()
+            if defaults.bool(forKey: "lexaDailyWord") { AppRouter.shared.showDailyWord = true }
             switch tab {
             case "explore": selectedTab = .explore
             case "practice", "drills", "done": selectedTab = .practice
