@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Tanıtım slaytları + giriş seçenekleri (koyu tema).
+/// Tanıtım slaytları + giriş seçenekleri (açık / koyu temaya uyar).
 struct LandingView: View {
     let app: AppState
     @State private var page = 0
@@ -20,7 +20,7 @@ struct LandingView: View {
                             .font(LexaFont.ui(15, weight: .semibold))
                     }
                 }
-                .foregroundStyle(.white.opacity(0.85))
+                .foregroundStyle(LexaColor.ink.opacity(0.85))
                 .padding(.horizontal, LexaSpacing.gutter)
                 .padding(.top, LexaSpacing.s)
 
@@ -55,11 +55,22 @@ struct LandingView: View {
                 }
             }
         }
-        .preferredColorScheme(.dark)
         .fullScreenCover(item: $authScreen) { screen in
             AuthFlowView(app: app, initial: screen) { authScreen = nil }
-                .preferredColorScheme(.light)
         }
+        #if DEBUG
+        .onAppear {
+            // QA: `-lexaSlide <0–4>` tanıtım slaytını, `-lexaAuth login|signup` giriş/kayıt ekranını açar.
+            if UserDefaults.standard.object(forKey: "lexaSlide") != nil {
+                page = min(max(UserDefaults.standard.integer(forKey: "lexaSlide"), 0), slideCount)
+            }
+            switch UserDefaults.standard.string(forKey: "lexaAuth") {
+            case "login": authScreen = .login
+            case "signup": authScreen = .signup(keepProgress: false)
+            default: break
+            }
+        }
+        #endif
     }
 
     private var authOptions: some View {
@@ -67,18 +78,18 @@ struct LandingView: View {
             Spacer()
             VStack(alignment: .leading, spacing: 10) {
                 Text("Hazır mısın?").font(LexaFont.ui(34, weight: .bold))
-                Text("Hesabınla giriş yap ya da yeni bir hesap oluştur.").font(LexaFont.ui(16)).foregroundStyle(.white.opacity(0.75))
+                Text("Hesabınla giriş yap ya da yeni bir hesap oluştur.").font(LexaFont.ui(16)).foregroundStyle(LexaColor.ink.opacity(0.75))
             }
-            .foregroundStyle(.white)
+            .foregroundStyle(LexaColor.ink)
             Spacer()
             VStack(spacing: LexaSpacing.m) {
                 Button { authScreen = .login } label: { Label("Giriş yap", systemImage: "person") }
                     .buttonStyle(LandingButtonStyle(prominent: true))
                 Button("Hesap oluştur") { authScreen = .signup(keepProgress: false) }
                     .buttonStyle(LandingButtonStyle(prominent: false))
-                Button("Hesapsız devam") { app.continueAsGuest() }
+                Button("Misafir olarak devam et") { app.continueAsGuest() }
                     .font(LexaFont.ui(16, weight: .semibold))
-                    .foregroundStyle(.white.opacity(0.85))
+                    .foregroundStyle(LexaColor.ink.opacity(0.85))
                     .frame(minHeight: 44)
             }
             .padding(.bottom, LexaSpacing.xl)
@@ -98,14 +109,10 @@ extension AuthScreen: Identifiable {
 }
 
 private struct LandingBackground: View {
+    @Environment(\.colorScheme) private var scheme
+
     var body: some View {
-        ZStack {
-            LexaColor.wall
-            Circle().fill(Color(hex: 0xC86A8E).opacity(0.35)).frame(width: 340).blur(radius: 90).offset(x: -140, y: -260)
-            Circle().fill(Color(hex: 0xE5C46B).opacity(0.22)).frame(width: 300).blur(radius: 90).offset(x: 160, y: -60)
-            Circle().fill(Color(hex: 0x2F8A86).opacity(0.35)).frame(width: 360).blur(radius: 100).offset(x: -40, y: 320)
-        }
-        .ignoresSafeArea()
+        if scheme == .dark { GlowBackground(intensity: .vivid) } else { PastelBackground() }
     }
 }
 
@@ -117,12 +124,11 @@ private struct IntroSlide<Stage: View>: View {
     var body: some View {
         VStack(alignment: .leading, spacing: LexaSpacing.xxl) {
             VStack(alignment: .leading, spacing: 10) {
-                Text(title).font(LexaFont.ui(30, weight: .bold)).foregroundStyle(.white)
-                Text(lead).font(LexaFont.ui(16)).foregroundStyle(.white.opacity(0.72))
+                Text(title).font(LexaFont.ui(30, weight: .bold)).foregroundStyle(LexaColor.ink)
+                Text(lead).font(LexaFont.ui(16)).foregroundStyle(LexaColor.ink.opacity(0.72))
             }
             .padding(.top, 40)
-            stage.frame(maxWidth: .infinity)
-            Spacer(minLength: 0)
+            stage.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         }
         .padding(.horizontal, LexaSpacing.gutter)
     }
@@ -132,8 +138,119 @@ private struct GlassDark: ViewModifier {
     func body(content: Content) -> some View {
         content
             .padding(18)
-            .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.white.opacity(0.08)))
-            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).strokeBorder(.white.opacity(0.14)))
+            .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(.primary.opacity(0.07)))
+            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).strokeBorder(.primary.opacity(0.12)))
+    }
+}
+
+// MARK: - Telefon maketi (kilit ekranı / ana ekran slaytları)
+
+/// Lavanta-mavi ekranlı iPhone maketi. Alt kısmı sayfaya doğru yumuşakça kaybolur;
+/// içerik üstten başlar, böylece küçük ekranlarda da taşmadan kesilir.
+private struct PhoneMockup<Screen: View>: View {
+    @ViewBuilder let screen: (_ innerWidth: CGFloat) -> Screen
+    @Environment(\.colorScheme) private var scheme
+
+    private let radius: CGFloat = 46
+    private let bezel: CGFloat = 7
+    private let inset: CGFloat = 22
+
+    var body: some View {
+        GeometryReader { proxy in
+            let width = min(proxy.size.width - 32, 300)
+            ZStack(alignment: .top) {
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .fill(screenFill)
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .strokeBorder(bezelColor, lineWidth: bezel)
+                Capsule().fill(Color.black.opacity(scheme == .dark ? 0.85 : 0.7))
+                    .frame(width: 84, height: 24)
+                    .padding(.top, 16)
+                VStack(spacing: 0) {
+                    statusBar
+                        .padding(.top, 20)
+                        .padding(.horizontal, 30)
+                    screen(width - inset * 2)
+                        .padding(.horizontal, inset)
+                        .padding(.top, 22)
+                    Spacer(minLength: 0)
+                }
+            }
+            .frame(width: width, height: proxy.size.height)
+            .frame(maxWidth: .infinity)
+            .mask(
+                LinearGradient(
+                    stops: [.init(color: .black, location: 0), .init(color: .black, location: 0.78), .init(color: .clear, location: 1)],
+                    startPoint: .top, endPoint: .bottom
+                )
+            )
+        }
+    }
+
+    private var statusBar: some View {
+        HStack {
+            Text("9:41").font(.system(size: 14, weight: .semibold))
+            Spacer()
+            HStack(spacing: 5) {
+                Image(systemName: "cellularbars")
+                Image(systemName: "wifi")
+                Image(systemName: "battery.100")
+            }
+            .font(.system(size: 11, weight: .semibold))
+        }
+        .foregroundStyle(.white)
+    }
+
+    private var bezelColor: Color {
+        scheme == .dark ? Color.white.opacity(0.16) : Color(hex: 0x8B8CC9).opacity(0.5)
+    }
+
+    private var screenFill: some ShapeStyle {
+        LinearGradient(
+            colors: scheme == .dark
+                ? [Color(hex: 0x3B3668), Color(hex: 0x2B3F66), Color(hex: 0x1E2333)]
+                : [Color(hex: 0xA9A4E4), Color(hex: 0x9DBEF0), Color(hex: 0xE4E8F5)],
+            startPoint: .topLeading, endPoint: .bottom
+        )
+    }
+}
+
+/// Maketlerdeki "Günün Kelimesi" widget kartı.
+private struct WordWidgetCard: View {
+    let term: String
+    let ipa: String?
+    let meaning: String
+    var level: Level?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text("GÜNÜN KELİMESİ")
+                .font(LexaFont.ui(10, weight: .bold)).tracking(1.4)
+                .foregroundStyle(LexaColor.accent)
+            Text(term)
+                .font(LexaFont.display(32))
+                .foregroundStyle(LexaColor.ink)
+                .minimumScaleFactor(0.6).lineLimit(1)
+            if let ipa {
+                Text(ipa).font(LexaFont.ui(13)).foregroundStyle(LexaColor.ink2).padding(.top, 2)
+            }
+            Text(meaning)
+                .font(LexaFont.ui(15, weight: .semibold))
+                .foregroundStyle(LexaColor.ink)
+                .lineLimit(2)
+                .padding(.top, 2)
+            if let level { LevelTag(level: level).padding(.top, 6) }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.horizontal, 18)
+        .padding(.vertical, 16)
+        .background {
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .fill(.ultraThinMaterial)
+                .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(LexaColor.glass.opacity(0.75)))
+                .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).strokeBorder(LexaColor.glass.opacity(0.9)))
+                .shadow(color: Color(hex: 0x14171C).opacity(0.12), radius: 16, y: 8)
+        }
     }
 }
 
@@ -141,60 +258,117 @@ private struct LockScreenSample: View {
     let word: Word
 
     var body: some View {
-        VStack(spacing: 4) {
-            Text("9:41").font(.system(size: 64, weight: .semibold, design: .rounded))
-            Text(Date.now, format: .dateTime.day().month(.wide).weekday(.wide).locale(Locale(identifier: "tr_TR")))
-                .font(LexaFont.ui(14, weight: .medium))
-            VStack(alignment: .leading, spacing: 4) {
-                Text("GÜNÜN KELİMESİ").font(LexaFont.ui(11, weight: .bold)).tracking(1.4).opacity(0.7)
-                Text(word.term).font(LexaFont.display(44))
-                if let ipa = word.ipa { Text(ipa).font(LexaFont.ui(14)).opacity(0.75) }
-                Text(word.meaning).font(LexaFont.ui(16, weight: .semibold))
-                LevelTag(level: word.level).colorScheme(.light).padding(.top, 4)
+        PhoneMockup { _ in
+            VStack(spacing: 0) {
+                Text(Date.now, format: .dateTime.day().month(.wide).weekday(.wide).locale(Locale(identifier: "tr_TR")))
+                    .font(LexaFont.ui(14, weight: .semibold))
+                    .foregroundStyle(.white.opacity(0.9))
+                Text("9:41")
+                    .font(.system(size: 72, weight: .semibold, design: .rounded))
+                    .foregroundStyle(.white)
+                    .padding(.top, -4)
+                WordWidgetCard(term: word.term, ipa: word.ipa, meaning: word.meaning, level: word.level)
+                    .padding(.top, 14)
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .modifier(GlassDark())
-            .padding(.top, 12)
         }
-        .foregroundStyle(.white)
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Kilit ekranı kelime widget örneği: \(word.term), \(word.meaning)")
     }
 }
 
 private struct HomeScreenSample: View {
-    private let apps: [(String, String, [Color])] = [
-        ("safari", "Safari", [Color(hex: 0x5AC8FA), Color(hex: 0x007AFF)]),
-        ("photo", "Fotoğraflar", [Color(hex: 0xFF6482), Color(hex: 0xFF2D55)]),
-        ("message", "Mesajlar", [Color(hex: 0x34C759), Color(hex: 0x30B350)]),
-        ("note.text", "Notlar", [Color(hex: 0xFF9F0A), Color(hex: 0xFF6B00)])
-    ]
+    private let spacing: CGFloat = 16
 
     var body: some View {
-        HStack(alignment: .top, spacing: 18) {
-            VStack(alignment: .leading, spacing: 4) {
-                Text("Günün kelimesi").font(LexaFont.ui(11, weight: .bold)).opacity(0.7)
-                Text("serendipity").font(LexaFont.display(24)).minimumScaleFactor(0.7).lineLimit(1)
-                Text("/ˌserənˈdɪpəti/").font(LexaFont.ui(12)).opacity(0.7)
-                Spacer(minLength: 0)
-                Text("mutlu tesadüf").font(LexaFont.ui(14, weight: .semibold))
-            }
-            .frame(width: 150, height: 150, alignment: .topLeading)
-            .modifier(GlassDark())
-            LazyVGrid(columns: [GridItem(.fixed(60)), GridItem(.fixed(60))], spacing: 14) {
-                ForEach(apps, id: \.1) { symbol, name, colors in
-                    VStack(spacing: 4) {
-                        Image(systemName: symbol)
-                            .font(.system(size: 22))
-                            .frame(width: 56, height: 56)
-                            .background(RoundedRectangle(cornerRadius: 14).fill(LinearGradient(colors: colors, startPoint: .topLeading, endPoint: .bottomTrailing)))
-                        Text(name).font(.system(size: 10)).lineLimit(1)
+        PhoneMockup { innerWidth in
+            let icon = (innerWidth - spacing * 3) / 4
+            VStack(spacing: 18) {
+                WordWidgetCard(term: "serendipity", ipa: "/ˌserənˈdɪpəti/", meaning: "mutlu tesadüf")
+                LazyVGrid(columns: Array(repeating: GridItem(.fixed(icon), spacing: spacing), count: 4), spacing: spacing) {
+                    ForEach(SampleAppIcon.Kind.allCases, id: \.self) { kind in
+                        SampleAppIcon(kind: kind, size: icon)
                     }
                 }
             }
         }
-        .foregroundStyle(.white)
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Ana ekran kelime widget örneği: serendipity, mutlu tesadüf")
+    }
+}
+
+/// iOS ana ekranını andıran sade uygulama ikonları (etiketsiz).
+private struct SampleAppIcon: View {
+    enum Kind: CaseIterable { case safari, photos, messages, notes, music, calendar, maps, health }
+
+    let kind: Kind
+    let size: CGFloat
+
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: size * 0.24, style: .continuous).fill(background)
+            glyph
+        }
+        .frame(width: size, height: size)
+        .clipShape(RoundedRectangle(cornerRadius: size * 0.24, style: .continuous))
+        .shadow(color: Color(hex: 0x14171C).opacity(0.1), radius: 6, y: 3)
+    }
+
+    private var background: LinearGradient {
+        let colors: [UInt32]
+        switch kind {
+        case .safari, .maps: colors = [0x7DBDF7, 0x3E8EF0]
+        case .messages: colors = [0x7EDC8A, 0x45BF5C]
+        case .music: colors = [0xF6A1AE, 0xEC7489]
+        case .photos, .notes, .calendar, .health: colors = [0xFFFFFF, 0xF1F1F4]
+        }
+        return LinearGradient(colors: colors.map { Color(hex: $0) }, startPoint: .top, endPoint: .bottom)
+    }
+
+    @ViewBuilder
+    private var glyph: some View {
+        switch kind {
+        case .safari: symbol("safari", .white)
+        case .messages: symbol("message.fill", .white)
+        case .music: symbol("music.note", .white)
+        case .maps: symbol("mappin.and.ellipse", .white)
+        case .calendar: symbol("calendar", Color(hex: 0xEC7489))
+        case .health: symbol("heart.fill", Color(hex: 0xEF6F8A))
+        case .photos: photosFlower
+        case .notes: notesPage
+        }
+    }
+
+    private func symbol(_ name: String, _ color: Color) -> some View {
+        Image(systemName: name)
+            .font(.system(size: size * 0.46, weight: .regular))
+            .foregroundStyle(color)
+    }
+
+    private var photosFlower: some View {
+        let petals: [UInt32] = [0xF5B53F, 0xF08A3E, 0xE9576A, 0xB85FC9, 0x6E7FE0, 0x4BB4E6, 0x5CC77A, 0xB6D650]
+        return ZStack {
+            ForEach(petals.indices, id: \.self) { i in
+                Capsule()
+                    .fill(Color(hex: petals[i]).opacity(0.85))
+                    .frame(width: size * 0.2, height: size * 0.36)
+                    .offset(y: -size * 0.15)
+                    .rotationEffect(.degrees(Double(i) * 45))
+            }
+        }
+    }
+
+    private var notesPage: some View {
+        VStack(spacing: 0) {
+            Rectangle().fill(LinearGradient(colors: [Color(hex: 0xFBDB6E), Color(hex: 0xF5C842)], startPoint: .top, endPoint: .bottom))
+                .frame(height: size * 0.3)
+            VStack(spacing: size * 0.14) {
+                ForEach(0..<3, id: \.self) { _ in
+                    Rectangle().fill(Color(hex: 0xC9CBD2)).frame(height: 1)
+                }
+            }
+            .padding(.top, size * 0.14)
+            Spacer(minLength: 0)
+        }
     }
 }
 
@@ -223,11 +397,11 @@ private struct DictionarySample: View {
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(10)
-                    .background(RoundedRectangle(cornerRadius: 14).fill(.white.opacity(0.08)))
+                    .background(RoundedRectangle(cornerRadius: 14).fill(.primary.opacity(0.07)))
                 }
             }
         }
-        .foregroundStyle(.white)
+        .foregroundStyle(LexaColor.ink)
         .accessibilityHidden(true)
     }
 }
@@ -240,8 +414,8 @@ private struct QuizSample: View {
                 Spacer()
                 Text("3 / 5").font(LexaFont.ui(13, weight: .semibold))
             }
-            Capsule().fill(.white.opacity(0.15)).frame(height: 4)
-                .overlay(alignment: .leading) { Capsule().fill(LexaColor.mint).frame(width: 160, height: 4) }
+            Capsule().fill(.primary.opacity(0.12)).frame(height: 4)
+                .overlay(alignment: .leading) { Capsule().fill(LexaColor.accent).frame(width: 160, height: 4) }
             (Text("Thrive").font(LexaFont.display(24)) + Text(" ne anlama gelir?").font(LexaFont.ui(17)))
             ForEach(Array(["Unutmak", "Gelişmek, başarılı olmak", "Beklemek", "Araştırmak"].enumerated()), id: \.offset) { i, text in
                 HStack {
@@ -251,10 +425,10 @@ private struct QuizSample: View {
                     if i == 1 { Image(systemName: "checkmark") }
                 }
                 .padding(12)
-                .background(RoundedRectangle(cornerRadius: 12).fill(i == 1 ? LexaColor.mint.opacity(0.3) : .white.opacity(0.07)))
+                .background(RoundedRectangle(cornerRadius: 12).fill(i == 1 ? LexaColor.mint : .primary.opacity(0.06)))
             }
         }
-        .foregroundStyle(.white)
+        .foregroundStyle(LexaColor.ink)
         .modifier(GlassDark())
         .accessibilityHidden(true)
     }
@@ -268,7 +442,7 @@ private struct PageDots: View {
         HStack(spacing: 6) {
             ForEach(0..<count, id: \.self) { i in
                 Capsule()
-                    .fill(.white.opacity(i == current ? 0.95 : 0.35))
+                    .fill(i == current ? LexaColor.accent : LexaColor.ink.opacity(0.3))
                     .frame(width: i == current ? 18 : 6, height: 6)
             }
         }
@@ -284,10 +458,10 @@ private struct LandingButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(LexaFont.ui(16, weight: .semibold))
-            .foregroundStyle(prominent ? LexaColor.wall : .white)
+            .foregroundStyle(prominent ? LexaColor.onAccent : LexaColor.ink)
             .frame(maxWidth: .infinity, minHeight: 54)
-            .background(Capsule().fill(prominent ? Color.white.opacity(configuration.isPressed ? 0.75 : 0.9) : Color.white.opacity(configuration.isPressed ? 0.2 : 0.12)))
-            .overlay(Capsule().strokeBorder(.white.opacity(prominent ? 0 : 0.25)))
+            .background(Capsule().fill(prominent ? (configuration.isPressed ? LexaColor.accentPress : LexaColor.accent) : Color.primary.opacity(configuration.isPressed ? 0.16 : 0.08)))
+            .overlay(Capsule().strokeBorder(Color.primary.opacity(prominent ? 0 : 0.2)))
             .scaleEffect(configuration.isPressed ? 0.98 : 1)
     }
 }

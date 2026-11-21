@@ -9,6 +9,8 @@ import Foundation
 /// `-lexaDemo <sekme>`: misafir + örnek verilerle doğrudan sekmeyi açar
 /// (today, explore, practice, drills, widgets, profile).
 /// `-lexaOnboarding <adım>`: kurulum akışını açar (0–4).
+/// `-lexaAuth login|signup` (+ `-lexa.session ""`): giriş / kayıt ekranını açar (LandingView).
+/// `-lexaSlide <0–4>` (+ `-lexa.session ""`): tanıtım slaytını açar (LandingView).
 extension AppState {
     func applyDebugLaunchArguments() -> Bool {
         let defaults = UserDefaults.standard
