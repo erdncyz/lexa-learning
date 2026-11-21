@@ -22,7 +22,7 @@ final class AppState {
     var selectedTab: MainTab = .today
     var toast: ToastMessage?
 
-    let words: WordRepository
+    private(set) var words: WordRepository
     let auth: AuthServicing
     let repository: UserRepositing
     let dictionary: DictionaryServicing
@@ -69,6 +69,14 @@ final class AppState {
         } else {
             phase = .landing
         }
+        publishWidget()
+        Task { await refreshWords() }
+    }
+
+    /// Firebase Hosting'deki kelime setinde değişiklik varsa indirip uygular.
+    func refreshWords() async {
+        guard let fresh = await WordSync.refresh() else { return }
+        words = WordRepository(words: fresh)
         publishWidget()
     }
 

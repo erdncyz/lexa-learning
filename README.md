@@ -86,11 +86,12 @@ Hepsi ücretsizdir ve API anahtarı gerektirmez.
 
 | Kaynak | Nerede | Not |
 |---|---|---|
-| `words.json` (uygulama içi) | Bugün, Pratik, Widget | 164 kelime (EN 62 · DE 51 · ES 51); çevrim dışı, anında |
+| Kelime seti — [`lexa-learning.web.app/words/v1.json`](https://lexa-learning.web.app/words/v1.json) (Firebase Hosting) | Bugün, Pratik, Widget | Açılışta indirilir, cihaza kaydedilir; değişmediyse tekrar indirilmez (ETag). İnternet yokken cihazdaki kopya, o da yoksa uygulamadaki yedek (`Lexa/Resources/words.json`) kullanılır |
 | [Free Dictionary API](https://dictionaryapi.dev/) | Keşfet araması (İngilizce) | Okunuş, kelime türü, örnek cümle; ~0,4 sn |
 | [MyMemory](https://mymemory.translated.net/) | Keşfet araması (EN/DE/ES → TR) | Anonim kota günde ~5.000 karakter |
 | [Kaikki.org](https://kaikki.org/) | — | Gerçek zamanlı API değil; ileride `words.json`'ı büyütmek için |
-| Tatoeba | — | Testte HTTP 400 döndü; şimdilik kullanılmıyor |
+
+**Kelime ekleme / düzeltme (App Store güncellemesi gerekmez):** `hosting/words/v1.json` dosyasını düzenle, sonra `firebase deploy --only hosting` çalıştır. Kullanıcılar yeni seti bir sonraki açılışta alır. Dosyanın yapısı değişirse `v2.json` olarak yayınla; eski uygulama sürümleri `v1.json`'ı okumaya devam eder.
 
 Arama önce yerel listeye bakar; tam eşleşme yoksa 400 ms sonra iki API'ye paralel istek atar ve sonucu önbelleğe alır.
 
