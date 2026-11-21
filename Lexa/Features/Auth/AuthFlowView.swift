@@ -1,5 +1,6 @@
 import SwiftUI
 import AuthenticationServices
+import GoogleSignInSwift
 
 /// Giriş / kayıt / şifre sıfırlama akışı.
 struct AuthFlowView: View {
@@ -83,6 +84,9 @@ private struct AuthFormView: View {
                     orDivider
                     AppleSignInButton(label: screen == .login ? .signIn : .continue, isDisabled: viewModel.isLoading) { result, nonce in
                         Task { await viewModel.signInWithApple(result, nonce: nonce) }
+                    }
+                    GoogleButton(isDisabled: viewModel.isLoading) {
+                        Task { await viewModel.signInWithGoogle() }
                     }
                 }
 
@@ -266,5 +270,22 @@ struct AppleSignInButton: View {
         .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
         .disabled(isDisabled)
         .opacity(isDisabled ? 0.6 : 1)
+    }
+}
+
+/// Google'ın resmi "Google ile giriş" butonu (marka kurallarına uygun).
+struct GoogleButton: View {
+    var isDisabled = false
+    let action: () -> Void
+    @Environment(\.colorScheme) private var colorScheme
+
+    var body: some View {
+        GoogleSignInButton(
+            scheme: colorScheme == .dark ? .dark : .light,
+            style: .wide,
+            state: isDisabled ? .disabled : .normal,
+            action: action
+        )
+        .accessibilityLabel("Google ile Devam Et")
     }
 }

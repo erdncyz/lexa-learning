@@ -170,8 +170,8 @@ private struct DeleteAccountSheet: View {
                 }
                 .lexaCard(padding: 18)
 
-                if isAppleUser {
-                    Text("Güvenliğin için devam etmeden önce Apple ile kimliğini doğrula.")
+                if provider == .apple || provider == .google {
+                    Text("Güvenliğin için devam etmeden önce \(provider == .apple ? "Apple" : "Google") ile kimliğini doğrula.")
                         .font(LexaFont.ui(15)).foregroundStyle(LexaColor.ink2)
                 } else {
                     AuthTextField(
@@ -194,10 +194,12 @@ private struct DeleteAccountSheet: View {
 
                 if isDeleting {
                     ProgressView().frame(maxWidth: .infinity, minHeight: 52)
-                } else if isAppleUser {
+                } else if provider == .apple {
                     AppleSignInButton(label: .continue) { result, nonce in
                         handleApple(result, nonce: nonce)
                     }
+                } else if provider == .google {
+                    GoogleButton { Task { await handleGoogle() } }
                 } else {
                     Button("Hesabımı Kalıcı Olarak Sil") {
                         focus = nil
@@ -223,7 +225,19 @@ private struct DeleteAccountSheet: View {
         }
     }
 
-    private var isAppleUser: Bool { app.user?.isAppleUser ?? false }
+    private var provider: AuthProvider { app.user?.provider ?? .password }
+
+    private func handleGoogle() async {
+        errorMessage = nil
+        do {
+            pendingReauth = .google(try await GoogleSignInFlow.run())
+            confirmFinal = true
+        } catch is CancellationError {
+            return
+        } catch {
+            errorMessage = error.localizedDescription
+        }
+    }
 
     private func handleApple(_ result: Result<ASAuthorization, Error>, nonce: AppleNonce) {
         errorMessage = nil

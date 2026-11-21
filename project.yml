@@ -19,6 +19,9 @@ packages:
   Firebase:
     url: https://github.com/firebase/firebase-ios-sdk
     from: "12.0.0"
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: "9.0.0"
 
 targets:
   Lexa:
@@ -32,6 +35,10 @@ targets:
         product: FirebaseAuth
       - package: Firebase
         product: FirebaseFirestore
+      - package: GoogleSignIn
+        product: GoogleSignIn
+      - package: GoogleSignIn
+        product: GoogleSignInSwift
       - target: LexaWidget
         embed: true
     entitlements:
@@ -53,9 +60,14 @@ targets:
           - Newsreader-Italic.ttf
           - IBMPlexSans.ttf
         ITSAppUsesNonExemptEncryption: false
+        # Google ile giriş sonrası uygulamaya dönüş (GoogleService-Info.plist → REVERSED_CLIENT_ID)
+        CFBundleURLTypes:
+          - CFBundleURLSchemes:
+              - com.googleusercontent.apps.259813578972-scpevf5kjp8j1ett5442v69n5c5vmpcu
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.yelizakdag.lexa
+        DEVELOPMENT_TEAM: 8Q64FT72X7
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: NO

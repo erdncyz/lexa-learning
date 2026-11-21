@@ -1,14 +1,64 @@
 import Foundation
 import FirebaseAuth
+import FirebaseCore
 import AuthenticationServices
 import CryptoKit
+import GoogleSignIn
+import UIKit
 
 struct AuthUser: Equatable, Sendable {
     let uid: String
     let email: String?
     let displayName: String?
-    /// Hesap "Apple ile Giriş" ile açıldıysa true — yeniden doğrulama şifre yerine Apple ile yapılır.
-    var isAppleUser = false
+    /// Hesabın giriş yöntemi — hesap silmeden önce yeniden doğrulama buna göre yapılır.
+    var provider: AuthProvider = .password
+}
+
+enum AuthProvider: Sendable {
+    case password, apple, google
+}
+
+/// Google'dan dönen tokenlar; Firebase'e giriş ve yeniden doğrulama için.
+struct GoogleCredential: Sendable {
+    let idToken: String
+    let accessToken: String
+}
+
+/// Google giriş penceresini açar. Kullanıcı vazgeçerse `CancellationError` fırlatır.
+enum GoogleSignInFlow {
+    @MainActor
+    static func run() async throws -> GoogleCredential {
+        guard let clientID = FirebaseApp.app()?.options.clientID else {
+            throw AuthFailure.message("Google ile giriş yapılandırılmamış.")
+        }
+        guard let presenter = topViewController() else {
+            throw AuthFailure.message("Google ile giriş açılamadı. Lütfen tekrar dene.")
+        }
+        GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: clientID)
+        do {
+            let result = try await GIDSignIn.sharedInstance.signIn(withPresenting: presenter)
+            guard let idToken = result.user.idToken?.tokenString else {
+                throw AuthFailure.message("Google ile giriş yapılamadı. Lütfen tekrar dene.")
+            }
+            return GoogleCredential(idToken: idToken, accessToken: result.user.accessToken.tokenString)
+        } catch let error as NSError where error.domain == kGIDSignInErrorDomain && error.code == GIDSignInError.canceled.rawValue {
+            throw CancellationError()
+        } catch let failure as AuthFailure {
+            throw failure
+        } catch {
+            throw AuthFailure.message("Google ile giriş yapılamadı. Lütfen tekrar dene.")
+        }
+    }
+
+    @MainActor
+    private static func topViewController() -> UIViewController? {
+        let scene = UIApplication.shared.connectedScenes
+            .compactMap { $0 as? UIWindowScene }
+            .first { $0.activationState == .foregroundActive }
+        var top = scene?.keyWindow?.rootViewController
+        while let presented = top?.presentedViewController { top = presented }
+        return top
+    }
 }
 
 /// Apple'dan dönen kimlik bilgisi; Firebase'e giriş ve hesap silme öncesi doğrulama için.
@@ -49,6 +99,7 @@ struct AppleNonce {
 enum ReauthMethod: Sendable {
     case password(String)
     case apple(AppleCredential)
+    case google(GoogleCredential)
 }
 
 protocol AuthServicing: AnyObject {
@@ -57,6 +108,8 @@ protocol AuthServicing: AnyObject {
     func signUp(name: String, email: String, password: String) async throws -> AuthUser
     /// Apple ile giriş; `isNew` ilk kez hesap açıldıysa true döner.
     func signInWithApple(_ credential: AppleCredential) async throws -> (user: AuthUser, isNew: Bool)
+    /// Google ile giriş; `isNew` ilk kez hesap açıldıysa true döner.
+    func signInWithGoogle(_ credential: GoogleCredential) async throws -> (user: AuthUser, isNew: Bool)
     func sendPasswordReset(email: String) async throws
     func signOut() throws
     /// Firebase hassas işlemler için yakın zamanda giriş ister; şifre ya da Apple ile doğrular.
@@ -114,6 +167,16 @@ final class FirebaseAuthService: AuthServicing {
         }
     }
 
+    func signInWithGoogle(_ credential: GoogleCredential) async throws -> (user: AuthUser, isNew: Bool) {
+        do {
+            let firebaseCredential = GoogleAuthProvider.credential(withIDToken: credential.idToken, accessToken: credential.accessToken)
+            let result = try await Auth.auth().signIn(with: firebaseCredential)
+            return (Self.map(result.user), result.additionalUserInfo?.isNewUser ?? false)
+        } catch {
+            throw AuthFailure(error)
+        }
+    }
+
     func sendPasswordReset(email: String) async throws {
         do {
             Auth.auth().languageCode = "tr"
@@ -125,6 +188,7 @@ final class FirebaseAuthService: AuthServicing {
 
     func signOut() throws {
         try Auth.auth().signOut()
+        GIDSignIn.sharedInstance.signOut()
     }
 
     func reauthenticate(_ method: ReauthMethod) async throws {
@@ -140,6 +204,8 @@ final class FirebaseAuthService: AuthServicing {
             credential = EmailAuthProvider.credential(withEmail: email, password: password)
         case .apple(let apple):
             credential = OAuthProvider.appleCredential(withIDToken: apple.idToken, rawNonce: apple.rawNonce, fullName: nil)
+        case .google(let google):
+            credential = GoogleAuthProvider.credential(withIDToken: google.idToken, accessToken: google.accessToken)
         }
         do {
             try await user.reauthenticate(with: credential)
@@ -159,6 +225,8 @@ final class FirebaseAuthService: AuthServicing {
         } catch {
             throw AuthFailure(error)
         }
+        // Google hesabındaki LEXA erişim iznini de kaldır (Google kullanıcısı değilse etkisiz).
+        try? await GIDSignIn.sharedInstance.disconnect()
     }
 
     private static func map(_ user: User) -> AuthUser {
@@ -166,8 +234,15 @@ final class FirebaseAuthService: AuthServicing {
             uid: user.uid,
             email: user.email,
             displayName: user.displayName,
-            isAppleUser: user.providerData.contains { $0.providerID == "apple.com" }
+            provider: provider(of: user)
         )
+    }
+
+    private static func provider(of user: User) -> AuthProvider {
+        let ids = Set(user.providerData.map(\.providerID))
+        if ids.contains("apple.com") { return .apple }
+        if ids.contains("google.com") { return .google }
+        return .password
     }
 }
 

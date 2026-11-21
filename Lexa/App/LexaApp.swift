@@ -1,4 +1,5 @@
 import FirebaseCore
+import GoogleSignIn
 import SwiftUI
 
 final class AppDelegate: NSObject, UIApplicationDelegate {
@@ -22,6 +23,8 @@ struct LexaApp: App {
                     PastelBackground()
                 }
             }
+            // Google giriş penceresi kapandıktan sonra sonucu uygulamaya geri verir.
+            .onOpenURL { url in _ = GIDSignIn.sharedInstance.handle(url) }
             .task {
                 // Firebase, AppDelegate'te yapılandırıldıktan sonra servisler oluşturulur.
                 guard app == nil else { return }

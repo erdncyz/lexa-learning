@@ -8,7 +8,10 @@ final class PreviewAuthService: AuthServicing {
     func sendPasswordReset(email: String) async throws {}
     func signOut() throws {}
     func signInWithApple(_ credential: AppleCredential) async throws -> (user: AuthUser, isNew: Bool) {
-        (AuthUser(uid: "preview", email: nil, displayName: "Ada", isAppleUser: true), false)
+        (AuthUser(uid: "preview", email: nil, displayName: "Ada", provider: .apple), false)
+    }
+    func signInWithGoogle(_ credential: GoogleCredential) async throws -> (user: AuthUser, isNew: Bool) {
+        (AuthUser(uid: "preview", email: "ada@gmail.com", displayName: "Ada", provider: .google), false)
     }
     func reauthenticate(_ method: ReauthMethod) async throws {}
     func deleteCurrentUser(appleAuthorizationCode: String?) async throws {}

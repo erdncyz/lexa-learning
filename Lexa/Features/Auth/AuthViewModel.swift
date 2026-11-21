@@ -80,18 +80,40 @@ final class AuthViewModel {
                 errorMessage = "Apple ile giriş yapılamadı. Lütfen tekrar dene."
                 return
             }
-            isLoading = true
-            defer { isLoading = false }
-            do {
-                let (user, isNew) = try await app.auth.signInWithApple(credential)
-                if isNew, let name = user.displayName, !name.isEmpty {
-                    app.update { $0.displayName = name }
-                }
-                await app.didAuthenticate(user, isNewAccount: isNew)
-                onSuccess()
-            } catch {
-                errorMessage = error.localizedDescription
+            await completeSocialSignIn { try await self.app.auth.signInWithApple(credential) }
+        }
+    }
+
+    // MARK: Google ile giriş
+
+    func signInWithGoogle() async {
+        errorMessage = nil
+        infoMessage = nil
+        let credential: GoogleCredential
+        do {
+            credential = try await GoogleSignInFlow.run()
+        } catch is CancellationError {
+            return
+        } catch {
+            errorMessage = error.localizedDescription
+            return
+        }
+        await completeSocialSignIn { try await self.app.auth.signInWithGoogle(credential) }
+    }
+
+    /// Apple / Google girişinden sonra ortak adımlar: adı kaydet, misafir ilerlemesini taşı.
+    private func completeSocialSignIn(_ signIn: () async throws -> (user: AuthUser, isNew: Bool)) async {
+        isLoading = true
+        defer { isLoading = false }
+        do {
+            let (user, isNew) = try await signIn()
+            if isNew, let name = user.displayName, !name.isEmpty {
+                app.update { $0.displayName = name }
             }
+            await app.didAuthenticate(user, isNewAccount: isNew)
+            onSuccess()
+        } catch {
+            errorMessage = error.localizedDescription
         }
     }
 
