@@ -1,0 +1,786 @@
+[
+ {
+  "term": "predilection",
+  "meaning": "düşkünlük, eğilim",
+  "pos": "isim",
+  "ipa": "/ˌpriːdɪˈlekʃn/",
+  "example": "She has a predilection for old French films.",
+  "exampleTr": "Eski Fransız filmlerine özel bir düşkünlüğü var.",
+  "usage": "“a predilection for something” kalıbıyla kullanılır; “preference”ın edebî karşılığıdır.",
+  "synonyms": [
+   "fondness",
+   "preference"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "stoicism",
+  "meaning": "metanet, stoacılık",
+  "pos": "isim",
+  "ipa": "/ˈstəʊɪsɪzəm/",
+  "example": "He faced his illness with remarkable stoicism.",
+  "exampleTr": "Hastalığına olağanüstü bir metanetle göğüs gerdi.",
+  "usage": "Sıfatı “stoic”tir (acıya sessizce katlanan).",
+  "synonyms": [
+   "endurance",
+   "resilience"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "term": "recluse",
+  "meaning": "münzevi, inzivaya çekilmiş kişi",
+  "pos": "isim",
+  "ipa": "/rɪˈkluːs/",
+  "example": "After his wife died, he became a recluse.",
+  "exampleTr": "Eşi öldükten sonra inzivaya çekildi.",
+  "usage": "Sıfatı “reclusive”dir.",
+  "synonyms": [
+   "hermit",
+   "loner"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "term": "vindication",
+  "meaning": "haklı çıkma, aklanma",
+  "pos": "isim",
+  "ipa": "/ˌvɪndɪˈkeɪʃn/",
+  "example": "The court's decision was a vindication of her claims.",
+  "exampleTr": "Mahkemenin kararı onun iddialarını haklı çıkardı.",
+  "usage": "Fiili “vindicate”tir.",
+  "synonyms": [
+   "justification",
+   "exoneration"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "parable",
+  "meaning": "mesel, ibretli hikâye",
+  "pos": "isim",
+  "ipa": "/ˈpærəbl/",
+  "example": "The story is a parable about greed.",
+  "exampleTr": "Hikâye açgözlülük üzerine ibretlik bir mesel.",
+  "usage": "Ahlaki bir ders veren kısa hikâyeleri anlatır.",
+  "synonyms": [
+   "fable",
+   "allegory"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "imposition",
+  "meaning": "dayatma; zahmet, yük",
+  "pos": "isim",
+  "ipa": "/ˌɪmpəˈzɪʃn/",
+  "example": "I hope staying with you isn't an imposition.",
+  "exampleTr": "Umarım sizde kalmam size yük olmuyordur.",
+  "usage": "Fiili “impose”dur (dayatmak, yüklemek).",
+  "synonyms": [
+   "burden",
+   "inconvenience"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "term": "stipulation",
+  "meaning": "şart, koşul",
+  "pos": "isim",
+  "ipa": "/ˌstɪpjuˈleɪʃn/",
+  "example": "The contract includes a stipulation about working hours.",
+  "exampleTr": "Sözleşmede çalışma saatleriyle ilgili bir şart var.",
+  "usage": "Hukuki ve resmî metinlerde kullanılır; fiili “stipulate”tir.",
+  "synonyms": [
+   "condition",
+   "requirement"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "tenacity",
+  "meaning": "azim, inat",
+  "pos": "isim",
+  "ipa": "/təˈnæsəti/",
+  "example": "Her tenacity helped her finish the project.",
+  "exampleTr": "Azmi projeyi bitirmesine yardımcı oldu.",
+  "usage": "Sıfatı “tenacious”tır (azimli, yılmaz).",
+  "synonyms": [
+   "determination",
+   "persistence"
+  ],
+  "topics": [
+   "is",
+   "duygular"
+  ]
+ },
+ {
+  "term": "proliferation",
+  "meaning": "hızla çoğalma, yayılma",
+  "pos": "isim",
+  "ipa": "/prəˌlɪfəˈreɪʃn/",
+  "example": "The proliferation of smartphones changed how we communicate.",
+  "exampleTr": "Akıllı telefonların hızla yayılması iletişim şeklimizi değiştirdi.",
+  "usage": "Fiili “proliferate”tir.",
+  "synonyms": [
+   "spread",
+   "increase"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "conjecture",
+  "meaning": "tahmin, varsayım",
+  "pos": "isim",
+  "ipa": "/kənˈdʒektʃə/",
+  "example": "His theory is based on pure conjecture.",
+  "exampleTr": "Teorisi tamamen tahmine dayanıyor.",
+  "usage": "Yetersiz kanıta dayanan görüşleri anlatır; fiil olarak da kullanılır.",
+  "synonyms": [
+   "speculation",
+   "guesswork"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "nostalgia",
+  "meaning": "nostalji, geçmiş özlemi",
+  "pos": "isim",
+  "ipa": "/nɒˈstældʒə/",
+  "example": "Old songs fill me with nostalgia.",
+  "exampleTr": "Eski şarkılar içimi nostaljiyle dolduruyor.",
+  "usage": "Sıfatı “nostalgic”tir.",
+  "synonyms": [
+   "longing",
+   "reminiscence"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "term": "grievance",
+  "meaning": "şikâyet, dert",
+  "pos": "isim",
+  "ipa": "/ˈɡriːvns/",
+  "example": "Workers have the right to raise their grievances.",
+  "exampleTr": "Çalışanların şikâyetlerini dile getirme hakkı var.",
+  "usage": "Haksızlığa uğradığını düşündüğün resmî şikâyetler için kullanılır.",
+  "synonyms": [
+   "complaint",
+   "objection"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "deprivation",
+  "meaning": "yoksunluk, mahrumiyet",
+  "pos": "isim",
+  "ipa": "/ˌdeprɪˈveɪʃn/",
+  "example": "Sleep deprivation affects your concentration.",
+  "exampleTr": "Uykusuzluk konsantrasyonunu etkiler.",
+  "usage": "“sleep deprivation” uyku yoksunluğu demektir; fiili “deprive”dır.",
+  "synonyms": [
+   "lack",
+   "hardship"
+  ],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "term": "residue",
+  "meaning": "kalıntı, tortu",
+  "pos": "isim",
+  "ipa": "/ˈrezɪdjuː/",
+  "example": "Wash the fruit to remove any chemical residue.",
+  "exampleTr": "Kimyasal kalıntıları gidermek için meyveyi yıka.",
+  "usage": "Bir işlemden sonra geride kalan maddeyi anlatır.",
+  "synonyms": [
+   "remains",
+   "traces"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "methodology",
+  "meaning": "yöntem bilimi, metodoloji",
+  "pos": "isim",
+  "ipa": "/ˌmeθəˈdɒlədʒi/",
+  "example": "The study's methodology has been criticised.",
+  "exampleTr": "Çalışmanın metodolojisi eleştirildi.",
+  "usage": "Akademik yazında araştırmanın yöntem bölümünü anlatır.",
+  "synonyms": [
+   "approach",
+   "method"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "hindsight",
+  "meaning": "sonradan görme, geriye dönüp bakınca anlama",
+  "pos": "isim",
+  "ipa": "/ˈhaɪndsaɪt/",
+  "example": "With hindsight, I should have taken the job.",
+  "exampleTr": "Şimdi bakınca, o işi kabul etmeliydim.",
+  "usage": "“with hindsight” ya da “in hindsight” şimdi geriye bakınca demektir.",
+  "synonyms": [
+   "retrospect"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "term": "notoriety",
+  "meaning": "kötü şöhret",
+  "pos": "isim",
+  "ipa": "/ˌnəʊtəˈraɪəti/",
+  "example": "The scandal brought him unwanted notoriety.",
+  "exampleTr": "Skandal ona istenmeyen bir kötü şöhret getirdi.",
+  "usage": "Sıfatı “notorious”tur (adı çıkmış, kötü ünlü).",
+  "synonyms": [
+   "infamy",
+   "disrepute"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "term": "antidote",
+  "meaning": "panzehir, çare",
+  "pos": "isim",
+  "ipa": "/ˈæntidəʊt/",
+  "example": "Laughter is the best antidote to stress.",
+  "exampleTr": "Kahkaha strese karşı en iyi çaredir.",
+  "usage": "Mecazi olarak da kullanılır: “an antidote to boredom”.",
+  "synonyms": [
+   "remedy",
+   "cure"
+  ],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "term": "euphoria",
+  "meaning": "coşku, öfori",
+  "pos": "isim",
+  "ipa": "/juːˈfɔːriə/",
+  "example": "There was a sense of euphoria after the victory.",
+  "exampleTr": "Zaferden sonra bir coşku havası vardı.",
+  "usage": "Sıfatı “euphoric”tir.",
+  "synonyms": [
+   "elation",
+   "joy"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "term": "treachery",
+  "meaning": "ihanet, hainlik",
+  "pos": "isim",
+  "ipa": "/ˈtretʃəri/",
+  "example": "The novel is a story of love and treachery.",
+  "exampleTr": "Roman bir aşk ve ihanet hikâyesi.",
+  "usage": "Sıfatı “treacherous”tır; bu sıfat “tehlikeli” anlamına da gelir: “treacherous roads”.",
+  "synonyms": [
+   "betrayal",
+   "disloyalty"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "term": "palate",
+  "meaning": "damak; damak zevki",
+  "pos": "isim",
+  "ipa": "/ˈpælət/",
+  "example": "This wine is too sweet for my palate.",
+  "exampleTr": "Bu şarap damak zevkime göre fazla tatlı.",
+  "usage": "“palette” (ressam paleti) ile aynı okunur ama anlamı farklıdır.",
+  "synonyms": [
+   "taste"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "term": "rift",
+  "meaning": "çatlak, ayrılık, küslük",
+  "pos": "isim",
+  "ipa": "/rɪft/",
+  "example": "The argument caused a rift between the brothers.",
+  "exampleTr": "Tartışma kardeşler arasında bir ayrılığa yol açtı.",
+  "usage": "İlişkilerdeki derin anlaşmazlıklar için mecazi olarak kullanılır.",
+  "synonyms": [
+   "split",
+   "breach"
+  ],
+  "topics": [
+   "aile",
+   "duygular"
+  ]
+ },
+ {
+  "term": "drudgery",
+  "meaning": "angarya, sıkıcı ağır iş",
+  "pos": "isim",
+  "ipa": "/ˈdrʌdʒəri/",
+  "example": "Robots can free us from the drudgery of housework.",
+  "exampleTr": "Robotlar bizi ev işlerinin angaryasından kurtarabilir.",
+  "usage": "Tekrarlayan, zevksiz işleri anlatır; sayılamaz bir isimdir.",
+  "synonyms": [
+   "chore",
+   "toil"
+  ],
+  "topics": [
+   "is",
+   "ev"
+  ]
+ },
+ {
+  "term": "intermediary",
+  "meaning": "aracı",
+  "pos": "isim",
+  "ipa": "/ˌɪntəˈmiːdiəri/",
+  "example": "The agent acts as an intermediary between buyer and seller.",
+  "exampleTr": "Acente alıcıyla satıcı arasında aracılık yapıyor.",
+  "usage": "“act as an intermediary” kalıbıyla kullanılır.",
+  "synonyms": [
+   "mediator",
+   "go-between"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "jargon",
+  "meaning": "jargon, meslek dili",
+  "pos": "isim",
+  "ipa": "/ˈdʒɑːɡən/",
+  "example": "The report is full of technical jargon.",
+  "exampleTr": "Rapor teknik jargonla dolu.",
+  "usage": "Genellikle olumsuz kullanılır: dışarıdakilerin anlamadığı terimler.",
+  "synonyms": [
+   "terminology",
+   "slang"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "accountability",
+  "meaning": "hesap verebilirlik",
+  "pos": "isim",
+  "ipa": "/əˌkaʊntəˈbɪləti/",
+  "example": "The public demands greater accountability from politicians.",
+  "exampleTr": "Halk politikacılardan daha fazla hesap verebilirlik istiyor.",
+  "usage": "Sıfatı “accountable”dır (hesap vermekle yükümlü).",
+  "synonyms": [
+   "responsibility",
+   "liability"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "minefield",
+  "meaning": "mayın tarlası; çok riskli durum",
+  "pos": "isim",
+  "ipa": "/ˈmaɪnfiːld/",
+  "example": "Discussing politics at dinner can be a minefield.",
+  "exampleTr": "Akşam yemeğinde siyaset konuşmak mayın tarlasında yürümek gibi olabilir.",
+  "usage": "Mecazi olarak hassas, tehlikeli konuları anlatır.",
+  "synonyms": [
+   "danger zone"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "term": "abundance",
+  "meaning": "bolluk",
+  "pos": "isim",
+  "ipa": "/əˈbʌndəns/",
+  "example": "The region has an abundance of fresh water.",
+  "exampleTr": "Bölgede bol miktarda tatlı su var.",
+  "usage": "“in abundance” bol bol demektir; sıfatı “abundant”tır.",
+  "synonyms": [
+   "plenty",
+   "wealth"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "term": "retrospect",
+  "meaning": "geçmişe bakış",
+  "pos": "isim",
+  "ipa": "/ˈretrəspekt/",
+  "example": "In retrospect, it was the right decision.",
+  "exampleTr": "Geriye dönüp bakınca, doğru bir karardı.",
+  "usage": "Neredeyse her zaman “in retrospect” kalıbıyla kullanılır.",
+  "synonyms": [
+   "hindsight"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "term": "brevity",
+  "meaning": "kısalık, özlülük",
+  "pos": "isim",
+  "ipa": "/ˈbrevəti/",
+  "example": "For the sake of brevity, I'll skip the details.",
+  "exampleTr": "Kısa tutmak adına ayrıntıları atlayacağım.",
+  "usage": "“Brevity is the soul of wit.” (Söz kısalığı zekânın özüdür.) ünlü bir sözdür.",
+  "synonyms": [
+   "conciseness",
+   "shortness"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "gambit",
+  "meaning": "hamle, taktik",
+  "pos": "isim",
+  "ipa": "/ˈɡæmbɪt/",
+  "example": "His opening gambit was to offer a discount.",
+  "exampleTr": "İlk hamlesi indirim teklif etmek oldu.",
+  "usage": "Satrançtan gelir; avantaj elde etmek için yapılan hesaplı hamleyi anlatır.",
+  "synonyms": [
+   "ploy",
+   "tactic"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "correlation",
+  "meaning": "ilişki, korelasyon",
+  "pos": "isim",
+  "ipa": "/ˌkɒrəˈleɪʃn/",
+  "example": "There is a strong correlation between sleep and mood.",
+  "exampleTr": "Uyku ile ruh hâli arasında güçlü bir ilişki var.",
+  "usage": "“Correlation is not causation.” (İlişki, nedensellik değildir.) yaygın bir uyarıdır.",
+  "synonyms": [
+   "connection",
+   "link"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "equilibrium",
+  "meaning": "denge",
+  "pos": "isim",
+  "ipa": "/ˌiːkwɪˈlɪbriəm/",
+  "example": "Yoga helps me find my emotional equilibrium.",
+  "exampleTr": "Yoga duygusal dengemi bulmama yardımcı oluyor.",
+  "usage": "Bilimsel ve resmî bağlamlarda “balance” yerine kullanılır.",
+  "synonyms": [
+   "balance",
+   "stability"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "connotation",
+  "meaning": "çağrışım, yan anlam",
+  "pos": "isim",
+  "ipa": "/ˌkɒnəˈteɪʃn/",
+  "example": "The word “cheap” often has negative connotations.",
+  "exampleTr": "“cheap” kelimesi çoğu zaman olumsuz çağrışımlar taşır.",
+  "usage": "Kelimenin sözlük anlamı “denotation”, ek duygusal anlamı “connotation”dır.",
+  "synonyms": [
+   "association",
+   "implication"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "innuendo",
+  "meaning": "ima, iğneleme",
+  "pos": "isim",
+  "ipa": "/ˌɪnjuˈendəʊ/",
+  "example": "The article was full of innuendo about his private life.",
+  "exampleTr": "Makale onun özel hayatıyla ilgili imalarla doluydu.",
+  "usage": "Genellikle olumsuz ya da müstehcen dolaylı imaları anlatır.",
+  "synonyms": [
+   "insinuation",
+   "hint"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "term": "haven",
+  "meaning": "sığınak, liman",
+  "pos": "isim",
+  "ipa": "/ˈheɪvn/",
+  "example": "The garden is a haven of peace in the city.",
+  "exampleTr": "Bahçe şehrin içinde bir huzur limanı.",
+  "usage": "“tax haven” vergi cenneti demektir.",
+  "synonyms": [
+   "refuge",
+   "sanctuary"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "term": "exude",
+  "meaning": "(his, nitelik) yaymak, saçmak",
+  "pos": "fiil",
+  "ipa": "/ɪɡˈzjuːd/",
+  "example": "She exudes confidence on stage.",
+  "exampleTr": "Sahnede özgüven saçıyor.",
+  "usage": "Mecazi olarak bir niteliği açıkça göstermek için kullanılır.",
+  "synonyms": [
+   "radiate",
+   "emanate"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "term": "envisage",
+  "meaning": "öngörmek, tasavvur etmek",
+  "pos": "fiil",
+  "ipa": "/ɪnˈvɪzɪdʒ/",
+  "example": "I can't envisage working anywhere else.",
+  "exampleTr": "Başka bir yerde çalıştığımı hayal edemiyorum.",
+  "usage": "Amerikan İngilizcesinde daha çok “envision” denir.",
+  "synonyms": [
+   "imagine",
+   "foresee"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "unravel",
+  "meaning": "çözmek, çözülmek; dağılmak",
+  "pos": "fiil",
+  "ipa": "/ʌnˈrævl/",
+  "example": "Detectives slowly unravelled the mystery.",
+  "exampleTr": "Dedektifler gizemi yavaş yavaş çözdü.",
+  "usage": "Planlar için “suya düşmek, dağılmak” anlamında da kullanılır.",
+  "synonyms": [
+   "solve",
+   "untangle"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "teem",
+  "meaning": "kaynamak, dolup taşmak",
+  "pos": "fiil",
+  "ipa": "/tiːm/",
+  "example": "The streets were teeming with tourists.",
+  "exampleTr": "Sokaklar turistlerle kaynıyordu.",
+  "usage": "Genellikle “be teeming with something” kalıbıyla kullanılır.",
+  "synonyms": [
+   "swarm",
+   "be full of"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "term": "deliberate",
+  "meaning": "enine boyuna düşünmek, müzakere etmek",
+  "pos": "fiil",
+  "ipa": "/dɪˈlɪbəreɪt/",
+  "example": "The jury deliberated for six hours.",
+  "exampleTr": "Jüri altı saat müzakere etti.",
+  "usage": "Fiil /-reɪt/, sıfat /-rət/ okunur; sıfat “kasıtlı” demektir.",
+  "synonyms": [
+   "consider",
+   "discuss"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "brood",
+  "meaning": "kara kara düşünmek",
+  "pos": "fiil",
+  "ipa": "/bruːd/",
+  "example": "Stop brooding about the past.",
+  "exampleTr": "Geçmişi kara kara düşünmeyi bırak.",
+  "usage": "İsim olarak “bir seferde çıkan yavrular” anlamına gelir.",
+  "synonyms": [
+   "dwell",
+   "sulk"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "term": "vindicate",
+  "meaning": "haklı çıkarmak, aklamak",
+  "pos": "fiil",
+  "ipa": "/ˈvɪndɪkeɪt/",
+  "example": "The new evidence vindicated him completely.",
+  "exampleTr": "Yeni kanıt onu tamamen akladı.",
+  "usage": "“feel vindicated” haklı çıkmış hissetmek demektir.",
+  "synonyms": [
+   "justify",
+   "clear"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "denounce",
+  "meaning": "kınamak, ihbar etmek",
+  "pos": "fiil",
+  "ipa": "/dɪˈnaʊns/",
+  "example": "World leaders denounced the attack.",
+  "exampleTr": "Dünya liderleri saldırıyı kınadı.",
+  "usage": "Kamuoyu önünde sert bir şekilde eleştirmeyi anlatır.",
+  "synonyms": [
+   "condemn",
+   "criticise"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "substantiate",
+  "meaning": "kanıtlamak, doğrulamak",
+  "pos": "fiil",
+  "ipa": "/səbˈstænʃieɪt/",
+  "example": "Can you substantiate these claims?",
+  "exampleTr": "Bu iddiaları kanıtlayabilir misin?",
+  "usage": "Akademik ve hukuki dilde “prove” yerine kullanılır.",
+  "synonyms": [
+   "prove",
+   "support"
+  ],
+  "topics": [
+   "akademik"
+  ]
+ },
+ {
+  "term": "indulge",
+  "meaning": "kendini şımartmak, keyfine göre davranmak",
+  "pos": "fiil",
+  "ipa": "/ɪnˈdʌldʒ/",
+  "example": "On my birthday I indulge in a big slice of cake.",
+  "exampleTr": "Doğum günümde kendimi kocaman bir dilim pastayla şımartırım.",
+  "usage": "“indulge in something” kalıbıyla kullanılır; sıfatı “indulgent”tir.",
+  "synonyms": [
+   "treat",
+   "spoil"
+  ],
+  "topics": [
+   "yemek",
+   "duygular"
+  ]
+ },
+ {
+  "term": "allot",
+  "meaning": "tahsis etmek, ayırmak",
+  "pos": "fiil",
+  "ipa": "/əˈlɒt/",
+  "example": "Each speaker is allotted ten minutes.",
+  "exampleTr": "Her konuşmacıya on dakika ayrılıyor.",
+  "usage": "“a lot” (çok) ile karıştırılmamalıdır; ismi “allotment”tır.",
+  "synonyms": [
+   "allocate",
+   "assign"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "liaise",
+  "meaning": "irtibat kurmak, koordinasyon sağlamak",
+  "pos": "fiil",
+  "ipa": "/liˈeɪz/",
+  "example": "She liaises with clients on behalf of the company.",
+  "exampleTr": "Şirket adına müşterilerle irtibatı o sağlıyor.",
+  "usage": "“liaise with someone” kalıbıyla kullanılır; ismi “liaison”dır.",
+  "synonyms": [
+   "coordinate",
+   "communicate"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "term": "accrue",
+  "meaning": "birikmek, tahakkuk etmek",
+  "pos": "fiil",
+  "ipa": "/əˈkruː/",
+  "example": "Interest accrues on the account every month.",
+  "exampleTr": "Hesapta her ay faiz birikiyor.",
+  "usage": "Finansal metinlerde faiz, borç ve fayda için kullanılır.",
+  "synonyms": [
+   "accumulate",
+   "build up"
+  ],
+  "topics": [
+   "is"
+  ]
+ }
+]

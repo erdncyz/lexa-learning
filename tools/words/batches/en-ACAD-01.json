@@ -1,0 +1,1114 @@
+[
+ {
+  "term": "authority",
+  "level": "B1",
+  "meaning": "yetki; otorite, makam",
+  "pos": "isim",
+  "ipa": "/ɔːˈθɒrəti/",
+  "example": "Only the manager has the authority to approve refunds.",
+  "exampleTr": "İade onaylama yetkisi yalnızca müdürde.",
+  "usage": "“the authorities” resmî makamlar, yetkililer demektir. “an authority on something” bir konuda uzman kişi anlamına gelir.",
+  "synonyms": [
+   "power",
+   "control"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "publish",
+  "level": "A2",
+  "meaning": "yayımlamak",
+  "pos": "fiil",
+  "ipa": "/ˈpʌblɪʃ/",
+  "example": "The results were published in a scientific journal.",
+  "exampleTr": "Sonuçlar bilimsel bir dergide yayımlandı.",
+  "usage": "Akademik metinlerde edilgen sık kullanılır: “be published in a journal”.",
+  "synonyms": [
+   "release",
+   "issue"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "aspect",
+  "level": "B1",
+  "meaning": "yön, boyut, açı",
+  "pos": "isim",
+  "ipa": "/ˈæspekt/",
+  "example": "Cost is an important aspect of the project.",
+  "exampleTr": "Maliyet projenin önemli bir boyutu.",
+  "usage": "“every aspect of life” hayatın her yönü; YDS'de “feature, element” ile eş anlamlı sorulur.",
+  "synonyms": [
+   "feature",
+   "element"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "impact",
+  "level": "A2",
+  "meaning": "etki",
+  "pos": "isim",
+  "ipa": "/ˈɪmpækt/",
+  "example": "Social media has a huge impact on young people.",
+  "exampleTr": "Sosyal medyanın gençler üzerinde büyük bir etkisi var.",
+  "usage": "“have an impact on something” kalıbıyla kullanılır; fiil olarak da kullanılır: “impact the economy”.",
+  "synonyms": [
+   "effect",
+   "influence"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "obtain",
+  "level": "B1",
+  "meaning": "elde etmek, edinmek",
+  "pos": "fiil",
+  "ipa": "/əbˈteɪn/",
+  "example": "Researchers obtained the data from 500 participants.",
+  "exampleTr": "Araştırmacılar verileri 500 katılımcıdan elde etti.",
+  "usage": "“get”in resmî karşılığıdır; “obtain permission / data / a visa” kalıpları yaygındır.",
+  "synonyms": [
+   "get",
+   "acquire",
+   "gain"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "distribution",
+  "level": "B1",
+  "meaning": "dağıtım, dağılım",
+  "pos": "isim",
+  "ipa": "/ˌdɪstrɪˈbjuːʃn/",
+  "example": "The distribution of wealth is very unequal.",
+  "exampleTr": "Servet dağılımı çok eşitsiz.",
+  "usage": "Fiili “distribute”tur. İstatistikte “dağılım” anlamında kullanılır.",
+  "synonyms": [
+   "allocation",
+   "spread"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "essentially",
+  "level": "B2",
+  "meaning": "esasen, temelde",
+  "pos": "zarf",
+  "ipa": "/ɪˈsenʃəli/",
+  "example": "The two plans are essentially the same.",
+  "exampleTr": "İki plan temelde aynı.",
+  "usage": "Bir şeyin özünü vurgular; “basically”nin daha resmî karşılığıdır.",
+  "synonyms": [
+   "basically",
+   "fundamentally"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "regime",
+  "level": "B2",
+  "meaning": "rejim, yönetim; düzen",
+  "pos": "isim",
+  "ipa": "/reɪˈʒiːm/",
+  "example": "The country was ruled by a military regime.",
+  "exampleTr": "Ülke askerî bir rejimle yönetiliyordu.",
+  "usage": "Siyasette genellikle olumsuz bir yönetimi anlatır; “a strict diet regime” gibi düzen anlamı da vardır.",
+  "synonyms": [
+   "government",
+   "system"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "transaction",
+  "level": "C1",
+  "meaning": "işlem (özellikle mali)",
+  "pos": "isim",
+  "ipa": "/trænˈzækʃn/",
+  "example": "All transactions are recorded by the bank.",
+  "exampleTr": "Tüm işlemler banka tarafından kaydedilir.",
+  "usage": "Bankacılık ve ticarette kullanılır: “online transaction” (çevrim içi işlem).",
+  "synonyms": [
+   "deal",
+   "exchange"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "disadvantage",
+  "level": "A2",
+  "meaning": "dezavantaj, olumsuz yön",
+  "pos": "isim",
+  "ipa": "/ˌdɪsədˈvɑːntɪdʒ/",
+  "example": "One disadvantage of city life is the noise.",
+  "exampleTr": "Şehir hayatının bir dezavantajı gürültüdür.",
+  "usage": "IELTS yazma görevlerinde “advantages and disadvantages” kalıbı çok sık çıkar.",
+  "synonyms": [
+   "drawback",
+   "downside"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "dynamic",
+  "level": "B2",
+  "meaning": "dinamik, hareketli",
+  "pos": "sıfat",
+  "ipa": "/daɪˈnæmɪk/",
+  "example": "She is a dynamic and creative leader.",
+  "exampleTr": "Dinamik ve yaratıcı bir lider.",
+  "usage": "İsim olarak “dinamikler, ilişkiler” anlamında çoğul kullanılır: “group dynamics”.",
+  "synonyms": [
+   "energetic",
+   "active"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "strategic",
+  "level": "B1",
+  "meaning": "stratejik",
+  "pos": "sıfat",
+  "ipa": "/strəˈtiːdʒɪk/",
+  "example": "The company made a strategic decision to expand.",
+  "exampleTr": "Şirket büyümek için stratejik bir karar aldı.",
+  "usage": "İsmi “strategy”dir; vurgu ikinci hecededir: stra-TE-gic.",
+  "synonyms": [
+   "planned",
+   "tactical"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "contrary",
+  "level": "B1",
+  "meaning": "aksi, zıt",
+  "pos": "sıfat",
+  "ipa": "/ˈkɒntrəri/",
+  "example": "Contrary to popular belief, bats are not blind.",
+  "exampleTr": "Yaygın inanışın aksine yarasalar kör değildir.",
+  "usage": "“on the contrary” tam tersine; “contrary to” -ın aksine demektir. YDS bağlaç sorularında sık geçer.",
+  "synonyms": [
+   "opposite",
+   "conflicting"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "consumption",
+  "level": "B1",
+  "meaning": "tüketim",
+  "pos": "isim",
+  "ipa": "/kənˈsʌmpʃn/",
+  "example": "Energy consumption increases in winter.",
+  "exampleTr": "Enerji tüketimi kışın artar.",
+  "usage": "Fiili “consume”, tüketici “consumer”dır.",
+  "synonyms": [
+   "use",
+   "intake"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "absorb",
+  "level": "B1",
+  "meaning": "emmek; özümsemek",
+  "pos": "fiil",
+  "ipa": "/əbˈzɔːb/",
+  "example": "Plants absorb water through their roots.",
+  "exampleTr": "Bitkiler suyu kökleriyle emer.",
+  "usage": "Bilgi için “özümsemek” anlamında da kullanılır: “absorb information”.",
+  "synonyms": [
+   "soak up",
+   "take in"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "domain",
+  "level": "C1",
+  "meaning": "alan, saha",
+  "pos": "isim",
+  "ipa": "/dəˈmeɪn/",
+  "example": "This question is outside my domain of expertise.",
+  "exampleTr": "Bu soru benim uzmanlık alanımın dışında.",
+  "usage": "İnternette “alan adı” anlamına gelir: “domain name”.",
+  "synonyms": [
+   "field",
+   "area"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "productivity",
+  "level": "C1",
+  "meaning": "verimlilik",
+  "pos": "isim",
+  "ipa": "/ˌprɒdʌkˈtɪvəti/",
+  "example": "Working from home increased their productivity.",
+  "exampleTr": "Evden çalışmak verimliliklerini artırdı.",
+  "usage": "Sıfatı “productive”tir.",
+  "synonyms": [
+   "efficiency",
+   "output"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "superior",
+  "level": "B1",
+  "meaning": "üstün, daha iyi; üst (rütbe)",
+  "pos": "sıfat",
+  "ipa": "/suːˈpɪəriə/",
+  "example": "This model is superior to the old one.",
+  "exampleTr": "Bu model eskisinden üstün.",
+  "usage": "“than” değil “to” ile kullanılır: “superior to something”.",
+  "synonyms": [
+   "better",
+   "higher"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "prominent",
+  "level": "B1",
+  "meaning": "önde gelen, tanınmış; belirgin",
+  "pos": "sıfat",
+  "ipa": "/ˈprɒmɪnənt/",
+  "example": "She is a prominent scientist in her field.",
+  "exampleTr": "Alanında önde gelen bir bilim insanı.",
+  "usage": "Fiziksel olarak “göze çarpan” anlamı da vardır: “a prominent nose”.",
+  "synonyms": [
+   "leading",
+   "famous",
+   "noticeable"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "ultimate",
+  "level": "B2",
+  "meaning": "nihai, en son; en büyük",
+  "pos": "sıfat",
+  "ipa": "/ˈʌltɪmət/",
+  "example": "Our ultimate goal is to reduce poverty.",
+  "exampleTr": "Nihai hedefimiz yoksulluğu azaltmak.",
+  "usage": "Zarfı “ultimately”dir (sonunda, nihayetinde).",
+  "synonyms": [
+   "final",
+   "eventual"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "widespread",
+  "level": "B1",
+  "meaning": "yaygın",
+  "pos": "sıfat",
+  "ipa": "/ˈwaɪdspred/",
+  "example": "There is widespread support for the new law.",
+  "exampleTr": "Yeni yasaya yaygın bir destek var.",
+  "usage": "Hastalık, inanç ya da sorun için kullanılır: “widespread fear”.",
+  "synonyms": [
+   "common",
+   "extensive"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "emission",
+  "level": "C1",
+  "meaning": "salım, emisyon",
+  "pos": "isim",
+  "ipa": "/ɪˈmɪʃn/",
+  "example": "Countries must cut carbon emissions.",
+  "exampleTr": "Ülkeler karbon salımını azaltmalı.",
+  "usage": "Genellikle çoğul kullanılır; fiili “emit”tir.",
+  "synonyms": [
+   "release",
+   "discharge"
+  ],
+  "topics": [
+   "akademik",
+   "doga"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "integration",
+  "level": "C2",
+  "meaning": "entegrasyon, bütünleşme",
+  "pos": "isim",
+  "ipa": "/ˌɪntɪˈɡreɪʃn/",
+  "example": "The integration of immigrants takes time.",
+  "exampleTr": "Göçmenlerin topluma uyumu zaman alır.",
+  "usage": "Fiili “integrate”tir.",
+  "synonyms": [
+   "inclusion",
+   "combination"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "dominant",
+  "level": "C1",
+  "meaning": "baskın, hâkim",
+  "pos": "sıfat",
+  "ipa": "/ˈdɒmɪnənt/",
+  "example": "English is the dominant language of science.",
+  "exampleTr": "İngilizce bilimin baskın dili.",
+  "usage": "Fiili “dominate”, ismi “dominance”tır.",
+  "synonyms": [
+   "leading",
+   "main"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "admission",
+  "level": "B1",
+  "meaning": "kabul, giriş; itiraf",
+  "pos": "isim",
+  "ipa": "/ədˈmɪʃn/",
+  "example": "Admission to the museum is free.",
+  "exampleTr": "Müzeye giriş ücretsiz.",
+  "usage": "Üniversiteye kabul için “university admissions”; itiraf için “an admission of guilt” denir.",
+  "synonyms": [
+   "entry",
+   "acceptance"
+  ],
+  "topics": [
+   "akademik",
+   "okul"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "scenario",
+  "level": "C1",
+  "meaning": "senaryo, olası durum",
+  "pos": "isim",
+  "ipa": "/səˈnɑːriəʊ/",
+  "example": "In the worst-case scenario, the project will fail.",
+  "exampleTr": "En kötü senaryoda proje başarısız olur.",
+  "usage": "“worst-case / best-case scenario” kalıpları çok yaygındır.",
+  "synonyms": [
+   "situation",
+   "possibility"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "feedback",
+  "level": "B2",
+  "meaning": "geri bildirim",
+  "pos": "isim",
+  "ipa": "/ˈfiːdbæk/",
+  "example": "The teacher gave us useful feedback on our essays.",
+  "exampleTr": "Öğretmen makalelerimiz hakkında faydalı geri bildirim verdi.",
+  "usage": "Sayılamaz: “a feedback” denmez, “some feedback” ya da “a piece of feedback” denir.",
+  "synonyms": [
+   "response",
+   "comments"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "render",
+  "level": "C1",
+  "meaning": "kılmak, hâle getirmek",
+  "pos": "fiil",
+  "ipa": "/ˈrendə/",
+  "example": "The heavy rain rendered the road unusable.",
+  "exampleTr": "Şiddetli yağmur yolu kullanılamaz hâle getirdi.",
+  "usage": "“render something + sıfat” kalıbıyla kullanılır; “make”in resmî karşılığıdır.",
+  "synonyms": [
+   "make",
+   "cause to be"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "classify",
+  "level": "B1",
+  "meaning": "sınıflandırmak",
+  "pos": "fiil",
+  "ipa": "/ˈklæsɪfaɪ/",
+  "example": "Animals are classified into different groups.",
+  "exampleTr": "Hayvanlar farklı gruplara ayrılır.",
+  "usage": "İsmi “classification”dır; “classified” gizli belge anlamına da gelir.",
+  "synonyms": [
+   "categorise",
+   "group"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "transformation",
+  "level": "B1",
+  "meaning": "dönüşüm",
+  "pos": "isim",
+  "ipa": "/ˌtrænsfəˈmeɪʃn/",
+  "example": "The city has undergone a complete transformation.",
+  "exampleTr": "Şehir tamamen bir dönüşüm geçirdi.",
+  "usage": "“undergo a transformation” (dönüşüm geçirmek) kalıbı akademik dilde yaygındır.",
+  "synonyms": [
+   "change",
+   "conversion"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "diverse",
+  "level": "B1",
+  "meaning": "çeşitli, farklı",
+  "pos": "sıfat",
+  "ipa": "/daɪˈvɜːs/",
+  "example": "London has a very diverse population.",
+  "exampleTr": "Londra'nın çok çeşitli bir nüfusu var.",
+  "usage": "İsmi “diversity”dir (çeşitlilik).",
+  "synonyms": [
+   "varied",
+   "different"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "alliance",
+  "level": "B2",
+  "meaning": "ittifak, birlik",
+  "pos": "isim",
+  "ipa": "/əˈlaɪəns/",
+  "example": "The two parties formed an alliance.",
+  "exampleTr": "İki parti bir ittifak kurdu.",
+  "usage": "Fiili “ally”dir; “form an alliance” kalıbıyla kullanılır.",
+  "synonyms": [
+   "union",
+   "partnership"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "evident",
+  "level": "B1",
+  "meaning": "açık, belli",
+  "pos": "sıfat",
+  "ipa": "/ˈevɪdənt/",
+  "example": "It was evident that he was lying.",
+  "exampleTr": "Yalan söylediği belliydi.",
+  "usage": "İsmi “evidence”tır (kanıt); “self-evident” apaçık demektir.",
+  "synonyms": [
+   "obvious",
+   "clear"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "virtue",
+  "level": "B2",
+  "meaning": "erdem; meziyet",
+  "pos": "isim",
+  "ipa": "/ˈvɜːtʃuː/",
+  "example": "Patience is a virtue.",
+  "exampleTr": "Sabır bir erdemdir.",
+  "usage": "“by virtue of” sayesinde, -dan dolayı demektir (resmî).",
+  "synonyms": [
+   "merit",
+   "goodness"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "entity",
+  "level": "C1",
+  "meaning": "varlık, birim, kurum",
+  "pos": "isim",
+  "ipa": "/ˈentəti/",
+  "example": "The two companies are now a single entity.",
+  "exampleTr": "İki şirket artık tek bir kurum.",
+  "usage": "Hukuk ve işletmede bağımsız varlığı olan yapıları anlatır.",
+  "synonyms": [
+   "unit",
+   "organisation"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "facilitate",
+  "level": "B2",
+  "meaning": "kolaylaştırmak",
+  "pos": "fiil",
+  "ipa": "/fəˈsɪlɪteɪt/",
+  "example": "The new software will facilitate communication.",
+  "exampleTr": "Yeni yazılım iletişimi kolaylaştıracak.",
+  "usage": "“make easier”in resmî karşılığıdır; YDS'de “ease, enable” ile eş anlamlı sorulur.",
+  "synonyms": [
+   "ease",
+   "enable",
+   "assist"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "induce",
+  "level": "C2",
+  "meaning": "neden olmak, teşvik etmek",
+  "pos": "fiil",
+  "ipa": "/ɪnˈdjuːs/",
+  "example": "Stress can induce headaches.",
+  "exampleTr": "Stres baş ağrısına neden olabilir.",
+  "usage": "Tıpta “doğumu başlatmak” anlamı da vardır: “induce labour”.",
+  "synonyms": [
+   "cause",
+   "bring about"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "indicator",
+  "level": "C1",
+  "meaning": "gösterge",
+  "pos": "isim",
+  "ipa": "/ˈɪndɪkeɪtə/",
+  "example": "Unemployment is an important economic indicator.",
+  "exampleTr": "İşsizlik önemli bir ekonomik göstergedir.",
+  "usage": "Fiili “indicate”tir (göstermek, işaret etmek).",
+  "synonyms": [
+   "sign",
+   "measure"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "necessity",
+  "level": "B2",
+  "meaning": "gereklilik, ihtiyaç",
+  "pos": "isim",
+  "ipa": "/nəˈsesəti/",
+  "example": "A car is a necessity if you live in the countryside.",
+  "exampleTr": "Kırsalda yaşıyorsan araba bir ihtiyaçtır.",
+  "usage": "“out of necessity” mecburiyetten demektir.",
+  "synonyms": [
+   "need",
+   "requirement"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "consensus",
+  "level": "B2",
+  "meaning": "fikir birliği, mutabakat",
+  "pos": "isim",
+  "ipa": "/kənˈsensəs/",
+  "example": "There is a scientific consensus on climate change.",
+  "exampleTr": "İklim değişikliği konusunda bilimsel bir fikir birliği var.",
+  "usage": "“reach a consensus” fikir birliğine varmak demektir; “general consensus” da yaygındır.",
+  "synonyms": [
+   "agreement",
+   "accord"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "reinforce",
+  "level": "B2",
+  "meaning": "pekiştirmek, güçlendirmek",
+  "pos": "fiil",
+  "ipa": "/ˌriːɪnˈfɔːs/",
+  "example": "Practice reinforces what you learn in class.",
+  "exampleTr": "Pratik, derste öğrendiklerini pekiştirir.",
+  "usage": "İsmi “reinforcement”tır; “positive reinforcement” olumlu pekiştirme demektir.",
+  "synonyms": [
+   "strengthen",
+   "support"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "valid",
+  "level": "B2",
+  "meaning": "geçerli",
+  "pos": "sıfat",
+  "ipa": "/ˈvælɪd/",
+  "example": "Your passport must be valid for six months.",
+  "exampleTr": "Pasaportunun altı ay geçerli olması gerekir.",
+  "usage": "Argüman için “mantıklı, sağlam” anlamına gelir: “a valid point”.",
+  "synonyms": [
+   "legitimate",
+   "sound"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "collective",
+  "level": "C1",
+  "meaning": "ortak, toplu, kolektif",
+  "pos": "sıfat",
+  "ipa": "/kəˈlektɪv/",
+  "example": "It was a collective decision.",
+  "exampleTr": "Ortak bir karardı.",
+  "usage": "“collective responsibility” ortak sorumluluk demektir.",
+  "synonyms": [
+   "joint",
+   "shared"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "proposition",
+  "level": "C2",
+  "meaning": "önerme; teklif",
+  "pos": "isim",
+  "ipa": "/ˌprɒpəˈzɪʃn/",
+  "example": "Investing in solar energy is an attractive proposition.",
+  "exampleTr": "Güneş enerjisine yatırım cazip bir teklif.",
+  "usage": "Mantıkta “önerme”, iş dünyasında “teklif” anlamındadır.",
+  "synonyms": [
+   "proposal",
+   "statement"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "parameter",
+  "level": "C2",
+  "meaning": "parametre, sınır",
+  "pos": "isim",
+  "ipa": "/pəˈræmɪtə/",
+  "example": "We must work within the parameters of the budget.",
+  "exampleTr": "Bütçe sınırları içinde çalışmalıyız.",
+  "usage": "Vurgu ikinci hecededir: pa-RA-me-ter.",
+  "synonyms": [
+   "limit",
+   "boundary"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "precede",
+  "level": "B2",
+  "meaning": "önce gelmek, öncesinde olmak",
+  "pos": "fiil",
+  "ipa": "/prɪˈsiːd/",
+  "example": "A short speech preceded the dinner.",
+  "exampleTr": "Yemekten önce kısa bir konuşma yapıldı.",
+  "usage": "“proceed” (devam etmek) ile karıştırılmamalıdır; sıfatı “preceding”dir (önceki).",
+  "synonyms": [
+   "come before",
+   "go before"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "expertise",
+  "level": "C1",
+  "meaning": "uzmanlık",
+  "pos": "isim",
+  "ipa": "/ˌekspɜːˈtiːz/",
+  "example": "We need someone with expertise in marketing.",
+  "exampleTr": "Pazarlamada uzmanlığı olan birine ihtiyacımız var.",
+  "usage": "Sayılamaz bir isimdir; vurgu son hecededir: ex-per-TISE.",
+  "synonyms": [
+   "skill",
+   "knowledge"
+  ],
+  "topics": [
+   "akademik",
+   "is"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "elite",
+  "level": "B2",
+  "meaning": "seçkinler, elit",
+  "pos": "isim",
+  "ipa": "/eɪˈliːt/",
+  "example": "Only a small elite could afford higher education.",
+  "exampleTr": "Yükseköğretimi yalnızca küçük bir seçkin kesim karşılayabiliyordu.",
+  "usage": "Sıfat olarak da kullanılır: “elite athletes” (seçkin sporcular).",
+  "synonyms": [
+   "upper class",
+   "best"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "confine",
+  "level": "B2",
+  "meaning": "sınırlamak, kapatmak",
+  "pos": "fiil",
+  "ipa": "/kənˈfaɪn/",
+  "example": "Please confine your answer to 200 words.",
+  "exampleTr": "Lütfen cevabını 200 kelimeyle sınırla.",
+  "usage": "“be confined to bed” yatağa bağlı kalmak demektir.",
+  "synonyms": [
+   "limit",
+   "restrict"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ },
+ {
+  "term": "stimulus",
+  "level": "C1",
+  "meaning": "uyarıcı, teşvik",
+  "pos": "isim",
+  "ipa": "/ˈstɪmjələs/",
+  "example": "The government introduced an economic stimulus package.",
+  "exampleTr": "Hükümet ekonomik bir teşvik paketi açıkladı.",
+  "usage": "Çoğulu düzensizdir: stimulus → stimuli /ˈstɪmjəlaɪ/.",
+  "synonyms": [
+   "incentive",
+   "boost"
+  ],
+  "topics": [
+   "akademik"
+  ],
+  "exams": [
+   "IELTS",
+   "TOEFL",
+   "YDS"
+  ]
+ }
+]
