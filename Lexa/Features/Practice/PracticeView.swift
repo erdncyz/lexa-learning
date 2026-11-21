@@ -105,7 +105,7 @@ struct WeekStrip: View {
             ForEach(days) { day in
                 VStack(spacing: 6) {
                     ZStack {
-                        Circle().fill(day.isDone ? LexaColor.accent : Color.white.opacity(0.6))
+                        Circle().fill(day.isDone ? LexaColor.accent : LexaColor.glass.opacity(0.6))
                         if day.isToday && !day.isDone {
                             Circle().strokeBorder(LexaColor.accent, lineWidth: 2)
                         }
@@ -156,7 +156,7 @@ private struct JourneyPane: View {
             HStack {
                 Text("Alıştırmalar").font(LexaFont.ui(19, weight: .semibold))
                 Spacer()
-                Text("\(viewModel.journeyDone) / \(PracticeViewModel.journeyCount) tamamlandı")
+                Text("\(viewModel.journeyDone) / \(viewModel.journeyCount) tamamlandı")
                     .font(LexaFont.ui(13, weight: .semibold))
                     .foregroundStyle(LexaColor.accent)
                     .padding(.horizontal, 10).padding(.vertical, 4)
@@ -171,7 +171,7 @@ private struct JourneyPane: View {
                 let width = geo.size.width
                 ZStack(alignment: .topLeading) {
                     Path { path in
-                        for i in 0..<(PracticeViewModel.journeyCount - 1) {
+                        for i in 0..<(viewModel.journeyCount - 1) {
                             let a = point(i, width: width)
                             let b = point(i + 1, width: width)
                             path.move(to: a)
@@ -180,7 +180,7 @@ private struct JourneyPane: View {
                     }
                     .stroke(LexaColor.ink3.opacity(0.45), style: StrokeStyle(lineWidth: 1.5, lineCap: .round))
 
-                    ForEach(0..<PracticeViewModel.journeyCount, id: \.self) { step in
+                    ForEach(0..<viewModel.journeyCount, id: \.self) { step in
                         JourneyNode(
                             number: step + 1,
                             status: viewModel.status(of: step),
@@ -192,13 +192,13 @@ private struct JourneyPane: View {
                     }
                 }
             }
-            .frame(height: rowHeight * CGFloat(PracticeViewModel.journeyCount - 1) + 80)
+            .frame(height: rowHeight * CGFloat(viewModel.journeyCount - 1) + 80)
             .padding(.top, LexaSpacing.s)
         }
     }
 
     private func point(_ i: Int, width: CGFloat) -> CGPoint {
-        CGPoint(x: width * PracticeViewModel.journeyX[i], y: 40 + CGFloat(i) * rowHeight)
+        CGPoint(x: width * PracticeViewModel.journeyX(i), y: 40 + CGFloat(i) * rowHeight)
     }
 }
 
@@ -216,14 +216,14 @@ private struct JourneyNode: View {
                     .foregroundStyle(LexaColor.ink)
                     .frame(width: 64, height: 64)
                     .background(Circle().fill(tint.opacity(status == .locked ? 0.55 : 0.95)))
-                    .overlay(Circle().strokeBorder(Color.white.opacity(0.9), lineWidth: status == .active ? 4 : 1.5))
+                    .overlay(Circle().strokeBorder(LexaColor.glass.opacity(0.9), lineWidth: status == .active ? 4 : 1.5))
                     .shadow(color: .black.opacity(status == .active ? 0.15 : 0.05), radius: status == .active ? 10 : 4, y: 3)
                 if status != .active {
                     Image(systemName: status == .done ? "checkmark" : "lock.fill")
                         .font(.system(size: 9, weight: .bold))
                         .foregroundStyle(status == .done ? LexaColor.onAccent : LexaColor.ink2)
                         .frame(width: 20, height: 20)
-                        .background(Circle().fill(status == .done ? LexaColor.accent : Color.white))
+                        .background(Circle().fill(status == .done ? LexaColor.accent : LexaColor.glass))
                 }
             }
         }

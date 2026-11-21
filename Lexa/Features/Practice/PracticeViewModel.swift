@@ -13,8 +13,18 @@ final class PracticeViewModel {
         let isToday: Bool
     }
 
-    static let journeyCount = 10
-    static let journeyX: [CGFloat] = [0.16, 0.40, 0.64, 0.80, 0.64, 0.40, 0.16, 0.40, 0.64, 0.40]
+    /// Her alıştırma adımı bu kadar yeni kelime tanıtır.
+    static let wordsPerStep = 5
+    /// Kelime az olsa da yol en az bu kadar adım (fazlası tekrar adımıdır).
+    static let minimumSteps = 10
+
+    /// Yolun yatay konumları: ilk 10 adım tasarımdaki gibi, sonrası aynı zikzakla devam eder.
+    private static let designedX: [CGFloat] = [0.16, 0.40, 0.64, 0.80, 0.64, 0.40, 0.16, 0.40, 0.64, 0.40]
+    private static let zigzagX: [CGFloat] = [0.16, 0.40, 0.64, 0.80, 0.64, 0.40]
+
+    static func journeyX(_ step: Int) -> CGFloat {
+        step < designedX.count ? designedX[step] : zigzagX[(step - designedX.count) % zigzagX.count]
+    }
 
     var pane: Pane = .daily
     var activeSession: QuizSessionViewModel?
@@ -71,7 +81,8 @@ final class PracticeViewModel {
 
     func startDaily() {
         guard !isDoneToday else { return }
-        let pool = app.words.practicePool(lang: app.data.effectiveLang, upTo: app.data.effectiveLevel)
+        // Alıştırmalarla aynı kural: seçilen seviye, az ise en yakın seviyeler.
+        let pool = app.words.levelPool(lang: app.data.effectiveLang, level: app.data.effectiveLevel)
         let questions = QuizBuilder.daily(pool: pool)
         guard !questions.isEmpty else { return }
         let key = todayKey
@@ -82,7 +93,18 @@ final class PracticeViewModel {
 
     // MARK: Alıştırmalar
 
-    var journeyDone: Int { app.data.journeyDone }
+    var journeyDone: Int { min(app.data.journeyDone, journeyCount) }
+
+    /// Alıştırma kelimeleri (seçilen seviye; az ise en yakın seviyeler).
+    private var drillPool: [Word] {
+        app.words.levelPool(lang: app.data.effectiveLang, level: app.data.effectiveLevel)
+    }
+
+    /// Adım sayısı kelime miktarına göre: her adımda 5 yeni kelime, en az 10 adım.
+    var journeyCount: Int {
+        let wordSteps = (drillPool.count + Self.wordsPerStep - 1) / Self.wordsPerStep
+        return max(Self.minimumSteps, wordSteps)
+    }
 
     enum StepStatus { case done, active, locked }
 
@@ -91,19 +113,14 @@ final class PracticeViewModel {
     }
 
     func startDrill(step: Int) {
-        guard step <= journeyDone, step < Self.journeyCount else { return }
-        let lang = app.data.effectiveLang
-        var pool = app.words.basicPool(lang: lang)
-        // İlerleyen adımlarda seviyedeki kelimeler de karışır.
-        if step >= 5 {
-            pool += app.words.practicePool(lang: lang, upTo: app.data.effectiveLevel).filter { $0.level != .a1 }
-        }
-        let questions = QuizBuilder.drill(pool: pool, step: step)
+        let count = journeyCount
+        guard step <= journeyDone, step < count else { return }
+        let questions = QuizBuilder.drill(pool: drillPool, step: step, wordsPerStep: Self.wordsPerStep)
         guard !questions.isEmpty else { return }
         activeSession = QuizSessionViewModel(kind: .drill(step: step), questions: questions) { [weak app] correct, _ in
             guard correct >= QuizSessionViewModel.drillPassMark else { return }
             app?.update { data in
-                if step == data.journeyDone, data.journeyDone < Self.journeyCount {
+                if step == data.journeyDone, data.journeyDone < count {
                     data.journeyDone += 1
                 }
             }
@@ -111,7 +128,7 @@ final class PracticeViewModel {
     }
 
     func canContinue(after step: Int) -> Bool {
-        step + 1 < Self.journeyCount && journeyDone >= step + 1
+        step + 1 < journeyCount && journeyDone >= step + 1
     }
 
     func speak(_ text: String) {

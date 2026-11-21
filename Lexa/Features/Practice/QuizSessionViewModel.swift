@@ -143,25 +143,36 @@ enum QuizBuilder {
     }
 
     /// Alıştırma: 15 soru (5 yabancı→TR, 5 TR→yabancı, 5 eşleştirme), karışık sırada.
-    static func drill(pool: [Word], step: Int) -> [QuizQuestion] {
+    /// Her adım havuzdaki sıradaki `wordsPerStep` yeni kelimeye odaklanır; eşleştirmelerde
+    /// önceki adımların kelimeleri tekrar edilir. Yeni kelime kalmadıysa adım karışık tekrardır.
+    static func drill(pool: [Word], step: Int, wordsPerStep: Int) -> [QuizQuestion] {
         guard pool.count >= 8 else { return [] }
         var generator = SeededGenerator(seed: UInt64(step * 7919 + Int.random(in: 0...999)))
-        var bag = pool.shuffled(using: &generator)
-        func next() -> Word {
-            if bag.isEmpty { bag = pool.shuffled(using: &generator) }
-            return bag.removeFirst()
-        }
+        let start = step * wordsPerStep
+        let fresh = start < pool.count ? Array(pool[start..<min(start + wordsPerStep, pool.count)]) : []
+        let review = Array(pool[..<min(start, pool.count)])
+        let focus = fresh.isEmpty ? Array(pool.shuffled(using: &generator).prefix(wordsPerStep)) : fresh
+        let matchSet = fresh.isEmpty ? pool : (fresh + review)
+
         var items: [QuizQuestion] = []
-        for _ in 0..<5 {
-            let w = next()
+        let forward = focus.shuffled(using: &generator)
+        for i in 0..<5 {
+            let w = forward[i % forward.count]
             items.append(multipleChoice(prompt: w.term, answer: w.meaning, distractors: pool.map(\.meaning), speakable: true))
         }
-        for _ in 0..<5 {
-            let w = next()
+        let backward = focus.shuffled(using: &generator)
+        for i in 0..<5 {
+            let w = backward[i % backward.count]
             items.append(multipleChoice(prompt: w.meaning, answer: w.term, distractors: pool.map(\.term), speakable: false))
         }
-        for _ in 0..<5 {
-            items.append(match([next(), next(), next()]))
+        for i in 0..<5 {
+            // Her eşleştirmede bir odak kelime + iki farklı tekrar kelimesi.
+            let anchor = focus[i % focus.count]
+            let others = (matchSet.count >= 3 ? matchSet : pool)
+                .filter { $0.id != anchor.id }
+                .shuffled(using: &generator)
+                .prefix(2)
+            items.append(match([anchor] + others))
         }
         return items.shuffled(using: &generator)
     }
