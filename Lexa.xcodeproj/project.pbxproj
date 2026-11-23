@@ -43,6 +43,7 @@
 		973CD920B68DCEFB83F8D1AD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5C75EBAF03CAE57ADFA94DEB /* FirebaseFirestore */; };
 		9A4BE24FC4881757A150682C /* Newsreader.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D781A9664F8C1DA393D0CD /* Newsreader.ttf */; };
 		A0C582DD2F98B3DC8B64E5B3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989BF5271B32C72064ABFBEF /* AuthService.swift */; };
+		A59BC602995C43682CDEC953 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4DC451428559F7747491FF7B /* PrivacyInfo.xcprivacy */; };
 		A721775B936E927F2865940A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DAF444962DE3894BCC31C /* RootView.swift */; };
 		B8522A6301411CDC28497397 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CAEE484C326FA0D26E5F5 /* WidgetSnapshot.swift */; };
 		B9F4B01D4765084F6A43480B /* IBMPlexSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC6AA72B7BE24C4C000BADB3 /* IBMPlexSans.ttf */; };
@@ -115,7 +116,8 @@
 		39A518FF56E311E042F6454C /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
 		3F38BA78473249B6CFA365A0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		45CD4FCAED381CFA160AA964 /* words.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
-		53A11CD83F68AEEAE48541F2 /* LexaWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LexaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC451428559F7747491FF7B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		53A11CD83F68AEEAE48541F2 /* LexaWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LexaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		551BAFDAD7A490062023E593 /* PreferenceSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceSheets.swift; sourceTree = "<group>"; };
 		5B70665190C17141070C2DD7 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		66BB01D3997C75DAF8536DB9 /* DictionaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryService.swift; sourceTree = "<group>"; };
@@ -131,7 +133,7 @@
 		942CAEE484C326FA0D26E5F5 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
 		983DAF444962DE3894BCC31C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		989BF5271B32C72064ABFBEF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		9C0FB104E5B9602A62217344 /* Lexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0FB104E5B9602A62217344 /* Lexa.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8F572784CA6C8E4A6B735E /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
 		A1C75258891D89C83A0E8F8D /* SettingsScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreens.swift; sourceTree = "<group>"; };
 		A8393EB3411020BCD2FCE76B /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 			children = (
 				D98379D174CE30D1F2ED2F4A /* Info.plist */,
 				2DDD77B4BACC2043B43AC128 /* Lexa.entitlements */,
+				4DC451428559F7747491FF7B /* PrivacyInfo.xcprivacy */,
 				A3F517486DDB797B75614561 /* App */,
 				A65F23B0B2CA8878523A58EC /* Core */,
 				3DFFD3888DBC7E3FC06EA1EA /* Features */,
@@ -446,12 +449,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					56295D77BC87351311147D98 = {
+						DevelopmentTeam = H75Z7U427Y;
 						ProvisioningStyle = Automatic;
 					};
 					AE36094D05A95AC8FDA36813 = {
+						DevelopmentTeam = H75Z7U427Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -504,6 +509,7 @@
 				9A4BE24FC4881757A150682C /* Newsreader.ttf in Resources */,
 				590D5EDAB5064790E6C5BCB7 /* OFL-IBMPlexSans.txt in Resources */,
 				13B90D5C1CFAC9126F7757F3 /* OFL-Newsreader.txt in Resources */,
+				A59BC602995C43682CDEC953 /* PrivacyInfo.xcprivacy in Resources */,
 				1CD088830AE4B8E213E002D8 /* words.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,7 +591,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8Q64FT72X7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Lexa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -633,7 +638,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = H75Z7U427Y;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -665,7 +670,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lexa/Lexa.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8Q64FT72X7;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Lexa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -683,7 +687,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q64FT72X7;
+				DEVELOPMENT_TEAM = H75Z7U427Y;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LexaWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -703,7 +707,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LexaWidget/LexaWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q64FT72X7;
+				DEVELOPMENT_TEAM = H75Z7U427Y;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LexaWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -753,7 +757,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = H75Z7U427Y;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

@@ -9,6 +9,15 @@ LEXA, kelimeleri kilit ekranına ve ana ekrana taşıyan bir iOS kelime öğrenm
 - **Diller:** İngilizce, Almanca, İspanyolca → anlamlar Türkçe
 - **Tasarım kaynağı:** Open Design prototipi (`Figmada-Açma-Talebi`)
 
+<p>
+  <img src="docs/screenshots/landing.jpg" width="160" alt="Tanıtım: kilit ekranında yeni bir kelime" />
+  <img src="docs/screenshots/onboarding.jpg" width="160" alt="Kurulum: öğrenilecek dili seç" />
+  <img src="docs/screenshots/today.jpg" width="160" alt="Bugün: günün kelimesi" />
+  <img src="docs/screenshots/explore.jpg" width="160" alt="Keşfet: kayıtlı kelimeler ve desteler" />
+  <img src="docs/screenshots/practice.jpg" width="160" alt="Pratik: günlük pratik" />
+  <img src="docs/screenshots/widgets.jpg" width="160" alt="Widget: kilit ekranı önizlemesi" />
+</p>
+
 ---
 
 ## Özellikler
@@ -148,7 +157,7 @@ xcrun simctl launch booted com.lexa-learning.app -lexaOnboarding 0    # kurulum 
 
 ## Açık konular
 
-- **Destek e-postası:** Yardım ekranındaki "Bize Ulaş" geçici olarak `destek@lexa.app` adresini kullanıyor; gerçek adresle değiştirilmeli (`Lexa/Features/Profile/SettingsScreens.swift`).
+- **Destek e-postası:** `lexalearning01@gmail.com` (`Lexa/Features/Profile/SettingsScreens.swift` ve Firebase Hosting sayfaları).
 - **Kelime listesi:** 164 kelime başlangıç için; Kaikki verisiyle genişletilebilir.
 - **MyMemory kotası:** Kullanıcı sayısı artarsa `de=<e-posta>` parametresiyle günlük kota 50.000 karaktere çıkarılabilir.
 

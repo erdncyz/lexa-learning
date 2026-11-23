@@ -1,5 +1,58 @@
 import SwiftUI
+import SafariServices
 import UserNotifications
+
+/// App Store ve uygulama içinden açılan yasal sayfalar. Firebase Hosting.
+enum LexaWeb {
+    static let privacy = URL(string: "https://lexa-learning.web.app/privacy/")!
+    static let terms = URL(string: "https://lexa-learning.web.app/terms/")!
+    static let support = URL(string: "https://lexa-learning.web.app/support/")!
+    static let mail = URL(string: "mailto:lexalearning01@gmail.com")!
+}
+
+enum LegalPage: String, CaseIterable, Identifiable {
+    case privacy, terms, support
+
+    var id: String { rawValue }
+
+    var url: URL {
+        switch self {
+        case .privacy: LexaWeb.privacy
+        case .terms: LexaWeb.terms
+        case .support: LexaWeb.support
+        }
+    }
+
+    var title: String {
+        switch self {
+        case .privacy: "Gizlilik"
+        case .terms: "Kullanım Şartları"
+        case .support: "Destek"
+        }
+    }
+
+    var symbol: String {
+        switch self {
+        case .privacy: "hand.raised"
+        case .terms: "doc.text"
+        case .support: "envelope"
+        }
+    }
+}
+
+/// Sayfayı telefon genişliğinde, Safari sayfa görünümünde açar.
+struct SafariSheet: UIViewControllerRepresentable {
+    let url: URL
+
+    func makeUIViewController(context: Context) -> SFSafariViewController {
+        let safari = SFSafariViewController(url: url)
+        safari.preferredControlTintColor = UIColor(red: 0.08, green: 0.33, blue: 0.36, alpha: 1)
+        safari.dismissButtonStyle = .close
+        return safari
+    }
+
+    func updateUIViewController(_ controller: SFSafariViewController, context: Context) {}
+}
 
 // MARK: - Bildirimler
 
@@ -155,8 +208,7 @@ struct HelpView: View {
                     SectionTitle("Yardıma mı ihtiyacın var?")
                     Text("Yanıtını bulamadığın bir konu varsa bizimle iletişime geçebilirsin.")
                         .font(LexaFont.ui(15)).foregroundStyle(LexaColor.ink2)
-                    // TODO: Destek e-posta adresini belirle.
-                    Link("Bize Ulaş", destination: URL(string: "mailto:destek@lexa.app")!)
+                    Link("Bize Ulaş", destination: LexaWeb.mail)
                         .buttonStyle(.lexaPrimary)
                         .padding(.top, 4)
                 }

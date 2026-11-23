@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kullanım Şartları — LEXA</title>
+  <meta name="description" content="LEXA kullanım şartları.">
+  <link rel="icon" href="/assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="/"><img src="/assets/logo.png" alt="">LEXA</a>
+    <nav class="nav-links">
+      <a href="/support">Destek</a>
+      <a href="/privacy">Gizlilik</a>
+      <a href="/terms" aria-current="page">Şartlar</a>
+    </nav>
+  </header>
+  <main class="wrap prose">
+    <p class="eyebrow">LEXA</p>
+    <h1 class="lang-tr">Kullanım Şartları</h1>
+    <h1 class="lang-en">Terms of Use</h1>
+    <p class="meta lang-tr">Yürürlük: 23 Kasım 2026</p>
+    <p class="meta lang-en">Effective: 23 November 2026</p>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="tr" aria-pressed="true">Türkçe</button>
+      <button type="button" id="en" aria-pressed="false">English</button>
+    </div>
+
+    <div class="lang-tr">
+      <p>LEXA’yı indirerek veya kullanarak bu şartları kabul edersin. Uygulamayı Erdinç Yılmaz sunar. Sorular için <a href="mailto:lexalearning01@gmail.com">lexalearning01@gmail.com</a>.</p>
+      <h2>Uygulama</h2>
+      <p>LEXA, kelime öğrenmek için kişisel bir araçtır. Ücretsizdir. Uygulama içi satın alma yoktur. Hesap açmak zorunlu değildir.</p>
+      <p>Kelime listeleri öğrenme amaçlıdır. Bir sınavda belirli bir puanı, bir okul kabulünü veya bir dil seviyesinin resmî belgesini vaat etmez. Çeviriler ve tanımlar hata içerebilir.</p>
+      <h2>Senin içeriğin</h2>
+      <p>Eklediğin kelimeler ve desteler senindir. Bunları başkalarına gösteren bir özellik yoktur. Yasalara aykırı içerik eklememen gerekir.</p>
+      <h2>Hesap</h2>
+      <p>Hesap bilgilerinin doğruluğu sana aittir. Profil’den çıkış yapabilir ve hesabını kalıcı olarak silebilirsin. Silinen hesap geri gelmez.</p>
+      <h2>Fikri mülkiyet</h2>
+      <p>LEXA adı, arayüzü ve uygulamanın kodu geliştiriciye aittir. Kelime seviyeleri CEFR-J Wordlist ve Octanove Vocabulary Profile kaynaklarına, akademik liste New Academic Word List’e dayanır (CC BY-SA 4.0). Yazı tipleri Newsreader ve IBM Plex Sans, SIL Open Font License altındadır. Sözlük çağrıları Free Dictionary API ve MyMemory üzerinden yapılır; bu hizmetlerin kendi şartları geçerlidir.</p>
+      <h2>Sorumluluk</h2>
+      <p>Uygulama olduğu gibi sunulur. Widget’ın yenilenme zamanı iOS tarafından sınırlanabilir; seçtiğin süre bir hedeftir. Yürürlükteki zorunlu tüketici hakları saklıdır. Bu şartlar Türkiye hukukuna tabidir.</p>
+    </div>
+
+    <div class="lang-en">
+      <p>By downloading or using LEXA you accept these terms. The app is provided by Erdinç Yılmaz. Questions: <a href="mailto:lexalearning01@gmail.com">lexalearning01@gmail.com</a>.</p>
+      <h2>The app</h2>
+      <p>LEXA is a personal tool for learning words. It is free and has no in-app purchases. An account is optional.</p>
+      <p>Word lists are for study. LEXA does not promise an exam score, an admission, or an official language certificate. Definitions and translations can be wrong.</p>
+      <h2>Your content</h2>
+      <p>Words and decks you add are yours. The app has no feature that shows them to other people. You must not add unlawful content.</p>
+      <h2>Account</h2>
+      <p>You are responsible for the accuracy of your account details. You can sign out and permanently delete the account from Profile. Deletion cannot be undone.</p>
+      <h2>Intellectual property</h2>
+      <p>The LEXA name, interface, and code belong to the developer. Level lists draw on the CEFR-J Wordlist and the Octanove Vocabulary Profile, and the academic list draws on the New Academic Word List (CC BY-SA 4.0). Newsreader and IBM Plex Sans are used under the SIL Open Font License. Lookups go through the Free Dictionary API and MyMemory, under those services’ own terms.</p>
+      <h2>Liability</h2>
+      <p>The app is provided as is. iOS may delay a widget refresh; the interval you pick is a target. Mandatory consumer rights still apply. These terms are governed by the laws of Turkey.</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <span>LEXA · Erdinç Yılmaz</span>
+    <span><a href="/privacy">Gizlilik</a> · <a href="/support">Destek</a></span>
+  </footer>
+  <script>
+    const root = document.documentElement;
+    const tr = document.getElementById("tr");
+    const en = document.getElementById("en");
+    function setLang(lang) {
+      root.lang = lang;
+      tr.setAttribute("aria-pressed", lang === "tr" ? "true" : "false");
+      en.setAttribute("aria-pressed", lang === "en" ? "true" : "false");
+    }
+    tr.addEventListener("click", () => setLang("tr"));
+    en.addEventListener("click", () => setLang("en"));
+  </script>
+</body>
+</html>

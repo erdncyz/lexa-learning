@@ -8,6 +8,7 @@ struct ProfileView: View {
     @State private var showAuth = false
     @State private var confirmSignOut = false
     @State private var showDeleteAccount = false
+    @State private var legalPage: LegalPage?
     @AppStorage(AppAppearance.storageKey) private var appearance: AppAppearance = .system
 
     init(app: AppState) {
@@ -64,7 +65,7 @@ struct ProfileView: View {
                             .frame(maxWidth: .infinity, minHeight: 44)
                     }
 
-                    Text("LEXA · Sürüm 1.0")
+                    Text("LEXA · Sürüm \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0")")
                         .font(LexaFont.ui(13))
                         .foregroundStyle(LexaColor.ink2)
                         .frame(maxWidth: .infinity)
@@ -99,6 +100,10 @@ struct ProfileView: View {
         .confirmationDialog("Hesabından çıkmak istiyor musun?", isPresented: $confirmSignOut, titleVisibility: .visible) {
             Button("Çıkış Yap", role: .destructive) { app.signOut() }
         }
+        .fullScreenCover(item: $legalPage) { page in
+            SafariSheet(url: page.url)
+                .ignoresSafeArea()
+        }
     }
 
     private var accountCard: some View {
@@ -119,6 +124,18 @@ struct ProfileView: View {
                     .buttonStyle(.lexaPrimary)
                     .padding(.top, LexaSpacing.s)
             }
+            VStack(spacing: 0) {
+                ForEach(LegalPage.allCases) { page in
+                    Button { legalPage = page } label: {
+                        rowLabel(symbol: page.symbol, label: page.title)
+                    }
+                    .buttonStyle(.plain)
+                    if page != LegalPage.allCases.last {
+                        Divider().overlay(LexaColor.line.opacity(0.5))
+                    }
+                }
+            }
+            .padding(.top, LexaSpacing.s)
         }
         .frame(maxWidth: .infinity)
         .lexaCard(padding: 20)
