@@ -2610,7 +2610,7 @@
   "function_word": false
  },
  {
-  "term": "next to",
+  "term": "next to",
   "level": "A1",
   "pos": "prep.",
   "function_word": true
@@ -4716,7 +4716,7 @@
   "function_word": false
  },
  {
-  "term": "all right",
+  "term": "all right",
   "level": "A2",
   "pos": "adj./adv.",
   "function_word": false
@@ -6528,7 +6528,7 @@
   "function_word": false
  },
  {
-  "term": "instead of",
+  "term": "instead of",
   "level": "A2",
   "pos": "prep.",
   "function_word": true
@@ -7266,7 +7266,7 @@
   "function_word": true
  },
  {
-  "term": "percent noun.",
+  "term": "percent",
   "level": "A2",
   "pos": "adj./adv.",
   "function_word": false
@@ -8682,7 +8682,7 @@
   "function_word": false
  },
  {
-  "term": "used to",
+  "term": "used to",
   "level": "A2",
   "pos": "modal v.",
   "function_word": true
@@ -11094,7 +11094,7 @@
   "function_word": false
  },
  {
-  "term": "percentage",
+  "term": "percent",
   "level": "B1",
   "pos": "n.",
   "function_word": false
