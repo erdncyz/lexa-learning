@@ -19769,5 +19769,7825 @@
   "topics": [
    "gunluk"
   ]
+ },
+ {
+  "id": "en:downstairs",
+  "lang": "en",
+  "term": "downstairs",
+  "meaning": "alt katta, aşağıda",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "The kitchen is downstairs.",
+  "exampleTr": "Mutfak alt katta.",
+  "ipa": "/ˌdaʊnˈsterz/",
+  "usage": "“go downstairs” (aşağı inmek) kalıbında “to” kullanılmaz. Zıt anlamlısı “upstairs”.",
+  "synonyms": [
+   "below"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:draw",
+  "lang": "en",
+  "term": "draw",
+  "meaning": "çizmek, resim yapmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "My son loves to draw animals.",
+  "exampleTr": "Oğlum hayvan resmi çizmeye bayılır.",
+  "ipa": "/drɔː/",
+  "usage": "Düzensiz fiildir: draw – drew – drawn. Kalemle çizmek içindir; boyayla resim yapmak “paint”.",
+  "synonyms": [
+   "sketch"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:dress",
+  "lang": "en",
+  "term": "dress",
+  "meaning": "elbise; giyinmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She bought a red dress for the wedding.",
+  "exampleTr": "Düğün için kırmızı bir elbise aldı.",
+  "ipa": "/dres/",
+  "usage": "Fiil olarak “get dressed” (giyinmek) kalıbı yaygındır.",
+  "synonyms": [
+   "gown",
+   "outfit"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:drive",
+  "lang": "en",
+  "term": "drive",
+  "meaning": "(araba) sürmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can you drive a car?",
+  "exampleTr": "Araba kullanabilir misin?",
+  "ipa": "/draɪv/",
+  "usage": "Düzensiz fiildir: drive – drove – driven. “drive someone to…” birini bir yere arabayla götürmektir.",
+  "synonyms": [
+   "steer"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:driver",
+  "lang": "en",
+  "term": "driver",
+  "meaning": "sürücü, şoför",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The bus driver was very friendly.",
+  "exampleTr": "Otobüs şoförü çok güler yüzlüydü.",
+  "ipa": "/ˈdraɪvər/",
+  "usage": "“driver's license” ehliyet demektir.",
+  "synonyms": [
+   "chauffeur"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:ear",
+  "lang": "en",
+  "term": "ear",
+  "meaning": "kulak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She has a small earring in each ear.",
+  "exampleTr": "Her kulağında küçük bir küpe var.",
+  "ipa": "/ɪr/",
+  "usage": "“earring” küpe, “earphones” kulaklık demektir.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:early",
+  "lang": "en",
+  "term": "early",
+  "meaning": "erken",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I get up early on weekdays.",
+  "exampleTr": "Hafta içi erken kalkarım.",
+  "ipa": "/ˈɜːrli/",
+  "usage": "Sıfat olarak da kullanılır: “an early train”. Zıt anlamlısı “late”.",
+  "synonyms": [
+   "soon"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:east",
+  "lang": "en",
+  "term": "east",
+  "meaning": "doğu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The sun rises in the east.",
+  "exampleTr": "Güneş doğudan doğar.",
+  "ipa": "/iːst/",
+  "usage": "“in the east” (doğuda) kalıbıyla kullanılır; sıfatı “eastern” (doğulu).",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:egg",
+  "lang": "en",
+  "term": "egg",
+  "meaning": "yumurta",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I had two eggs for breakfast.",
+  "exampleTr": "Kahvaltıda iki yumurta yedim.",
+  "ipa": "/eɡ/",
+  "usage": "“boiled egg” haşlanmış, “fried egg” sahanda yumurtadır.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:elephant",
+  "lang": "en",
+  "term": "elephant",
+  "meaning": "fil",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Elephants have very long trunks.",
+  "exampleTr": "Fillerin çok uzun hortumları vardır.",
+  "ipa": "/ˈelɪfənt/",
+  "usage": "Sesli harfle başladığı için “an elephant” denir.",
+  "synonyms": [],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:email",
+  "lang": "en",
+  "term": "email",
+  "meaning": "e-posta; e-posta göndermek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'll send you an email with the details.",
+  "exampleTr": "Ayrıntıları sana e-postayla göndereceğim.",
+  "ipa": "/ˈiːmeɪl/",
+  "usage": "Fiil olarak da kullanılır: “Email me tomorrow.” (Yarın bana e-posta at.)",
+  "synonyms": [
+   "message",
+   "mail"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:end",
+  "lang": "en",
+  "term": "end",
+  "meaning": "son; bitmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'll see you at the end of the week.",
+  "exampleTr": "Hafta sonunda görüşürüz.",
+  "ipa": "/end/",
+  "usage": "“at the end of…” (… sonunda) ve “in the end” (sonunda, nihayetinde) farklı kalıplardır.",
+  "synonyms": [
+   "finish",
+   "close"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:enjoy",
+  "lang": "en",
+  "term": "enjoy",
+  "meaning": "keyif almak, tadını çıkarmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I really enjoyed the movie.",
+  "exampleTr": "Filmden gerçekten keyif aldım.",
+  "ipa": "/ɪnˈdʒɔɪ/",
+  "usage": "Ardından fiil gelirse “-ing” alır: “I enjoy swimming.” “Enjoy your meal!” afiyet olsun demektir.",
+  "synonyms": [
+   "like",
+   "love"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:euro",
+  "lang": "en",
+  "term": "euro",
+  "meaning": "avro",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The hotel costs eighty euros a night.",
+  "exampleTr": "Otelin gecesi seksen avro.",
+  "ipa": "/ˈjʊroʊ/",
+  "usage": "Sembolü “€” şeklindedir.",
+  "synonyms": [],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:evening",
+  "lang": "en",
+  "term": "evening",
+  "meaning": "akşam",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What are you doing this evening?",
+  "exampleTr": "Bu akşam ne yapıyorsun?",
+  "ipa": "/ˈiːvnɪŋ/",
+  "usage": "“in the evening” (akşamları), “Good evening” (iyi akşamlar — selamlaşma).",
+  "synonyms": [
+   "night"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:event",
+  "lang": "en",
+  "term": "event",
+  "meaning": "etkinlik; olay",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The festival is the biggest event of the year.",
+  "exampleTr": "Festival yılın en büyük etkinliğidir.",
+  "ipa": "/ɪˈvent/",
+  "usage": "Hem planlı etkinlikler hem önemli olaylar için kullanılır.",
+  "synonyms": [
+   "occasion",
+   "activity"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:example",
+  "lang": "en",
+  "term": "example",
+  "meaning": "örnek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can you give me an example?",
+  "exampleTr": "Bana bir örnek verebilir misin?",
+  "ipa": "/ɪɡˈzæmpəl/",
+  "usage": "“for example” (örneğin) kalıbı çok yaygındır.",
+  "synonyms": [
+   "instance",
+   "sample"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:excited",
+  "lang": "en",
+  "term": "excited",
+  "meaning": "heyecanlı",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The children are excited about the trip.",
+  "exampleTr": "Çocuklar gezi için heyecanlı.",
+  "ipa": "/ɪkˈsaɪtɪd/",
+  "usage": "Kişinin duygusudur; heyecan veren şey için “exciting”. “excited about something” kalıbıyla kullanılır.",
+  "synonyms": [
+   "thrilled",
+   "eager"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:exciting",
+  "lang": "en",
+  "term": "exciting",
+  "meaning": "heyecan verici",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "It was an exciting football match.",
+  "exampleTr": "Heyecan verici bir futbol maçıydı.",
+  "ipa": "/ɪkˈsaɪtɪŋ/",
+  "usage": "Heyecana yol açan şeyi anlatır; hisseden kişi için “excited”.",
+  "synonyms": [
+   "thrilling"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:exercise",
+  "lang": "en",
+  "term": "exercise",
+  "meaning": "egzersiz, alıştırma",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I do exercise three times a week.",
+  "exampleTr": "Haftada üç kez egzersiz yaparım.",
+  "ipa": "/ˈeksərsaɪz/",
+  "usage": "Okulda “alıştırma” demektir: “Do exercise 4 on page 10.”",
+  "synonyms": [
+   "workout",
+   "practice"
+  ],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:extra",
+  "lang": "en",
+  "term": "extra",
+  "meaning": "ekstra, fazladan",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Can I have an extra blanket, please?",
+  "exampleTr": "Fazladan bir battaniye alabilir miyim, lütfen?",
+  "ipa": "/ˈekstrə/",
+  "usage": "“at no extra cost” ek ücret olmadan demektir.",
+  "synonyms": [
+   "additional",
+   "more"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:eye",
+  "lang": "en",
+  "term": "eye",
+  "meaning": "göz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She has beautiful green eyes.",
+  "exampleTr": "Güzel yeşil gözleri var.",
+  "ipa": "/aɪ/",
+  "usage": "“keep an eye on” bir şeye göz kulak olmak demektir.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:face",
+  "lang": "en",
+  "term": "face",
+  "meaning": "yüz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Wash your face before bed.",
+  "exampleTr": "Yatmadan önce yüzünü yıka.",
+  "ipa": "/feɪs/",
+  "usage": "Fiil olarak “yüzleşmek” demektir: “face a problem”.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:fact",
+  "lang": "en",
+  "term": "fact",
+  "meaning": "gerçek, olgu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Here are some interesting facts about the moon.",
+  "exampleTr": "İşte ay hakkında bazı ilginç bilgiler.",
+  "ipa": "/fækt/",
+  "usage": "“in fact” (aslında) kalıbı çok yaygındır.",
+  "synonyms": [
+   "truth",
+   "reality"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:fall",
+  "lang": "en",
+  "term": "fall",
+  "meaning": "düşmek; sonbahar",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Be careful, don't fall!",
+  "exampleTr": "Dikkat et, düşme!",
+  "ipa": "/fɔːl/",
+  "usage": "Düzensiz fiildir: fall – fell – fallen. Amerikan İngilizcesinde isim olarak “sonbahar” demektir.",
+  "synonyms": [
+   "drop",
+   "trip"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:false",
+  "lang": "en",
+  "term": "false",
+  "meaning": "yanlış",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Read the sentences and write true or false.",
+  "exampleTr": "Cümleleri okuyun ve doğru ya da yanlış yazın.",
+  "ipa": "/fɔːls/",
+  "usage": "Sınavlarda “true or false” (doğru mu yanlış mı) kalıbıyla sık görülür.",
+  "synonyms": [
+   "wrong",
+   "untrue"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:fantastic",
+  "lang": "en",
+  "term": "fantastic",
+  "meaning": "harika, muhteşem",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "We had a fantastic time in Cappadocia.",
+  "exampleTr": "Kapadokya'da harika vakit geçirdik.",
+  "ipa": "/fænˈtæstɪk/",
+  "usage": "Günlük konuşmada güçlü beğeni bildirir.",
+  "synonyms": [
+   "wonderful",
+   "great"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:far",
+  "lang": "en",
+  "term": "far",
+  "meaning": "uzak, uzağa",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "Is the station far from here?",
+  "exampleTr": "İstasyon buradan uzak mı?",
+  "ipa": "/fɑːr/",
+  "usage": "“far from” (-den uzak) kalıbıyla kullanılır; olumlu cümlede genelde “a long way” tercih edilir.",
+  "synonyms": [
+   "distant"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:farm",
+  "lang": "en",
+  "term": "farm",
+  "meaning": "çiftlik",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My grandparents live on a farm.",
+  "exampleTr": "Büyükannemle büyükbabam bir çiftlikte yaşıyor.",
+  "ipa": "/fɑːrm/",
+  "usage": "“on a farm” (çiftlikte) denir; “in a farm” yanlıştır.",
+  "synonyms": [
+   "ranch"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:farmer",
+  "lang": "en",
+  "term": "farmer",
+  "meaning": "çiftçi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The farmer grows tomatoes and peppers.",
+  "exampleTr": "Çiftçi domates ve biber yetiştiriyor.",
+  "ipa": "/ˈfɑːrmər/",
+  "usage": "“-er” eki kişi ismi yapar: farm → farmer.",
+  "synonyms": [],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:fast",
+  "lang": "en",
+  "term": "fast",
+  "meaning": "hızlı",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "This is a very fast train.",
+  "exampleTr": "Bu çok hızlı bir tren.",
+  "ipa": "/fæst/",
+  "usage": "Zarf hâli de “fast”tır: “He runs fast.” (“fastly” diye bir kelime yoktur.)",
+  "synonyms": [
+   "quick",
+   "rapid"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:fat",
+  "lang": "en",
+  "term": "fat",
+  "meaning": "şişman; yağ",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Our cat is getting fat.",
+  "exampleTr": "Kedimiz şişmanlıyor.",
+  "ipa": "/fæt/",
+  "usage": "İnsanlar için kaba kaçabilir; “overweight” daha kibar bir seçenektir.",
+  "synonyms": [
+   "overweight",
+   "heavy"
+  ],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:father",
+  "lang": "en",
+  "term": "father",
+  "meaning": "baba",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My father is a teacher.",
+  "exampleTr": "Babam öğretmen.",
+  "ipa": "/ˈfɑːðər/",
+  "usage": "Samimi konuşmada “dad” denir.",
+  "synonyms": [
+   "dad"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:favorite",
+  "lang": "en",
+  "term": "favorite",
+  "meaning": "en sevilen, favori",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Pizza is my favorite food.",
+  "exampleTr": "Pizza en sevdiğim yemek.",
+  "ipa": "/ˈfeɪvərɪt/",
+  "usage": "Amerikan yazımıdır; İngiliz yazımı “favourite”. Zaten “en” anlamı taşıdığı için “most favorite” denmez.",
+  "synonyms": [
+   "preferred"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:feel",
+  "lang": "en",
+  "term": "feel",
+  "meaning": "hissetmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I feel tired today.",
+  "exampleTr": "Bugün kendimi yorgun hissediyorum.",
+  "ipa": "/fiːl/",
+  "usage": "Düzensiz fiildir: feel – felt – felt. “feel like doing” canı bir şey yapmak istemektir.",
+  "synonyms": [
+   "sense"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:feeling",
+  "lang": "en",
+  "term": "feeling",
+  "meaning": "duygu, his",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a feeling that something is wrong.",
+  "exampleTr": "Bir şeylerin ters gittiğine dair bir his var içimde.",
+  "ipa": "/ˈfiːlɪŋ/",
+  "usage": "“hurt someone's feelings” birinin kalbini kırmak demektir.",
+  "synonyms": [
+   "emotion",
+   "sense"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:festival",
+  "lang": "en",
+  "term": "festival",
+  "meaning": "festival, şenlik",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We went to a music festival in the summer.",
+  "exampleTr": "Yazın bir müzik festivaline gittik.",
+  "ipa": "/ˈfestɪvəl/",
+  "usage": "“at a festival” (festivalde) kalıbıyla kullanılır.",
+  "synonyms": [
+   "celebration",
+   "fair"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:fill",
+  "lang": "en",
+  "term": "fill",
+  "meaning": "doldurmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Fill the glass with water.",
+  "exampleTr": "Bardağı suyla doldur.",
+  "ipa": "/fɪl/",
+  "usage": "“fill in a form” (form doldurmak) ve “fill in the blanks” (boşlukları doldurmak) yaygındır.",
+  "synonyms": [
+   "load",
+   "pack"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:final",
+  "lang": "en",
+  "term": "final",
+  "meaning": "son, nihai; final",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "This is the final question.",
+  "exampleTr": "Bu son soru.",
+  "ipa": "/ˈfaɪnl/",
+  "usage": "İsim olarak sporda “final” maçı, okulda “finals” dönem sonu sınavlarıdır.",
+  "synonyms": [
+   "last"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:find",
+  "lang": "en",
+  "term": "find",
+  "meaning": "bulmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I can't find my keys.",
+  "exampleTr": "Anahtarlarımı bulamıyorum.",
+  "ipa": "/faɪnd/",
+  "usage": "Düzensiz fiildir: find – found – found. “find out” öğrenmek, ortaya çıkarmak demektir.",
+  "synonyms": [
+   "discover",
+   "locate"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:fine",
+  "lang": "en",
+  "term": "fine",
+  "meaning": "iyi; ince",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "“How are you?” “I'm fine, thanks.”",
+  "exampleTr": "“Nasılsın?” “İyiyim, teşekkürler.”",
+  "ipa": "/faɪn/",
+  "usage": "İsim olarak “para cezası” anlamı da vardır: “a parking fine”.",
+  "synonyms": [
+   "well",
+   "okay"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:finish",
+  "lang": "en",
+  "term": "finish",
+  "meaning": "bitirmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I finish work at six.",
+  "exampleTr": "İşi altıda bitiririm.",
+  "ipa": "/ˈfɪnɪʃ/",
+  "usage": "Ardından fiil gelirse “-ing” alır: “finish reading”.",
+  "synonyms": [
+   "complete",
+   "end"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:fire",
+  "lang": "en",
+  "term": "fire",
+  "meaning": "ateş, yangın",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There was a fire in the old building.",
+  "exampleTr": "Eski binada bir yangın çıktı.",
+  "ipa": "/ˈfaɪər/",
+  "usage": "Fiil olarak “kovmak, işten çıkarmak” demektir: “He was fired.”",
+  "synonyms": [
+   "flame",
+   "blaze"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:fish",
+  "lang": "en",
+  "term": "fish",
+  "meaning": "balık",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We had grilled fish by the sea.",
+  "exampleTr": "Deniz kenarında ızgara balık yedik.",
+  "ipa": "/fɪʃ/",
+  "usage": "Çoğulu genelde yine “fish”tir: “two fish”. Fiil olarak “balık tutmak”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:floor",
+  "lang": "en",
+  "term": "floor",
+  "meaning": "zemin, yer; kat",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Our apartment is on the third floor.",
+  "exampleTr": "Dairemiz üçüncü katta.",
+  "ipa": "/flɔːr/",
+  "usage": "Kat için “on the … floor” kalıbı kullanılır; yer için “on the floor” (yerde).",
+  "synonyms": [
+   "ground",
+   "story"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:fly",
+  "lang": "en",
+  "term": "fly",
+  "meaning": "uçmak; uçakla gitmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "We're flying to Paris next week.",
+  "exampleTr": "Gelecek hafta uçakla Paris'e gidiyoruz.",
+  "ipa": "/flaɪ/",
+  "usage": "Düzensiz fiildir: fly – flew – flown. İsim olarak “sinek” demektir.",
+  "synonyms": [
+   "travel"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:food",
+  "lang": "en",
+  "term": "food",
+  "meaning": "yiyecek, yemek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Turkish food is famous all over the world.",
+  "exampleTr": "Türk yemekleri tüm dünyada meşhurdur.",
+  "ipa": "/fuːd/",
+  "usage": "Genelde sayılamaz: “some food”, “a lot of food”.",
+  "synonyms": [
+   "meal",
+   "cuisine"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:foot",
+  "lang": "en",
+  "term": "foot",
+  "meaning": "ayak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My foot hurts after the long walk.",
+  "exampleTr": "Uzun yürüyüşten sonra ayağım ağrıyor.",
+  "ipa": "/fʊt/",
+  "usage": "Çoğulu düzensizdir: one foot – two feet. “on foot” yürüyerek demektir.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:football",
+  "lang": "en",
+  "term": "football",
+  "meaning": "(Amerikan) futbol",
+  "pos": "isim",
+  "level": "A1",
+  "example": "They watch football every Sunday.",
+  "exampleTr": "Her pazar futbol izlerler.",
+  "ipa": "/ˈfʊtbɔːl/",
+  "usage": "Amerikan İngilizcesinde Amerikan futbolu demektir; bizim futbolumuz için “soccer” kullanılır.",
+  "synonyms": [
+   "soccer"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:form",
+  "lang": "en",
+  "term": "form",
+  "meaning": "form; biçim",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Please fill in this form.",
+  "exampleTr": "Lütfen bu formu doldurun.",
+  "ipa": "/fɔːrm/",
+  "usage": "“biçim, tür” anlamı da vardır: “a form of exercise” (bir egzersiz biçimi).",
+  "synonyms": [
+   "document",
+   "shape",
+   "type"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:free",
+  "lang": "en",
+  "term": "free",
+  "meaning": "ücretsiz; boş, serbest",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The museum is free on Sundays.",
+  "exampleTr": "Müze pazar günleri ücretsiz.",
+  "ipa": "/friː/",
+  "usage": "“free time” boş zaman demektir; “Are you free tonight?” (Bu akşam müsait misin?)",
+  "synonyms": [
+   "complimentary",
+   "available"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:friendly",
+  "lang": "en",
+  "term": "friendly",
+  "meaning": "cana yakın, güler yüzlü",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The people in this town are very friendly.",
+  "exampleTr": "Bu kasabadaki insanlar çok cana yakın.",
+  "ipa": "/ˈfrendli/",
+  "usage": "“-ly” ile bitse de zarf değil sıfattır; “He spoke friendly” yanlıştır, “in a friendly way” denir.",
+  "synonyms": [
+   "kind",
+   "warm"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:front",
+  "lang": "en",
+  "term": "front",
+  "meaning": "ön, ön taraf",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's meet in front of the cinema.",
+  "exampleTr": "Sinemanın önünde buluşalım.",
+  "ipa": "/frʌnt/",
+  "usage": "“in front of” (-in önünde) kalıbı çok yaygındır; “front door” ön kapı, “front seat” ön koltuk.",
+  "synonyms": [
+   "face",
+   "head"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:full",
+  "lang": "en",
+  "term": "full",
+  "meaning": "dolu; tok",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The bus was full, so we walked.",
+  "exampleTr": "Otobüs doluydu, o yüzden yürüdük.",
+  "ipa": "/fʊl/",
+  "usage": "Yemekten sonra “I'm full.” (Doydum.) denir. “full of” (… ile dolu) kalıbı yaygındır.",
+  "synonyms": [
+   "packed",
+   "complete"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:fun",
+  "lang": "en",
+  "term": "fun",
+  "meaning": "eğlence; eğlenceli",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We had a lot of fun at the party.",
+  "exampleTr": "Partide çok eğlendik.",
+  "ipa": "/fʌn/",
+  "usage": "“have fun” (eğlenmek) kalıbı yaygındır. “funny” (komik) ile karıştırılmamalıdır.",
+  "synonyms": [
+   "enjoyment",
+   "entertainment"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:funny",
+  "lang": "en",
+  "term": "funny",
+  "meaning": "komik, eğlenceli",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "He told us a very funny story.",
+  "exampleTr": "Bize çok komik bir hikâye anlattı.",
+  "ipa": "/ˈfʌni/",
+  "usage": "“tuhaf” anlamı da vardır: “That's funny, my keys were here.”",
+  "synonyms": [
+   "amusing",
+   "hilarious"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:future",
+  "lang": "en",
+  "term": "future",
+  "meaning": "gelecek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What do you want to do in the future?",
+  "exampleTr": "Gelecekte ne yapmak istiyorsun?",
+  "ipa": "/ˈfjuːtʃər/",
+  "usage": "“in the future” (gelecekte) kalıbıyla kullanılır.",
+  "synonyms": [
+   "tomorrow"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:game",
+  "lang": "en",
+  "term": "game",
+  "meaning": "oyun; maç",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's play a board game tonight.",
+  "exampleTr": "Bu akşam bir kutu oyunu oynayalım.",
+  "ipa": "/ɡeɪm/",
+  "usage": "Amerikan İngilizcesinde maç için de kullanılır: “a basketball game”.",
+  "synonyms": [
+   "match",
+   "play"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:geography",
+  "lang": "en",
+  "term": "geography",
+  "meaning": "coğrafya",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Geography is my favorite subject.",
+  "exampleTr": "Coğrafya en sevdiğim ders.",
+  "ipa": "/dʒiˈɑːɡrəfi/",
+  "usage": "Ders adlarından önce “the” kullanılmaz.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:get",
+  "lang": "en",
+  "term": "get",
+  "meaning": "almak; olmak; varmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "What time do you get home?",
+  "exampleTr": "Eve saat kaçta varıyorsun?",
+  "ipa": "/ɡet/",
+  "usage": "Düzensiz fiildir: get – got – gotten (Amerikan). Çok anlamlıdır: “get tired” (yorulmak), “get a job” (iş bulmak).",
+  "synonyms": [
+   "receive",
+   "become",
+   "reach"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:girl",
+  "lang": "en",
+  "term": "girl",
+  "meaning": "kız, kız çocuk",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The little girl is playing with her doll.",
+  "exampleTr": "Küçük kız bebeğiyle oynuyor.",
+  "ipa": "/ɡɜːrl/",
+  "usage": "Yetişkin kadınlar için “woman” kullanmak daha uygundur.",
+  "synonyms": [
+   "kid"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:girlfriend",
+  "lang": "en",
+  "term": "girlfriend",
+  "meaning": "kız arkadaş, sevgili",
+  "pos": "isim",
+  "level": "A1",
+  "example": "He is having dinner with his girlfriend.",
+  "exampleTr": "Kız arkadaşıyla akşam yemeği yiyor.",
+  "ipa": "/ˈɡɜːrlfrend/",
+  "usage": "Romantik ilişki anlatır; kadınlar arasında arkadaş için de samimi dilde kullanılabilir.",
+  "synonyms": [
+   "partner"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:give",
+  "lang": "en",
+  "term": "give",
+  "meaning": "vermek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can you give me your phone number?",
+  "exampleTr": "Bana telefon numaranı verebilir misin?",
+  "ipa": "/ɡɪv/",
+  "usage": "Düzensiz fiildir: give – gave – given. “give up” vazgeçmek demektir.",
+  "synonyms": [
+   "hand",
+   "offer"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:glass",
+  "lang": "en",
+  "term": "glass",
+  "meaning": "bardak; cam",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can I have a glass of water?",
+  "exampleTr": "Bir bardak su alabilir miyim?",
+  "ipa": "/ɡlæs/",
+  "usage": "Malzeme olarak sayılamaz (“made of glass”); çoğulu “glasses” gözlük anlamına da gelir.",
+  "synonyms": [
+   "cup",
+   "tumbler"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:go",
+  "lang": "en",
+  "term": "go",
+  "meaning": "gitmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I go to the gym after work.",
+  "exampleTr": "İşten sonra spor salonuna giderim.",
+  "ipa": "/ɡoʊ/",
+  "usage": "Düzensiz fiildir: go – went – gone. “go home” kalıbında “to” kullanılmaz.",
+  "synonyms": [
+   "leave",
+   "travel"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:good",
+  "lang": "en",
+  "term": "good",
+  "meaning": "iyi",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "This is a really good book.",
+  "exampleTr": "Bu gerçekten iyi bir kitap.",
+  "ipa": "/ɡʊd/",
+  "usage": "Zarf hâli “well”dir: “She sings well.” Karşılaştırma: good – better – best.",
+  "synonyms": [
+   "fine",
+   "nice"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:grandfather",
+  "lang": "en",
+  "term": "grandfather",
+  "meaning": "büyükbaba, dede",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My grandfather is eighty years old.",
+  "exampleTr": "Dedem seksen yaşında.",
+  "ipa": "/ˈɡrænfɑːðər/",
+  "usage": "Samimi dilde “grandpa” denir. Anne/baba tarafı ayrımı yoktur.",
+  "synonyms": [
+   "grandpa"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:grandmother",
+  "lang": "en",
+  "term": "grandmother",
+  "meaning": "büyükanne, nine",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My grandmother makes the best baklava.",
+  "exampleTr": "Büyükannem en güzel baklavayı yapar.",
+  "ipa": "/ˈɡrænmʌðər/",
+  "usage": "Samimi dilde “grandma” denir. Anneanne ve babaanne ayrımı yoktur.",
+  "synonyms": [
+   "grandma"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:grandparent",
+  "lang": "en",
+  "term": "grandparent",
+  "meaning": "büyükanne veya büyükbaba",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We visit our grandparents every holiday.",
+  "exampleTr": "Her tatilde büyükannemizle büyükbabamızı ziyaret ederiz.",
+  "ipa": "/ˈɡrænperənt/",
+  "usage": "Genelde çoğul kullanılır: “my grandparents”.",
+  "synonyms": [],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:gray",
+  "lang": "en",
+  "term": "gray",
+  "meaning": "gri",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "It's a cold, gray day.",
+  "exampleTr": "Soğuk, gri bir gün.",
+  "ipa": "/ɡreɪ/",
+  "usage": "Amerikan yazımıdır; İngiliz yazımı “grey”. “gray hair” kır/beyaz saç demektir.",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:great",
+  "lang": "en",
+  "term": "great",
+  "meaning": "harika; büyük",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "That's a great idea!",
+  "exampleTr": "Bu harika bir fikir!",
+  "ipa": "/ɡreɪt/",
+  "usage": "“büyük, önemli” anlamı da vardır: “a great writer”.",
+  "synonyms": [
+   "wonderful",
+   "excellent"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:green",
+  "lang": "en",
+  "term": "green",
+  "meaning": "yeşil",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The park is very green in spring.",
+  "exampleTr": "Park ilkbaharda yemyeşil olur.",
+  "ipa": "/ɡriːn/",
+  "usage": "“çevreci” anlamı da vardır: “green energy”.",
+  "synonyms": [],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:group",
+  "lang": "en",
+  "term": "group",
+  "meaning": "grup",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Work in groups of four.",
+  "exampleTr": "Dörderli gruplar halinde çalışın.",
+  "ipa": "/ɡruːp/",
+  "usage": "“in groups” (gruplar halinde), “a group of friends” (bir grup arkadaş).",
+  "synonyms": [
+   "team",
+   "band"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:grow",
+  "lang": "en",
+  "term": "grow",
+  "meaning": "büyümek; yetiştirmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "We grow vegetables in our garden.",
+  "exampleTr": "Bahçemizde sebze yetiştiriyoruz.",
+  "ipa": "/ɡroʊ/",
+  "usage": "Düzensiz fiildir: grow – grew – grown. “grow up” büyümek (çocukluktan yetişkinliğe).",
+  "synonyms": [
+   "develop",
+   "raise"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:guess",
+  "lang": "en",
+  "term": "guess",
+  "meaning": "tahmin etmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can you guess how old I am?",
+  "exampleTr": "Kaç yaşında olduğumu tahmin edebilir misin?",
+  "ipa": "/ɡes/",
+  "usage": "Amerikan konuşma dilinde “I guess…” “sanırım…” demektir.",
+  "synonyms": [
+   "estimate",
+   "suppose"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:guitar",
+  "lang": "en",
+  "term": "guitar",
+  "meaning": "gitar",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My brother plays the guitar in a band.",
+  "exampleTr": "Ağabeyim bir grupta gitar çalıyor.",
+  "ipa": "/ɡɪˈtɑːr/",
+  "usage": "Enstrümanlarla “play the guitar” şeklinde “the” kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:gym",
+  "lang": "en",
+  "term": "gym",
+  "meaning": "spor salonu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I go to the gym three times a week.",
+  "exampleTr": "Haftada üç kez spor salonuna giderim.",
+  "ipa": "/dʒɪm/",
+  "usage": "“gymnasium” kelimesinin kısaltmasıdır.",
+  "synonyms": [
+   "fitness center"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:hair",
+  "lang": "en",
+  "term": "hair",
+  "meaning": "saç",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She has long black hair.",
+  "exampleTr": "Uzun siyah saçları var.",
+  "ipa": "/her/",
+  "usage": "Saç için sayılamaz ve tekildir: “her hair is long”; “hairs” tek tek tel demektir.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:half",
+  "lang": "en",
+  "term": "half",
+  "meaning": "yarım, yarı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'll be there in half an hour.",
+  "exampleTr": "Yarım saat içinde orada olurum.",
+  "ipa": "/hæf/",
+  "usage": "Çoğulu “halves”. “half past three” üç buçuk demektir.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:hand",
+  "lang": "en",
+  "term": "hand",
+  "meaning": "el",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Wash your hands before eating.",
+  "exampleTr": "Yemekten önce ellerini yıka.",
+  "ipa": "/hænd/",
+  "usage": "“give someone a hand” birine yardım etmek; “on the other hand” öte yandan demektir.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:happen",
+  "lang": "en",
+  "term": "happen",
+  "meaning": "olmak, meydana gelmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "What happened to your car?",
+  "exampleTr": "Arabana ne oldu?",
+  "ipa": "/ˈhæpən/",
+  "usage": "Edilgen yapılmaz; “It was happened” yanlıştır.",
+  "synonyms": [
+   "occur",
+   "take place"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:hard",
+  "lang": "en",
+  "term": "hard",
+  "meaning": "zor; sert",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The exam was really hard.",
+  "exampleTr": "Sınav gerçekten zordu.",
+  "ipa": "/hɑːrd/",
+  "usage": "Zarf olarak “sıkı” demektir: “work hard”. “hardly” ise “neredeyse hiç” anlamındadır.",
+  "synonyms": [
+   "difficult",
+   "tough"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:hat",
+  "lang": "en",
+  "term": "hat",
+  "meaning": "şapka",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Wear a hat, the sun is very strong.",
+  "exampleTr": "Şapka tak, güneş çok güçlü.",
+  "ipa": "/hæt/",
+  "usage": "“put on a hat” (şapka takmak), “take off your hat” (şapkayı çıkarmak).",
+  "synonyms": [
+   "cap"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:head",
+  "lang": "en",
+  "term": "head",
+  "meaning": "baş, kafa",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a bad pain in my head.",
+  "exampleTr": "Başımda kötü bir ağrı var.",
+  "ipa": "/hed/",
+  "usage": "Fiil olarak “-e doğru gitmek” demektir: “head home”. “head of” bir kurumun başıdır.",
+  "synonyms": [
+   "leader"
+  ],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:health",
+  "lang": "en",
+  "term": "health",
+  "meaning": "sağlık",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Smoking is bad for your health.",
+  "exampleTr": "Sigara içmek sağlığa zararlıdır.",
+  "ipa": "/helθ/",
+  "usage": "Sayılamaz isimdir. Sıfatı “healthy” (sağlıklı).",
+  "synonyms": [
+   "wellness"
+  ],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:hear",
+  "lang": "en",
+  "term": "hear",
+  "meaning": "duymak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can you hear me?",
+  "exampleTr": "Beni duyabiliyor musun?",
+  "ipa": "/hɪr/",
+  "usage": "Düzensiz fiildir: hear – heard – heard. Kendiliğinden duymaktır; dikkatle dinlemek “listen”.",
+  "synonyms": [
+   "catch"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:high",
+  "lang": "en",
+  "term": "high",
+  "meaning": "yüksek",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The prices in this shop are very high.",
+  "exampleTr": "Bu dükkândaki fiyatlar çok yüksek.",
+  "ipa": "/haɪ/",
+  "usage": "Binalar ve insanlar için “tall” kullanılır; “high” dağlar, fiyatlar, sıcaklık gibi şeyler içindir.",
+  "synonyms": [
+   "tall",
+   "elevated"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:history",
+  "lang": "en",
+  "term": "history",
+  "meaning": "tarih",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Istanbul has a long and rich history.",
+  "exampleTr": "İstanbul'un uzun ve zengin bir tarihi var.",
+  "ipa": "/ˈhɪstəri/",
+  "usage": "Takvim tarihi için “date” kullanılır.",
+  "synonyms": [
+   "past"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:hobby",
+  "lang": "en",
+  "term": "hobby",
+  "meaning": "hobi, uğraş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My favorite hobby is photography.",
+  "exampleTr": "En sevdiğim hobi fotoğrafçılık.",
+  "ipa": "/ˈhɑːbi/",
+  "usage": "Çoğulu “hobbies” şeklindedir.",
+  "synonyms": [
+   "pastime",
+   "interest"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:home",
+  "lang": "en",
+  "term": "home",
+  "meaning": "ev, yuva",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'm going home now.",
+  "exampleTr": "Şimdi eve gidiyorum.",
+  "ipa": "/hoʊm/",
+  "usage": "“go home” ve “at home” kalıplarında “to/the” kullanılmaz. Bina için “house”, yaşanılan yer duygusu için “home”.",
+  "synonyms": [
+   "house"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:hope",
+  "lang": "en",
+  "term": "hope",
+  "meaning": "ummak; umut",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I hope you feel better soon.",
+  "exampleTr": "Umarım yakında iyileşirsin.",
+  "ipa": "/hoʊp/",
+  "usage": "“I hope so” (umarım öyledir) ve “I hope not” (umarım değildir) kısa cevaplarıdır.",
+  "synonyms": [
+   "wish",
+   "expect"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:horse",
+  "lang": "en",
+  "term": "horse",
+  "meaning": "at",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Have you ever ridden a horse?",
+  "exampleTr": "Hiç ata bindin mi?",
+  "ipa": "/hɔːrs/",
+  "usage": "“ride a horse” (ata binmek) kalıbıyla kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:hotel",
+  "lang": "en",
+  "term": "hotel",
+  "meaning": "otel",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We stayed at a small hotel near the beach.",
+  "exampleTr": "Plaja yakın küçük bir otelde kaldık.",
+  "ipa": "/hoʊˈtel/",
+  "usage": "“stay at a hotel” (otelde kalmak) kalıbı yaygındır.",
+  "synonyms": [
+   "inn"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:hour",
+  "lang": "en",
+  "term": "hour",
+  "meaning": "saat (süre)",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The flight takes three hours.",
+  "exampleTr": "Uçuş üç saat sürüyor.",
+  "ipa": "/ˈaʊər/",
+  "usage": "“h” okunmaz, bu yüzden “an hour” denir. Saati sormak için “What time is it?” kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:however",
+  "lang": "en",
+  "term": "however",
+  "meaning": "ancak, bununla birlikte",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "The hotel was nice. However, it was very expensive.",
+  "exampleTr": "Otel güzeldi. Ancak çok pahalıydı.",
+  "ipa": "/haʊˈevər/",
+  "usage": "Genelde cümle başında virgülle kullanılır; “but” kelimesinden daha resmîdir.",
+  "synonyms": [
+   "but",
+   "nevertheless"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:husband",
+  "lang": "en",
+  "term": "husband",
+  "meaning": "koca, eş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Her husband works at the hospital.",
+  "exampleTr": "Kocası hastanede çalışıyor.",
+  "ipa": "/ˈhʌzbənd/",
+  "usage": "Kadın eş için “wife” kullanılır.",
+  "synonyms": [
+   "spouse",
+   "partner"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:ice",
+  "lang": "en",
+  "term": "ice",
+  "meaning": "buz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can I have some ice in my drink?",
+  "exampleTr": "İçeceğime biraz buz alabilir miyim?",
+  "ipa": "/aɪs/",
+  "usage": "Sayılamaz isimdir; tek parça için “an ice cube” denir.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:ice cream",
+  "lang": "en",
+  "term": "ice cream",
+  "meaning": "dondurma",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's get some ice cream after lunch.",
+  "exampleTr": "Öğle yemeğinden sonra dondurma alalım.",
+  "ipa": "/ˌaɪs ˈkriːm/",
+  "usage": "İki kelime olarak yazılır; tek külah için “an ice cream” denebilir.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:idea",
+  "lang": "en",
+  "term": "idea",
+  "meaning": "fikir",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have an idea! Let's go to the beach.",
+  "exampleTr": "Aklıma bir fikir geldi! Hadi plaja gidelim.",
+  "ipa": "/aɪˈdiːə/",
+  "usage": "“I have no idea.” (Hiçbir fikrim yok.) çok yaygındır.",
+  "synonyms": [
+   "thought",
+   "plan"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:imagine",
+  "lang": "en",
+  "term": "imagine",
+  "meaning": "hayal etmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Imagine you are on a beautiful island.",
+  "exampleTr": "Güzel bir adada olduğunu hayal et.",
+  "ipa": "/ɪˈmædʒɪn/",
+  "usage": "Ardından fiil gelirse “-ing” alır: “I can't imagine living there.”",
+  "synonyms": [
+   "picture",
+   "dream"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:important",
+  "lang": "en",
+  "term": "important",
+  "meaning": "önemli",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "It's important to drink enough water.",
+  "exampleTr": "Yeterince su içmek önemlidir.",
+  "ipa": "/ɪmˈpɔːrtnt/",
+  "usage": "“It's important to…” (… önemlidir) kalıbı çok yaygındır.",
+  "synonyms": [
+   "significant",
+   "essential"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:include",
+  "lang": "en",
+  "term": "include",
+  "meaning": "içermek, dahil etmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Does the price include breakfast?",
+  "exampleTr": "Fiyata kahvaltı dahil mi?",
+  "ipa": "/ɪnˈkluːd/",
+  "usage": "Zıt anlamlısı “exclude” (hariç tutmak). “including” (dahil olmak üzere) kalıbı yaygındır.",
+  "synonyms": [
+   "contain",
+   "cover"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:information",
+  "lang": "en",
+  "term": "information",
+  "meaning": "bilgi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "For more information, visit our website.",
+  "exampleTr": "Daha fazla bilgi için web sitemizi ziyaret edin.",
+  "ipa": "/ˌɪnfərˈmeɪʃn/",
+  "usage": "Sayılamaz isimdir: “informations” ve “an information” yanlıştır; “a piece of information” denir.",
+  "synonyms": [
+   "details",
+   "facts"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:interest",
+  "lang": "en",
+  "term": "interest",
+  "meaning": "ilgi; faiz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She has a strong interest in music.",
+  "exampleTr": "Müziğe büyük ilgisi var.",
+  "ipa": "/ˈɪntrəst/",
+  "usage": "“interest in something” (bir şeye ilgi) kalıbıyla kullanılır; bankacılıkta “faiz” demektir.",
+  "synonyms": [
+   "curiosity",
+   "hobby"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:interested",
+  "lang": "en",
+  "term": "interested",
+  "meaning": "ilgili, meraklı",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Are you interested in art?",
+  "exampleTr": "Sanatla ilgileniyor musun?",
+  "ipa": "/ˈɪntrəstɪd/",
+  "usage": "“interested in” kalıbıyla kullanılır. Kişinin durumudur; ilgi çeken şey için “interesting”.",
+  "synonyms": [
+   "curious",
+   "keen"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:interesting",
+  "lang": "en",
+  "term": "interesting",
+  "meaning": "ilginç",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "That's an interesting question.",
+  "exampleTr": "Bu ilginç bir soru.",
+  "ipa": "/ˈɪntrəstɪŋ/",
+  "usage": "İlgi uyandıran şeyi anlatır; ilgilenen kişi için “interested”.",
+  "synonyms": [
+   "fascinating",
+   "curious"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:internet",
+  "lang": "en",
+  "term": "internet",
+  "meaning": "internet",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I found the recipe on the internet.",
+  "exampleTr": "Tarifi internette buldum.",
+  "ipa": "/ˈɪntərnet/",
+  "usage": "“on the internet” (internette) kalıbında “the” kullanılır.",
+  "synonyms": [
+   "web",
+   "net"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:interview",
+  "lang": "en",
+  "term": "interview",
+  "meaning": "mülakat, röportaj",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a job interview tomorrow.",
+  "exampleTr": "Yarın bir iş görüşmem var.",
+  "ipa": "/ˈɪntərvjuː/",
+  "usage": "“job interview” iş görüşmesidir; fiil olarak “interview someone” (biriyle görüşme yapmak).",
+  "synonyms": [
+   "meeting",
+   "conversation"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:introduce",
+  "lang": "en",
+  "term": "introduce",
+  "meaning": "tanıştırmak; tanıtmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Let me introduce my friend Elif.",
+  "exampleTr": "Arkadaşım Elif'i tanıştırayım.",
+  "ipa": "/ˌɪntrəˈduːs/",
+  "usage": "“introduce yourself” (kendini tanıtmak); “introduce A to B” (A'yı B ile tanıştırmak).",
+  "synonyms": [
+   "present"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:island",
+  "lang": "en",
+  "term": "island",
+  "meaning": "ada",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We spent our holiday on a Greek island.",
+  "exampleTr": "Tatilimizi bir Yunan adasında geçirdik.",
+  "ipa": "/ˈaɪlənd/",
+  "usage": "“s” harfi okunmaz. “on an island” (adada) denir.",
+  "synonyms": [
+   "isle"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:jeans",
+  "lang": "en",
+  "term": "jeans",
+  "meaning": "kot pantolon",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I usually wear jeans and a T-shirt.",
+  "exampleTr": "Genellikle kot pantolon ve tişört giyerim.",
+  "ipa": "/dʒiːnz/",
+  "usage": "Her zaman çoğuldur; tek bir tane için “a pair of jeans” denir.",
+  "synonyms": [
+   "denims"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:job",
+  "lang": "en",
+  "term": "job",
+  "meaning": "iş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She got a new job at a bank.",
+  "exampleTr": "Bir bankada yeni bir iş buldu.",
+  "ipa": "/dʒɑːb/",
+  "usage": "Sayılabilir isimdir (“a job”); genel çalışma için sayılamaz “work” kullanılır.",
+  "synonyms": [
+   "work",
+   "position"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:join",
+  "lang": "en",
+  "term": "join",
+  "meaning": "katılmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Would you like to join us for dinner?",
+  "exampleTr": "Akşam yemeğinde bize katılmak ister misin?",
+  "ipa": "/dʒɔɪn/",
+  "usage": "Doğrudan nesne alır: “join a club”; “join to” yanlıştır.",
+  "synonyms": [
+   "take part",
+   "become a member"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:juice",
+  "lang": "en",
+  "term": "juice",
+  "meaning": "meyve suyu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I drink a glass of orange juice every morning.",
+  "exampleTr": "Her sabah bir bardak portakal suyu içerim.",
+  "ipa": "/dʒuːs/",
+  "usage": "Genelde sayılamaz: “some juice”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:keep",
+  "lang": "en",
+  "term": "keep",
+  "meaning": "tutmak, saklamak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Keep the receipt in case you want to return it.",
+  "exampleTr": "İade etmek istersen diye fişi sakla.",
+  "ipa": "/kiːp/",
+  "usage": "Düzensiz fiildir: keep – kept – kept. “keep doing” bir şeyi yapmaya devam etmektir.",
+  "synonyms": [
+   "hold",
+   "save"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:key",
+  "lang": "en",
+  "term": "key",
+  "meaning": "anahtar",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I left my keys at home.",
+  "exampleTr": "Anahtarlarımı evde unuttum.",
+  "ipa": "/kiː/",
+  "usage": "Sıfat olarak “çok önemli” demektir: “a key point”.",
+  "synonyms": [
+   "answer",
+   "solution"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:kind",
+  "lang": "en",
+  "term": "kind",
+  "meaning": "tür, çeşit; nazik",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What kind of music do you like?",
+  "exampleTr": "Ne tür müzik seversin?",
+  "ipa": "/kaɪnd/",
+  "usage": "Sıfat olarak “nazik” demektir: “That's very kind of you.”",
+  "synonyms": [
+   "type",
+   "sort"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:know",
+  "lang": "en",
+  "term": "know",
+  "meaning": "bilmek; tanımak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Do you know where the station is?",
+  "exampleTr": "İstasyonun nerede olduğunu biliyor musun?",
+  "ipa": "/noʊ/",
+  "usage": "Düzensiz fiildir: know – knew – known. Baştaki “k” okunmaz.",
+  "synonyms": [
+   "understand",
+   "recognize"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:land",
+  "lang": "en",
+  "term": "land",
+  "meaning": "kara, toprak; (uçak) inmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "They bought some land near the sea.",
+  "exampleTr": "Deniz kenarında bir arazi aldılar.",
+  "ipa": "/lænd/",
+  "usage": "Fiil olarak uçağın inmesidir: “The plane landed at 10.”",
+  "synonyms": [
+   "ground",
+   "earth"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:language",
+  "lang": "en",
+  "term": "language",
+  "meaning": "dil",
+  "pos": "isim",
+  "level": "A1",
+  "example": "How many languages do you speak?",
+  "exampleTr": "Kaç dil konuşuyorsun?",
+  "ipa": "/ˈlæŋɡwɪdʒ/",
+  "usage": "Organ olan dil için “tongue” kullanılır.",
+  "synonyms": [
+   "tongue"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:large",
+  "lang": "en",
+  "term": "large",
+  "meaning": "büyük, geniş",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Can I have a large coffee, please?",
+  "exampleTr": "Büyük boy bir kahve alabilir miyim, lütfen?",
+  "ipa": "/lɑːrdʒ/",
+  "usage": "“big” ile benzerdir ama daha resmîdir; beden ölçülerinde “L” harfiyle gösterilir.",
+  "synonyms": [
+   "big",
+   "huge"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:late",
+  "lang": "en",
+  "term": "late",
+  "meaning": "geç",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Sorry, I'm late!",
+  "exampleTr": "Kusura bakma, geciktim!",
+  "ipa": "/leɪt/",
+  "usage": "Zarf hâli de “late”tir: “I got up late.” “lately” ise “son zamanlarda” demektir.",
+  "synonyms": [
+   "delayed"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:later",
+  "lang": "en",
+  "term": "later",
+  "meaning": "sonra, daha sonra",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I'll call you later.",
+  "exampleTr": "Seni sonra ararım.",
+  "ipa": "/ˈleɪtər/",
+  "usage": "“See you later!” (Görüşürüz!) çok yaygın bir vedalaşmadır.",
+  "synonyms": [
+   "afterward",
+   "soon"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:leave",
+  "lang": "en",
+  "term": "leave",
+  "meaning": "ayrılmak; bırakmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "The train leaves at nine o'clock.",
+  "exampleTr": "Tren saat dokuzda kalkıyor.",
+  "ipa": "/liːv/",
+  "usage": "Düzensiz fiildir: leave – left – left. “leave something somewhere” bir şeyi bir yerde unutmaktır.",
+  "synonyms": [
+   "go",
+   "depart"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:left",
+  "lang": "en",
+  "term": "left",
+  "meaning": "sol",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Turn left at the traffic lights.",
+  "exampleTr": "Trafik ışıklarından sola dön.",
+  "ipa": "/left/",
+  "usage": "“on the left” (solda), “turn left” (sola dön). Aynı zamanda “leave” fiilinin geçmiş hâlidir.",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:leg",
+  "lang": "en",
+  "term": "leg",
+  "meaning": "bacak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "He hurt his leg playing football.",
+  "exampleTr": "Futbol oynarken bacağını incitti.",
+  "ipa": "/leɡ/",
+  "usage": "Masa, sandalye ayakları için de kullanılır: “table leg”.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:lesson",
+  "lang": "en",
+  "term": "lesson",
+  "meaning": "ders",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a piano lesson on Tuesdays.",
+  "exampleTr": "Salı günleri piyano dersim var.",
+  "ipa": "/ˈlesn/",
+  "usage": "“learn a lesson” ders almak (bir deneyimden) demektir.",
+  "synonyms": [
+   "class"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:let",
+  "lang": "en",
+  "term": "let",
+  "meaning": "izin vermek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "My parents let me stay out late on weekends.",
+  "exampleTr": "Ailem hafta sonları geç saate kadar dışarıda kalmama izin veriyor.",
+  "ipa": "/let/",
+  "usage": "Düzensiz fiildir: let – let – let. Ardından “to”suz fiil gelir. “Let's…” (Hadi …) öneri kalıbıdır.",
+  "synonyms": [
+   "allow",
+   "permit"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:letter",
+  "lang": "en",
+  "term": "letter",
+  "meaning": "mektup; harf",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I wrote a letter to my grandmother.",
+  "exampleTr": "Büyükanneme bir mektup yazdım.",
+  "ipa": "/ˈletər/",
+  "usage": "Alfabedeki harf için de kullanılır: “The word has five letters.”",
+  "synonyms": [
+   "note",
+   "character"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:library",
+  "lang": "en",
+  "term": "library",
+  "meaning": "kütüphane",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'm going to the library to study.",
+  "exampleTr": "Ders çalışmak için kütüphaneye gidiyorum.",
+  "ipa": "/ˈlaɪbreri/",
+  "usage": "Kitapçı için “bookstore” kullanılır; “library” ile karıştırılmamalıdır.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:lie",
+  "lang": "en",
+  "term": "lie",
+  "meaning": "uzanmak; yalan söylemek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I want to lie on the beach all day.",
+  "exampleTr": "Bütün gün plajda uzanmak istiyorum.",
+  "ipa": "/laɪ/",
+  "usage": "“uzanmak” anlamında: lie – lay – lain; “yalan söylemek” anlamında: lie – lied – lied. “-ing” hâli “lying”.",
+  "synonyms": [
+   "rest",
+   "recline"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:life",
+  "lang": "en",
+  "term": "life",
+  "meaning": "hayat, yaşam",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She has a busy life in the city.",
+  "exampleTr": "Şehirde yoğun bir hayatı var.",
+  "ipa": "/laɪf/",
+  "usage": "Çoğulu “lives” /laɪvz/ şeklindedir.",
+  "synonyms": [
+   "existence"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:light",
+  "lang": "en",
+  "term": "light",
+  "meaning": "ışık; hafif",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can you turn on the light, please?",
+  "exampleTr": "Işığı açar mısın, lütfen?",
+  "ipa": "/laɪt/",
+  "usage": "Sıfat olarak “hafif” (“a light bag”) ve renklerde “açık” (“light blue”) demektir.",
+  "synonyms": [
+   "lamp",
+   "brightness"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:line",
+  "lang": "en",
+  "term": "line",
+  "meaning": "çizgi; sıra, kuyruk",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There was a long line at the ticket office.",
+  "exampleTr": "Bilet gişesinde uzun bir kuyruk vardı.",
+  "ipa": "/laɪn/",
+  "usage": "Amerikan İngilizcesinde kuyruk için “line”, İngiliz İngilizcesinde “queue” denir.",
+  "synonyms": [
+   "row",
+   "queue"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:lion",
+  "lang": "en",
+  "term": "lion",
+  "meaning": "aslan",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The lion is sleeping under a tree.",
+  "exampleTr": "Aslan bir ağacın altında uyuyor.",
+  "ipa": "/ˈlaɪən/",
+  "usage": "Dişi aslan için “lioness” denir.",
+  "synonyms": [],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:list",
+  "lang": "en",
+  "term": "list",
+  "meaning": "liste; listelemek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I made a shopping list.",
+  "exampleTr": "Bir alışveriş listesi yaptım.",
+  "ipa": "/lɪst/",
+  "usage": "“make a list” (liste yapmak) kalıbı yaygındır.",
+  "synonyms": [
+   "record",
+   "inventory"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:listen",
+  "lang": "en",
+  "term": "listen",
+  "meaning": "dinlemek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I like listening to music on the bus.",
+  "exampleTr": "Otobüste müzik dinlemeyi severim.",
+  "ipa": "/ˈlɪsn/",
+  "usage": "Nesneden önce “to” gerekir: “listen to music”. “t” harfi okunmaz.",
+  "synonyms": [
+   "hear"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:little",
+  "lang": "en",
+  "term": "little",
+  "meaning": "küçük; az",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "They live in a little house by the lake.",
+  "exampleTr": "Gölün kenarında küçük bir evde yaşıyorlar.",
+  "ipa": "/ˈlɪtl/",
+  "usage": "“a little” (biraz) sayılamaz isimlerle kullanılır: “a little sugar”.",
+  "synonyms": [
+   "small",
+   "tiny"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:live",
+  "lang": "en",
+  "term": "live",
+  "meaning": "yaşamak, oturmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Where do you live?",
+  "exampleTr": "Nerede oturuyorsun?",
+  "ipa": "/lɪv/",
+  "usage": "Sıfat olarak “canlı (yayın)” anlamında okunuşu farklıdır: /laɪv/ — “live music”.",
+  "synonyms": [
+   "stay",
+   "reside"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:long",
+  "lang": "en",
+  "term": "long",
+  "meaning": "uzun",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "It was a long day at work.",
+  "exampleTr": "İşte uzun bir gündü.",
+  "ipa": "/lɔːŋ/",
+  "usage": "Süre sorarken “How long…?” (Ne kadar sürer?) kullanılır.",
+  "synonyms": [
+   "lengthy"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:look",
+  "lang": "en",
+  "term": "look",
+  "meaning": "bakmak; görünmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Look at this photo!",
+  "exampleTr": "Şu fotoğrafa bak!",
+  "ipa": "/lʊk/",
+  "usage": "“look at” (bakmak), “look for” (aramak), “look like” (benzemek) farklı anlamlar taşır.",
+  "synonyms": [
+   "watch",
+   "seem"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:love",
+  "lang": "en",
+  "term": "love",
+  "meaning": "sevmek; aşk",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I love my family.",
+  "exampleTr": "Ailemi seviyorum.",
+  "ipa": "/lʌv/",
+  "usage": "“love doing” bir şeyi yapmaya bayılmaktır: “I love cooking.”",
+  "synonyms": [
+   "adore",
+   "like"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:machine",
+  "lang": "en",
+  "term": "machine",
+  "meaning": "makine",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The washing machine is broken.",
+  "exampleTr": "Çamaşır makinesi bozuk.",
+  "ipa": "/məˈʃiːn/",
+  "usage": "“washing machine” çamaşır, “coffee machine” kahve makinesidir.",
+  "synonyms": [
+   "device",
+   "appliance"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:magazine",
+  "lang": "en",
+  "term": "magazine",
+  "meaning": "dergi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I read a fashion magazine on the plane.",
+  "exampleTr": "Uçakta bir moda dergisi okudum.",
+  "ipa": "/ˈmæɡəziːn/",
+  "usage": "“in a magazine” (dergide) kalıbıyla kullanılır.",
+  "synonyms": [
+   "journal"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:main",
+  "lang": "en",
+  "term": "main",
+  "meaning": "ana, başlıca",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The main problem is the price.",
+  "exampleTr": "Asıl sorun fiyat.",
+  "ipa": "/meɪn/",
+  "usage": "Her zaman isimden önce gelir: “main road” ana yol, “main course” ana yemek.",
+  "synonyms": [
+   "primary",
+   "chief"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:make",
+  "lang": "en",
+  "term": "make",
+  "meaning": "yapmak, üretmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I'll make some tea.",
+  "exampleTr": "Biraz çay yapacağım.",
+  "ipa": "/meɪk/",
+  "usage": "Düzensiz fiildir: make – made – made. “make a mistake”, “make a decision” ama “do homework” denir.",
+  "synonyms": [
+   "create",
+   "produce"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:mall",
+  "lang": "en",
+  "term": "mall",
+  "meaning": "alışveriş merkezi, AVM",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's go to the mall on Saturday.",
+  "exampleTr": "Cumartesi AVM'ye gidelim.",
+  "ipa": "/mɔːl/",
+  "usage": "Amerikan İngilizcesidir; “shopping mall” şeklinde de kullanılır.",
+  "synonyms": [
+   "shopping center"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:man",
+  "lang": "en",
+  "term": "man",
+  "meaning": "adam, erkek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "A man is waiting for you outside.",
+  "exampleTr": "Dışarıda bir adam seni bekliyor.",
+  "ipa": "/mæn/",
+  "usage": "Çoğulu düzensizdir: one man – two men.",
+  "synonyms": [
+   "gentleman",
+   "guy"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:map",
+  "lang": "en",
+  "term": "map",
+  "meaning": "harita",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can you show me on the map?",
+  "exampleTr": "Bana haritada gösterebilir misin?",
+  "ipa": "/mæp/",
+  "usage": "“on the map” (haritada) kalıbıyla kullanılır.",
+  "synonyms": [
+   "plan",
+   "chart"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:married",
+  "lang": "en",
+  "term": "married",
+  "meaning": "evli",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "My sister is married with two children.",
+  "exampleTr": "Kız kardeşim evli ve iki çocuğu var.",
+  "ipa": "/ˈmærid/",
+  "usage": "“get married” (evlenmek), “married to someone” (biriyle evli) — “married with” yanlıştır (çocuk anlamı hariç).",
+  "synonyms": [
+   "wed"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:match",
+  "lang": "en",
+  "term": "match",
+  "meaning": "maç; uymak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Did you watch the match last night?",
+  "exampleTr": "Dün akşamki maçı izledin mi?",
+  "ipa": "/mætʃ/",
+  "usage": "Fiil olarak “uymak, eşleşmek” demektir: “Your shoes match your bag.” “kibrit” anlamı da vardır.",
+  "synonyms": [
+   "game",
+   "fit"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:maybe",
+  "lang": "en",
+  "term": "maybe",
+  "meaning": "belki",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "Maybe we can go to the cinema tomorrow.",
+  "exampleTr": "Belki yarın sinemaya gidebiliriz.",
+  "ipa": "/ˈmeɪbi/",
+  "usage": "Genelde cümle başında gelir; “perhaps” daha resmî bir eş anlamlıdır.",
+  "synonyms": [
+   "perhaps",
+   "possibly"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:meal",
+  "lang": "en",
+  "term": "meal",
+  "meaning": "öğün, yemek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Breakfast is the most important meal of the day.",
+  "exampleTr": "Kahvaltı günün en önemli öğünüdür.",
+  "ipa": "/miːl/",
+  "usage": "“Enjoy your meal!” afiyet olsun demektir.",
+  "synonyms": [
+   "dinner",
+   "food"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:mean",
+  "lang": "en",
+  "term": "mean",
+  "meaning": "anlamına gelmek; kastetmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "What does this word mean?",
+  "exampleTr": "Bu kelime ne anlama geliyor?",
+  "ipa": "/miːn/",
+  "usage": "Düzensiz fiildir: mean – meant – meant /ment/. Sıfat olarak “kaba, huysuz” demektir.",
+  "synonyms": [
+   "signify",
+   "intend"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:meaning",
+  "lang": "en",
+  "term": "meaning",
+  "meaning": "anlam",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Check the meaning of the word in your dictionary.",
+  "exampleTr": "Kelimenin anlamına sözlüğünden bak.",
+  "ipa": "/ˈmiːnɪŋ/",
+  "usage": "“the meaning of…” (…'in anlamı) kalıbıyla kullanılır.",
+  "synonyms": [
+   "sense",
+   "definition"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:meat",
+  "lang": "en",
+  "term": "meat",
+  "meaning": "et",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I don't eat meat; I'm a vegetarian.",
+  "exampleTr": "Et yemem; vejetaryenim.",
+  "ipa": "/miːt/",
+  "usage": "Sayılamaz isimdir: “some meat”. “meet” (buluşmak) ile aynı okunur.",
+  "synonyms": [
+   "beef",
+   "lamb"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:meet",
+  "lang": "en",
+  "term": "meet",
+  "meaning": "buluşmak; tanışmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Nice to meet you!",
+  "exampleTr": "Tanıştığımıza memnun oldum!",
+  "ipa": "/miːt/",
+  "usage": "Düzensiz fiildir: meet – met – met. “meet with” özellikle iş görüşmeleri için kullanılır.",
+  "synonyms": [
+   "see",
+   "get together"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:meeting",
+  "lang": "en",
+  "term": "meeting",
+  "meaning": "toplantı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a meeting at ten o'clock.",
+  "exampleTr": "Saat onda toplantım var.",
+  "ipa": "/ˈmiːtɪŋ/",
+  "usage": "“have a meeting” (toplantı yapmak), “in a meeting” (toplantıda).",
+  "synonyms": [
+   "conference",
+   "gathering"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:member",
+  "lang": "en",
+  "term": "member",
+  "meaning": "üye",
+  "pos": "isim",
+  "level": "A1",
+  "example": "He is a member of the tennis club.",
+  "exampleTr": "Tenis kulübünün üyesi.",
+  "ipa": "/ˈmembər/",
+  "usage": "“family member” aile üyesi demektir.",
+  "synonyms": [
+   "participant"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:menu",
+  "lang": "en",
+  "term": "menu",
+  "meaning": "menü, yemek listesi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can I see the menu, please?",
+  "exampleTr": "Menüyü görebilir miyim, lütfen?",
+  "ipa": "/ˈmenjuː/",
+  "usage": "“on the menu” (menüde) kalıbıyla kullanılır; uygulamalardaki menüler için de geçerlidir.",
+  "synonyms": [
+   "list"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:message",
+  "lang": "en",
+  "term": "message",
+  "meaning": "mesaj",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I sent you a message this morning.",
+  "exampleTr": "Bu sabah sana bir mesaj gönderdim.",
+  "ipa": "/ˈmesɪdʒ/",
+  "usage": "“leave a message” (mesaj bırakmak) kalıbı yaygındır.",
+  "synonyms": [
+   "text",
+   "note"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:meter",
+  "lang": "en",
+  "term": "meter",
+  "meaning": "metre",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The pool is twenty-five meters long.",
+  "exampleTr": "Havuz yirmi beş metre uzunluğunda.",
+  "ipa": "/ˈmiːtər/",
+  "usage": "Amerikan yazımıdır; İngiliz yazımı “metre”. Ölçüm cihazı anlamı da vardır: “gas meter”.",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:midnight",
+  "lang": "en",
+  "term": "midnight",
+  "meaning": "gece yarısı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The party finished at midnight.",
+  "exampleTr": "Parti gece yarısı bitti.",
+  "ipa": "/ˈmɪdnaɪt/",
+  "usage": "“at midnight” (gece yarısı) kalıbında “the” kullanılmaz.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:mile",
+  "lang": "en",
+  "term": "mile",
+  "meaning": "mil (yaklaşık 1,6 km)",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The beach is two miles from the hotel.",
+  "exampleTr": "Plaj otelden iki mil uzaklıkta.",
+  "ipa": "/maɪl/",
+  "usage": "ABD'de mesafe ve hız mil ile ölçülür: “miles per hour”.",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:minute",
+  "lang": "en",
+  "term": "minute",
+  "meaning": "dakika",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The bus comes every ten minutes.",
+  "exampleTr": "Otobüs her on dakikada bir geliyor.",
+  "ipa": "/ˈmɪnɪt/",
+  "usage": "“Wait a minute!” (Bir dakika!) çok yaygındır.",
+  "synonyms": [
+   "moment"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:miss",
+  "lang": "en",
+  "term": "miss",
+  "meaning": "özlemek; kaçırmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Hurry up, or we'll miss the train!",
+  "exampleTr": "Acele et, yoksa treni kaçıracağız!",
+  "ipa": "/mɪs/",
+  "usage": "“özlemek” anlamında da kullanılır: “I miss you.” (Seni özledim.)",
+  "synonyms": [
+   "long for",
+   "lose"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:model",
+  "lang": "en",
+  "term": "model",
+  "meaning": "model; manken",
+  "pos": "isim",
+  "level": "A1",
+  "example": "This is the newest model of the phone.",
+  "exampleTr": "Bu, telefonun en yeni modeli.",
+  "ipa": "/ˈmɑːdl/",
+  "usage": "Moda mankeni için “fashion model” denir.",
+  "synonyms": [
+   "version",
+   "design"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:modern",
+  "lang": "en",
+  "term": "modern",
+  "meaning": "modern, çağdaş",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "They live in a modern apartment.",
+  "exampleTr": "Modern bir dairede yaşıyorlar.",
+  "ipa": "/ˈmɑːdərn/",
+  "usage": "“modern art” modern sanat demektir.",
+  "synonyms": [
+   "contemporary",
+   "new"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:mom",
+  "lang": "en",
+  "term": "mom",
+  "meaning": "anne",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My mom calls me every evening.",
+  "exampleTr": "Annem her akşam beni arar.",
+  "ipa": "/mɑːm/",
+  "usage": "Amerikan İngilizcesidir; İngiliz İngilizcesinde “mum” denir. Resmî karşılığı “mother”.",
+  "synonyms": [
+   "mother",
+   "mommy"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:moment",
+  "lang": "en",
+  "term": "moment",
+  "meaning": "an",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can you wait a moment, please?",
+  "exampleTr": "Bir saniye bekleyebilir misiniz, lütfen?",
+  "ipa": "/ˈmoʊmənt/",
+  "usage": "“at the moment” (şu anda) kalıbı çok yaygındır.",
+  "synonyms": [
+   "second",
+   "instant"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:month",
+  "lang": "en",
+  "term": "month",
+  "meaning": "ay",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I visit my parents once a month.",
+  "exampleTr": "Ailemi ayda bir ziyaret ederim.",
+  "ipa": "/mʌnθ/",
+  "usage": "Gökyüzündeki ay için “moon” kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:mother",
+  "lang": "en",
+  "term": "mother",
+  "meaning": "anne",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My mother works as a nurse.",
+  "exampleTr": "Annem hemşire olarak çalışıyor.",
+  "ipa": "/ˈmʌðər/",
+  "usage": "Samimi konuşmada “mom” denir. “mother tongue” ana dildir.",
+  "synonyms": [
+   "mom"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:mouse",
+  "lang": "en",
+  "term": "mouse",
+  "meaning": "fare",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The cat is chasing a mouse.",
+  "exampleTr": "Kedi bir fareyi kovalıyor.",
+  "ipa": "/maʊs/",
+  "usage": "Çoğulu düzensizdir: one mouse – two mice. Bilgisayar faresi için de kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:mouth",
+  "lang": "en",
+  "term": "mouth",
+  "meaning": "ağız",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Don't talk with your mouth full.",
+  "exampleTr": "Ağzın doluyken konuşma.",
+  "ipa": "/maʊθ/",
+  "usage": "Nehir ağzı için de kullanılır: “the mouth of the river”.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:movie",
+  "lang": "en",
+  "term": "movie",
+  "meaning": "film",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's watch a movie tonight.",
+  "exampleTr": "Bu akşam film izleyelim.",
+  "ipa": "/ˈmuːvi/",
+  "usage": "Amerikan İngilizcesidir; İngiliz İngilizcesinde “film” denir. “go to the movies” sinemaya gitmektir.",
+  "synonyms": [
+   "film"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:name",
+  "lang": "en",
+  "term": "name",
+  "meaning": "isim, ad",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What's your name?",
+  "exampleTr": "Adın ne?",
+  "ipa": "/neɪm/",
+  "usage": "“first name” ad, “last name” soyad demektir.",
+  "synonyms": [
+   "title"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:natural",
+  "lang": "en",
+  "term": "natural",
+  "meaning": "doğal",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "This juice is made from natural ingredients.",
+  "exampleTr": "Bu meyve suyu doğal malzemelerden yapılmıştır.",
+  "ipa": "/ˈnætʃərəl/",
+  "usage": "“It's natural to…” (… doğaldır) kalıbı yaygındır.",
+  "synonyms": [
+   "normal",
+   "organic"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:negative",
+  "lang": "en",
+  "term": "negative",
+  "meaning": "olumsuz",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Don't be so negative about everything.",
+  "exampleTr": "Her şey hakkında bu kadar olumsuz olma.",
+  "ipa": "/ˈneɡətɪv/",
+  "usage": "Tıpta test sonucu için “negatif” demektir. Zıt anlamlısı “positive”.",
+  "synonyms": [
+   "pessimistic",
+   "bad"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:neighbor",
+  "lang": "en",
+  "term": "neighbor",
+  "meaning": "komşu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Our neighbors are very friendly.",
+  "exampleTr": "Komşularımız çok cana yakın.",
+  "ipa": "/ˈneɪbər/",
+  "usage": "Amerikan yazımıdır; İngiliz yazımı “neighbour”. “gh” okunmaz.",
+  "synonyms": [],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:neighborhood",
+  "lang": "en",
+  "term": "neighborhood",
+  "meaning": "mahalle, semt",
+  "pos": "isim",
+  "level": "A1",
+  "example": "It's a quiet neighborhood with lots of parks.",
+  "exampleTr": "Bol parkı olan sakin bir mahalle.",
+  "ipa": "/ˈneɪbərhʊd/",
+  "usage": "Amerikan yazımıdır; İngiliz yazımı “neighbourhood”.",
+  "synonyms": [
+   "area",
+   "district"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:never",
+  "lang": "en",
+  "term": "never",
+  "meaning": "asla, hiç",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I have never been to Japan.",
+  "exampleTr": "Hiç Japonya'ya gitmedim.",
+  "ipa": "/ˈnevər/",
+  "usage": "Kendisi olumsuz anlam taşır; “not” ile birlikte kullanılmaz. Ana fiilden önce gelir.",
+  "synonyms": [
+   "not ever"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:new",
+  "lang": "en",
+  "term": "new",
+  "meaning": "yeni",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I bought a new phone yesterday.",
+  "exampleTr": "Dün yeni bir telefon aldım.",
+  "ipa": "/nuː/",
+  "usage": "Zıt anlamlısı eşyalar için “old”, “Happy New Year!” Mutlu yıllar demektir.",
+  "synonyms": [
+   "fresh",
+   "recent"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:news",
+  "lang": "en",
+  "term": "news",
+  "meaning": "haber",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have some good news for you!",
+  "exampleTr": "Sana güzel bir haberim var!",
+  "ipa": "/nuːz/",
+  "usage": "“s” ile bitse de tekil ve sayılamazdır: “The news is good.” Tek haber için “a piece of news”.",
+  "synonyms": [
+   "information",
+   "report"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:newspaper",
+  "lang": "en",
+  "term": "newspaper",
+  "meaning": "gazete",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My father reads the newspaper every morning.",
+  "exampleTr": "Babam her sabah gazete okur.",
+  "ipa": "/ˈnuːzpeɪpər/",
+  "usage": "“in the newspaper” (gazetede) kalıbıyla kullanılır.",
+  "synonyms": [
+   "paper"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:next",
+  "lang": "en",
+  "term": "next",
+  "meaning": "sonraki, gelecek",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "See you next week!",
+  "exampleTr": "Gelecek hafta görüşürüz!",
+  "ipa": "/nekst/",
+  "usage": "“next week/month/year” kalıplarında “the” ve “on/in” kullanılmaz.",
+  "synonyms": [
+   "following",
+   "coming"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:nice",
+  "lang": "en",
+  "term": "nice",
+  "meaning": "güzel, hoş; nazik",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Have a nice weekend!",
+  "exampleTr": "İyi hafta sonları!",
+  "ipa": "/naɪs/",
+  "usage": "“Nice to meet you.” tanışırken söylenir.",
+  "synonyms": [
+   "pleasant",
+   "kind"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:north",
+  "lang": "en",
+  "term": "north",
+  "meaning": "kuzey",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Samsun is in the north of Turkey.",
+  "exampleTr": "Samsun Türkiye'nin kuzeyindedir.",
+  "ipa": "/nɔːrθ/",
+  "usage": "Sıfatı “northern” (kuzeyli, kuzeydeki).",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:nose",
+  "lang": "en",
+  "term": "nose",
+  "meaning": "burun",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a cold and a runny nose.",
+  "exampleTr": "Soğuk algınlığım ve burun akıntım var.",
+  "ipa": "/noʊz/",
+  "usage": "“runny nose” burun akıntısı demektir.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:note",
+  "lang": "en",
+  "term": "note",
+  "meaning": "not",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I left a note for you on the table.",
+  "exampleTr": "Sana masanın üstüne bir not bıraktım.",
+  "ipa": "/noʊt/",
+  "usage": "“take notes” (not almak) kalıbı yaygındır. Okul notu için “grade” kullanılır.",
+  "synonyms": [
+   "message",
+   "memo"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:number",
+  "lang": "en",
+  "term": "number",
+  "meaning": "sayı, numara",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What's your phone number?",
+  "exampleTr": "Telefon numaran kaç?",
+  "ipa": "/ˈnʌmbər/",
+  "usage": "“a number of” (birçok) kalıbı çoğul fiil alır.",
+  "synonyms": [
+   "figure",
+   "digit"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:nurse",
+  "lang": "en",
+  "term": "nurse",
+  "meaning": "hemşire",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The nurse took my temperature.",
+  "exampleTr": "Hemşire ateşimi ölçtü.",
+  "ipa": "/nɜːrs/",
+  "usage": "Hem kadın hem erkek hemşireler için kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:object",
+  "lang": "en",
+  "term": "object",
+  "meaning": "nesne, cisim",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There's a strange object on the table.",
+  "exampleTr": "Masada tuhaf bir nesne var.",
+  "ipa": "/ˈɑːbdʒɪkt/",
+  "usage": "Fiil olarak vurgu değişir: /əbˈdʒekt/ “itiraz etmek”.",
+  "synonyms": [
+   "thing",
+   "item"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:ocean",
+  "lang": "en",
+  "term": "ocean",
+  "meaning": "okyanus",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The Pacific is the largest ocean in the world.",
+  "exampleTr": "Pasifik dünyanın en büyük okyanusudur.",
+  "ipa": "/ˈoʊʃn/",
+  "usage": "Okyanus adlarından önce “the” kullanılır: “the Atlantic Ocean”.",
+  "synonyms": [
+   "sea"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:off",
+  "lang": "en",
+  "term": "off",
+  "meaning": "kapalı; uzağa",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "Please turn off your phones.",
+  "exampleTr": "Lütfen telefonlarınızı kapatın.",
+  "ipa": "/ɔːf/",
+  "usage": "Birçok öbek fiilde geçer: “turn off” (kapatmak), “take off” (çıkarmak; havalanmak). “a day off” izin günüdür.",
+  "synonyms": [
+   "away"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:office",
+  "lang": "en",
+  "term": "office",
+  "meaning": "ofis, büro",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I work in an office downtown.",
+  "exampleTr": "Şehir merkezinde bir ofiste çalışıyorum.",
+  "ipa": "/ˈɔːfɪs/",
+  "usage": "“post office” postane demektir.",
+  "synonyms": [
+   "workplace"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:often",
+  "lang": "en",
+  "term": "often",
+  "meaning": "sık sık",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "How often do you go to the gym?",
+  "exampleTr": "Spor salonuna ne sıklıkla gidiyorsun?",
+  "ipa": "/ˈɔːfn/",
+  "usage": "“t” harfi genelde okunmaz. Ana fiilden önce gelir.",
+  "synonyms": [
+   "frequently",
+   "regularly"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:old",
+  "lang": "en",
+  "term": "old",
+  "meaning": "eski; yaşlı",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "This is a very old building.",
+  "exampleTr": "Bu çok eski bir bina.",
+  "ipa": "/oʊld/",
+  "usage": "Yaş sorarken: “How old are you?” Kibarca yaşlı demek için “elderly”.",
+  "synonyms": [
+   "ancient",
+   "elderly"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:onion",
+  "lang": "en",
+  "term": "onion",
+  "meaning": "soğan",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Cut the onion into small pieces.",
+  "exampleTr": "Soğanı küçük parçalara doğrayın.",
+  "ipa": "/ˈʌnjən/",
+  "usage": "Okunuşu yazılışından farklıdır: “ÂNyın”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:online",
+  "lang": "en",
+  "term": "online",
+  "meaning": "çevrimiçi, internetten",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I bought these shoes online.",
+  "exampleTr": "Bu ayakkabıları internetten aldım.",
+  "ipa": "/ˌɑːnˈlaɪn/",
+  "usage": "Zarf olarak da kullanılır; zıt anlamlısı “offline”.",
+  "synonyms": [
+   "on the internet"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:only",
+  "lang": "en",
+  "term": "only",
+  "meaning": "sadece; tek",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "It only takes five minutes.",
+  "exampleTr": "Sadece beş dakika sürüyor.",
+  "ipa": "/ˈoʊnli/",
+  "usage": "Sıfat olarak “tek” demektir: “an only child” (tek çocuk).",
+  "synonyms": [
+   "just",
+   "simply"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:opposite",
+  "lang": "en",
+  "term": "opposite",
+  "meaning": "karşı; zıt",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The bank is on the opposite side of the street.",
+  "exampleTr": "Banka sokağın karşı tarafında.",
+  "ipa": "/ˈɑːpəzɪt/",
+  "usage": "İsim olarak “zıt anlamlı” demektir: “The opposite of hot is cold.”",
+  "synonyms": [
+   "reverse",
+   "contrary"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:orange",
+  "lang": "en",
+  "term": "orange",
+  "meaning": "portakal; turuncu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Would you like an orange?",
+  "exampleTr": "Portakal ister misin?",
+  "ipa": "/ˈɔːrɪndʒ/",
+  "usage": "Sıfat olarak renk adıdır: “an orange dress” (turuncu bir elbise).",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:order",
+  "lang": "en",
+  "term": "order",
+  "meaning": "sipariş vermek; sıra",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Are you ready to order?",
+  "exampleTr": "Sipariş vermeye hazır mısınız?",
+  "ipa": "/ˈɔːrdər/",
+  "usage": "İsim olarak “sıra, düzen” demektir: “in alphabetical order” (alfabetik sırayla).",
+  "synonyms": [
+   "request",
+   "arrange"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:other",
+  "lang": "en",
+  "term": "other",
+  "meaning": "diğer, başka",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I have two brothers. One is a doctor, the other is a teacher.",
+  "exampleTr": "İki erkek kardeşim var. Biri doktor, diğeri öğretmen.",
+  "ipa": "/ˈʌðər/",
+  "usage": "“the other” ikiden kalan diğeri; “another” bir başkası (tekil) demektir.",
+  "synonyms": [
+   "different",
+   "another"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:out",
+  "lang": "en",
+  "term": "out",
+  "meaning": "dışarı, dışarıda",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "Let's go out for dinner tonight.",
+  "exampleTr": "Bu akşam yemeğe dışarı çıkalım.",
+  "ipa": "/aʊt/",
+  "usage": "Birçok öbek fiilde geçer: “go out” (dışarı çıkmak), “find out” (öğrenmek).",
+  "synonyms": [
+   "outside"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:outside",
+  "lang": "en",
+  "term": "outside",
+  "meaning": "dışarıda, dışarı",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "The children are playing outside.",
+  "exampleTr": "Çocuklar dışarıda oynuyor.",
+  "ipa": "/ˌaʊtˈsaɪd/",
+  "usage": "Edat olarak da kullanılır: “outside the house” (evin dışında). Zıt anlamlısı “inside”.",
+  "synonyms": [
+   "out",
+   "outdoors"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:own",
+  "lang": "en",
+  "term": "own",
+  "meaning": "kendi; sahip olmak",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I want to have my own room.",
+  "exampleTr": "Kendi odam olsun istiyorum.",
+  "ipa": "/oʊn/",
+  "usage": "İyelik sıfatıyla kullanılır: “my own car”. Fiil olarak “sahip olmak”: “They own a restaurant.”",
+  "synonyms": [
+   "personal"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:page",
+  "lang": "en",
+  "term": "page",
+  "meaning": "sayfa",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Open your books to page 25.",
+  "exampleTr": "Kitaplarınızın 25. sayfasını açın.",
+  "ipa": "/peɪdʒ/",
+  "usage": "“on page 25” (25. sayfada) kalıbında “the” kullanılmaz.",
+  "synonyms": [
+   "sheet"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:paint",
+  "lang": "en",
+  "term": "paint",
+  "meaning": "boyamak; boya",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "We painted the kitchen white.",
+  "exampleTr": "Mutfağı beyaza boyadık.",
+  "ipa": "/peɪnt/",
+  "usage": "Hem duvar boyamak hem resim yapmak için kullanılır.",
+  "synonyms": [
+   "color",
+   "decorate"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:painting",
+  "lang": "en",
+  "term": "painting",
+  "meaning": "tablo, resim",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There is a beautiful painting on the wall.",
+  "exampleTr": "Duvarda güzel bir tablo var.",
+  "ipa": "/ˈpeɪntɪŋ/",
+  "usage": "Boyayla yapılmış resimdir; kalemle çizilmiş resim için “drawing”.",
+  "synonyms": [
+   "picture",
+   "artwork"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:pair",
+  "lang": "en",
+  "term": "pair",
+  "meaning": "çift",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I need a new pair of shoes.",
+  "exampleTr": "Yeni bir çift ayakkabıya ihtiyacım var.",
+  "ipa": "/per/",
+  "usage": "İki parçalı tekil eşyalar için de kullanılır: “a pair of glasses/jeans”. “in pairs” ikili gruplar halinde.",
+  "synonyms": [
+   "couple",
+   "set"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:pants",
+  "lang": "en",
+  "term": "pants",
+  "meaning": "pantolon",
+  "pos": "isim",
+  "level": "A1",
+  "example": "These pants are too long for me.",
+  "exampleTr": "Bu pantolon bana çok uzun.",
+  "ipa": "/pænts/",
+  "usage": "Amerikan İngilizcesinde pantolondur; İngiliz İngilizcesinde iç çamaşırı anlamına gelir (pantolon: “trousers”). Her zaman çoğuldur.",
+  "synonyms": [
+   "trousers"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:paper",
+  "lang": "en",
+  "term": "paper",
+  "meaning": "kâğıt",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Write your name on a piece of paper.",
+  "exampleTr": "Adını bir kâğıt parçasına yaz.",
+  "ipa": "/ˈpeɪpər/",
+  "usage": "Malzeme olarak sayılamaz; tek yaprak için “a sheet of paper”. “a paper” gazete ya da makale demektir.",
+  "synonyms": [
+   "sheet"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:paragraph",
+  "lang": "en",
+  "term": "paragraph",
+  "meaning": "paragraf",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Read the first paragraph again.",
+  "exampleTr": "İlk paragrafı tekrar oku.",
+  "ipa": "/ˈpærəɡræf/",
+  "usage": "“in the first paragraph” (ilk paragrafta) kalıbıyla kullanılır.",
+  "synonyms": [
+   "section"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:parent",
+  "lang": "en",
+  "term": "parent",
+  "meaning": "ebeveyn (anne veya baba)",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My parents live in Eskişehir.",
+  "exampleTr": "Annemle babam Eskişehir'de yaşıyor.",
+  "ipa": "/ˈperənt/",
+  "usage": "Genelde çoğul kullanılır: “my parents” (annem ve babam). Akrabalar için “relatives”.",
+  "synonyms": [
+   "mother",
+   "father"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:park",
+  "lang": "en",
+  "term": "park",
+  "meaning": "park; park etmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We had a picnic in the park.",
+  "exampleTr": "Parkta piknik yaptık.",
+  "ipa": "/pɑːrk/",
+  "usage": "Fiil olarak araç park etmektir: “Where can I park my car?”",
+  "synonyms": [
+   "garden"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:part",
+  "lang": "en",
+  "term": "part",
+  "meaning": "parça, bölüm",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The first part of the movie was boring.",
+  "exampleTr": "Filmin ilk bölümü sıkıcıydı.",
+  "ipa": "/pɑːrt/",
+  "usage": "“take part in” (katılmak) kalıbı yaygındır: “take part in a competition”.",
+  "synonyms": [
+   "piece",
+   "section"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:partner",
+  "lang": "en",
+  "term": "partner",
+  "meaning": "partner, ortak; eş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Work with a partner and ask each other questions.",
+  "exampleTr": "Bir partnerle çalışın ve birbirinize sorular sorun.",
+  "ipa": "/ˈpɑːrtnər/",
+  "usage": "İş ortağı, sevgili veya eş için kullanılabilir.",
+  "synonyms": [
+   "companion",
+   "colleague"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:party",
+  "lang": "en",
+  "term": "party",
+  "meaning": "parti, davet",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We're having a birthday party on Friday.",
+  "exampleTr": "Cuma günü bir doğum günü partisi veriyoruz.",
+  "ipa": "/ˈpɑːrti/",
+  "usage": "“have/throw a party” (parti vermek); siyasi parti için de kullanılır.",
+  "synonyms": [
+   "celebration"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:passport",
+  "lang": "en",
+  "term": "passport",
+  "meaning": "pasaport",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Don't forget your passport at the airport.",
+  "exampleTr": "Havalimanında pasaportunu unutma.",
+  "ipa": "/ˈpæspɔːrt/",
+  "usage": "“passport control” pasaport kontrolü demektir.",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:past",
+  "lang": "en",
+  "term": "past",
+  "meaning": "geçmiş; geçe",
+  "pos": "isim",
+  "level": "A1",
+  "example": "In the past, people didn't have phones.",
+  "exampleTr": "Geçmişte insanların telefonları yoktu.",
+  "ipa": "/pæst/",
+  "usage": "Saat söylerken “geçe” demektir: “ten past five” (beşi on geçe).",
+  "synonyms": [
+   "history"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:pay",
+  "lang": "en",
+  "term": "pay",
+  "meaning": "ödemek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can I pay by credit card?",
+  "exampleTr": "Kredi kartıyla ödeyebilir miyim?",
+  "ipa": "/peɪ/",
+  "usage": "Düzensiz fiildir: pay – paid – paid. “pay for something” (bir şeyin parasını ödemek).",
+  "synonyms": [
+   "spend"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:pen",
+  "lang": "en",
+  "term": "pen",
+  "meaning": "kalem (tükenmez)",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can I borrow your pen?",
+  "exampleTr": "Kalemini ödünç alabilir miyim?",
+  "ipa": "/pen/",
+  "usage": "Mürekkepli kalemdir; kurşun kalem için “pencil”.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:pencil",
+  "lang": "en",
+  "term": "pencil",
+  "meaning": "kurşun kalem",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Write your answers in pencil.",
+  "exampleTr": "Cevaplarınızı kurşun kalemle yazın.",
+  "ipa": "/ˈpensl/",
+  "usage": "“in pencil” (kurşun kalemle) kalıbında “a” kullanılmaz.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:people",
+  "lang": "en",
+  "term": "people",
+  "meaning": "insanlar",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There were a lot of people at the concert.",
+  "exampleTr": "Konserde çok insan vardı.",
+  "ipa": "/ˈpiːpl/",
+  "usage": "“person” kelimesinin çoğuludur ve çoğul fiil alır: “People are…”. “a people” bir halk/millet demektir.",
+  "synonyms": [
+   "persons",
+   "folks"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:pepper",
+  "lang": "en",
+  "term": "pepper",
+  "meaning": "biber; karabiber",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can you pass me the salt and pepper?",
+  "exampleTr": "Tuzu ve karabiberi uzatır mısın?",
+  "ipa": "/ˈpepər/",
+  "usage": "Sebze olan biber için “green/red pepper” denir.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:perfect",
+  "lang": "en",
+  "term": "perfect",
+  "meaning": "mükemmel, kusursuz",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The weather is perfect for a picnic.",
+  "exampleTr": "Hava piknik için mükemmel.",
+  "ipa": "/ˈpɜːrfɪkt/",
+  "usage": "Zaten en üst derece olduğu için “more perfect” genelde kullanılmaz.",
+  "synonyms": [
+   "ideal",
+   "flawless"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:period",
+  "lang": "en",
+  "term": "period",
+  "meaning": "dönem, süre; nokta",
+  "pos": "isim",
+  "level": "A1",
+  "example": "He lived in Germany for a short period.",
+  "exampleTr": "Kısa bir süre Almanya'da yaşadı.",
+  "ipa": "/ˈpɪriəd/",
+  "usage": "Amerikan İngilizcesinde noktalama işareti olan noktaya da “period” denir; okulda ders saati anlamı da vardır.",
+  "synonyms": [
+   "time",
+   "era"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:person",
+  "lang": "en",
+  "term": "person",
+  "meaning": "kişi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She is a very kind person.",
+  "exampleTr": "O çok nazik bir insan.",
+  "ipa": "/ˈpɜːrsn/",
+  "usage": "Çoğulu genelde “people”dır. “in person” (bizzat, yüz yüze) kalıbı yaygındır.",
+  "synonyms": [
+   "individual",
+   "human"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:personal",
+  "lang": "en",
+  "term": "personal",
+  "meaning": "kişisel",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Can I ask you a personal question?",
+  "exampleTr": "Sana kişisel bir soru sorabilir miyim?",
+  "ipa": "/ˈpɜːrsənl/",
+  "usage": "“personnel” (personel) ile karıştırılmamalıdır.",
+  "synonyms": [
+   "private",
+   "own"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:photo",
+  "lang": "en",
+  "term": "photo",
+  "meaning": "fotoğraf",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Can you take a photo of us?",
+  "exampleTr": "Bizim bir fotoğrafımızı çekebilir misin?",
+  "ipa": "/ˈfoʊtoʊ/",
+  "usage": "“take a photo” (fotoğraf çekmek) denir; “photograph” kelimesinin kısaltmasıdır.",
+  "synonyms": [
+   "picture",
+   "photograph"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:photograph",
+  "lang": "en",
+  "term": "photograph",
+  "meaning": "fotoğraf",
+  "pos": "isim",
+  "level": "A1",
+  "example": "This photograph was taken in 1950.",
+  "exampleTr": "Bu fotoğraf 1950'de çekilmiş.",
+  "ipa": "/ˈfoʊtəɡræf/",
+  "usage": "“photo” kelimesinden daha resmîdir. Fotoğrafçı için “photographer” /fəˈtɑːɡrəfər/ (vurgu değişir).",
+  "synonyms": [
+   "photo",
+   "picture"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:phrase",
+  "lang": "en",
+  "term": "phrase",
+  "meaning": "ifade, söz öbeği",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Learn these useful phrases before your trip.",
+  "exampleTr": "Gezinden önce bu faydalı ifadeleri öğren.",
+  "ipa": "/freɪz/",
+  "usage": "Turistler için “phrase book” konuşma kılavuzu demektir.",
+  "synonyms": [
+   "expression"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:piano",
+  "lang": "en",
+  "term": "piano",
+  "meaning": "piyano",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She has played the piano since she was six.",
+  "exampleTr": "Altı yaşından beri piyano çalıyor.",
+  "ipa": "/piˈænoʊ/",
+  "usage": "Enstrümanlarla “play the piano” şeklinde “the” kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:picture",
+  "lang": "en",
+  "term": "picture",
+  "meaning": "resim, fotoğraf",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Look at the picture and describe it.",
+  "exampleTr": "Resme bakın ve onu tarif edin.",
+  "ipa": "/ˈpɪktʃər/",
+  "usage": "Hem fotoğraf hem çizim için kullanılır: “take a picture” (fotoğraf çekmek).",
+  "synonyms": [
+   "image",
+   "photo"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:piece",
+  "lang": "en",
+  "term": "piece",
+  "meaning": "parça",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Would you like a piece of cake?",
+  "exampleTr": "Bir dilim pasta ister misin?",
+  "ipa": "/piːs/",
+  "usage": "Sayılamaz isimleri saymak için kullanılır: “a piece of advice/paper/information”.",
+  "synonyms": [
+   "part",
+   "slice"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:pig",
+  "lang": "en",
+  "term": "pig",
+  "meaning": "domuz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There are pigs and chickens on the farm.",
+  "exampleTr": "Çiftlikte domuzlar ve tavuklar var.",
+  "ipa": "/pɪɡ/",
+  "usage": "Domuz eti için “pork” kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:pink",
+  "lang": "en",
+  "term": "pink",
+  "meaning": "pembe",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "She painted her room pink.",
+  "exampleTr": "Odasını pembeye boyadı.",
+  "ipa": "/pɪŋk/",
+  "usage": "İsim olarak da kullanılır: “Pink is my favorite color.”",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:pizza",
+  "lang": "en",
+  "term": "pizza",
+  "meaning": "pizza",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's order a pizza tonight.",
+  "exampleTr": "Bu akşam pizza sipariş edelim.",
+  "ipa": "/ˈpiːtsə/",
+  "usage": "Bütün pizza sayılabilir (“a pizza”), dilim için “a slice of pizza”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:place",
+  "lang": "en",
+  "term": "place",
+  "meaning": "yer, mekân",
+  "pos": "isim",
+  "level": "A1",
+  "example": "This is a great place for a holiday.",
+  "exampleTr": "Burası tatil için harika bir yer.",
+  "ipa": "/pleɪs/",
+  "usage": "“take place” (gerçekleşmek) kalıbı yaygındır: “The concert takes place in June.”",
+  "synonyms": [
+   "location",
+   "spot"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:plan",
+  "lang": "en",
+  "term": "plan",
+  "meaning": "plan; planlamak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Do you have any plans for the weekend?",
+  "exampleTr": "Hafta sonu için planın var mı?",
+  "ipa": "/plæn/",
+  "usage": "Fiil olarak “plan to do” (yapmayı planlamak) kalıbıyla kullanılır.",
+  "synonyms": [
+   "idea",
+   "program"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:plane",
+  "lang": "en",
+  "term": "plane",
+  "meaning": "uçak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The plane landed in Izmir at noon.",
+  "exampleTr": "Uçak öğlen İzmir'e indi.",
+  "ipa": "/pleɪn/",
+  "usage": "“by plane” (uçakla) ve “on the plane” (uçakta) kalıplarıyla kullanılır.",
+  "synonyms": [
+   "airplane",
+   "aircraft"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:plant",
+  "lang": "en",
+  "term": "plant",
+  "meaning": "bitki; dikmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Don't forget to water the plants.",
+  "exampleTr": "Bitkileri sulamayı unutma.",
+  "ipa": "/plænt/",
+  "usage": "Fiil olarak “dikmek”: “plant a tree”. Sanayide “fabrika” anlamı da vardır.",
+  "synonyms": [
+   "flower",
+   "tree"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:play",
+  "lang": "en",
+  "term": "play",
+  "meaning": "oynamak; çalmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "The kids play football in the garden.",
+  "exampleTr": "Çocuklar bahçede futbol oynar.",
+  "ipa": "/pleɪ/",
+  "usage": "Enstrüman çalmak için de kullanılır: “play the guitar”. İsim olarak “tiyatro oyunu” demektir.",
+  "synonyms": [
+   "perform"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:player",
+  "lang": "en",
+  "term": "player",
+  "meaning": "oyuncu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "He is the best player on the team.",
+  "exampleTr": "Takımın en iyi oyuncusu o.",
+  "ipa": "/ˈpleɪər/",
+  "usage": "Sporcular ve oyun oynayanlar içindir; film oyuncusu için “actor”.",
+  "synonyms": [
+   "athlete"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:point",
+  "lang": "en",
+  "term": "point",
+  "meaning": "nokta; puan; işaret etmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Our team won by three points.",
+  "exampleTr": "Takımımız üç sayı farkla kazandı.",
+  "ipa": "/pɔɪnt/",
+  "usage": "“That's a good point.” (Haklısın, iyi bir nokta.) Fiil olarak “point at” (işaret etmek).",
+  "synonyms": [
+   "score",
+   "idea"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:police",
+  "lang": "en",
+  "term": "police",
+  "meaning": "polis",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Call the police!",
+  "exampleTr": "Polisi ara!",
+  "ipa": "/pəˈliːs/",
+  "usage": "Her zaman çoğul fiil alır: “The police are coming.” Tek polis için “a police officer”.",
+  "synonyms": [
+   "cops"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:pool",
+  "lang": "en",
+  "term": "pool",
+  "meaning": "havuz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The hotel has a big swimming pool.",
+  "exampleTr": "Otelin büyük bir yüzme havuzu var.",
+  "ipa": "/puːl/",
+  "usage": "“swimming pool” yüzme havuzu; “pool” ayrıca bir bilardo türüdür.",
+  "synonyms": [
+   "swimming pool"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:poor",
+  "lang": "en",
+  "term": "poor",
+  "meaning": "fakir; zavallı; zayıf",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Many poor families need help in winter.",
+  "exampleTr": "Birçok fakir aile kışın yardıma ihtiyaç duyar.",
+  "ipa": "/pʊr/",
+  "usage": "“Poor you!” (Vah zavallı!) ve “poor quality” (düşük kalite) anlamları da vardır.",
+  "synonyms": [
+   "needy",
+   "weak"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:popular",
+  "lang": "en",
+  "term": "popular",
+  "meaning": "popüler, sevilen",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Football is very popular in Turkey.",
+  "exampleTr": "Futbol Türkiye'de çok popülerdir.",
+  "ipa": "/ˈpɑːpjələr/",
+  "usage": "“popular with” (… arasında sevilen) kalıbıyla kullanılır: “popular with tourists”.",
+  "synonyms": [
+   "well-liked",
+   "famous"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:positive",
+  "lang": "en",
+  "term": "positive",
+  "meaning": "olumlu; pozitif",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Try to stay positive.",
+  "exampleTr": "Olumlu kalmaya çalış.",
+  "ipa": "/ˈpɑːzətɪv/",
+  "usage": "Tıpta test sonucu için “pozitif” demektir. “be positive” emin olmak anlamına da gelir.",
+  "synonyms": [
+   "optimistic",
+   "good"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:possible",
+  "lang": "en",
+  "term": "possible",
+  "meaning": "mümkün, olası",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Is it possible to change my seat?",
+  "exampleTr": "Koltuğumu değiştirmem mümkün mü?",
+  "ipa": "/ˈpɑːsəbl/",
+  "usage": "“as soon as possible” (en kısa sürede, ASAP) kalıbı çok yaygındır.",
+  "synonyms": [
+   "likely",
+   "feasible"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:post",
+  "lang": "en",
+  "term": "post",
+  "meaning": "gönderi, paylaşım; paylaşmak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Her last post got a thousand likes.",
+  "exampleTr": "Son paylaşımı bin beğeni aldı.",
+  "ipa": "/poʊst/",
+  "usage": "Sosyal medyada çok kullanılır; İngiliz İngilizcesinde “posta” anlamı da vardır (Amerikan: “mail”).",
+  "synonyms": [
+   "update",
+   "message"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:potato",
+  "lang": "en",
+  "term": "potato",
+  "meaning": "patates",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'd like chicken with potatoes.",
+  "exampleTr": "Patatesli tavuk istiyorum.",
+  "ipa": "/pəˈteɪtoʊ/",
+  "usage": "Çoğulu “potatoes” şeklindedir.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:pound",
+  "lang": "en",
+  "term": "pound",
+  "meaning": "sterlin; libre",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The ticket costs twenty pounds.",
+  "exampleTr": "Bilet yirmi sterlin.",
+  "ipa": "/paʊnd/",
+  "usage": "ABD'de ağırlık birimi olarak da kullanılır (yaklaşık 454 gram); sembolü “£”.",
+  "synonyms": [],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:practice",
+  "lang": "en",
+  "term": "practice",
+  "meaning": "pratik, alıştırma; pratik yapmak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Speaking English needs a lot of practice.",
+  "exampleTr": "İngilizce konuşmak çok pratik gerektirir.",
+  "ipa": "/ˈpræktɪs/",
+  "usage": "Amerikan İngilizcesinde hem isim hem fiil “practice” yazılır; ardından fiil “-ing” alır: “practice speaking”.",
+  "synonyms": [
+   "training",
+   "exercise"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:present",
+  "lang": "en",
+  "term": "present",
+  "meaning": "hediye; şimdiki",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I bought a birthday present for my mom.",
+  "exampleTr": "Annem için bir doğum günü hediyesi aldım.",
+  "ipa": "/ˈpreznt/",
+  "usage": "Fiil olarak vurgu değişir: /prɪˈzent/ “sunmak”. “at present” şu anda demektir.",
+  "synonyms": [
+   "gift",
+   "current"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:pretty",
+  "lang": "en",
+  "term": "pretty",
+  "meaning": "güzel, hoş; oldukça",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "What a pretty little village!",
+  "exampleTr": "Ne güzel küçük bir köy!",
+  "ipa": "/ˈprɪti/",
+  "usage": "Zarf olarak “oldukça” demektir: “It's pretty cold today.”",
+  "synonyms": [
+   "beautiful",
+   "quite"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:price",
+  "lang": "en",
+  "term": "price",
+  "meaning": "fiyat",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The prices here are very reasonable.",
+  "exampleTr": "Buradaki fiyatlar çok makul.",
+  "ipa": "/praɪs/",
+  "usage": "“What's the price of…?” veya “How much is…?” ile fiyat sorulur.",
+  "synonyms": [
+   "cost",
+   "fee"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:problem",
+  "lang": "en",
+  "term": "problem",
+  "meaning": "sorun, problem",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There's a problem with my computer.",
+  "exampleTr": "Bilgisayarımda bir sorun var.",
+  "ipa": "/ˈprɑːbləm/",
+  "usage": "“No problem!” (Sorun değil!) teşekküre cevap olarak sık kullanılır.",
+  "synonyms": [
+   "issue",
+   "trouble"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:product",
+  "lang": "en",
+  "term": "product",
+  "meaning": "ürün",
+  "pos": "isim",
+  "level": "A1",
+  "example": "This shop sells natural beauty products.",
+  "exampleTr": "Bu mağaza doğal güzellik ürünleri satıyor.",
+  "ipa": "/ˈprɑːdʌkt/",
+  "usage": "Fiili “produce” (üretmek), üretim “production”.",
+  "synonyms": [
+   "item",
+   "goods"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:program",
+  "lang": "en",
+  "term": "program",
+  "meaning": "program",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My favorite TV program starts at eight.",
+  "exampleTr": "En sevdiğim TV programı sekizde başlıyor.",
+  "ipa": "/ˈproʊɡræm/",
+  "usage": "Amerikan yazımıdır; İngiliz İngilizcesinde TV için “programme”, bilgisayar için “program” yazılır.",
+  "synonyms": [
+   "show",
+   "schedule"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:project",
+  "lang": "en",
+  "term": "project",
+  "meaning": "proje",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We're working on a school project about recycling.",
+  "exampleTr": "Geri dönüşüm hakkında bir okul projesi üzerinde çalışıyoruz.",
+  "ipa": "/ˈprɑːdʒekt/",
+  "usage": "Fiil olarak vurgu değişir: /prəˈdʒekt/ “yansıtmak; öngörmek”.",
+  "synonyms": [
+   "plan",
+   "task"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:purple",
+  "lang": "en",
+  "term": "purple",
+  "meaning": "mor",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "She has a purple bag.",
+  "exampleTr": "Mor bir çantası var.",
+  "ipa": "/ˈpɜːrpl/",
+  "usage": "İsim olarak da kullanılır: “Purple suits you.” (Mor sana yakışıyor.)",
+  "synonyms": [
+   "violet"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:put",
+  "lang": "en",
+  "term": "put",
+  "meaning": "koymak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Put your bag on the chair.",
+  "exampleTr": "Çantanı sandalyeye koy.",
+  "ipa": "/pʊt/",
+  "usage": "Düzensiz fiildir: put – put – put. “put on” (giymek), “put off” (ertelemek).",
+  "synonyms": [
+   "place",
+   "set"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:quarter",
+  "lang": "en",
+  "term": "quarter",
+  "meaning": "çeyrek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The movie starts at a quarter past seven.",
+  "exampleTr": "Film yediyi çeyrek geçe başlıyor.",
+  "ipa": "/ˈkwɔːrtər/",
+  "usage": "Saat söylerken “quarter past/to” (çeyrek geçe/kala); ABD'de 25 sentlik bozuk paradır.",
+  "synonyms": [
+   "fourth"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:quick",
+  "lang": "en",
+  "term": "quick",
+  "meaning": "hızlı, çabuk",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Can I ask you a quick question?",
+  "exampleTr": "Sana kısa bir soru sorabilir miyim?",
+  "ipa": "/kwɪk/",
+  "usage": "Kısa süren şeyler için kullanılır: “a quick lunch”. Zarfı “quickly”.",
+  "synonyms": [
+   "fast",
+   "rapid"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:quickly",
+  "lang": "en",
+  "term": "quickly",
+  "meaning": "hızlıca, çabucak",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "She finished her homework quickly.",
+  "exampleTr": "Ödevini çabucak bitirdi.",
+  "ipa": "/ˈkwɪkli/",
+  "usage": "Fiili niteler: “run quickly”. Sıfatı “quick”.",
+  "synonyms": [
+   "fast",
+   "rapidly"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:quite",
+  "lang": "en",
+  "term": "quite",
+  "meaning": "oldukça, epey",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "The test was quite easy.",
+  "exampleTr": "Sınav oldukça kolaydı.",
+  "ipa": "/kwaɪt/",
+  "usage": "“quiet” (sessiz) ile karıştırılmamalıdır; okunuşları farklıdır.",
+  "synonyms": [
+   "fairly",
+   "rather"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:radio",
+  "lang": "en",
+  "term": "radio",
+  "meaning": "radyo",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I listen to the radio in the car.",
+  "exampleTr": "Arabada radyo dinlerim.",
+  "ipa": "/ˈreɪdioʊ/",
+  "usage": "“on the radio” (radyoda) kalıbında “the” kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:reader",
+  "lang": "en",
+  "term": "reader",
+  "meaning": "okuyucu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She is a big reader; she reads a book a week.",
+  "exampleTr": "Çok kitap okur; haftada bir kitap okuyor.",
+  "ipa": "/ˈriːdər/",
+  "usage": "“-er” eki kişi ismi yapar: read → reader.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:reading",
+  "lang": "en",
+  "term": "reading",
+  "meaning": "okuma",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Reading is my favorite free-time activity.",
+  "exampleTr": "Okumak en sevdiğim boş zaman etkinliği.",
+  "ipa": "/ˈriːdɪŋ/",
+  "usage": "Sınavlarda “reading section” okuma bölümü demektir.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:ready",
+  "lang": "en",
+  "term": "ready",
+  "meaning": "hazır",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Dinner is ready!",
+  "exampleTr": "Akşam yemeği hazır!",
+  "ipa": "/ˈredi/",
+  "usage": "“be ready for something” veya “be ready to do something” kalıplarıyla kullanılır; “get ready” hazırlanmak.",
+  "synonyms": [
+   "prepared",
+   "set"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:real",
+  "lang": "en",
+  "term": "real",
+  "meaning": "gerçek",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Is that a real diamond?",
+  "exampleTr": "O gerçek bir elmas mı?",
+  "ipa": "/ˈriːəl/",
+  "usage": "Zarf hâli “really” (gerçekten).",
+  "synonyms": [
+   "true",
+   "genuine"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:really",
+  "lang": "en",
+  "term": "really",
+  "meaning": "gerçekten",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I really like your new haircut.",
+  "exampleTr": "Yeni saç kesimini gerçekten beğendim.",
+  "ipa": "/ˈriːəli/",
+  "usage": "Tek başına “Really?” (Gerçekten mi?) şaşkınlık bildirir.",
+  "synonyms": [
+   "truly",
+   "very"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:reason",
+  "lang": "en",
+  "term": "reason",
+  "meaning": "sebep, neden",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What's the reason for the delay?",
+  "exampleTr": "Gecikmenin sebebi ne?",
+  "ipa": "/ˈriːzn/",
+  "usage": "“the reason for something” kalıbında “for” kullanılır.",
+  "synonyms": [
+   "cause",
+   "purpose"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:red",
+  "lang": "en",
+  "term": "red",
+  "meaning": "kırmızı",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Stop when the light is red.",
+  "exampleTr": "Işık kırmızıyken dur.",
+  "ipa": "/red/",
+  "usage": "“red wine” kırmızı şarap, “red hair” kızıl saç demektir.",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:repeat",
+  "lang": "en",
+  "term": "repeat",
+  "meaning": "tekrarlamak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Could you repeat that, please?",
+  "exampleTr": "Bunu tekrarlar mısınız, lütfen?",
+  "ipa": "/rɪˈpiːt/",
+  "usage": "“repeat again” gereksiz tekrardır; sadece “repeat” yeterlidir.",
+  "synonyms": [
+   "say again"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:report",
+  "lang": "en",
+  "term": "report",
+  "meaning": "rapor; bildirmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have to write a report for my boss.",
+  "exampleTr": "Patronum için bir rapor yazmam gerekiyor.",
+  "ipa": "/rɪˈpɔːrt/",
+  "usage": "Fiil olarak “bildirmek, haber vermek”: “report a problem”. “report card” karnedir.",
+  "synonyms": [
+   "account",
+   "article"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:result",
+  "lang": "en",
+  "term": "result",
+  "meaning": "sonuç",
+  "pos": "isim",
+  "level": "A1",
+  "example": "When will we get the exam results?",
+  "exampleTr": "Sınav sonuçlarını ne zaman alacağız?",
+  "ipa": "/rɪˈzʌlt/",
+  "usage": "“as a result” (sonuç olarak) kalıbı yaygındır.",
+  "synonyms": [
+   "outcome",
+   "score"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:rice",
+  "lang": "en",
+  "term": "rice",
+  "meaning": "pirinç; pilav",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We had rice and beans for lunch.",
+  "exampleTr": "Öğle yemeğinde pilav ve fasulye yedik.",
+  "ipa": "/raɪs/",
+  "usage": "Sayılamaz isimdir: “some rice”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:rich",
+  "lang": "en",
+  "term": "rich",
+  "meaning": "zengin",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "He became rich after selling his company.",
+  "exampleTr": "Şirketini sattıktan sonra zengin oldu.",
+  "ipa": "/rɪtʃ/",
+  "usage": "“rich in” (… bakımından zengin) kalıbı: “rich in vitamins”. Yemekler için “ağır” demektir.",
+  "synonyms": [
+   "wealthy"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:ride",
+  "lang": "en",
+  "term": "ride",
+  "meaning": "binmek, sürmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I ride my bike to work.",
+  "exampleTr": "İşe bisikletle giderim.",
+  "ipa": "/raɪd/",
+  "usage": "Düzensiz fiildir: ride – rode – ridden. Bisiklet, at, motosiklet için kullanılır; araba için “drive”.",
+  "synonyms": [
+   "cycle"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:right",
+  "lang": "en",
+  "term": "right",
+  "meaning": "doğru; sağ",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "You're right, it was my mistake.",
+  "exampleTr": "Haklısın, benim hatamdı.",
+  "ipa": "/raɪt/",
+  "usage": "Yön olarak “sağ”: “turn right”. İsim olarak “hak”: “human rights”.",
+  "synonyms": [
+   "correct",
+   "true"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:room",
+  "lang": "en",
+  "term": "room",
+  "meaning": "oda; yer",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'd like a room with a sea view.",
+  "exampleTr": "Deniz manzaralı bir oda istiyorum.",
+  "ipa": "/ruːm/",
+  "usage": "Sayılamaz olarak “yer, boşluk” demektir: “There's no room in the car.”",
+  "synonyms": [
+   "space"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:routine",
+  "lang": "en",
+  "term": "routine",
+  "meaning": "rutin, alışkanlık",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My morning routine starts with a cup of coffee.",
+  "exampleTr": "Sabah rutinim bir fincan kahveyle başlar.",
+  "ipa": "/ruːˈtiːn/",
+  "usage": "“daily routine” günlük rutin demektir.",
+  "synonyms": [
+   "habit",
+   "schedule"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:rule",
+  "lang": "en",
+  "term": "rule",
+  "meaning": "kural",
+  "pos": "isim",
+  "level": "A1",
+  "example": "You have to follow the rules.",
+  "exampleTr": "Kurallara uymak zorundasın.",
+  "ipa": "/ruːl/",
+  "usage": "“follow/break the rules” (kurallara uymak/kuralları çiğnemek).",
+  "synonyms": [
+   "law",
+   "regulation"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:run",
+  "lang": "en",
+  "term": "run",
+  "meaning": "koşmak; işletmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I run in the park every morning.",
+  "exampleTr": "Her sabah parkta koşarım.",
+  "ipa": "/rʌn/",
+  "usage": "Düzensiz fiildir: run – ran – run. “run a business” bir işletmeyi yönetmektir.",
+  "synonyms": [
+   "jog",
+   "sprint"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:sad",
+  "lang": "en",
+  "term": "sad",
+  "meaning": "üzgün, hüzünlü",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I felt sad when my friend moved away.",
+  "exampleTr": "Arkadaşım taşındığında üzüldüm.",
+  "ipa": "/sæd/",
+  "usage": "Hüzünlü şeyler için de kullanılır: “a sad movie”.",
+  "synonyms": [
+   "unhappy",
+   "upset"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:salad",
+  "lang": "en",
+  "term": "salad",
+  "meaning": "salata",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'll have a green salad, please.",
+  "exampleTr": "Yeşil salata alayım, lütfen.",
+  "ipa": "/ˈsæləd/",
+  "usage": "Sayılabilir veya sayılamaz kullanılır: “a salad”, “some salad”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:same",
+  "lang": "en",
+  "term": "same",
+  "meaning": "aynı",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "We go to the same school.",
+  "exampleTr": "Aynı okula gidiyoruz.",
+  "ipa": "/seɪm/",
+  "usage": "Her zaman “the” ile kullanılır: “the same as” (… ile aynı).",
+  "synonyms": [
+   "identical",
+   "similar"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:sandwich",
+  "lang": "en",
+  "term": "sandwich",
+  "meaning": "sandviç",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I had a cheese sandwich for lunch.",
+  "exampleTr": "Öğle yemeğinde peynirli sandviç yedim.",
+  "ipa": "/ˈsænwɪtʃ/",
+  "usage": "Çoğulu “sandwiches” şeklindedir.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:say",
+  "lang": "en",
+  "term": "say",
+  "meaning": "söylemek, demek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "What did she say?",
+  "exampleTr": "Ne dedi?",
+  "ipa": "/seɪ/",
+  "usage": "Düzensiz fiildir: say – said /sed/ – said. “say something to someone”; “tell someone something”.",
+  "synonyms": [
+   "tell",
+   "speak"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:science",
+  "lang": "en",
+  "term": "science",
+  "meaning": "bilim, fen",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We have science on Tuesday mornings.",
+  "exampleTr": "Salı sabahları fen dersimiz var.",
+  "ipa": "/ˈsaɪəns/",
+  "usage": "“science fiction” bilimkurgu demektir.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:scientist",
+  "lang": "en",
+  "term": "scientist",
+  "meaning": "bilim insanı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The scientist works in a laboratory.",
+  "exampleTr": "Bilim insanı bir laboratuvarda çalışıyor.",
+  "ipa": "/ˈsaɪəntɪst/",
+  "usage": "“-ist” eki kişi ismi yapar: science → scientist.",
+  "synonyms": [
+   "researcher"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:section",
+  "lang": "en",
+  "term": "section",
+  "meaning": "bölüm, kısım",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Read section two of the report.",
+  "exampleTr": "Raporun ikinci bölümünü oku.",
+  "ipa": "/ˈsekʃn/",
+  "usage": "Mağazalarda reyon için de kullanılır: “the children's section”.",
+  "synonyms": [
+   "part",
+   "area"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:see",
+  "lang": "en",
+  "term": "see",
+  "meaning": "görmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I can see the sea from my window.",
+  "exampleTr": "Penceremden denizi görebiliyorum.",
+  "ipa": "/siː/",
+  "usage": "Düzensiz fiildir: see – saw – seen. “I see.” (Anlıyorum.) ve “See you!” (Görüşürüz!) yaygındır.",
+  "synonyms": [
+   "watch",
+   "notice"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:sell",
+  "lang": "en",
+  "term": "sell",
+  "meaning": "satmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "They sell fresh fruit at the market.",
+  "exampleTr": "Pazarda taze meyve satıyorlar.",
+  "ipa": "/sel/",
+  "usage": "Düzensiz fiildir: sell – sold – sold. Zıt anlamlısı “buy”.",
+  "synonyms": [
+   "trade"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:sentence",
+  "lang": "en",
+  "term": "sentence",
+  "meaning": "cümle",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Write five sentences about your family.",
+  "exampleTr": "Ailen hakkında beş cümle yaz.",
+  "ipa": "/ˈsentəns/",
+  "usage": "Hukukta “ceza, hüküm” anlamı da vardır.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:share",
+  "lang": "en",
+  "term": "share",
+  "meaning": "paylaşmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I share an apartment with two friends.",
+  "exampleTr": "İki arkadaşla bir daireyi paylaşıyorum.",
+  "ipa": "/ʃer/",
+  "usage": "“share something with someone” kalıbıyla kullanılır; borsada “hisse” anlamı da vardır.",
+  "synonyms": [
+   "divide",
+   "post"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:sheep",
+  "lang": "en",
+  "term": "sheep",
+  "meaning": "koyun",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There are hundreds of sheep on the hills.",
+  "exampleTr": "Tepelerde yüzlerce koyun var.",
+  "ipa": "/ʃiːp/",
+  "usage": "Çoğulu da “sheep”tir: “one sheep, ten sheep”. Kuzu eti için “lamb”.",
+  "synonyms": [
+   "lamb"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:shirt",
+  "lang": "en",
+  "term": "shirt",
+  "meaning": "gömlek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "He's wearing a white shirt and a tie.",
+  "exampleTr": "Beyaz bir gömlek ve kravat giyiyor.",
+  "ipa": "/ʃɜːrt/",
+  "usage": "Tişört için “T-shirt” kullanılır.",
+  "synonyms": [
+   "blouse"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:shoe",
+  "lang": "en",
+  "term": "shoe",
+  "meaning": "ayakkabı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Take off your shoes at the door, please.",
+  "exampleTr": "Lütfen ayakkabılarını kapıda çıkar.",
+  "ipa": "/ʃuː/",
+  "usage": "Genelde çoğul kullanılır: “a pair of shoes”.",
+  "synonyms": [
+   "sneaker",
+   "boot"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:shop",
+  "lang": "en",
+  "term": "shop",
+  "meaning": "dükkân; alışveriş yapmak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There's a small shop at the end of the street.",
+  "exampleTr": "Sokağın sonunda küçük bir dükkân var.",
+  "ipa": "/ʃɑːp/",
+  "usage": "Amerikan İngilizcesinde büyük mağazalar için “store” daha yaygındır. Fiil olarak “shop for clothes”.",
+  "synonyms": [
+   "store"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:shopping",
+  "lang": "en",
+  "term": "shopping",
+  "meaning": "alışveriş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's go shopping on Saturday.",
+  "exampleTr": "Cumartesi alışverişe gidelim.",
+  "ipa": "/ˈʃɑːpɪŋ/",
+  "usage": "“go shopping” (alışverişe gitmek), “do the shopping” (evin alışverişini yapmak).",
+  "synonyms": [],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:short",
+  "lang": "en",
+  "term": "short",
+  "meaning": "kısa",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "She has short brown hair.",
+  "exampleTr": "Kısa kahverengi saçları var.",
+  "ipa": "/ʃɔːrt/",
+  "usage": "Boy için de kullanılır: “He is short.” Zıt anlamlıları “long” ve “tall”.",
+  "synonyms": [
+   "brief",
+   "small"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:show",
+  "lang": "en",
+  "term": "show",
+  "meaning": "göstermek; gösteri",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can you show me the way to the station?",
+  "exampleTr": "Bana istasyonun yolunu gösterebilir misin?",
+  "ipa": "/ʃoʊ/",
+  "usage": "Düzensiz fiildir: show – showed – shown. İsim olarak “TV show” (TV programı).",
+  "synonyms": [
+   "display",
+   "present"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:shower",
+  "lang": "en",
+  "term": "shower",
+  "meaning": "duş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I take a shower every morning.",
+  "exampleTr": "Her sabah duş alırım.",
+  "ipa": "/ˈʃaʊər/",
+  "usage": "“take a shower” (duş almak) denir. Hava durumunda “sağanak” demektir.",
+  "synonyms": [],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:sick",
+  "lang": "en",
+  "term": "sick",
+  "meaning": "hasta",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I can't come to work; I'm sick.",
+  "exampleTr": "İşe gelemem; hastayım.",
+  "ipa": "/sɪk/",
+  "usage": "Amerikan İngilizcesinde “hasta” anlamında yaygındır. “feel sick” midesi bulanmak; “be sick of” bıkmak.",
+  "synonyms": [
+   "ill",
+   "unwell"
+  ],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:singer",
+  "lang": "en",
+  "term": "singer",
+  "meaning": "şarkıcı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She is my favorite singer.",
+  "exampleTr": "O benim en sevdiğim şarkıcı.",
+  "ipa": "/ˈsɪŋər/",
+  "usage": "“-er” eki kişi ismi yapar: sing → singer.",
+  "synonyms": [
+   "vocalist"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:sit",
+  "lang": "en",
+  "term": "sit",
+  "meaning": "oturmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Please sit here.",
+  "exampleTr": "Lütfen buraya oturun.",
+  "ipa": "/sɪt/",
+  "usage": "Düzensiz fiildir: sit – sat – sat. “sit down” (oturmak) kalıbı çok yaygındır.",
+  "synonyms": [
+   "take a seat"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:situation",
+  "lang": "en",
+  "term": "situation",
+  "meaning": "durum",
+  "pos": "isim",
+  "level": "A1",
+  "example": "It was a very difficult situation.",
+  "exampleTr": "Çok zor bir durumdu.",
+  "ipa": "/ˌsɪtʃuˈeɪʃn/",
+  "usage": "“in this situation” (bu durumda) kalıbıyla kullanılır.",
+  "synonyms": [
+   "condition",
+   "circumstance"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:skill",
+  "lang": "en",
+  "term": "skill",
+  "meaning": "beceri, yetenek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Good communication is an important skill.",
+  "exampleTr": "İyi iletişim önemli bir beceridir.",
+  "ipa": "/skɪl/",
+  "usage": "“language skills” dil becerileri demektir.",
+  "synonyms": [
+   "ability",
+   "talent"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:skirt",
+  "lang": "en",
+  "term": "skirt",
+  "meaning": "etek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She bought a long blue skirt.",
+  "exampleTr": "Uzun mavi bir etek aldı.",
+  "ipa": "/skɜːrt/",
+  "usage": "Sayılabilir isimdir: “a skirt”.",
+  "synonyms": [],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:slow",
+  "lang": "en",
+  "term": "slow",
+  "meaning": "yavaş",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The internet is very slow today.",
+  "exampleTr": "Bugün internet çok yavaş.",
+  "ipa": "/sloʊ/",
+  "usage": "Fiil olarak “slow down” (yavaşlamak). Zarfı “slowly”.",
+  "synonyms": [
+   "unhurried"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:smart",
+  "lang": "en",
+  "term": "smart",
+  "meaning": "akıllı, zeki",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "She's a very smart student.",
+  "exampleTr": "Çok zeki bir öğrenci.",
+  "ipa": "/smɑːrt/",
+  "usage": "“smartphone” akıllı telefon demektir. İngiliz İngilizcesinde “şık” anlamı da vardır.",
+  "synonyms": [
+   "clever",
+   "intelligent"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:snake",
+  "lang": "en",
+  "term": "snake",
+  "meaning": "yılan",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'm afraid of snakes.",
+  "exampleTr": "Yılanlardan korkarım.",
+  "ipa": "/sneɪk/",
+  "usage": "Sayılabilir isimdir: “a snake”.",
+  "synonyms": [
+   "serpent"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:snow",
+  "lang": "en",
+  "term": "snow",
+  "meaning": "kar; kar yağmak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The mountains are covered with snow.",
+  "exampleTr": "Dağlar karla kaplı.",
+  "ipa": "/snoʊ/",
+  "usage": "Fiil olarak “It's snowing.” (Kar yağıyor.) denir.",
+  "synonyms": [],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:sometimes",
+  "lang": "en",
+  "term": "sometimes",
+  "meaning": "bazen",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I sometimes walk to work.",
+  "exampleTr": "Bazen işe yürüyerek giderim.",
+  "ipa": "/ˈsʌmtaɪmz/",
+  "usage": "Cümle başında, ana fiilden önce veya cümle sonunda kullanılabilir.",
+  "synonyms": [
+   "occasionally"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:son",
+  "lang": "en",
+  "term": "son",
+  "meaning": "oğul",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Their son is studying in Ankara.",
+  "exampleTr": "Oğulları Ankara'da okuyor.",
+  "ipa": "/sʌn/",
+  "usage": "“sun” (güneş) ile aynı okunur.",
+  "synonyms": [
+   "boy",
+   "child"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:song",
+  "lang": "en",
+  "term": "song",
+  "meaning": "şarkı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "This is my favorite song.",
+  "exampleTr": "Bu benim en sevdiğim şarkı.",
+  "ipa": "/sɔːŋ/",
+  "usage": "“sing a song” (şarkı söylemek) kalıbıyla kullanılır.",
+  "synonyms": [
+   "tune"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:soon",
+  "lang": "en",
+  "term": "soon",
+  "meaning": "yakında, birazdan",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "See you soon!",
+  "exampleTr": "Yakında görüşürüz!",
+  "ipa": "/suːn/",
+  "usage": "“as soon as possible” (en kısa sürede) kalıbı yaygındır.",
+  "synonyms": [
+   "shortly"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:sorry",
+  "lang": "en",
+  "term": "sorry",
+  "meaning": "üzgün; özür dilerim",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I'm sorry I'm late.",
+  "exampleTr": "Geç kaldığım için özür dilerim.",
+  "ipa": "/ˈsɑːri/",
+  "usage": "Duymadığında “Sorry?” (Efendim?) denir. “sorry for/about” (… için üzgün).",
+  "synonyms": [
+   "apologetic"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:sound",
+  "lang": "en",
+  "term": "sound",
+  "meaning": "ses; gibi gelmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I love the sound of the rain.",
+  "exampleTr": "Yağmurun sesine bayılırım.",
+  "ipa": "/saʊnd/",
+  "usage": "Fiil olarak “gibi gelmek, kulağa … gelmek”: “That sounds great!”",
+  "synonyms": [
+   "noise",
+   "voice"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:soup",
+  "lang": "en",
+  "term": "soup",
+  "meaning": "çorba",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Lentil soup is very popular in Turkey.",
+  "exampleTr": "Mercimek çorbası Türkiye'de çok popülerdir.",
+  "ipa": "/suːp/",
+  "usage": "İngilizcede çorba “eat” ile kullanılır, “drink” ile değil: “eat soup”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:south",
+  "lang": "en",
+  "term": "south",
+  "meaning": "güney",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Antalya is in the south of Turkey.",
+  "exampleTr": "Antalya Türkiye'nin güneyindedir.",
+  "ipa": "/saʊθ/",
+  "usage": "Sıfatı “southern” (güneyli, güneydeki).",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:space",
+  "lang": "en",
+  "term": "space",
+  "meaning": "yer, alan; uzay",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There isn't enough space for another chair.",
+  "exampleTr": "Bir sandalye daha için yeterli yer yok.",
+  "ipa": "/speɪs/",
+  "usage": "Gökyüzünün ötesi anlamında “the” kullanılmaz: “travel into space”.",
+  "synonyms": [
+   "room",
+   "area"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:speak",
+  "lang": "en",
+  "term": "speak",
+  "meaning": "konuşmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Do you speak English?",
+  "exampleTr": "İngilizce konuşuyor musunuz?",
+  "ipa": "/spiːk/",
+  "usage": "Düzensiz fiildir: speak – spoke – spoken. Dil için “speak” kullanılır; “talk English” denmez.",
+  "synonyms": [
+   "talk",
+   "say"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:special",
+  "lang": "en",
+  "term": "special",
+  "meaning": "özel",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Today is a very special day for us.",
+  "exampleTr": "Bugün bizim için çok özel bir gün.",
+  "ipa": "/ˈspeʃl/",
+  "usage": "Restoranlarda “today's special” günün yemeği demektir.",
+  "synonyms": [
+   "unique",
+   "particular"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:spell",
+  "lang": "en",
+  "term": "spell",
+  "meaning": "hecelemek, harf harf söylemek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "How do you spell your name?",
+  "exampleTr": "Adınızı nasıl yazıyorsunuz?",
+  "ipa": "/spel/",
+  "usage": "Bir kelimenin harflerini tek tek söylemektir. İsim olarak “büyü” anlamı da vardır.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:spelling",
+  "lang": "en",
+  "term": "spelling",
+  "meaning": "yazım, imla",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Check your spelling before you send the email.",
+  "exampleTr": "E-postayı göndermeden önce yazım hatalarını kontrol et.",
+  "ipa": "/ˈspelɪŋ/",
+  "usage": "“spelling mistake” yazım hatası demektir.",
+  "synonyms": [],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:spend",
+  "lang": "en",
+  "term": "spend",
+  "meaning": "harcamak; geçirmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I spent the weekend with my family.",
+  "exampleTr": "Hafta sonunu ailemle geçirdim.",
+  "ipa": "/spend/",
+  "usage": "Düzensiz fiildir: spend – spent – spent. Hem para hem zaman için kullanılır.",
+  "synonyms": [
+   "pay",
+   "pass"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:sport",
+  "lang": "en",
+  "term": "sport",
+  "meaning": "spor",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What's your favorite sport?",
+  "exampleTr": "En sevdiğin spor hangisi?",
+  "ipa": "/spɔːrt/",
+  "usage": "Amerikan İngilizcesinde genel olarak çoğul “sports” kullanılır: “I love sports.”",
+  "synonyms": [
+   "game"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:spring",
+  "lang": "en",
+  "term": "spring",
+  "meaning": "ilkbahar",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The trees are full of flowers in spring.",
+  "exampleTr": "İlkbaharda ağaçlar çiçek dolu olur.",
+  "ipa": "/sprɪŋ/",
+  "usage": "“in spring” (ilkbaharda). “yay” ve “pınar” anlamları da vardır.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:stand",
+  "lang": "en",
+  "term": "stand",
+  "meaning": "ayakta durmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "We had to stand on the bus.",
+  "exampleTr": "Otobüste ayakta durmak zorunda kaldık.",
+  "ipa": "/stænd/",
+  "usage": "Düzensiz fiildir: stand – stood – stood. “stand up” ayağa kalkmak; “can't stand” hiç dayanamamak.",
+  "synonyms": [
+   "rise"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:start",
+  "lang": "en",
+  "term": "start",
+  "meaning": "başlamak; başlangıç",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "The lesson starts at nine.",
+  "exampleTr": "Ders dokuzda başlıyor.",
+  "ipa": "/stɑːrt/",
+  "usage": "Ardından “to” veya “-ing” gelebilir: “start to work” / “start working”.",
+  "synonyms": [
+   "begin"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:statement",
+  "lang": "en",
+  "term": "statement",
+  "meaning": "ifade, açıklama",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Read the statements and decide if they are true.",
+  "exampleTr": "İfadeleri okuyun ve doğru olup olmadıklarına karar verin.",
+  "ipa": "/ˈsteɪtmənt/",
+  "usage": "Bankada “bank statement” hesap özeti demektir.",
+  "synonyms": [
+   "declaration",
+   "announcement"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:stay",
+  "lang": "en",
+  "term": "stay",
+  "meaning": "kalmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "We stayed at my aunt's house for a week.",
+  "exampleTr": "Bir hafta teyzemin evinde kaldık.",
+  "ipa": "/steɪ/",
+  "usage": "“stay at a hotel” (otelde kalmak), “stay home” (evde kalmak).",
+  "synonyms": [
+   "remain"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:stop",
+  "lang": "en",
+  "term": "stop",
+  "meaning": "durmak; durdurmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "The bus stops in front of my house.",
+  "exampleTr": "Otobüs evimin önünde duruyor.",
+  "ipa": "/stɑːp/",
+  "usage": "“stop doing” bir şeyi bırakmak; “stop to do” bir şey yapmak için durmaktır.",
+  "synonyms": [
+   "end",
+   "halt"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:store",
+  "lang": "en",
+  "term": "store",
+  "meaning": "mağaza",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I'm going to the store to buy some milk.",
+  "exampleTr": "Süt almak için markete gidiyorum.",
+  "ipa": "/stɔːr/",
+  "usage": "Amerikan İngilizcesinde her tür dükkân için kullanılır. Fiil olarak “depolamak”.",
+  "synonyms": [
+   "shop"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:story",
+  "lang": "en",
+  "term": "story",
+  "meaning": "hikâye",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My grandmother tells us stories every night.",
+  "exampleTr": "Büyükannem her gece bize hikâye anlatır.",
+  "ipa": "/ˈstɔːri/",
+  "usage": "“tell a story” (hikâye anlatmak) denir. Amerikan İngilizcesinde bina katı anlamı da vardır.",
+  "synonyms": [
+   "tale"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:street",
+  "lang": "en",
+  "term": "street",
+  "meaning": "sokak, cadde",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I live on Atatürk Street.",
+  "exampleTr": "Atatürk Caddesi'nde oturuyorum.",
+  "ipa": "/striːt/",
+  "usage": "Amerikan İngilizcesinde “on … Street” denir.",
+  "synonyms": [
+   "road",
+   "avenue"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:strong",
+  "lang": "en",
+  "term": "strong",
+  "meaning": "güçlü, kuvvetli",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "I like my coffee strong.",
+  "exampleTr": "Kahvemi sert severim.",
+  "ipa": "/strɔːŋ/",
+  "usage": "Kahve ve çay için “sert, koyu” demektir. Zıt anlamlısı “weak”.",
+  "synonyms": [
+   "powerful"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:student",
+  "lang": "en",
+  "term": "student",
+  "meaning": "öğrenci",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There are thirty students in my class.",
+  "exampleTr": "Sınıfımda otuz öğrenci var.",
+  "ipa": "/ˈstuːdnt/",
+  "usage": "Hem okul hem üniversite öğrencileri için kullanılır.",
+  "synonyms": [
+   "pupil",
+   "learner"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:study",
+  "lang": "en",
+  "term": "study",
+  "meaning": "ders çalışmak; okumak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I study English every day.",
+  "exampleTr": "Her gün İngilizce çalışıyorum.",
+  "ipa": "/ˈstʌdi/",
+  "usage": "Üniversitede bölüm okumak için de kullanılır: “She studies medicine.”",
+  "synonyms": [
+   "learn",
+   "research"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:style",
+  "lang": "en",
+  "term": "style",
+  "meaning": "tarz, stil",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I really like your style.",
+  "exampleTr": "Tarzını gerçekten beğeniyorum.",
+  "ipa": "/staɪl/",
+  "usage": "“in style” moda olan demektir.",
+  "synonyms": [
+   "fashion",
+   "manner"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:subject",
+  "lang": "en",
+  "term": "subject",
+  "meaning": "konu; ders",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Math is my favorite subject.",
+  "exampleTr": "Matematik en sevdiğim ders.",
+  "ipa": "/ˈsʌbdʒɪkt/",
+  "usage": "E-postada “subject” konu satırıdır; dilbilgisinde “özne” demektir.",
+  "synonyms": [
+   "topic",
+   "course"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:success",
+  "lang": "en",
+  "term": "success",
+  "meaning": "başarı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The concert was a big success.",
+  "exampleTr": "Konser büyük bir başarıydı.",
+  "ipa": "/səkˈses/",
+  "usage": "Sıfatı “successful” (başarılı), fiili “succeed” (başarmak).",
+  "synonyms": [
+   "achievement",
+   "victory"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:sugar",
+  "lang": "en",
+  "term": "sugar",
+  "meaning": "şeker",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Do you take sugar in your tea?",
+  "exampleTr": "Çayına şeker alır mısın?",
+  "ipa": "/ˈʃʊɡər/",
+  "usage": "Sayılamaz isimdir: “some sugar”. Okunuşu “ŞUgır” şeklindedir.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:summer",
+  "lang": "en",
+  "term": "summer",
+  "meaning": "yaz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We go to the seaside every summer.",
+  "exampleTr": "Her yaz deniz kenarına gideriz.",
+  "ipa": "/ˈsʌmər/",
+  "usage": "“in summer” veya “in the summer” (yazın) denir; “summer vacation” yaz tatilidir.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:sunny",
+  "lang": "en",
+  "term": "sunny",
+  "meaning": "güneşli",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "It's a sunny day, let's go to the park.",
+  "exampleTr": "Güneşli bir gün, hadi parka gidelim.",
+  "ipa": "/ˈsʌni/",
+  "usage": "Hava durumu sıfatları “-y” ile yapılır: sun → sunny, rain → rainy.",
+  "synonyms": [
+   "bright",
+   "clear"
+  ],
+  "topics": [
+   "doga"
+  ]
+ },
+ {
+  "id": "en:supermarket",
+  "lang": "en",
+  "term": "supermarket",
+  "meaning": "süpermarket",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I buy fruit and vegetables at the supermarket.",
+  "exampleTr": "Meyve ve sebzeyi süpermarketten alırım.",
+  "ipa": "/ˈsuːpərmɑːrkɪt/",
+  "usage": "“at the supermarket” (süpermarkette) kalıbıyla kullanılır.",
+  "synonyms": [
+   "grocery store"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:sure",
+  "lang": "en",
+  "term": "sure",
+  "meaning": "emin; tabii",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Are you sure about that?",
+  "exampleTr": "Bundan emin misin?",
+  "ipa": "/ʃʊr/",
+  "usage": "Cevap olarak “Sure!” (Tabii!) çok yaygındır. “make sure” (emin olmak, sağlamak).",
+  "synonyms": [
+   "certain",
+   "confident"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:sweater",
+  "lang": "en",
+  "term": "sweater",
+  "meaning": "kazak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Wear a warm sweater, it's cold outside.",
+  "exampleTr": "Kalın bir kazak giy, dışarısı soğuk.",
+  "ipa": "/ˈswetər/",
+  "usage": "İngiliz İngilizcesinde “jumper” da denir.",
+  "synonyms": [
+   "jumper",
+   "pullover"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:swimming",
+  "lang": "en",
+  "term": "swimming",
+  "meaning": "yüzme",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Swimming is good exercise.",
+  "exampleTr": "Yüzme iyi bir egzersizdir.",
+  "ipa": "/ˈswɪmɪŋ/",
+  "usage": "“go swimming” (yüzmeye gitmek); “swimming pool” yüzme havuzu.",
+  "synonyms": [],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:t-shirt",
+  "lang": "en",
+  "term": "T-shirt",
+  "meaning": "tişört",
+  "pos": "isim",
+  "level": "A1",
+  "example": "It's hot, so I'm wearing a T-shirt.",
+  "exampleTr": "Hava sıcak, o yüzden tişört giyiyorum.",
+  "ipa": "/ˈtiː ʃɜːrt/",
+  "usage": "“tee shirt” şeklinde de yazılabilir.",
+  "synonyms": [
+   "tee"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:take",
+  "lang": "en",
+  "term": "take",
+  "meaning": "almak; götürmek; sürmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "It takes twenty minutes to get there.",
+  "exampleTr": "Oraya varmak yirmi dakika sürüyor.",
+  "ipa": "/teɪk/",
+  "usage": "Düzensiz fiildir: take – took – taken. Çok anlamlıdır: “take a bus” (otobüse binmek), “take a photo”.",
+  "synonyms": [
+   "get",
+   "carry"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:talk",
+  "lang": "en",
+  "term": "talk",
+  "meaning": "konuşmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can we talk about this later?",
+  "exampleTr": "Bunu sonra konuşabilir miyiz?",
+  "ipa": "/tɔːk/",
+  "usage": "“talk to/with someone” ve “talk about something” kalıplarıyla kullanılır.",
+  "synonyms": [
+   "speak",
+   "chat"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:tall",
+  "lang": "en",
+  "term": "tall",
+  "meaning": "uzun boylu, yüksek",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "My brother is very tall.",
+  "exampleTr": "Ağabeyim çok uzun boylu.",
+  "ipa": "/tɔːl/",
+  "usage": "İnsanlar, binalar ve ağaçlar için kullanılır; nesnelerin uzunluğu için “long”.",
+  "synonyms": [
+   "high"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:taxi",
+  "lang": "en",
+  "term": "taxi",
+  "meaning": "taksi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Let's take a taxi to the airport.",
+  "exampleTr": "Havalimanına taksiyle gidelim.",
+  "ipa": "/ˈtæksi/",
+  "usage": "Amerikan İngilizcesinde “cab” da denir.",
+  "synonyms": [
+   "cab"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:teach",
+  "lang": "en",
+  "term": "teach",
+  "meaning": "öğretmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "She teaches English at a high school.",
+  "exampleTr": "Bir lisede İngilizce öğretiyor.",
+  "ipa": "/tiːtʃ/",
+  "usage": "Düzensiz fiildir: teach – taught – taught. “teach someone to do something”.",
+  "synonyms": [
+   "educate",
+   "train"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:team",
+  "lang": "en",
+  "term": "team",
+  "meaning": "takım, ekip",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Which football team do you support?",
+  "exampleTr": "Hangi futbol takımını tutuyorsun?",
+  "ipa": "/tiːm/",
+  "usage": "İş yerinde ekip için de kullanılır: “our sales team”.",
+  "synonyms": [
+   "group",
+   "squad"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:teenager",
+  "lang": "en",
+  "term": "teenager",
+  "meaning": "genç, ergen",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Many teenagers spend hours on their phones.",
+  "exampleTr": "Birçok genç telefonlarında saatler geçiriyor.",
+  "ipa": "/ˈtiːneɪdʒər/",
+  "usage": "13–19 yaş arasındaki gençler içindir (“thirteen”den “nineteen”e).",
+  "synonyms": [
+   "teen",
+   "youth"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:telephone",
+  "lang": "en",
+  "term": "telephone",
+  "meaning": "telefon",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What's your telephone number?",
+  "exampleTr": "Telefon numaranız kaç?",
+  "ipa": "/ˈtelɪfoʊn/",
+  "usage": "Günlük dilde kısaca “phone” denir; “on the telephone” telefonda demektir.",
+  "synonyms": [
+   "phone"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:television",
+  "lang": "en",
+  "term": "television",
+  "meaning": "televizyon",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There's nothing good on television tonight.",
+  "exampleTr": "Bu akşam televizyonda güzel bir şey yok.",
+  "ipa": "/ˈtelɪvɪʒn/",
+  "usage": "“on television” (televizyonda) denir; kısaca “TV”.",
+  "synonyms": [
+   "TV"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:tell",
+  "lang": "en",
+  "term": "tell",
+  "meaning": "söylemek, anlatmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can you tell me the time?",
+  "exampleTr": "Bana saati söyleyebilir misin?",
+  "ipa": "/tel/",
+  "usage": "Düzensiz fiildir: tell – told – told. Kişi nesnesi alır: “tell someone something”; “say” ise almaz.",
+  "synonyms": [
+   "say",
+   "inform"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:tennis",
+  "lang": "en",
+  "term": "tennis",
+  "meaning": "tenis",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We play tennis every Saturday.",
+  "exampleTr": "Her cumartesi tenis oynarız.",
+  "ipa": "/ˈtenɪs/",
+  "usage": "Spor adlarından önce “the” kullanılmaz: “play tennis”.",
+  "synonyms": [],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:terrible",
+  "lang": "en",
+  "term": "terrible",
+  "meaning": "berbat, korkunç",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The food at that restaurant was terrible.",
+  "exampleTr": "O restorandaki yemekler berbattı.",
+  "ipa": "/ˈterəbl/",
+  "usage": "Zarf hâli “terribly” bazen “çok” anlamında kullanılır: “I'm terribly sorry.”",
+  "synonyms": [
+   "awful",
+   "horrible"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:test",
+  "lang": "en",
+  "term": "test",
+  "meaning": "sınav, test; test etmek",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We have an English test tomorrow.",
+  "exampleTr": "Yarın İngilizce sınavımız var.",
+  "ipa": "/test/",
+  "usage": "“take a test” (sınava girmek), “pass/fail a test” (sınavı geçmek/kalmak).",
+  "synonyms": [
+   "exam",
+   "quiz"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:text",
+  "lang": "en",
+  "term": "text",
+  "meaning": "metin; mesaj atmak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Read the text and answer the questions.",
+  "exampleTr": "Metni okuyun ve soruları cevaplayın.",
+  "ipa": "/tekst/",
+  "usage": "Fiil olarak “mesaj atmak” demektir: “Text me when you arrive.”",
+  "synonyms": [
+   "passage",
+   "message"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:thank",
+  "lang": "en",
+  "term": "thank",
+  "meaning": "teşekkür etmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I want to thank you for your help.",
+  "exampleTr": "Yardımın için sana teşekkür etmek istiyorum.",
+  "ipa": "/θæŋk/",
+  "usage": "“thank someone for something” kalıbıyla kullanılır; “Thank you!” en yaygın teşekkür ifadesidir.",
+  "synonyms": [
+   "appreciate"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:theater",
+  "lang": "en",
+  "term": "theater",
+  "meaning": "tiyatro",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We went to the theater to see a play.",
+  "exampleTr": "Bir oyun izlemek için tiyatroya gittik.",
+  "ipa": "/ˈθiːətər/",
+  "usage": "Amerikan yazımıdır; İngiliz yazımı “theatre”. ABD'de “movie theater” sinema demektir.",
+  "synonyms": [
+   "playhouse"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:thing",
+  "lang": "en",
+  "term": "thing",
+  "meaning": "şey",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a lot of things to do today.",
+  "exampleTr": "Bugün yapacak çok işim var.",
+  "ipa": "/θɪŋ/",
+  "usage": "Konuşmada çok yaygındır; eşyalar için “my things” (eşyalarım) denir.",
+  "synonyms": [
+   "object",
+   "item"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:think",
+  "lang": "en",
+  "term": "think",
+  "meaning": "düşünmek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I think it's going to rain.",
+  "exampleTr": "Bence yağmur yağacak.",
+  "ipa": "/θɪŋk/",
+  "usage": "Düzensiz fiildir: think – thought – thought. “think about/of” (… hakkında düşünmek).",
+  "synonyms": [
+   "believe",
+   "consider"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:title",
+  "lang": "en",
+  "term": "title",
+  "meaning": "başlık; unvan",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What's the title of the book?",
+  "exampleTr": "Kitabın adı ne?",
+  "ipa": "/ˈtaɪtl/",
+  "usage": "“Mr., Dr.” gibi unvanlar için de kullanılır.",
+  "synonyms": [
+   "name",
+   "heading"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:today",
+  "lang": "en",
+  "term": "today",
+  "meaning": "bugün",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "What are you doing today?",
+  "exampleTr": "Bugün ne yapıyorsun?",
+  "ipa": "/təˈdeɪ/",
+  "usage": "Önüne “on” veya “the” gelmez.",
+  "synonyms": [
+   "now"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:together",
+  "lang": "en",
+  "term": "together",
+  "meaning": "birlikte",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "Let's have dinner together.",
+  "exampleTr": "Akşam yemeğini birlikte yiyelim.",
+  "ipa": "/təˈɡeðər/",
+  "usage": "“get together” bir araya gelmek demektir.",
+  "synonyms": [
+   "jointly"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:toilet",
+  "lang": "en",
+  "term": "toilet",
+  "meaning": "tuvalet",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The toilet is at the end of the hall.",
+  "exampleTr": "Tuvalet koridorun sonunda.",
+  "ipa": "/ˈtɔɪlət/",
+  "usage": "ABD'de klozet anlamında kullanılır; tuvaleti sormak için “restroom” veya “bathroom” daha kibardır.",
+  "synonyms": [
+   "restroom",
+   "bathroom"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:tomato",
+  "lang": "en",
+  "term": "tomato",
+  "meaning": "domates",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Add some tomatoes to the salad.",
+  "exampleTr": "Salataya biraz domates ekle.",
+  "ipa": "/təˈmeɪtoʊ/",
+  "usage": "Çoğulu “tomatoes”. Amerikan okunuşu “tımEYtou”, İngiliz okunuşu “tımAAtou”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:tomorrow",
+  "lang": "en",
+  "term": "tomorrow",
+  "meaning": "yarın",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I'll call you tomorrow.",
+  "exampleTr": "Yarın seni ararım.",
+  "ipa": "/təˈmɑːroʊ/",
+  "usage": "“tomorrow morning” (yarın sabah) kalıbında “on/the” kullanılmaz.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:tonight",
+  "lang": "en",
+  "term": "tonight",
+  "meaning": "bu gece, bu akşam",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "What are we having for dinner tonight?",
+  "exampleTr": "Bu akşam yemekte ne var?",
+  "ipa": "/təˈnaɪt/",
+  "usage": "Önüne “on/the” gelmez.",
+  "synonyms": [
+   "this evening"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:tooth",
+  "lang": "en",
+  "term": "tooth",
+  "meaning": "diş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I have a pain in my tooth.",
+  "exampleTr": "Dişim ağrıyor.",
+  "ipa": "/tuːθ/",
+  "usage": "Çoğulu düzensizdir: one tooth – two teeth. “brush your teeth” (dişlerini fırçala).",
+  "synonyms": [],
+  "topics": [
+   "saglik"
+  ]
+ },
+ {
+  "id": "en:topic",
+  "lang": "en",
+  "term": "topic",
+  "meaning": "konu",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Today's topic is the environment.",
+  "exampleTr": "Bugünün konusu çevre.",
+  "ipa": "/ˈtɑːpɪk/",
+  "usage": "Tartışma ve yazı konuları için kullanılır.",
+  "synonyms": [
+   "subject",
+   "theme"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:town",
+  "lang": "en",
+  "term": "town",
+  "meaning": "kasaba; şehir merkezi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I grew up in a small town near the sea.",
+  "exampleTr": "Deniz kenarında küçük bir kasabada büyüdüm.",
+  "ipa": "/taʊn/",
+  "usage": "“go into town” şehir merkezine gitmek demektir.",
+  "synonyms": [
+   "village",
+   "city"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:train",
+  "lang": "en",
+  "term": "train",
+  "meaning": "tren; antrenman yapmak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We took the train to Ankara.",
+  "exampleTr": "Ankara'ya trenle gittik.",
+  "ipa": "/treɪn/",
+  "usage": "Fiil olarak “eğitmek, antrenman yapmak” demektir: “train for a marathon”.",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:trip",
+  "lang": "en",
+  "term": "trip",
+  "meaning": "gezi, yolculuk",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We're planning a trip to Cappadocia.",
+  "exampleTr": "Kapadokya'ya bir gezi planlıyoruz.",
+  "ipa": "/trɪp/",
+  "usage": "“go on a trip” veya “take a trip” denir; kısa yolculuklar içindir. “business trip” iş seyahati.",
+  "synonyms": [
+   "journey",
+   "tour"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:truck",
+  "lang": "en",
+  "term": "truck",
+  "meaning": "kamyon",
+  "pos": "isim",
+  "level": "A1",
+  "example": "A big truck is blocking the road.",
+  "exampleTr": "Büyük bir kamyon yolu kapatıyor.",
+  "ipa": "/trʌk/",
+  "usage": "Amerikan İngilizcesidir; İngiliz İngilizcesinde “lorry” denir.",
+  "synonyms": [
+   "lorry"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:true",
+  "lang": "en",
+  "term": "true",
+  "meaning": "doğru, gerçek",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Is it true that you're moving to London?",
+  "exampleTr": "Londra'ya taşınacağın doğru mu?",
+  "ipa": "/truː/",
+  "usage": "“come true” gerçekleşmek demektir: “My dream came true.”",
+  "synonyms": [
+   "correct",
+   "real"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:try",
+  "lang": "en",
+  "term": "try",
+  "meaning": "denemek, çalışmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Try this cake, it's delicious!",
+  "exampleTr": "Bu pastayı dene, çok lezzetli!",
+  "ipa": "/traɪ/",
+  "usage": "“try to do” bir şeyi yapmaya çalışmak; “try on” kıyafet denemektir.",
+  "synonyms": [
+   "attempt",
+   "test"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:turn",
+  "lang": "en",
+  "term": "turn",
+  "meaning": "dönmek; sıra",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Turn right at the end of the street.",
+  "exampleTr": "Sokağın sonunda sağa dön.",
+  "ipa": "/tɜːrn/",
+  "usage": "“turn on/off” (açmak/kapatmak). İsim olarak “sıra”: “It's your turn.”",
+  "synonyms": [
+   "rotate",
+   "go round"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:tv",
+  "lang": "en",
+  "term": "TV",
+  "meaning": "televizyon",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We watched TV all evening.",
+  "exampleTr": "Bütün akşam televizyon izledik.",
+  "ipa": "/ˌtiː ˈviː/",
+  "usage": "“watch TV” kalıbında “the” kullanılmaz; “on TV” (televizyonda).",
+  "synonyms": [
+   "television"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:type",
+  "lang": "en",
+  "term": "type",
+  "meaning": "tür, tip; yazmak",
+  "pos": "isim",
+  "level": "A1",
+  "example": "What type of music do you like?",
+  "exampleTr": "Ne tür müzik seversin?",
+  "ipa": "/taɪp/",
+  "usage": "Fiil olarak klavyeyle yazmaktır: “type a message”.",
+  "synonyms": [
+   "kind",
+   "sort"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:uncle",
+  "lang": "en",
+  "term": "uncle",
+  "meaning": "amca, dayı, enişte",
+  "pos": "isim",
+  "level": "A1",
+  "example": "My uncle lives in Germany.",
+  "exampleTr": "Amcam Almanya'da yaşıyor.",
+  "ipa": "/ˈʌŋkl/",
+  "usage": "İngilizcede amca, dayı ve enişte ayrımı yoktur; hepsi “uncle”dır.",
+  "synonyms": [],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:university",
+  "lang": "en",
+  "term": "university",
+  "meaning": "üniversite",
+  "pos": "isim",
+  "level": "A1",
+  "example": "She studies law at Istanbul University.",
+  "exampleTr": "İstanbul Üniversitesi'nde hukuk okuyor.",
+  "ipa": "/ˌjuːnɪˈvɜːrsəti/",
+  "usage": "“u” sesi /j/ ile başladığı için “a university” denir, “an” değil.",
+  "synonyms": [
+   "college"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:up",
+  "lang": "en",
+  "term": "up",
+  "meaning": "yukarı",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I get up at seven every morning.",
+  "exampleTr": "Her sabah yedide kalkarım.",
+  "ipa": "/ʌp/",
+  "usage": "Birçok öbek fiilde geçer: “get up” (kalkmak), “give up” (vazgeçmek), “pick up” (almak).",
+  "synonyms": [
+   "upward"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:upstairs",
+  "lang": "en",
+  "term": "upstairs",
+  "meaning": "üst katta, yukarıda",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "The bedrooms are upstairs.",
+  "exampleTr": "Yatak odaları üst katta.",
+  "ipa": "/ˌʌpˈsterz/",
+  "usage": "“go upstairs” (yukarı çıkmak) kalıbında “to” kullanılmaz. Zıt anlamlısı “downstairs”.",
+  "synonyms": [
+   "above"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:use",
+  "lang": "en",
+  "term": "use",
+  "meaning": "kullanmak; kullanım",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Can I use your phone?",
+  "exampleTr": "Telefonunu kullanabilir miyim?",
+  "ipa": "/juːz/",
+  "usage": "İsim olarak okunuşu farklıdır: /juːs/. “used to” eskiden yapılan alışkanlıkları anlatır.",
+  "synonyms": [
+   "utilize",
+   "operate"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:usually",
+  "lang": "en",
+  "term": "usually",
+  "meaning": "genellikle",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I usually have tea for breakfast.",
+  "exampleTr": "Kahvaltıda genellikle çay içerim.",
+  "ipa": "/ˈjuːʒuəli/",
+  "usage": "Ana fiilden önce, “be” fiilinden sonra gelir.",
+  "synonyms": [
+   "normally",
+   "generally"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:vacation",
+  "lang": "en",
+  "term": "vacation",
+  "meaning": "tatil",
+  "pos": "isim",
+  "level": "A1",
+  "example": "We're going on vacation next week.",
+  "exampleTr": "Gelecek hafta tatile çıkıyoruz.",
+  "ipa": "/veɪˈkeɪʃn/",
+  "usage": "Amerikan İngilizcesidir; İngiliz İngilizcesinde “holiday” denir. “on vacation” (tatilde).",
+  "synonyms": [
+   "holiday",
+   "break"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:video",
+  "lang": "en",
+  "term": "video",
+  "meaning": "video",
+  "pos": "isim",
+  "level": "A1",
+  "example": "He posted a funny video online.",
+  "exampleTr": "İnternette komik bir video paylaştı.",
+  "ipa": "/ˈvɪdioʊ/",
+  "usage": "“video game” video oyunu demektir.",
+  "synonyms": [
+   "clip",
+   "film"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:visitor",
+  "lang": "en",
+  "term": "visitor",
+  "meaning": "ziyaretçi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The museum has thousands of visitors every day.",
+  "exampleTr": "Müzenin her gün binlerce ziyaretçisi var.",
+  "ipa": "/ˈvɪzɪtər/",
+  "usage": "Fiili “visit” (ziyaret etmek).",
+  "synonyms": [
+   "guest",
+   "tourist"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:waiter",
+  "lang": "en",
+  "term": "waiter",
+  "meaning": "garson",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The waiter brought us the menu.",
+  "exampleTr": "Garson bize menüyü getirdi.",
+  "ipa": "/ˈweɪtər/",
+  "usage": "Kadın garson için “waitress” denir; cinsiyetsiz olarak “server” da kullanılır.",
+  "synonyms": [
+   "server"
+  ],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:wake",
+  "lang": "en",
+  "term": "wake",
+  "meaning": "uyanmak; uyandırmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I usually wake up at six.",
+  "exampleTr": "Genellikle altıda uyanırım.",
+  "ipa": "/weɪk/",
+  "usage": "Düzensiz fiildir: wake – woke – woken. Genelde “wake up” şeklinde kullanılır.",
+  "synonyms": [
+   "get up",
+   "awaken"
+  ],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:wall",
+  "lang": "en",
+  "term": "wall",
+  "meaning": "duvar",
+  "pos": "isim",
+  "level": "A1",
+  "example": "There's a big clock on the wall.",
+  "exampleTr": "Duvarda büyük bir saat var.",
+  "ipa": "/wɔːl/",
+  "usage": "“on the wall” (duvarda) kalıbıyla kullanılır.",
+  "synonyms": [],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:want",
+  "lang": "en",
+  "term": "want",
+  "meaning": "istemek",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I want a glass of water.",
+  "exampleTr": "Bir bardak su istiyorum.",
+  "ipa": "/wɑːnt/",
+  "usage": "Ardından fiil gelirse “to” alır: “I want to go.” Kibar istekler için “I'd like…” tercih edilir.",
+  "synonyms": [
+   "wish",
+   "desire"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:watch",
+  "lang": "en",
+  "term": "watch",
+  "meaning": "izlemek; kol saati",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Let's watch a movie tonight.",
+  "exampleTr": "Bu akşam film izleyelim.",
+  "ipa": "/wɑːtʃ/",
+  "usage": "Hareketli şeyleri izlemek içindir (TV, maç). İsim olarak “kol saati” demektir.",
+  "synonyms": [
+   "look at",
+   "observe"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:way",
+  "lang": "en",
+  "term": "way",
+  "meaning": "yol; yöntem",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Excuse me, can you tell me the way to the museum?",
+  "exampleTr": "Affedersiniz, müzenin yolunu tarif edebilir misiniz?",
+  "ipa": "/weɪ/",
+  "usage": "“yöntem” anlamı da çok yaygındır: “the best way to learn”. “by the way” (bu arada).",
+  "synonyms": [
+   "route",
+   "method"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:wear",
+  "lang": "en",
+  "term": "wear",
+  "meaning": "giymek, takmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "She always wears glasses.",
+  "exampleTr": "Her zaman gözlük takar.",
+  "ipa": "/wer/",
+  "usage": "Düzensiz fiildir: wear – wore – worn. Üzerinde taşıma durumudur; giyinme eylemi için “put on”.",
+  "synonyms": [
+   "have on",
+   "dress in"
+  ],
+  "topics": [
+   "alisveris"
+  ]
+ },
+ {
+  "id": "en:website",
+  "lang": "en",
+  "term": "website",
+  "meaning": "web sitesi",
+  "pos": "isim",
+  "level": "A1",
+  "example": "You can book tickets on our website.",
+  "exampleTr": "Biletleri web sitemizden alabilirsiniz.",
+  "ipa": "/ˈwebsaɪt/",
+  "usage": "“on the website” (web sitesinde) kalıbıyla kullanılır.",
+  "synonyms": [
+   "site",
+   "web page"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:week",
+  "lang": "en",
+  "term": "week",
+  "meaning": "hafta",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I go swimming twice a week.",
+  "exampleTr": "Haftada iki kez yüzmeye giderim.",
+  "ipa": "/wiːk/",
+  "usage": "“weekend” hafta sonu, “weekday” hafta içi günü demektir.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:well",
+  "lang": "en",
+  "term": "well",
+  "meaning": "iyi; şey…",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "She speaks English very well.",
+  "exampleTr": "Çok iyi İngilizce konuşuyor.",
+  "ipa": "/wel/",
+  "usage": "“good” sıfatının zarf hâlidir. Konuşmada düşünürken “Well…” (Şey…) denir; isim olarak “kuyu”.",
+  "synonyms": [
+   "nicely",
+   "fine"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:west",
+  "lang": "en",
+  "term": "west",
+  "meaning": "batı",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The sun sets in the west.",
+  "exampleTr": "Güneş batıdan batar.",
+  "ipa": "/west/",
+  "usage": "Sıfatı “western” (batılı, batıdaki).",
+  "synonyms": [],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:white",
+  "lang": "en",
+  "term": "white",
+  "meaning": "beyaz",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "The walls are painted white.",
+  "exampleTr": "Duvarlar beyaza boyanmış.",
+  "ipa": "/waɪt/",
+  "usage": "“white wine” beyaz şarap, “white coffee” sütlü kahve (İngiliz) demektir.",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:wife",
+  "lang": "en",
+  "term": "wife",
+  "meaning": "karı, eş",
+  "pos": "isim",
+  "level": "A1",
+  "example": "His wife is a doctor.",
+  "exampleTr": "Eşi doktor.",
+  "ipa": "/waɪf/",
+  "usage": "Çoğulu düzensizdir: wife – wives. Erkek eş için “husband”.",
+  "synonyms": [
+   "spouse",
+   "partner"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:win",
+  "lang": "en",
+  "term": "win",
+  "meaning": "kazanmak",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "Our team won the match.",
+  "exampleTr": "Takımımız maçı kazandı.",
+  "ipa": "/wɪn/",
+  "usage": "Düzensiz fiildir: win – won – won. Yarışma/ödül için kullanılır; para kazanmak için “earn”.",
+  "synonyms": [
+   "beat",
+   "succeed"
+  ],
+  "topics": [
+   "spor"
+  ]
+ },
+ {
+  "id": "en:wine",
+  "lang": "en",
+  "term": "wine",
+  "meaning": "şarap",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Would you like a glass of red wine?",
+  "exampleTr": "Bir kadeh kırmızı şarap ister misiniz?",
+  "ipa": "/waɪn/",
+  "usage": "Genelde sayılamaz: “some wine”, “a glass of wine”.",
+  "synonyms": [],
+  "topics": [
+   "yemek"
+  ]
+ },
+ {
+  "id": "en:winter",
+  "lang": "en",
+  "term": "winter",
+  "meaning": "kış",
+  "pos": "isim",
+  "level": "A1",
+  "example": "It snows a lot here in winter.",
+  "exampleTr": "Burada kışın çok kar yağar.",
+  "ipa": "/ˈwɪntər/",
+  "usage": "“in winter” veya “in the winter” (kışın) denir.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:woman",
+  "lang": "en",
+  "term": "woman",
+  "meaning": "kadın",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The woman in the red coat is my aunt.",
+  "exampleTr": "Kırmızı paltolu kadın teyzem.",
+  "ipa": "/ˈwʊmən/",
+  "usage": "Çoğulu düzensizdir: woman – women /ˈwɪmɪn/.",
+  "synonyms": [
+   "lady"
+  ],
+  "topics": [
+   "aile"
+  ]
+ },
+ {
+  "id": "en:wonderful",
+  "lang": "en",
+  "term": "wonderful",
+  "meaning": "harika, muhteşem",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "We had a wonderful time in Bodrum.",
+  "exampleTr": "Bodrum'da harika vakit geçirdik.",
+  "ipa": "/ˈwʌndərfl/",
+  "usage": "“have a wonderful time” kalıbı yaygındır.",
+  "synonyms": [
+   "great",
+   "amazing"
+  ],
+  "topics": [
+   "duygular"
+  ]
+ },
+ {
+  "id": "en:word",
+  "lang": "en",
+  "term": "word",
+  "meaning": "kelime, söz",
+  "pos": "isim",
+  "level": "A1",
+  "example": "How do you say this word in English?",
+  "exampleTr": "Bu kelimeyi İngilizcede nasıl söylersin?",
+  "ipa": "/wɜːrd/",
+  "usage": "“in other words” (başka bir deyişle) ve “keep your word” (sözünü tutmak) yaygındır.",
+  "synonyms": [
+   "term"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:work",
+  "lang": "en",
+  "term": "work",
+  "meaning": "çalışmak; iş",
+  "pos": "fiil",
+  "level": "A1",
+  "example": "I work in a bank.",
+  "exampleTr": "Bir bankada çalışıyorum.",
+  "ipa": "/wɜːrk/",
+  "usage": "İsim olarak sayılamaz: “I have a lot of work.” Makineler için “çalışmak”: “It doesn't work.”",
+  "synonyms": [
+   "job",
+   "labor"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:worker",
+  "lang": "en",
+  "term": "worker",
+  "meaning": "işçi, çalışan",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The factory has five hundred workers.",
+  "exampleTr": "Fabrikanın beş yüz çalışanı var.",
+  "ipa": "/ˈwɜːrkər/",
+  "usage": "“hard worker” çalışkan kişi demektir.",
+  "synonyms": [
+   "employee",
+   "staff"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:world",
+  "lang": "en",
+  "term": "world",
+  "meaning": "dünya",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I want to travel around the world.",
+  "exampleTr": "Dünyayı dolaşmak istiyorum.",
+  "ipa": "/wɜːrld/",
+  "usage": "“in the world” (dünyada) kalıbıyla kullanılır.",
+  "synonyms": [
+   "earth",
+   "globe"
+  ],
+  "topics": [
+   "seyahat"
+  ]
+ },
+ {
+  "id": "en:writer",
+  "lang": "en",
+  "term": "writer",
+  "meaning": "yazar",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Orhan Pamuk is a famous Turkish writer.",
+  "exampleTr": "Orhan Pamuk ünlü bir Türk yazardır.",
+  "ipa": "/ˈraɪtər/",
+  "usage": "Baştaki “w” okunmaz.",
+  "synonyms": [
+   "author"
+  ],
+  "topics": [
+   "is"
+  ]
+ },
+ {
+  "id": "en:writing",
+  "lang": "en",
+  "term": "writing",
+  "meaning": "yazı, yazma",
+  "pos": "isim",
+  "level": "A1",
+  "example": "Her writing is very clear.",
+  "exampleTr": "Onun yazısı çok anlaşılır.",
+  "ipa": "/ˈraɪtɪŋ/",
+  "usage": "Sınavlarda “writing section” yazma bölümü demektir; “in writing” yazılı olarak.",
+  "synonyms": [
+   "text"
+  ],
+  "topics": [
+   "okul"
+  ]
+ },
+ {
+  "id": "en:wrong",
+  "lang": "en",
+  "term": "wrong",
+  "meaning": "yanlış",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Sorry, I think you have the wrong number.",
+  "exampleTr": "Kusura bakmayın, sanırım yanlış numarayı aradınız.",
+  "ipa": "/rɔːŋ/",
+  "usage": "“What's wrong?” (Ne oldu?, Sorun ne?) çok yaygındır. Baştaki “w” okunmaz.",
+  "synonyms": [
+   "incorrect",
+   "false"
+  ],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:yard",
+  "lang": "en",
+  "term": "yard",
+  "meaning": "avlu, bahçe",
+  "pos": "isim",
+  "level": "A1",
+  "example": "The kids are playing in the backyard.",
+  "exampleTr": "Çocuklar arka bahçede oynuyor.",
+  "ipa": "/jɑːrd/",
+  "usage": "Amerikan İngilizcesinde evin bahçesidir (İngiliz: “garden”). Uzunluk birimi olarak yaklaşık 91 cm.",
+  "synonyms": [
+   "garden"
+  ],
+  "topics": [
+   "ev"
+  ]
+ },
+ {
+  "id": "en:year",
+  "lang": "en",
+  "term": "year",
+  "meaning": "yıl",
+  "pos": "isim",
+  "level": "A1",
+  "example": "I started this job two years ago.",
+  "exampleTr": "Bu işe iki yıl önce başladım.",
+  "ipa": "/jɪr/",
+  "usage": "“every year” (her yıl), “last year” (geçen yıl), “… years old” (… yaşında).",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:yellow",
+  "lang": "en",
+  "term": "yellow",
+  "meaning": "sarı",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "Taxis in New York are yellow.",
+  "exampleTr": "New York'ta taksiler sarıdır.",
+  "ipa": "/ˈjeloʊ/",
+  "usage": "İsim olarak da kullanılır: “Yellow is a happy color.”",
+  "synonyms": [],
+  "topics": [
+   "gunluk"
+  ]
+ },
+ {
+  "id": "en:yesterday",
+  "lang": "en",
+  "term": "yesterday",
+  "meaning": "dün",
+  "pos": "zarf",
+  "level": "A1",
+  "example": "I saw your brother yesterday.",
+  "exampleTr": "Dün ağabeyini gördüm.",
+  "ipa": "/ˈjestərdeɪ/",
+  "usage": "Geçmiş zamanla kullanılır; “the day before yesterday” evvelsi gün demektir.",
+  "synonyms": [],
+  "topics": [
+   "zaman"
+  ]
+ },
+ {
+  "id": "en:young",
+  "lang": "en",
+  "term": "young",
+  "meaning": "genç",
+  "pos": "sıfat",
+  "level": "A1",
+  "example": "My mother looks very young for her age.",
+  "exampleTr": "Annem yaşına göre çok genç görünüyor.",
+  "ipa": "/jʌŋ/",
+  "usage": "“the young” gençler demektir; zıt anlamlısı “old”.",
+  "synonyms": [
+   "youthful"
+  ],
+  "topics": [
+   "aile"
+  ]
  }
 ]
