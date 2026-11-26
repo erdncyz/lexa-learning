@@ -8,12 +8,18 @@ struct RootView: View {
         ZStack {
             PastelBackground()
             phase
-                .frame(maxWidth: sizeClass == .regular ? 560 : .infinity)
+                .frame(maxWidth: columnWidth)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .animation(LexaMotion.base, value: app.phase)
         .tint(LexaColor.accent)
         .overlay(alignment: .bottom) { ToastHost(app: app) }
+    }
+
+    /// iPad'de içerik okunur genişlikte kalsın; tanıtım yan yana durduğu için daha geniş.
+    private var columnWidth: CGFloat {
+        guard sizeClass == .regular else { return .infinity }
+        return app.phase == .landing ? 1080 : 760
     }
 
     @ViewBuilder

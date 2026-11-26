@@ -3,53 +3,43 @@ import SwiftUI
 /// Tanıtım slaytları + giriş seçenekleri (açık / koyu temaya uyar).
 struct LandingView: View {
     let app: AppState
+    @Environment(\.horizontalSizeClass) private var sizeClass
     @State private var page = 0
     @State private var authScreen: AuthScreen?
 
     private let slideCount = 4
+    private var isPad: Bool { sizeClass == .regular }
 
     var body: some View {
         ZStack {
             LandingBackground()
             VStack(spacing: 0) {
-                HStack {
-                    Text("LEXA").font(LexaFont.ui(14, weight: .bold)).tracking(2)
-                    Spacer()
-                    if page < slideCount {
-                        Button("Atla") { withAnimation(LexaMotion.base) { page = slideCount } }
-                            .font(LexaFont.ui(15, weight: .semibold))
-                    }
-                }
-                .foregroundStyle(LexaColor.ink.opacity(0.85))
-                .padding(.horizontal, LexaSpacing.gutter)
-                .padding(.top, LexaSpacing.s)
-
+                header
                 TabView(selection: $page) {
-                    IntroSlide(title: "Kilit ekranında yeni bir kelime.",
-                               lead: "Seçtiğin dilde yeni kelimeler keşfet, öğrenmeyi günlük hayatının bir parçası haline getir.") {
+                    slide(title: "Kilit ekranında yeni bir kelime.",
+                          lead: "Seçtiğin dilde yeni kelimeler keşfet, öğrenmeyi günlük hayatının bir parçası haline getir.") {
                         LockScreenSample(word: app.words.word(id: "en:thrive") ?? .preview)
                     }.tag(0)
-                    IntroSlide(title: "Kelimeler hep ana ekranında.",
-                               lead: "Widget'ını ana ekranına ekle, seçtiğin dilde yeni kelimeler gün boyu seninle olsun.") {
+                    slide(title: "Kelimeler hep ana ekranında.",
+                          lead: "Widget'ını ana ekranına ekle, seçtiğin dilde yeni kelimeler gün boyu seninle olsun.") {
                         HomeScreenSample()
                     }.tag(1)
-                    IntroSlide(title: "Keşfet, öğren, kaydet.",
-                               lead: "Merak ettiğin kelimeleri ara, anlamlarını öğren ve kendi kelime kartlarını oluştur.") {
+                    slide(title: "Keşfet, öğren, kaydet.",
+                          lead: "Merak ettiğin kelimeleri ara, anlamlarını öğren ve kendi kelime kartlarını oluştur.") {
                         DictionarySample()
                     }.tag(2)
-                    IntroSlide(title: "Öğrendiklerini pekiştir.",
-                               lead: "Kısa testlerle kelimelerini tekrar et, öğrendiklerini kalıcı hale getir.") {
+                    slide(title: "Öğrendiklerini pekiştir.",
+                          lead: "Kısa testlerle kelimelerini tekrar et, öğrendiklerini kalıcı hale getir.") {
                         QuizSample()
                     }.tag(3)
                     authOptions.tag(4)
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
 
-                if page < slideCount {
+                if !isPad, page < slideCount {
                     PageDots(count: slideCount, current: page)
                         .padding(.bottom, LexaSpacing.l)
-                    Button("Devam et") { withAnimation(LexaMotion.base) { page += 1 } }
-                        .buttonStyle(LandingButtonStyle(prominent: true))
+                    continueButton
                         .padding(.horizontal, LexaSpacing.gutter)
                         .padding(.bottom, LexaSpacing.l)
                 }
@@ -71,6 +61,47 @@ struct LandingView: View {
             }
         }
         #endif
+    }
+
+    private var header: some View {
+        HStack {
+            Text("LEXA").font(LexaFont.ui(14, weight: .bold)).tracking(2)
+            Spacer()
+            if page < slideCount {
+                Button("Atla") { withAnimation(LexaMotion.base) { page = slideCount } }
+                    .font(LexaFont.ui(15, weight: .semibold))
+            }
+        }
+        .foregroundStyle(LexaColor.ink.opacity(0.85))
+        .padding(.horizontal, isPad ? 48 : LexaSpacing.gutter)
+        .padding(.top, LexaSpacing.s)
+    }
+
+    private var continueButton: some View {
+        Button("Devam et") { withAnimation(LexaMotion.base) { page += 1 } }
+            .buttonStyle(LandingButtonStyle(prominent: true))
+    }
+
+    private func slide<Stage: View>(title: String, lead: String, @ViewBuilder stage: () -> Stage) -> some View {
+        Group {
+            if isPad {
+                HStack(alignment: .center, spacing: 56) {
+                    VStack(alignment: .leading, spacing: 22) {
+                        Text(title).font(LexaFont.ui(40, weight: .bold)).foregroundStyle(LexaColor.ink)
+                        Text(lead).font(LexaFont.ui(18)).foregroundStyle(LexaColor.ink.opacity(0.72))
+                        PageDots(count: slideCount, current: page)
+                            .padding(.top, 8)
+                        continueButton.frame(maxWidth: 280)
+                    }
+                    .frame(maxWidth: 440, alignment: .leading)
+                    stage()
+                        .frame(width: 340, height: 640)
+                }
+                .padding(.horizontal, 48)
+            } else {
+                IntroSlide(title: title, lead: lead) { stage() }
+            }
+        }
     }
 
     private var authOptions: some View {

@@ -1,0 +1,71 @@
+{
+  "versionLocalizationId": "1b2cf7a3-d120-4094-834d-40ab20f247db",
+  "path": ".asc/reports/screenshots-upload/failures-1795689282401696000.json",
+  "rootPath": "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload",
+  "deviceType": "IPAD_PRO_3GEN_129",
+  "displayType": "APP_IPAD_PRO_3GEN_129",
+  "replace": true,
+  "setId": "b0de5d27-8ed3-40c9-bdda-e59eb1429857",
+  "files": [
+    "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/01-landing.jpg",
+    "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/02-onboarding.jpg",
+    "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/03-today.jpg",
+    "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/04-explore.jpg",
+    "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/05-practice.jpg",
+    "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/06-widgets.jpg"
+  ],
+  "orderedIds": [
+    "bc400019-7765-83a8-8017-77f366886e15",
+    "47800019-7765-83a8-801e-1cd49f77a5b8",
+    "b9800019-7765-83a8-8018-ee5e5a75bd6a",
+    "f5000019-7765-83a8-8007-d166e02b5e1b",
+    "8fc00019-7765-83a8-8014-6c861443712b",
+    "7d000019-7765-83a8-8031-e176909cebda"
+  ],
+  "results": [
+    {
+      "fileName": "01-landing.jpg",
+      "filePath": "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/01-landing.jpg",
+      "assetId": "bc400019-7765-83a8-8017-77f366886e15",
+      "state": "COMPLETE"
+    },
+    {
+      "fileName": "02-onboarding.jpg",
+      "filePath": "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/02-onboarding.jpg",
+      "assetId": "47800019-7765-83a8-801e-1cd49f77a5b8",
+      "state": "COMPLETE"
+    },
+    {
+      "fileName": "03-today.jpg",
+      "filePath": "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/03-today.jpg",
+      "assetId": "b9800019-7765-83a8-8018-ee5e5a75bd6a",
+      "state": "COMPLETE"
+    },
+    {
+      "fileName": "04-explore.jpg",
+      "filePath": "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/04-explore.jpg",
+      "assetId": "f5000019-7765-83a8-8007-d166e02b5e1b",
+      "state": "COMPLETE"
+    },
+    {
+      "fileName": "05-practice.jpg",
+      "filePath": "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/05-practice.jpg",
+      "assetId": "8fc00019-7765-83a8-8014-6c861443712b",
+      "state": "COMPLETE"
+    },
+    {
+      "fileName": "06-widgets.jpg",
+      "filePath": "/Users/erdincyilmaz/Desktop/Desktop/lexa-learning/build/screenshots/ipad-upload/06-widgets.jpg",
+      "assetId": "7d000019-7765-83a8-8031-e176909cebda",
+      "state": "COMPLETE"
+    }
+  ],
+  "failures": [
+    {
+      "fileName": "screenshot ordering",
+      "error": "The request cannot be fulfilled because of the state of another resource.: Can't Add/Remove Relationship when reorder Set: appScreenshotSets"
+    }
+  ],
+  "error": "The request cannot be fulfilled because of the state of another resource.: Can't Add/Remove Relationship when reorder Set: appScreenshotSets",
+  "generatedAt": "2026-11-26T10:34:42Z"
+}
