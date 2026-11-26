@@ -9,8 +9,8 @@ options:
 settings:
   base:
     SWIFT_VERSION: "5.0"
-    MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "3"
+    MARKETING_VERSION: "1.0.1"
+    CURRENT_PROJECT_VERSION: "4"
     DEVELOPMENT_TEAM: H75Z7U427Y
     CODE_SIGN_STYLE: Automatic
     ENABLE_USER_SCRIPT_SANDBOXING: YES
@@ -48,11 +48,19 @@ targets:
       path: Lexa/Info.plist
       properties:
         CFBundleDisplayName: LEXA
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
         CFBundleDevelopmentRegion: tr
         UILaunchScreen:
           UIColorName: ""
         UIApplicationSupportsIndirectInputEvents: true
+        UIRequiresFullScreen: true
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        "UISupportedInterfaceOrientations~ipad":
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
         UIAppFonts:
           - Newsreader.ttf
           - Newsreader-Italic.ttf
@@ -66,7 +74,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.lexa-learning.app
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        TARGETED_DEVICE_FAMILY: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"
         GENERATE_INFOPLIST_FILE: NO
 
   LexaWidget:
@@ -86,6 +94,8 @@ targets:
       path: LexaWidget/Info.plist
       properties:
         CFBundleDisplayName: LEXA
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
         UIAppFonts:
@@ -96,6 +106,6 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.lexa-learning.app.widget
         DEVELOPMENT_TEAM: H75Z7U427Y
         CODE_SIGN_STYLE: Automatic
-        TARGETED_DEVICE_FAMILY: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"
         GENERATE_INFOPLIST_FILE: NO
         SKIP_INSTALL: YES

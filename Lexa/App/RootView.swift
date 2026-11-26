@@ -2,29 +2,39 @@ import SwiftUI
 
 struct RootView: View {
     let app: AppState
+    @Environment(\.horizontalSizeClass) private var sizeClass
 
     var body: some View {
         ZStack {
-            switch app.phase {
-            case .launching:
-                PastelBackground()
-            case .landing:
-                LandingView(app: app)
-                    .transition(.opacity)
-            case .onboarding:
-                OnboardingView(app: app)
-                    .transition(.move(edge: .trailing).combined(with: .opacity))
-            case .ready:
-                ReadyView(app: app)
-                    .transition(.opacity)
-            case .main:
-                MainTabView(app: app)
-                    .transition(.opacity)
-            }
+            PastelBackground()
+            phase
+                .frame(maxWidth: sizeClass == .regular ? 560 : .infinity)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .animation(LexaMotion.base, value: app.phase)
         .tint(LexaColor.accent)
         .overlay(alignment: .bottom) { ToastHost(app: app) }
+    }
+
+    @ViewBuilder
+    private var phase: some View {
+        switch app.phase {
+        case .launching:
+            Color.clear
+        case .landing:
+            LandingView(app: app)
+                .transition(.opacity)
+        case .onboarding:
+            OnboardingView(app: app)
+                .transition(.move(edge: .trailing).combined(with: .opacity))
+        case .ready:
+            ReadyView(app: app)
+                .transition(.opacity)
+        case .main:
+            MainTabView(app: app)
+                .environment(\.horizontalSizeClass, .compact)
+                .transition(.opacity)
+        }
     }
 }
 
